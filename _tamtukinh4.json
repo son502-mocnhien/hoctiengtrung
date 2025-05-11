@@ -1,0 +1,548 @@
+[
+  {
+    "bai": "1",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "00:00:54 - 00:02:02",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh1.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第一單元",
+          "time": "",
+          "linkmp3": "",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh1.txt"
+        },
+        {
+          "anh": "_szj01-1.jpg",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "人之初，性本善，",
+          "time": "00:04:07 - 00:08:71",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "Con người mới sinh ra, thiên tính vốn thiện lương,",
+          "pinyin": "rén zhī chū, xìng běn shàn,",
+          "kyhieu": "Nhân chi sơ, Tính bản thiện,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh1.txt"
+        },
+        {
+          "anh": "_szj01-2.jpg",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "性相近，習相遠。",
+          "time": "00:09:56 - 00:14:46",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "Tính ban đầu giống nhau, thói quen dần khác xa.",
+          "pinyin": "xìng xiāng jìn, xí xiāng yuǎn.",
+          "kyhieu": "Tính tương cận, Tập tương viễn.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh1.txt"
+        },
+        {
+          "anh": "_szj01-3.jpg",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "苟不教，性乃遷，",
+          "time": "00:15:38 - 00:20:25",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "Nếu chẳng được giáo dục, bản tính sẽ biến đổi,",
+          "pinyin": "gǒu bù jiào, xìng nǎi qiān,",
+          "kyhieu": "Cẩu bất giáo, Tính nãi thiên,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh1.txt"
+        },
+        {
+          "anh": "_szj01-4.jpg",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "教之道，貴以專。",
+          "time": "00:21:08 - 00:26:23",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "Đường lối của giáo dục, quý ở sự chuyên tâm.",
+          "pinyin": "jiào zhī dào, guì yǐ zhuān.",
+          "kyhieu": "Giáo chi đạo, Quí dĩ chuyên.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh1.txt"
+        }
+      ]
+    }
+  },
+  {
+    "bai": "2",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "00:00:54 - 00:02:02",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh2.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第二單元",
+          "time": "",
+          "linkmp3": "",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh2.txt"
+        },
+        {
+          "anh": "_szj02-1.jpg",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "昔孟母，擇鄰處，",
+          "time": "00:01:01 - 00:05:58",
+          "linkmp3": "_tamtukinh2.mp3",
+          "nghia": "Mẹ Mạnh Tử ngày xưa, chọn láng giềng mà ở,",
+          "pinyin": "xí Mèng mǔ, zé lín chǔ,",
+          "kyhieu": "Tích Mạnh mẫu, Trạch lân xứ,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh2.txt"
+        },
+        {
+          "anh": "_szj02-2.jpg",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "子不學，斷機杼。",
+          "time": "00:06:36 - 00:11:17",
+          "linkmp3": "_tamtukinh2.mp3",
+          "nghia": "Con trốn học về chơi, mẹ cắt vải khung cửi.",
+          "pinyin": "zǐ bù xué, duàn jī zhù.",
+          "kyhieu": "Tử bất học, Đoạn cơ trữ.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh2.txt"
+        },
+        {
+          "anh": "_szj02-3.jpg",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "竇燕山，有義方，",
+          "time": "00:12:26 - 00:16:91",
+          "linkmp3": "_tamtukinh2.mp3",
+          "nghia": "Lão Đậu ở Yên Sơn, có phương pháp giáo dục,",
+          "pinyin": "dòu Yān Shān, yǒu yì fāng,",
+          "kyhieu": "Đậu Yên Sơn, Hữu nghĩa phương,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh2.txt"
+        },
+        {
+          "anh": "_szj02-4.jpg",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "教五子，名俱揚。",
+          "time": "00:17:62 - 00:22:87",
+          "linkmp3": "_tamtukinh2.mp3",
+          "nghia": "Dạy dỗ năm người con, cả năm đều thành danh.",
+          "pinyin": "jiào wǔ zǐ, míng jù yáng.。",
+          "kyhieu": "Giáo ngũ tử, Danh câu dương.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh2.txt"
+        }
+      ]
+    }
+  },
+  {
+    "bai": "3",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "00:00:54 - 00:02:02",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh3.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第三單元",
+          "time": "",
+          "linkmp3": "",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh3.txt"
+        },
+        {
+          "anh": "_szj03-1.jpg",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "養不教，父之過，",
+          "time": "00:00:00 - 00:05:11",
+          "linkmp3": "_tamtukinh3.mp3",
+          "nghia": "Nuôi con mà không dạy, là lỗi của cha mẹ,",
+          "pinyin": "yǎng bù jiào, fù zhī guò,",
+          "kyhieu": "Dưỡng bất giáo, Phụ chi quá,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh3.txt"
+        },
+        {
+          "anh": "_szj03-2.jpg",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "教不嚴，師之惰。",
+          "time": "00:05:83 - 00:10:40",
+          "linkmp3": "_tamtukinh3.mp3",
+          "nghia": "Dạy trò mà không nghiêm, là do thầy thất trách.",
+          "pinyin": "jiào bù yán, shī zhī duò.",
+          "kyhieu": "Giáo bất nghiêm, Sư chi đọa.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh3.txt"
+        },
+        {
+          "anh": "_szj03-3.jpg",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "子不學，非所宜，",
+          "time": "00:11:36 - 00:16:32",
+          "linkmp3": "_tamtukinh3.mp3",
+          "nghia": "Con trẻ không học tập, như thế là không nên,",
+          "pinyin": "zǐ bù xué, fēi suǒ yí,",
+          "kyhieu": "Tử bất học, Phi sở nghi,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh3.txt"
+        },
+        {
+          "anh": "_szj03-4.jpg",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "幼不學，老何為。",
+          "time": "00:17:23 - 00:22:55",
+          "linkmp3": "_tamtukinh3.mp3",
+          "nghia": "Lúc còn nhỏ không học, khi già biết làm gì?",
+          "pinyin": "yòu bù xué, lǎo hé wéi.",
+          "kyhieu": "Ấu bất học, Lão hà vi.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh3.txt"
+        }
+      ]
+    }
+  },
+  {
+    "bai": "4",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "00:00:54 - 00:02:02",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh4.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第四單元",
+          "time": "",
+          "linkmp3": "",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh4.txt"
+        },
+        {
+          "anh": "_szj04-1.jpg",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "玉不琢，不成器，",
+          "time": "00:00:00 - 00:05:34",
+          "linkmp3": "_tamtukinh4.mp3",
+          "nghia": "Ngọc không mài giũa, không thành đồ quý.",
+          "pinyin": "yù bù zhuó, bù chéng qì,",
+          "kyhieu": "Ngọc bất trác, Bất thành khí.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh4.txt"
+        },
+        {
+          "anh": "_szj04-2.jpg",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "人不學，不知義。",
+          "time": "00:06:25 - 00:11:30",
+          "linkmp3": "_tamtukinh4.mp3",
+          "nghia": "Người mà không học, không biết nghĩa lý.",
+          "pinyin": "rén bù xué, bù zhī yì.",
+          "kyhieu": "Nhân bất học, Bất tri nghĩa.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh4.txt"
+        },
+        {
+          "anh": "_szj04-3.jpg",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "為人子，方少時，",
+          "time": "00:12:31 - 00:17:17",
+          "linkmp3": "_tamtukinh4.mp3",
+          "nghia": "Là một người con, đương khi còn nhỏ,",
+          "pinyin": "wéi rén zǐ, fāng shào shí,",
+          "kyhieu": "Vi nhân tử, Phương thiếu thời,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh4.txt"
+        },
+        {
+          "anh": "_szj04-4.jpg",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "親師友，習禮儀。",
+          "time": "00:18:12 - 00:24:05",
+          "linkmp3": "_tamtukinh4.mp3",
+          "nghia": "Gần gũi thầy bạn, luyện tập lễ nghi.",
+          "pinyin": "qīn shī yǒu, xí lǐ yí.",
+          "kyhieu": "Thân sư hữu, Tập lễ nghi.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh4.txt"
+        }
+      ]
+    }
+  },
+  {
+    "bai": "5",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "00:00:54 - 00:02:02",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh5.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第五單元",
+          "time": "",
+          "linkmp3": "",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh5.txt"
+        },
+        {
+          "anh": "_szj05-1.jpg",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "香九齡，能温席，",
+          "time": "00:00:00 - 00:05:71",
+          "linkmp3": "_tamtukinh5.mp3",
+          "nghia": "Hoàng Hương 9 tuổi, có thể ủ ấm chiếu,",
+          "pinyin": "xiāng jiǔ líng, néng wēn xí,",
+          "kyhieu": "Hương cửu linh, Năng ôn tịch,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh5.txt"
+        },
+        {
+          "anh": "_szj05-2.jpg",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "孝於親，所當執。",
+          "time": "00:06:38 - 00:11:42",
+          "linkmp3": "_tamtukinh5.mp3",
+          "nghia": "Hiếu với cha mẹ, là việc nên làm.",
+          "pinyin": "xiào yú qīn, suǒ dāng zhí.",
+          "kyhieu": "Hiếu vu thân, Sở đương chấp.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh5.txt"
+        },
+        {
+          "anh": "_szj05-3.jpg",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "融四歲，能讓梨，",
+          "time": "00:12:28 - 00:17:41",
+          "linkmp3": "_tamtukinh5.mp3",
+          "nghia": "Khổng Dung 4 tuổi, có thể nhường lê,",
+          "pinyin": "róng sì suì, néng ràng lí,",
+          "kyhieu": "Dung tứ tuế, Năng nhượng lê,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh5.txt"
+        },
+        {
+          "anh": "_szj05-4.jpg",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "悌於長，宜先知。",
+          "time": "00:18:23 - 00:23:41",
+          "linkmp3": "_tamtukinh5.mp3",
+          "nghia": "Thuận theo anh chị, là điều trước tiên nên biết.",
+          "pinyin": "tì yú zhǎng, yí xiān zhī.",
+          "kyhieu": "Đễ vu trưởng, Nghi tiên tri.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh5.txt"
+        }
+      ]
+    }
+  },
+  {
+    "bai": "6",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "00:00:54 - 00:02:02",
+          "linkmp3": "_tamtukinh1.mp3",
+          "nghia": "",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh6.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第六單元",
+          "time": "",
+          "linkmp3": "",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh6.txt"
+        },
+        {
+          "anh": "_szj06-1.jpg",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "首孝悌，次見聞，",
+          "time": "00:00:50 - 00:05:63",
+          "linkmp3": "_tamtukinh6.mp3",
+          "nghia": "Hiếu thuận trước, tri thức sau.",
+          "pinyin": "shǒu xiào tì, cì jiàn wén,",
+          "kyhieu": "Thủ hiếu đễ, Thứ kiến văn.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh6.txt"
+        },
+        {
+          "anh": "_szj06-2.jpg",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "知某数，識某文。",
+          "time": "00:06:53 - 00:11:66",
+          "linkmp3": "_tamtukinh6.mp3",
+          "nghia": "Biết con số, hiểu được chữ.",
+          "pinyin": "zhī mǒu shù, shì mǒu wén.",
+          "kyhieu": "Tri mỗ số, Thức mỗ văn.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh6.txt"
+        },
+        {
+          "anh": "_szj06-2.jpg",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "一而十，十而百，",
+          "time": "00:12:75 - 00:17:73",
+          "linkmp3": "_tamtukinh6.mp3",
+          "nghia": "Một tới mười, mười tới trăm,",
+          "pinyin": "yī ér shí, shí ér bǎi,",
+          "kyhieu": "Nhất nhi thập, Thập nhi bách,",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh6.txt"
+        },
+        {
+          "anh": "_szj06-2.jpg",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "百而千，千而萬。",
+          "time": "00:18:37 - 00:23:51",
+          "linkmp3": "_tamtukinh6.mp3",
+          "nghia": "Trăm tới ngàn, ngàn tới vạn.",
+          "pinyin": "bǎi ér qiān, qiān ér wàn.",
+          "kyhieu": "Bách nhi thiên, Thiên nhi vạn.",
+          "tacGia": "_vuongunglan.txt",
+          "thongTin": "_tamtukinh6.txt"
+        }
+      ]
+    }
+  }
+]
