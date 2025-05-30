@@ -1,14 +1,5 @@
-[
   {
-    "STT": 1,
     "name": "Nguyen Duc Son",
     "pass": "12345678",
     "EXP": 0
-  },
-  {
-    "STT": 2,
-    "name": "Tran Van Kien",
-    "pass": "12345678",
-    "EXP": 0
   }
-]
