@@ -16,6 +16,7 @@ body {
             background-size: 480px auto;
             background-repeat: no-repeat;
             background-position: center;
+            background-attachment: fixed; /* Add this line to fix the background image */
             margin: 0 auto;
             padding: 0;
             max-width: 480px;
@@ -1022,6 +1023,12 @@ button3.read-complete-button:hover {
     font-size: 20px;
     color: green;
 }
+.content-wrapper {
+    padding: 0 10px; /* Thêm padding trái và phải */
+    box-sizing: border-box;
+    max-width: 480px; /* Hẹp hơn 480px của body để tạo khoảng cách */
+    margin: 0 auto; /* Căn giữa div */
+}
 </style>
 </head>
 <body>
@@ -1128,7 +1135,8 @@ button3.read-complete-button:hover {
 </div>
 
 <!-- Nhóm 3: Giao diện trò chơi chính -->
-<div id="game-container">
+<div class="content-wrapper">
+        <div id="game-container">
    
     <!-- Trạng thái trò chơi -->
     <div id="status-container">
@@ -1263,6 +1271,8 @@ button3.read-complete-button:hover {
     <iframe id="translateIframe" src=""></iframe>
 </div>
 <div id="related-hanzi-list"></div>
+
+    </div>
 
 <script>
 let earnedEXP = 0;
