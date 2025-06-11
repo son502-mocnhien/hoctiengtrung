@@ -1464,7 +1464,7 @@ document.getElementById('lesson-list-button').addEventListener('click', showLess
 async function loadAccountData() {
     try {
         // Thay YOUR_PERSONAL_ACCESS_TOKEN bằng token của bạn
-        const GITHUB_TOKEN = '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';
+        const GITHUB_TOKEN = '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';
         const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
         
         const response = await fetch(url, {
@@ -4051,7 +4051,7 @@ async function claimExperience(finalEXP) {
         const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'GET',
             headers: {
-                'Authorization': 'Bearer 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',
+                'Authorization': 'Bearer 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',
                 'Accept': 'application/vnd.github+json',
                 'Content-Type': 'application/json'
             }
@@ -4070,7 +4070,7 @@ async function claimExperience(finalEXP) {
         const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'PUT',
             headers: {
-                'Authorization': 'Bearer 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',
+                'Authorization': 'Bearer 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',
                 'Accept': 'application/vnd.github+json',
                 'Content-Type': 'application/json'
             },
