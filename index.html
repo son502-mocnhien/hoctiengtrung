@@ -1,0 +1,4109 @@
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5.0/dist/hanzi-writer.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Quiz</title>
+ <style>
+/* Nhóm 1: CSS chung (Global Styles) */
+body {
+            font-family: arial;
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            background-color: white;
+            background-image: url("/hoctiengtrung/anhnen3.jpg");
+            background-size: 480px auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 480px;
+            min-height: 100vh;
+            position: relative;
+        }
+@font-face {
+            font-family: hz;
+            src: url("/hoctiengtrung/KaiTi-1.ttf");
+        }
+.header-container {
+    display: flex;
+    align-items: center;a
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.correct {
+    background-color: green !important;
+}
+.incorrect {
+    background-color: red;
+}
+button {
+    font-size: 30px;
+    padding: 5px;
+    font-family: hz;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+}
+button2 {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 0;
+}
+
+/* Nhóm 2: Màn hình chọn chế độ và khởi động */
+#mode-selection-screen {
+    text-align: center;
+    margin-top: 50px;
+}
+#mode-selection-screen button2.mode-button {
+    font-size: 18px;
+    padding: 8px 16px;
+    width: 200px;
+    background-color: #4CAF50 !important;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+#mode-selection-screen button2.mode-button.active {
+    background-color: #55edbd !important;
+}
+#mode-selection-screen button2.mode-button:hover:not(.active) {
+    background-color: #f2921d !important;
+}
+#mode-selection-screen button2.mode-button:disabled,
+#mode-selection-screen button2.mode-button.disabled {
+    background-color: #e0e0e0 !important;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.mode-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    width: 300px;
+    background-color: #4CAF50;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+}
+.mode-button:hover {
+    background-color: #45a049;
+}
+.mode-button.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #cccccc;
+}
+.quiz-type-button {
+    font-size: 18px;
+    padding: 8px 10px;
+    width: 95px;
+    background-color: #2196F3;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+.quiz-type-button.quiz-type-active {
+    background-color: #2451f2; /* Màu xanh khi được chọn */
+    color: white; /* Chữ trắng để dễ đọc */
+}
+.quiz-type-button:hover {
+    background-color: #55edbd;
+}
+.quiz-type-button:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    background-color: #cccccc;
+}
+#quiz-type-buttons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap
+}
+#start-screen {
+    text-align: center;
+    margin-top: 50px;
+}
+#start-screen input {
+    font-size: 20px;
+    padding: 5px;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#start-screen button2 {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-family: arial;
+}
+#start-screen input[type="number"],
+#start-screen input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#start-screen input[type="number"]::-webkit-inner-spin-button,
+#start-screen input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#start-screen input[type="number"] {
+    -moz-appearance: textfield;
+}
+.welcome-title {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    white-space: pre-line;
+    text-align: center;
+}
+
+/* Nhóm 3: Giao diện trò chơi chính */
+#game-container {
+    display: none;
+}
+#status-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+#timer {
+    font-size: 18px;
+    color: orange;
+}
+#total-count {
+    font-size: 15px;
+    color: blue;
+}
+#wrong-count {
+    font-size: 15px;
+    color: red;
+}
+#review-mode {
+    font-size: 15px;
+    color: green;
+    display: none;
+}
+#meaning-container {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+#meaning-container p {
+    margin-bottom: 0;
+}
+#pinyin-container {
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+.pinyin-kyhieu-group {
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#pinyin {
+    font-size: 20px;
+    color: blue;
+    display: none;
+}
+#kyhieu {
+    font-size: 20px;
+    color: red;
+    display: none;
+}
+#question {
+    font-size: 35px;
+    font-family: hz;
+    color: #000000;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#meaning, #pinyin, #kyhieu, #phanTich, #question {
+    white-space: pre-wrap;
+}
+#phanTich-container {
+    text-align: left;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+#phanTich {
+    font-size: 20px;
+    color: purple;
+    display: none;
+    white-space: pre-wrap;
+}
+#dialogue-container {
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.dialogue-box {
+    font-size: 30px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    font-family: hz;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+.dialogue-box .nhanvat {
+    margin-right: 0px;
+    display: inline;
+}
+.dialogue-box span {
+    display: inline;
+}
+.dialogue-box.kieu-A {
+    background-color: rgba(255, 182, 193, 0.8);
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dialogue-box.kieu-B {
+    background-color: rgba(173, 216, 230, 0.8);
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dialogue-box.kieu-C {
+    background-color: rgba(173, 255, 47, 0.8);
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dialogue-box.kieu-D {
+    background-color: rgba(173, 255, 47, 0.8);
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dialogue-box.kieu-E {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: bold;
+}
+.dialogue-box.kieu-F {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.dialogue-box.kieu-G {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+.nhanvat {
+    color: blue;
+    font-weight: bold;
+}
+#word-scramble-game {
+    display: none;
+    text-align: left;
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+}
+#scrambled-input {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    min-height: 30px;
+    width: 100%;
+    margin: 0 auto 10px auto;
+    display: block;
+    box-sizing: border-box;
+    display: none;
+}
+#scrambled-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    max-width: 100%;
+    margin-top: 5px;
+}
+#scrambled-buttons button {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    gap: 1px;
+    margin: 1px;
+}
+#scrambled-buttons button.incorrect {
+    background-color: red !important;
+    color: white;
+}
+#writing-container {
+    display: none;
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#writing-canvas {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 105, 180, 0.5);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(255, 105, 180, 0.3) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 105, 180, 0.3) 1px, transparent 1px);
+    background-size: 33.33% 33.33%;
+}
+#current-char {
+    font-size: 40px;
+    font-family: hz;
+    margin: 10px 0;
+}
+#writing-progress {
+    font-size: 20px;
+    color: blue;
+    margin-top: 10px;
+    display: inline;
+    vertical-align: middle;
+}
+.toggle-outline-button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+}
+.toggle-outline-button:hover {
+    opacity: 0.9;
+}
+#writing-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+	margin-top: 10px;
+}
+.input-container {
+    text-align: center;
+    margin-top: -10px;
+    padding: 20px;
+}
+.answer-input {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    text-align: center;
+}
+.button-container {
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#meaning-display-buttons button2.meaning-button {
+    font-size: 16px;
+    padding: 6px 12px;
+    width: 80px;
+    background-color: #cccccc !important;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#meaning-display-buttons button2.meaning-button.active {
+    background-color: #2196F3 !important;
+}
+#meaning-display-buttons button2.meaning-button:hover:not(.active) {
+    background-color: #b0b0b0 !important;
+}
+#feedback {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+#dice-button {
+    display: none !important;
+}
+
+/* Nhóm 4: Popup và panel phụ */
+#completion-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: green;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	width: 90%;
+}
+#hanzi-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    max-width: 400px;
+    width: 90%;
+    max-height: 80vh; /* Giới hạn chiều cao tối đa */
+    overflow-y: auto; /* Thêm thanh cuộn dọc khi nội dung dài */
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+#hanzi-popup p {
+    margin: 5px 0;
+    white-space: pre-wrap; /* Đảm bảo xuống dòng theo \n */
+}
+#hanzi-popup hr {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+#hanzi-popup .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+#hanzi-popup .close-btn:hover {
+    color: #FF0000;
+}
+#hanzi-popup-content {
+    line-height: 1.5;
+    text-align: left; /* Đảm bảo nội dung căn trái */
+}
+#info-popup, #author-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    max-width: 500px;
+    width: 90%;
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+#info-popup .close-btn, #author-popup .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+#info-popup .close-btn:hover, #author-popup .close-btn:hover {
+    color: #FF0000;
+}
+#author-popup img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    max-height: 250px;
+    margin: 0 auto;
+}
+#info-popup-content, #author-popup-content {
+    white-space: pre-wrap;
+}
+#nested-info-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    max-width: 500px;
+    width: 90%;
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+#nested-info-popup .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+#nested-info-popup .close-btn:hover {
+    color: #FF0000;
+}
+#nested-info-popup-content {
+    white-space: pre-wrap;
+}
+#nested-info-popup-content a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial;
+}
+#nested-info-popup-content a:hover {
+    background-color: #45a049;
+}
+.hanzi-clickable {
+    cursor: pointer;
+    color: #000000;
+}
+.hanzi-clickable:hover {
+    color: #FF0000;
+}
+
+/* Nhóm 5: Công cụ hỗ trợ */
+.menu-container {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+    width: 96%;
+    max-width: 1200px;
+    margin: 20px auto;
+    position: static;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.volume-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-bottom: 10px;
+}
+.volume-btn {
+    font-size: 16px;
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial;
+    width: 100%;
+    box-sizing: border-box;
+}
+.volume-btn.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.lesson-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    margin-bottom: 10px;
+}
+.lesson-btn {
+    font-size: 14px;
+    padding: 1px 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arial;
+    width: 100%;
+    box-sizing: border-box;
+}
+.lesson-btn.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.table-container {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 12px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.search-container {
+    text-align: center;
+    margin: 20px auto;
+    display: none;
+}
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+.search-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: arial;
+}
+.hanzii-container {
+    width: 100%;
+    height: 2000px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    display: none;
+}
+.hanzii-container iframe {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.translate-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    display: none;
+}
+.translate-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.iframe-container {
+    width: 100%;
+    height: 3000px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    display: none;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#related-hanzi-list {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+    overflow-y: auto;
+    border: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    height: auto;
+    box-sizing: border-box;
+}
+#related-hanzi-list p {
+    margin: 5px 0;
+}
+#sub-mode-buttons {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+	display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+.sub-mode-button {
+    background-color: #f77219;
+    font-size: 18px; /* Nhỏ hơn nút gốc */
+    padding: 4px 8px; /* Nhỏ hơn nút gốc */
+    color: white; /* Chữ tối để dễ đọc */
+}
+button3 {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px; /* Bo góc */
+    border: 0px;
+    background-color: #2196F3;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	color: white; /* Chữ trắng */
+    margin-right: 0;
+	cursor: pointer;
+}
+
+button3.read-complete-button:hover {
+    background-color: #1976D2; /* Đậm hơn khi hover */
+}
+#read-complete-container {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 10px; /* Khoảng cách giữa nút và chữ */
+    margin-top: 10px;
+}
+
+.read-complete-text {
+    font-size: 14px;
+    color: #333; /* Màu chữ tối */
+}
+#learn-another-button {
+    width: 200px;
+    background-color: #4CAF50;
+}
+#learn-another-button:hover {
+    background-color: #45a049;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+#lesson-list-button {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#lesson-list-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#lesson-list-table {
+    font-family: 'Noto Sans CJK SC', Arial, sans-serif;
+    font-size: 14px;
+}
+
+#lesson-list-table th, #lesson-list-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#lesson-list-table tbody tr {
+    cursor: pointer;
+}
+
+#lesson-list-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+#lesson-list-table tbody tr.locked {
+    color: #888;
+    cursor: not-allowed;
+}
+
+#lesson-list-table tbody tr.locked:hover {
+    background-color: transparent;
+}
+
+#random-mission-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#account-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    gap: 10px;
+}
+
+#account-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#account-info > div {
+    text-align: center;
+}
+
+#account-info .progress-container {
+    width: 200px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#level-progress {
+    width: 0%;
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#level-progress-text {
+    color: white;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+#earned-exp {
+    font-size: 20px;
+    color: green;
+}
+</style>
+</head>
+<body>
+   <!-- Nhóm 1: Header -->
+<div class="header-container">
+    <img src="/hoctiengtrung/anhnenmoi.png" style="width: 100%; height: auto;">
+</div>
+
+<!-- Nhóm 2: Màn hình chọn chế độ và khởi động -->
+<!-- Màn hình chọn chế độ -->
+<div id="mode-selection-screen" style="text-align: center; margin-top: 30px;">
+<div id="account-info" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; font-size: 20px; gap: 10px;">
+    <img id="account-image" src="" alt="Avatar" style="width: 200px; height: 200px; border-radius: 10%; object-fit: cover;">
+    <div style="text-align: center;">
+        <span id="account-name"></span>
+    </div>
+ <div style="text-align: center;">
+        <span id="account-danhHieu">A</span>
+    </div>
+    <div style="text-align: center;">
+        Học lực: <span id="account-exp">0</span> điểm
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+        <div style="text-align: center;">
+            Cấp: <span id="account-level">1</span>
+        </div>
+        <div style="width: 200px; height: 20px; background-color: #e0e0e0; border-radius: 10px; overflow: hidden; position: relative;">
+            <div id="level-progress" style="width: 0%; height: 100%; background-color: #4CAF50; border-radius: 10px; transition: width 0.5s ease-in-out; display: flex; align-items: center; justify-content: center;">
+                <span id="level-progress-text" style="color: white; font-size: 14px; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); position: absolute; width: 100%; text-align: center;">0%</span>
+            </div>
+        </div>
+    </div>
+</div>
+    <div style='font-family: "Arial"; font-size: 30px; font-weight: bold; color: blue;'>
+        Chọn chế độ học
+    </div>
+    <br>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <button2 class="mode-button" data-mode="taiwanese">Tiếng Trung Đài Loan</button2>
+        <button2 class="mode-button" data-mode="samtukinh">Tam Tự Kinh</button2>
+        <button2 class="mode-button disabled" data-mode="thientuvan" disabled>Thiên Tự Văn</button2>
+        <button2 class="mode-button" data-mode="poetry">300 Bài Thơ Đường</button2>
+        <button2 class="mode-button disabled" data-mode="hongngam" disabled>Hồng Ngâm</button2>
+    </div>
+    <!-- Container cho các nút loại ôn tập -->
+    <div id="quiz-type-buttons" style="display: none; margin-top: 10px; justify-content: center; gap: 5px;"></div>
+</div>
+
+<!-- Màn hình khởi động -->
+<div id="start-screen" style="display: none;">
+    <div class="welcome-title"></div>
+    <br>
+    <div>
+        <label>Dịch nghĩa:</label>
+        <div id="meaning-display-buttons" style="display: flex; justify-content: center; gap: 5px; margin-top: 5px;">
+            <button2 class="meaning-button active" data-value="show">Hiện</button2>
+            <button2 class="meaning-button" data-value="hide">Ẩn</button2>
+        </div>
+    </div>
+    <br>
+<!-- Thêm nút Danh sách bài và container cho bảng -->
+    <div>
+        <button2 id="lesson-list-button" class="quiz-type-button">Danh sách bài</button2>
+        <div id="lesson-list-container" style="display: none; margin-top: 10px; max-height: 300px; overflow-y: auto;">
+            <table id="lesson-list-table" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Bài</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Tên</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Level cần</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody id="lesson-list-body"></tbody>
+            </table>
+        </div>
+    </div>
+<br>
+	 <div>
+        <label for="lesson-input">Chọn bài <em>(ví dụ: 16, 1-5, 1,5):</em></label><br>
+        <input type="text" id="lesson-input" placeholder="Để trống để chọn ngẫu nhiên">
+    </div>
+    <div id="dialogue-select-container" style="display: none;">
+        <label for="dialogue-number">Chọn hội thoại <em>(Nhập số):</em></label><br>
+        <input type="number" id="dialogue-number" min="1" placeholder="Để trống để chọn ngẫu nhiên">
+    </div>
+    <div id="word-count-container">
+        <label for="word-count">Số từ cần ôn tập:</label><br>
+        <input type="number" id="word-count" value="30" min="1">
+    </div>
+    <div id="time-limit-container">
+        <label for="time-limit">Thời gian mỗi câu (giây):</label><br>
+        <input type="number" id="time-limit" value="20" min="1">
+    </div>
+<!-- Thêm div cho nhiệm vụ ngẫu nhiên -->
+    <div id="random-mission-container" style="text-align: center; margin-bottom: 10px; font-size: 18px; color: #2196F3; font-weight: bold;">
+        <span id="random-mission-text"></span>
+    </div>
+    <!-- Thêm nút Quay Lại -->
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <button2 id="back-to-mode-button" class="quiz-type-button">QUAY LẠI</button2>
+        <button2 id="start-button" class="quiz-type-button">BẮT ĐẦU</button2>
+    </div>
+</div>
+
+<!-- Nhóm 3: Giao diện trò chơi chính -->
+<div id="game-container">
+   
+    <!-- Trạng thái trò chơi -->
+    <div id="status-container">
+        <span id="wrong-count">Số câu bị sai: 0</span>
+        <span id="timer">Thời gian: 20</span>   
+        <span id="total-count">Tổng số câu: 0</span>
+        <span id="review-mode">Ôn tập câu sai</span>
+    </div>
+<div style="text-align: center;">
+        <span id="earned-exp">Điểm: 0</span>
+    </div>
+
+    <!-- Hiển thị câu hỏi -->
+    <div id="meaning-container">
+        <p>
+            <span style="font-size:20px; color: blue; font-weight: bold;">
+                <em>Dịch nghĩa: </em>
+            </span>
+            <span id="meaning" style="font-size:20px;"></span>
+        </p>
+    </div>
+    <div id="pinyin-container">
+        <div id="question"></div>
+        <div class="pinyin-kyhieu-group">
+            <span id="pinyin"></span>
+            <span id="kyhieu"></span>
+        </div>
+		<div id="read-complete-container" style="display: none; text-align: center; margin-top: 10px;">
+        <button3 id="read-complete-button" style="font-size: 16px; padding: 5px 10px;">Đã đọc xong</button3>
+		<span id="read-complete-text" class="read-complete-text"> << Bấm để chuyển câu tiếp theo</span>
+    </div>
+    </div>
+    <div id="phanTich-container">
+        <span id="phanTich"></span>
+    </div>
+
+    <!-- Chế độ chơi -->
+    <div id="word-scramble-game"></div>
+    <img id="dialogue-image" src="" alt="Dialogue Image" style="max-width: 100%; max-height: 200px; height: auto; display: none; margin: 5px auto 0 auto;">
+    <div id="dialogue-display" style="display: none; text-align: center; max-height: 350px; overflow-y: auto;">
+        <div id="dialogue-container" style="display: flex; flex-direction: column; gap: 0px;"></div>
+        <div id="scrambled-buttons" class="button-grid"></div>
+        <div class="button-container">
+            <button2 id="dice-button" style="display: none;">🎲</button2>
+            <button2 id="back-button">🔙</button2>
+            <button2 id="next-button">🔜</button2>
+        </div>
+    </div>
+    <div id="writing-container" style="display: none;">
+        <div id="writing-canvas"></div>
+        <div style="text-align: center;">
+            <span id="writing-progress"></span>
+        </div>
+    </div>
+
+    <!-- Điều khiển trò chơi -->
+    <div class="button-grid" id="option-buttons"></div>
+    <div id="feedback"></div>
+    <div class="input-container">
+        <div id="inputPinyinDisplay" style="font-size: 18px; color: green; margin-bottom: 5px;"></div>
+        <input type="text" id="answerInput" class="answer-input" placeholder="Nhập Hán tự">
+        <button2 id="testButton" style="font-size: 20px; padding: 5px 10px; border-radius: 10px; border: none; background-color: rgba(255, 255, 255, 0.7); box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">🆗
+            <label style="margin-left: 1px;">
+                <input type="checkbox" id="autoCheck" checked>
+            </label>
+        </button2>
+    </div>
+    <div class="button-container">
+	    <button2 id="homeButton">🏯</button2> <!-- Thêm nút Home -->
+        <button2 id="playButton">🔊</button2>
+        <button2 id="hintButton">💡</button2>
+        <button2 id="writeButton" style="display: none;">🖌</button2>
+        <button2 id="write-dialogue-button" style="display: none;">🖌</button2>
+        <button2 id="diceButton" style="display: none;">🎲</button2>
+        <button2 id="infoButton" style="display: none;">📋</button2>
+        <button2 id="authorButton" style="display: none;">👲</button2>
+        <button2 class="related-btn" onclick="toggleRelated()">🔗</button2>
+        <button2 class="magnifier-btn" onclick="toggleMenu()">🔍</button2>
+        <button2 class="book-btn" onclick="toggleSearch()">📖</button2>
+        <button2 class="translate-btn" onclick="toggleTranslate()">🔃</button2>
+    </div>
+	 <!-- Thành phần phụ trợ -->
+    <audio id="audio"></audio>
+</div>
+
+
+<!-- Nhóm 4: Popup và panel phụ -->
+<div id="endgame-popup" class="popup" style="display: none;">
+    <div id="endgame-popup-content" class="popup-content"></div>
+</div>
+<div id="hanzi-popup">
+    <span class="close-btn" onclick="closeHanziPopup()">❌</span>
+    <div id="hanzi-popup-content"></div>
+</div>
+<div id="info-popup">
+    <span class="close-btn" onclick="closeInfoPopup()">❌</span>
+    <div id="info-popup-content"></div>
+</div>
+<div id="author-popup">
+    <span class="close-btn" onclick="closeAuthorPopup()">❌</span>
+    <div id="author-popup-content"></div>
+</div>
+<div id="nested-info-popup">
+    <span class="close-btn" onclick="closeNestedInfoPopup()">❌</span>
+    <div id="nested-info-popup-content"></div>
+</div>
+<div id="info" style="display: none;">
+    <div id="wrong-hanzi-display" style="font-size: 15px; color: red; text-align: left; margin: 10px;">
+        <p>Danh sách từ sai:</p>
+        <ul id="wrong-hanzi-list"></ul>
+    </div>
+    <div id="review-hanzi-display" style="font-size: 15px; color: green; text-align: left; margin: 10px; display: none;">
+        <p>Danh sách từ sẽ hỏi trong chế độ ôn tập:</p>
+        <ul id="review-hanzi-list"></ul>
+    </div>
+</div>
+
+<!-- Nhóm 5: Công cụ hỗ trợ -->
+<div id="menuContainer" class="menu-container">
+    <div id="volumeButtons" class="volume-buttons"></div>
+    <div id="lessonButtons" class="lesson-buttons"></div>
+    <div id="tableContainer" class="table-container"></div>
+</div>
+<div id="searchContainer" class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Nhập Hán tự">
+    <button2 class="search-btn" onclick="searchHanzi()">Tra</button2>
+</div>
+<div id="hanziiContainer" class="hanzii-container">
+    <iframe id="hanziiIframe" src=""></iframe>
+</div>
+<div id="translateContainer" class="translate-container">
+    <iframe id="translateIframe" src=""></iframe>
+</div>
+<div id="related-hanzi-list"></div>
+
+<script>
+let earnedEXP = 0;
+    let questionWord = "hanzi";
+    let currentQuestion = null;
+    let allWords = [];
+    let selectedHanzi = [];
+    let wrongHanzi = [];
+    let questionCount = 0;
+    let isReviewMode = false;
+    let audioStartTime = 0;
+    let audioEndTime = 0;
+    let maxWords = 10;
+    let currentReviewList = [];
+    let jsonData = [];
+    let giatrihanzi = "";
+    let selectedVolume = null;
+    let selectedLesson = null;
+    const relatedHanziList = document.getElementById('related-hanzi-list');
+    let timeLimit = 20;
+    let timeRemaining = timeLimit;
+    let timerInterval = null;
+    let showMeaning = true;
+    let quizType = "vocabulary";
+    let bangHanTuData = [];
+    let pinyinTuDienData = [];
+    let isScrambleMode = false;
+    let currentScrambleAnswer = '';
+    let dialogueData = [];
+    let selectedDialogue = null;
+    let hanzi3Data = [];
+let selectedMode = 'taiwanese';
+let isWritingMode = false;
+let currentCharIndex = 0;
+let writer = null;
+let writingChars = [];
+let showOutline = false; // Mặc định không hiển thị đường viền
+let isNewWordMode = false; // Biến xác định chế độ Học Từ Mới
+let accountData = null;
+let randomMissionLesson = null; // Lưu bài của nhiệm vụ ngẫu nhiên
+// Biến lưu dữ liệu level
+let levelData = [];
+
+// Hàm tải dữ liệu level từ _level.json
+async function loadLevelData() {
+    try {
+        const response = await fetch('/hoctiengtrung/json/level3.json', {
+            cache: 'no-cache'
+        });
+        if (!response.ok) {
+            throw new Error('Không thể tải _level.json');
+        }
+        levelData = await response.json();
+        console.log('Level data loaded:', levelData);
+    } catch (error) {
+        console.error('Lỗi khi tải _level.json:', error);
+        alert('Không thể tải dữ liệu cấp độ!');
+    }
+}
+
+// Hàm xác định cấp độ và cập nhật giao diện
+function updateLevelInfo() {
+    const currentEXP = parseInt(document.getElementById('account-exp').textContent) || 0;
+    let currentLevel = null;
+
+    // Tìm cấp độ dựa trên EXP
+    for (const level of levelData) {
+        if (currentEXP >= level.expStar && currentEXP <= level.expEnd) {
+            currentLevel = level;
+            break;
+        }
+    }
+
+    // Nếu không tìm thấy cấp độ (EXP vượt quá cấp cuối), lấy cấp cuối cùng
+    if (!currentLevel && levelData.length > 0) {
+        currentLevel = levelData[levelData.length - 1];
+    }
+
+    if (currentLevel) {
+        // Cập nhật giao diện
+        document.getElementById('account-level').textContent = currentLevel.Level;
+        document.getElementById('account-danhHieu').textContent = currentLevel.danhHieu;
+        document.getElementById('account-image').src = currentLevel.Anh;
+
+        // Tính phần trăm tiến độ
+        const progressPercent = ((currentEXP - currentLevel.expStar) / currentLevel.expUp) * 100;
+        const roundedProgress = Math.min(Math.round(progressPercent * 10) / 10, 100); // Làm tròn 1 chữ số thập phân
+        document.getElementById('level-progress').style.width = `${roundedProgress}%`;
+        document.getElementById('level-progress-text').textContent = `${roundedProgress}%`;
+    } else {
+        // Fallback nếu không có dữ liệu cấp độ
+        document.getElementById('account-level').textContent = '1';
+        document.getElementById('account-danhHieu').textContent = 'A';
+        document.getElementById('account-image').src = '_anhA.png';
+        document.getElementById('level-progress').style.width = '0%';
+        document.getElementById('level-progress-text').textContent = '0%';
+    }
+}
+
+function generateRandomMission() {
+    const currentLevel = parseInt(document.getElementById('account-level').textContent) || 1;
+const unlockedLessons = lessonListData.filter(lesson => currentLevel >= lesson.level_unlock);
+    
+    if (unlockedLessons.length === 0) {
+        randomMissionLesson = null;
+        document.getElementById('random-mission-text').textContent = 'Chưa có bài nào mở khóa để tạo nhiệm vụ!';
+        return;
+    }
+    
+    const randomIndex = Math.floor(Math.random() * unlockedLessons.length);
+    randomMissionLesson = unlockedLessons[randomIndex].bai;
+    document.getElementById('random-mission-text').textContent = 
+        `Hãy ôn lại bài ${randomMissionLesson} để nhận x2 EXP`;
+}
+
+// Định nghĩa URL của các file danh sách bài
+const lessonListUrls = {
+    taiwanese: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json',
+    samtukinh: '/hoctiengtrung/json/danhsachbai-tamtukinh.json',
+    poetry: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json',
+    thientuvan: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json',
+    hongngam: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json'
+};
+
+// Biến để lưu dữ liệu danh sách bài
+let lessonListData = [];
+
+// Hàm tải danh sách bài
+async function loadLessonList() {
+    try {
+        const response = await fetch(lessonListUrls[selectedMode], {
+            cache: 'no-cache'
+        });
+        if (!response.ok) {
+            throw new Error(`Không thể tải ${lessonListUrls[selectedMode]}`);
+        }
+        lessonListData = await response.json();
+        console.log('Lesson list loaded:', lessonListData);
+    } catch (error) {
+        console.error('Lỗi khi tải danh sách bài:', error);
+        alert(`Không thể tải danh sách bài cho ${modeDisplayNames[selectedMode]}!`);
+    }
+}
+
+// Hàm hiển thị bảng danh sách bài
+function showLessonList() {
+    const lessonListContainer = document.getElementById('lesson-list-container');
+    const lessonListBody = document.getElementById('lesson-list-body');
+    lessonListBody.innerHTML = '';
+
+    const currentLevel = parseInt(document.getElementById('account-level').textContent) || 1;
+
+    lessonListData.forEach(lesson => {
+        const row = document.createElement('tr');
+        const status = currentLevel >= lesson.level_unlock ? '✅' : '🔒';
+        row.innerHTML = `
+            <td>${lesson.bai}</td>
+            <td>${lesson.name}</td>
+            <td>${lesson.level_unlock}</td>
+            <td>${status}</td>
+        `;
+        if (status === '🔒') {
+            row.classList.add('locked');
+        } else {
+            row.addEventListener('click', () => {
+                document.getElementById('lesson-input').value = lesson.bai;
+                lessonListContainer.style.display = 'none';
+            });
+        }
+        lessonListBody.appendChild(row);
+    });
+
+    lessonListContainer.style.display = lessonListContainer.style.display === 'block' ? 'none' : 'block';
+}
+
+// Gọi loadLessonList khi chọn chế độ
+document.querySelectorAll('.mode-button').forEach(button => {
+    button.addEventListener('click', () => {
+        if (button.classList.contains('disabled') || button.hasAttribute('disabled')) {
+            return;
+        }
+
+        document.querySelectorAll('.mode-button').forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        selectedMode = button.getAttribute('data-mode');
+        console.log('Selected mode:', selectedMode);
+
+        // Load dữ liệu ngay khi chọn chế độ
+        loadInitialData();
+        loadLessonList(); // Tải danh sách bài khi chọn chế độ
+        // ... (phần còn lại của sự kiện click giữ nguyên)
+    });
+});
+
+// Thêm sự kiện cho nút Danh sách bài
+document.getElementById('lesson-list-button').addEventListener('click', showLessonList);
+
+// Định nghĩa token ở phạm vi toàn cục
+const pass1 = 'ghp_sbgtwaf2';
+const pass2 = 'jootc3dvd4eCkh';
+const pass3 = 'Fi1CPIOo0H1Fz4';
+const GITHUB_TOKEN = pass1 + pass2 + pass3;
+
+async function loadAccountData() {
+    try {
+        // Thay YOUR_PERSONAL_ACCESS_TOKEN bằng token của bạn
+        const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
+        
+        const response = await fetch(url, {
+            headers: {
+                'Accept': 'application/vnd.github.v3+json',
+                'Authorization': `Bearer ${GITHUB_TOKEN}`
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error('Không thể tải taikhoan.json từ GitHub API');
+        }
+        
+        const data = await response.json();
+        // Giải mã base64 và xử lý UTF-8
+        const binaryString = atob(data.content);
+        const bytes = new Uint8Array(binaryString.length);
+        for (let i = 0; i < binaryString.length; i++) {
+            bytes[i] = binaryString.charCodeAt(i);
+        }
+        const content = new TextDecoder('utf-8').decode(bytes);
+        accountData = JSON.parse(content);
+        
+        // Cập nhật giao diện
+        document.getElementById('account-name').textContent = accountData.name;
+        document.getElementById('account-exp').textContent = accountData.EXP;
+
+        // Tải dữ liệu level và cập nhật giao diện
+        await loadLevelData();
+        updateLevelInfo();
+
+        // Reset earnedEXP
+        earnedEXP = 0;
+        document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+    } catch (error) {
+        console.error('Lỗi khi tải taikhoan.json:', error);
+        document.getElementById('account-exp').textContent = '0';
+        document.getElementById('account-name').textContent = 'Khách Nhân';
+        document.getElementById('account-level').textContent = '1';
+        document.getElementById('account-danhHieu').textContent = 'A';
+        document.getElementById('account-image').src = '_anhA.png';
+        document.getElementById('level-progress').style.width = '0%';
+        document.getElementById('level-progress-text').textContent = '0%';
+        // Reset earnedEXP
+        earnedEXP = 0;
+        document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+    }
+}
+
+loadAccountData();
+
+function startWritingMode() {
+    if (!currentQuestion || !currentQuestion.hanzi) {
+        console.error('Không có câu hỏi hoặc Hán tự để tập viết');
+        stopWritingMode();
+        return;
+    }
+
+    isWritingMode = true;
+    currentCharIndex = 0;
+    currentScrambleAnswer = '';
+    writingChars = currentQuestion.hanzi.replace(/\|/g, '').split('').filter(char => !/[.,!?，。！？]/.test(char));
+
+    if (writingChars.length === 0) {
+        console.warn('Không có ký tự hợp lệ để tập viết');
+        handleWritingComplete();
+        return;
+    }
+
+    document.getElementById('option-buttons').style.display = 'none';
+    document.getElementById('word-scramble-game').style.display = 'none';
+    document.getElementById('scrambled-buttons').style.display = 'none';
+    document.getElementById('writing-container').style.display = 'block';
+    document.getElementById('question').style.display = 'none';
+    document.getElementById('pinyin-container').style.display = 'none';
+
+    document.getElementById('meaning').innerText = currentQuestion.nghia ? currentQuestion.nghia.replace(/\|/g, '\n') : '';
+    document.getElementById('meaning-container').style.display = showMeaning ? 'block' : 'none';
+
+    if (quizType === 'dialogue') {
+        document.getElementById('dialogue-display').style.display = 'block';
+        updateDialogueContainer();
+    }
+
+    if (currentQuestion.linkmp3) {
+        setupAudio(document.getElementById('audio'), currentQuestion.linkmp3, currentQuestion.time);
+        playCurrentAudio(() => {});
+    }
+
+    updateWritingChar();
+}
+
+function updateWritingChar() {
+    const canvas = document.getElementById('writing-canvas');
+    canvas.innerHTML = '';
+    document.getElementById('writing-progress').innerText = `Chữ ${currentCharIndex + 1}/${writingChars.length}`;
+
+    // Xóa nút Hiện/Ẩn cũ (nếu có)
+    const writingContainer = document.getElementById('writing-container');
+    const existingToggleButton = writingContainer.querySelector('.toggle-outline-button');
+    if (existingToggleButton) existingToggleButton.remove();
+
+    // Tạo nút Hiện/Ẩn
+    const toggleButton = document.createElement('button');
+    toggleButton.className = 'toggle-outline-button';
+    toggleButton.innerText = showOutline ? 'Ẩn' : 'Hiện';
+    toggleButton.style.fontSize = '14px';
+    toggleButton.style.padding = '5px 10px';
+    toggleButton.style.borderRadius = '5px';
+    toggleButton.style.backgroundColor = '#2196F3';
+    toggleButton.style.color = 'white';
+    toggleButton.style.border = 'none';
+    toggleButton.style.cursor = 'pointer';
+    toggleButton.style.marginRight = '10px'; // Khoảng cách bên phải (thay vì margin-left)
+	toggleButton.style.fontFamily = 'Noto Sans CJK SC, Arial, sans-serif';
+    toggleButton.style.verticalAlign = 'middle';
+    toggleButton.style.width = '70px'; // Kích thước ngang cố định
+    toggleButton.style.height = '30px'; // Kích thước cao cố định
+
+    // Thêm nút trước writing-progress
+    const progressSpan = document.getElementById('writing-progress');
+    const inlineContainer = document.createElement('span');
+    inlineContainer.style.display = 'inline';
+    inlineContainer.appendChild(toggleButton);
+    progressSpan.parentNode.insertBefore(inlineContainer, progressSpan);
+
+    // Hàm khởi tạo Hanzi Writer
+    function initializeWriter() {
+        try {
+            writer = HanziWriter.create('writing-canvas', writingChars[currentCharIndex], {
+                width: 200,
+                height: 200,
+                padding: 5,
+                drawingWidth: 40,
+                showHintAfterMisses: 1,
+                radicalColor: '#337ab7', // blue
+                showOutline: showOutline,
+                showCharacter: false,
+                highlightOnComplete: true,
+                onCorrectStroke: function(strokeData) {
+                    console.log('Nét đúng:', strokeData);
+                },
+                onMistake: function(strokeData) {
+                    console.log('Nét sai:', strokeData);
+                    document.getElementById('feedback').innerText = 'Nét chưa đúng, tiếp tục vẽ!';
+                    document.getElementById('feedback').style.display = 'block';
+                    setTimeout(() => {
+                        document.getElementById('feedback').style.display = 'none';
+                    }, 1000);
+                }
+            });
+
+            // Bắt đầu quiz
+            writer.quiz({
+                onComplete: function(summaryData) {
+                    console.log('Hoàn thành ký tự:', summaryData);
+                    document.getElementById('feedback').innerText = 'Đã hoàn thành ký tự!';
+                    document.getElementById('feedback').style.display = 'block';
+
+// Award 1 EXP for each completed character
+                    earnedEXP += 2;
+                    document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+
+                    currentScrambleAnswer += writingChars[currentCharIndex];
+                    setTimeout(() => {
+                        document.getElementById('feedback').style.display = 'none';
+                        currentCharIndex++;
+                        if (currentCharIndex < writingChars.length) {
+                            updateWritingChar();
+                            if (quizType === 'dialogue') {
+                                updateDialogueContainer();
+                            }
+                        } else {
+                            handleWritingComplete();
+                        }
+                    }, 1000);
+                }
+            });
+        } catch (error) {
+            console.error('Lỗi khi khởi tạo Hanzi Writer:', error);
+            document.getElementById('feedback').innerText = 'Không thể hiển thị ký tự này để tập viết!';
+            document.getElementById('feedback').style.display = 'block';
+            currentScrambleAnswer += writingChars[currentCharIndex];
+
+// Award 1 EXP even if HanziWriter fails to initialize
+            earnedEXP += 1;
+            document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+
+            setTimeout(() => {
+                document.getElementById('feedback').style.display = 'none';
+                currentCharIndex++;
+                if (currentCharIndex < writingChars.length) {
+                    updateWritingChar();
+                    if (quizType === 'dialogue') {
+                        updateDialogueContainer();
+                    }
+                } else {
+                    handleWritingComplete();
+                }
+            }, 1000);
+        }
+    }
+
+    // Khởi tạo Hanzi Writer lần đầu
+    initializeWriter();
+
+    // Xử lý sự kiện nhấn nút Hiện/Ẩn
+    toggleButton.onclick = function() {
+        showOutline = !showOutline;
+        console.log('showOutline:', showOutline);
+        toggleButton.innerText = showOutline ? 'Ẩn' : 'Hiện';
+        try {
+            writer.setOutlineVisibility(showOutline);
+        } catch (error) {
+            console.warn('setOutlineVisibility không hoạt động, khởi tạo lại Writer:', error);
+            canvas.innerHTML = '';
+            initializeWriter();
+        }
+    };
+}
+
+function handleWritingComplete() {
+    if (quizType === 'dialogue') {
+        updateDialogueContainer();
+    }
+
+    document.getElementById('feedback').innerText = 'Tốt lắm, bạn đã hoàn thành câu!';
+    document.getElementById('feedback').style.display = 'block';
+    document.getElementById('writing-container').style.display = 'none';
+    if (timerInterval) clearInterval(timerInterval);
+
+    const questionElement = document.getElementById('question');
+    const pinyinElement = document.getElementById('pinyin');
+    const kyhieuElement = document.getElementById('kyhieu');
+    const pinyinContainer = document.getElementById('pinyin-container');
+    const phanTichElement = document.getElementById('phanTich');
+    const phanTichContainer = document.getElementById('phanTich-container');
+    const meaningContainer = document.getElementById('meaning-container');
+    const readCompleteContainer = document.getElementById('read-complete-container');
+
+    questionElement.innerText = currentQuestion.hanzi.replace(/\|/g, '\n');
+    pinyinElement.innerText = currentQuestion.pinyin ? currentQuestion.pinyin.replace(/\|/g, '\n') : hanziToPinyin(currentQuestion.hanzi);
+    kyhieuElement.innerText = currentQuestion.kyhieu ? currentQuestion.kyhieu.replace(/\|/g, '\n') : '';
+    questionElement.style.display = 'block';
+    pinyinElement.style.display = 'block';
+    kyhieuElement.style.display = currentQuestion.kyhieu ? 'block' : 'none';
+    pinyinContainer.style.display = 'flex';
+    meaningContainer.style.display = 'block';
+    if (quizType === 'vocabulary') {
+        showAnalysis();
+        phanTichContainer.style.display = 'block';
+        phanTichElement.style.display = 'block';
+       earnedEXP += 0; // 3 điểm cho Từ Vựng
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+    } else if (quizType === 'sentence') {
+        earnedEXP += 0; // 10 điểm cho Mẫu Câu
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+    } else if (quizType === 'dialogue') {
+        earnedEXP += 0; // 10 điểm cho mỗi câu Hội Thoại
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+    }
+
+    const nextAction = () => {
+        document.getElementById('feedback').style.display = 'none';
+        pinyinElement.style.display = 'none';
+        kyhieuElement.style.display = 'none';
+        pinyinContainer.style.display = 'none';
+        phanTichContainer.style.display = 'none';
+        phanTichElement.style.display = 'none';
+        questionElement.style.display = 'none';
+        readCompleteContainer.style.display = 'none';
+        meaningContainer.style.display = showMeaning ? 'block' : 'none';
+        document.getElementById('answerInput').value = '';
+        document.getElementById('answerInput').disabled = false;
+        document.getElementById('inputPinyinDisplay').textContent = '';
+
+        currentScrambleAnswer = '';
+        currentCharIndex = 0;
+
+        questionCount++;
+        if (questionCount < selectedHanzi.length) {
+            currentQuestion = selectedHanzi[questionCount];
+            if (quizType === 'dialogue') {
+                updateDialogueContainer();
+            }
+            if (isWritingMode) {
+                startWritingMode();
+            } else {
+                loadNewQuestion();
+            }
+        } else {
+            endGame();
+        }
+    };
+
+    if (isNewWordMode) {
+        readCompleteContainer.style.display = 'block';
+        const readCompleteButton = document.getElementById('read-complete-button');
+        readCompleteButton.onclick = () => {
+            playCurrentAudio(nextAction);
+        };
+    } else {
+        playCurrentAudio(nextAction);
+    }
+}
+
+function stopWritingMode() {
+    isWritingMode = false;
+    document.getElementById('writing-container').style.display = 'none';
+    
+    if (quizType === 'sentence') {
+        document.getElementById('dialogue-display').style.display = 'none';
+        document.getElementById('option-buttons').style.display = 'grid';
+        document.getElementById('meaning-container').style.display = showMeaning ? 'block' : 'none';
+        document.getElementById('back-button').style.display = 'none';
+        document.getElementById('next-button').style.display = 'none';
+        loadNewQuestion();
+    } else if (quizType === 'dialogue') {
+        document.getElementById('dialogue-display').style.display = 'block';
+        document.getElementById('option-buttons').style.display = 'none';
+        document.getElementById('back-button').style.display = 'inline-block';
+        document.getElementById('next-button').style.display = 'inline-block';
+        updateDialogueContainer();
+    } else {
+        document.getElementById('option-buttons').style.display = 'grid';
+        document.getElementById('meaning-container').style.display = showMeaning ? 'block' : 'none';
+        loadNewQuestion();
+    }
+}
+
+    const dataUrls = {
+        taiwanese: {
+            vocabulary: '/hoctiengtrung/json/hanzi4.json',
+            sentence: '/hoctiengtrung/json/maucau21.json',
+            dialogue: '/hoctiengtrung/json/hoithoai4-new14.json'
+        },
+        poetry: {
+            vocabulary: '/hoctiengtrung/json/tamtukinh7.json',
+            sentence: '/hoctiengtrung/json/maucau21.json',
+            dialogue: '/hoctiengtrung/json/tamtukinh-tuvung5.json'
+        },
+        samtukinh: {
+            vocabulary: '/hoctiengtrung/json/tamtukinh7.json',
+            sentence: '/hoctiengtrung/json/maucau21.json',
+            dialogue: '/hoctiengtrung/json/tamtukinh-tuvung5.json'
+        },
+        thientuvan: {
+            vocabulary: '/hoctiengtrung/json/tamtukinh7.json',
+            sentence: '/hoctiengtrung/json/maucau21.json',
+            dialogue: '/hoctiengtrung/json/tamtukinh-tuvung5.json'
+        },
+        hongngam: {
+            vocabulary: '/hoctiengtrung/json/tamtukinh7.json',
+            sentence: '/hoctiengtrung/json/maucau21.json',
+            dialogue: '/hoctiengtrung/json/tamtukinh-tuvung5.json'
+        }
+    };
+
+const modeDisplayNames = {
+    taiwanese: 'Tiếng Trung Đài Loan',
+    poetry: '300 Bài Thơ Đường',
+    samtukinh: 'Tam Tự Kinh',
+    thientuvan: 'Thiên Tự Văn',
+    hongngam: 'Hồng Ngâm'
+};
+const quizTypeDisplayNames = {
+    vocabulary: 'Từ Vựng',
+    sentence: 'Mẫu Câu',
+    dialogue: {
+        taiwanese: 'Hội Thoại',
+        samtukinh: 'Bài Thơ',
+        thoduong: 'Bài Thơ',
+        hongngam: 'Bài Thơ'
+    }
+};
+
+    function loadInitialData() {
+    console.log('Loading data for mode:', selectedMode); // Debug
+    fetch(dataUrls[selectedMode].dialogue)
+        .then(response => {
+            if (!response.ok) throw new Error(`Không thể tải ${dataUrls[selectedMode].dialogue}`);
+            return response.json();
+        })
+        .then(data => {
+            dialogueData = data;
+            console.log('Dialogue data loaded:', dialogueData); // Debug
+        })
+        .catch(error => {
+            console.error(`Lỗi khi load ${dataUrls[selectedMode].dialogue}:`, error);
+            alert(`Không thể tải dữ liệu hội thoại/bài thơ cho ${modeDisplayNames[selectedMode]}!`);
+        });
+
+    fetch(dataUrls[selectedMode].vocabulary)
+        .then(response => {
+            if (!response.ok) throw new Error(`Không thể tải ${dataUrls[selectedMode].vocabulary}`);
+            return response.json();
+        })
+        .then(data => {
+            hanzi3Data = data;
+            console.log('Vocabulary data loaded:', hanzi3Data); // Debug
+        })
+        .catch(error => {
+            console.error(`Lỗi khi load ${dataUrls[selectedMode].vocabulary}:`, error);
+            document.getElementById('start-screen').innerHTML += '<p style="color: red;">Không thể tải dữ liệu từ vựng!</p>';
+        });
+
+    fetch('/hoctiengtrung/json/banghanTu7.json')
+        .then(response => response.json())
+        .then(data => {
+            bangHanTuData = data;
+        })
+        .catch(error => {
+            console.error('Lỗi khi load _banghanTu.json:', error);
+        });
+
+    fetch('/hoctiengtrung/json/pinyintudien2.json')
+        .then(response => response.json())
+        .then(data => {
+            pinyinTuDienData = data;
+        })
+        .catch(error => {
+            console.error('Lỗi khi load _pinyintudien.json:', error);
+        });
+}
+
+document.querySelectorAll('.mode-button').forEach(button => {
+    button.addEventListener('click', () => {
+        if (button.classList.contains('disabled') || button.hasAttribute('disabled')) {
+            return;
+        }
+
+        document.querySelectorAll('.mode-button').forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        selectedMode = button.getAttribute('data-mode');
+        console.log('Selected mode:', selectedMode); // Debug
+
+        // Load dữ liệu ngay khi chọn chế độ
+        loadInitialData();
+
+        const quizTypeButtonsContainer = document.getElementById('quiz-type-buttons');
+        quizTypeButtonsContainer.innerHTML = '';
+        quizTypeButtonsContainer.style.display = 'flex';
+
+        function createQuizTypeButton(text, value) {
+            const btn = document.createElement('button2');
+            btn.className = 'quiz-type-button';
+            btn.textContent = text;
+            btn.setAttribute('data-quiz-type', value);
+            btn.addEventListener('click', () => {
+                quizType = value;
+
+                // Xóa class active khỏi các nút quiz-type-button khác
+                document.querySelectorAll('.quiz-type-button').forEach(b => b.classList.remove('quiz-type-active'));
+                // Thêm class active cho nút được chọn
+                btn.classList.add('quiz-type-active');
+
+                // Xóa các nút phụ trước đó (nếu có)
+                const existingSubModeContainer = document.getElementById('sub-mode-buttons');
+                if (existingSubModeContainer) {
+                    existingSubModeContainer.remove();
+                }
+
+                // Nếu là Từ Vựng hoặc Mẫu Câu, hiển thị nút phụ bên dưới trên cùng hàng ngang
+                if (value === 'vocabulary' || value === 'sentence') {
+    const subModeContainer = document.createElement('div');
+    subModeContainer.id = 'sub-mode-buttons';
+    subModeContainer.style.display = 'flex';
+    subModeContainer.style.flexDirection = 'row'; // Sắp xếp ngang
+    subModeContainer.style.justifyContent = 'center';
+    subModeContainer.style.gap = '10px';
+    subModeContainer.style.marginTop = '10px';
+	
+	const reviewBtn = document.createElement('button2');
+    reviewBtn.className = 'quiz-type-button sub-mode-button'; // Thêm class sub-mode-button
+    reviewBtn.textContent = 'Ôn Tập';
+    reviewBtn.addEventListener('click', () => {
+        isNewWordMode = false;
+        startQuizMode();
+    });
+
+    const learnNewBtn = document.createElement('button2');
+    learnNewBtn.className = 'quiz-type-button sub-mode-button'; // Thêm class sub-mode-button
+    learnNewBtn.textContent = 'Học';
+    learnNewBtn.addEventListener('click', () => {
+        isNewWordMode = true;
+        startQuizMode();
+    });
+	
+    subModeContainer.appendChild(reviewBtn);
+    subModeContainer.appendChild(learnNewBtn);
+    
+    quizTypeButtonsContainer.appendChild(subModeContainer);
+                } else {
+                    startQuizMode();
+                }
+            });
+            quizTypeButtonsContainer.appendChild(btn);
+        }
+
+        if (selectedMode === 'taiwanese') {
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Mẫu Câu', 'sentence');
+            createQuizTypeButton('Hội Thoại', 'dialogue');
+        } else if (selectedMode === 'samtukinh') {
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
+        } else if (selectedMode === 'poetry') {
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
+        } else if (selectedMode === 'hongngam') {
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
+        }
+    });
+});
+
+// Hàm chuyển sang màn hình khởi động (giữ nguyên)
+function startQuizMode() {
+    document.getElementById('mode-selection-screen').style.display = 'none';
+    document.getElementById('start-screen').style.display = 'block';
+
+    const welcomeDiv = document.getElementById('start-screen').querySelector('.welcome-title');
+    let quizTypeName = quizTypeDisplayNames[quizType];
+    if (quizType === 'dialogue') {
+        quizTypeName = quizTypeDisplayNames.dialogue[selectedMode] || 'Hội Thoại';
+    }
+    welcomeDiv.textContent = `${quizTypeName} \n ${modeDisplayNames[selectedMode]} `;
+
+    const dialogueContainer = document.getElementById('dialogue-select-container');
+    const dialogueLabel = dialogueContainer.querySelector('label[for="dialogue-number"]');
+    dialogueContainer.style.display = quizType === 'dialogue' ? 'block' : 'none';
+    dialogueLabel.textContent = selectedMode === 'taiwanese' ? 'Chọn Hội thoại:' : 'Chọn Phần Thơ:';
+
+    const wordCountContainer = document.getElementById('word-count-container');
+    const timeLimitContainer = document.getElementById('time-limit-container');
+    if (quizType === 'dialogue') {
+        wordCountContainer.style.display = 'none';
+        timeLimitContainer.style.display = 'none';
+    } else {
+        wordCountContainer.style.display = 'block';
+        timeLimitContainer.style.display = 'block';
+    }
+
+// Tạo nhiệm vụ ngẫu nhiên
+    generateRandomMission();
+}
+
+    document.getElementById('start-button').addEventListener('click', () => {
+    const jsonFile = quizType === "vocabulary" ? dataUrls[selectedMode].vocabulary : dataUrls[selectedMode].sentence;
+
+    if (quizType === 'dialogue') {
+        jsonData = [];
+        allWords = [];
+        startGame();
+    } else {
+        fetch(jsonFile)
+            .then(response => {
+                if (!response.ok) throw new Error('Không thể tải dữ liệu JSON');
+                return response.json();
+            })
+            .then(data => {
+                jsonData = data;
+                allWords = data;
+                startGame();
+            })
+            .catch(error => {
+                console.error('Lỗi khi load JSON:', error);
+                alert('Không thể tải dữ liệu. Vui lòng thử lại!');
+            });
+    }
+});
+
+    
+    function getAllPinyinCombinations(hanzi) {
+        const cleanHanzi = hanzi.replace(/[.,!?，。！？]/g, '');
+        const chars = cleanHanzi.split('');
+        let pinyinArrays = [];
+        
+        chars.forEach(char => {
+            const pinyinOptions = pinyinTuDienData[char];
+            if (pinyinOptions) {
+                pinyinArrays.push(pinyinOptions.split(','));
+            } else {
+                pinyinArrays.push(['']);
+            }
+        });
+        
+        let combinations = [''];
+        pinyinArrays.forEach(options => {
+            let newCombinations = [];
+            combinations.forEach(combo => {
+                options.forEach(option => {
+                    newCombinations.push(combo ? `${combo} ${option}` : option);
+                });
+            });
+            combinations = newCombinations;
+        });
+        
+        return combinations;
+    }
+
+    function hanziToPinyin(hanzi) {
+        const cleanHanzi = hanzi.replace(/[.,!?，。！？]/g, '');
+        const chars = cleanHanzi.split('');
+        let pinyinResult = [];
+        
+        chars.forEach(char => {
+            const pinyinOptions = pinyinTuDienData[char];
+            if (pinyinOptions) {
+                const firstPinyin = pinyinOptions.split(',')[0];
+                pinyinResult.push(firstPinyin);
+            } else {
+                pinyinResult.push('');
+            }
+        });
+        
+        return pinyinResult.join(' ').trim();
+    }
+
+    function isPinyinMatch(inputPinyin, questionPinyinOptions) {
+        if (!inputPinyin) return false;
+        return questionPinyinOptions.some(option => option === inputPinyin);
+    }
+
+    function showAnalysis() {
+        let hanziAnalysis = '';
+        let phanTichText = currentQuestion.phanTich ? currentQuestion.phanTich.replace(/\|/g, '\n') : '';
+        const hanziChars = currentQuestion.hanzi.replace(/[.,!?，。！？]/g, '').split('');
+        hanziChars.forEach(char => {
+            const hanTuInfo = bangHanTuData.find(item => item.hanTu === char);
+            if (hanTuInfo) {
+                const cauTaoFormatted = hanTuInfo.cauTao.replace(/\|/g, '\n');
+                hanziAnalysis += `<b>+ Hán Tự:</b> ${hanTuInfo.hanTu}\n<span style="color: blue;">${cauTaoFormatted}</span>\n`;
+            }
+        });
+        const phanTichElement = document.getElementById('phanTich');
+        const phanTichContainer = document.getElementById('phanTich-container');
+        let finalContent = '';
+        if (hanziAnalysis) finalContent += hanziAnalysis;
+        if (phanTichText) finalContent += `<span style="color: red;"><b>+ Phân Tích Chung:</b></span>\n${phanTichText}`;
+        phanTichElement.innerHTML = finalContent;
+        if (finalContent.trim()) {
+            phanTichContainer.style.display = 'block';
+            phanTichElement.style.display = 'block';
+        } else {
+            phanTichContainer.style.display = 'none';
+            phanTichElement.style.display = 'none';
+        }
+    }
+
+    function hideAllPanels() {
+        document.getElementById('menuContainer').style.display = 'none';
+        document.getElementById('searchContainer').style.display = 'none';
+        document.getElementById('hanziiContainer').style.display = 'none';
+        document.getElementById('translateContainer').style.display = 'none';
+        relatedHanziList.style.display = 'none';
+    }
+
+    function toggleRelated() {
+        if (relatedHanziList.style.display === 'block') {
+            relatedHanziList.style.display = 'none';
+        } else {
+            hideAllPanels();
+            showRelatedHanzi();
+            relatedHanziList.style.display = 'block';
+        }
+    }
+
+    function toggleMenu() {
+        const menu = document.getElementById('menuContainer');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            hideAllPanels();
+            menu.style.display = 'block';
+            if (!document.getElementById('volumeButtons').innerHTML) {
+                createVolumeButtons();
+            }
+        }
+    }
+
+    function createVolumeButtons() {
+        const volumeDiv = document.getElementById('volumeButtons');
+        volumeDiv.innerHTML = '';
+        for (let i = 1; i <= 6; i++) {
+            const btn = document.createElement('button2');
+            btn.textContent = `Quyển ${i}`;
+            btn.className = 'volume-btn';
+            btn.onclick = () => {
+                if (selectedVolume !== i) {
+                    selectVolume(i);
+                }
+            };
+            volumeDiv.appendChild(btn);
+        }
+    }
+
+    function selectVolume(volume) {
+        selectedVolume = volume;
+        updateButtonStates();
+        createLessonButtons(volume);
+    }
+
+    function createLessonButtons(volume) {
+        const lessonDiv = document.getElementById('lessonButtons');
+        lessonDiv.innerHTML = '';
+        const lessonCounts = [15, 15, 12, 12, 10, 10];
+        const lessonCount = lessonCounts[volume - 1];
+        
+        for (let i = 1; i <= lessonCount; i++) {
+            const btn = document.createElement('button2');
+            btn.textContent = `Bài ${i}`;
+            btn.className = 'lesson-btn';
+            btn.onclick = () => {
+                if (selectedLesson !== i) {
+                    selectLesson(i);
+                }
+            };
+            lessonDiv.appendChild(btn);
+        }
+        updateButtonStates();
+    }
+
+    function selectLesson(lesson) {
+        selectedLesson = lesson;
+        updateButtonStates();
+        const baiValue = calculateBaiValue(selectedVolume, selectedLesson);
+        loadLessonData(baiValue);
+    }
+
+    function calculateBaiValue(volume, lesson) {
+        switch (volume) {
+            case 1: return lesson;
+            case 2: return 15 + lesson;
+            case 3: return 15 + 15 + lesson;
+            case 4: return 15 + 15 + 12 + lesson;
+            case 5: return 15 + 15 + 12 + 12 + lesson;
+            case 6: return 15 + 15 + 12 + 12 + 10 + lesson;
+        }
+    }
+
+    function updateButtonStates() {
+        const volumeButtons = document.querySelectorAll('.volume-btn');
+        const lessonButtons = document.querySelectorAll('.lesson-btn');
+        
+        volumeButtons.forEach((btn, index) => {
+            btn.classList.toggle('active', index + 1 === selectedVolume);
+        });
+        
+        lessonButtons.forEach((btn, index) => {
+            btn.classList.toggle('active', index + 1 === selectedLesson);
+        });
+    }
+
+    function loadLessonData(baiValue) {
+        const tableContainer = document.getElementById('tableContainer');
+        const filteredData = hanzi3Data.filter(item => parseInt(item.bai) === baiValue);
+        
+        let tableHTML = `
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Hán tự</th>
+                    <th>Pinyin</th>
+                    <th>Ký hiệu</th>
+                    <th>Nghĩa</th>
+                </tr>
+        `;
+        
+        filteredData.forEach(item => {
+            tableHTML += `
+                <tr onclick="selectHanzi('${item.hanzi}')">
+                    <td>${item.id}</td>
+                    <td>${item.hanzi}</td>
+                    <td>${item.pinyin}</td>
+                    <td>${item.kyhieu}</td>
+                    <td>${item.nghia}</td>
+                </tr>
+            `;
+        });
+        
+        tableHTML += '</table>';
+        tableContainer.innerHTML = tableHTML;
+    }
+
+    function updateHanzi(hanzi) {
+        giatrihanzi = hanzi;
+        console.log('Selected hanzi:', giatrihanzi);
+        const hanziiContainer = document.getElementById('hanziiContainer');
+        const hanziiIframe = document.getElementById('hanziiIframe');
+        
+        if (hanziiContainer.style.display === 'block' && giatrihanzi === hanzi) {
+            hanziiContainer.style.display = 'none';
+        } else {
+            hideAllPanels();
+            hanziiIframe.src = `https://hanzii.net/search/kanji/${encodeURIComponent(giatrihanzi)}?hl=vi`;
+            hanziiContainer.style.display = 'block';
+        }
+    }
+
+    function selectHanzi(hanzi) {
+        updateHanzi(hanzi);
+    }
+
+   document.addEventListener('click', function(event) {
+    const infoPopup = document.getElementById('info-popup');
+    const nestedInfoPopup = document.getElementById('nested-info-popup');
+    const authorPopup = document.getElementById('author-popup');
+    
+    // Kiểm tra nếu info-popup đang hiển thị và nhấp chuột bên ngoài
+    if (infoPopup.style.display === 'block' && !infoPopup.contains(event.target)) {
+        closeInfoPopup();
+    }
+    
+    // Kiểm tra nếu nested-info-popup đang hiển thị và nhấp chuột bên ngoài
+    if (nestedInfoPopup.style.display === 'block' && !nestedInfoPopup.contains(event.target)) {
+        closeNestedInfoPopup();
+    }
+    
+    // Kiểm tra nếu author-popup đang hiển thị và nhấp chuột bên ngoài
+    if (authorPopup.style.display === 'block' && !authorPopup.contains(event.target)) {
+        closeAuthorPopup();
+    }
+});
+
+    function toggleSearch() {
+        const searchContainer = document.getElementById('searchContainer');
+        const searchInput = document.getElementById('searchInput');
+        if (searchContainer.style.display === 'block') {
+            searchContainer.style.display = 'none';
+        } else {
+            hideAllPanels();
+            searchContainer.style.display = 'block';
+            searchInput.value = currentQuestion.hanzi;
+        }
+    }
+
+    function searchHanzi() {
+        const input = document.getElementById('searchInput').value.trim();
+        if (input) {
+            updateHanzi(input);
+        }
+    }
+
+    function toggleTranslate() {
+        const translateContainer = document.getElementById('translateContainer');
+        const translateIframe = document.getElementById('translateIframe');
+        if (translateContainer.style.display === 'block') {
+            translateContainer.style.display = 'none';
+        } else {
+            hideAllPanels();
+            translateIframe.src = 'https://vi.ilovetranslation.com/';
+            translateContainer.style.display = 'block';
+        }
+    }
+
+    function timeToSeconds(timeStr) {
+    try {
+        // Loại bỏ khoảng trắng và kiểm tra định dạng
+        timeStr = timeStr.trim();
+        if (!/^\d+:\d{2}:\d{2}$/.test(timeStr)) {
+            throw new Error("Định dạng thời gian không đúng, yêu cầu phút:giây:phần_trăm_giây");
+        }
+
+        const [minutes, seconds, centiseconds] = timeStr.split(':').map(Number);
+        if (isNaN(minutes) || isNaN(seconds) || isNaN(centiseconds)) {
+            throw new Error("Giá trị thời gian không hợp lệ");
+        }
+
+        // Đảm bảo seconds và centiseconds nằm trong phạm vi hợp lệ
+        if (seconds >= 60 || centiseconds >= 100) {
+            throw new Error("Giá trị giây hoặc phần trăm giây không hợp lệ");
+        }
+
+        return minutes * 60 + seconds + centiseconds / 100;
+    } catch (error) {
+        console.error("Lỗi xử lý thời gian:", error.message, "Chuỗi thời gian:", timeStr);
+        return 0;
+    }
+}
+
+    function setupAudio(audioElement, link, timeRange) {
+        audioElement.src = link;
+        if (timeRange && timeRange.includes(' - ')) {
+            const [startTimeStr, endTimeStr] = timeRange.split(' - ');
+            audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.2);
+            audioEndTime = timeToSeconds(endTimeStr) + 0.2;
+            audioElement.currentTime = audioStartTime;
+        }
+    }
+
+    function playCurrentAudio(callback) {
+        const audio = document.getElementById('audio');
+        audio.currentTime = audioStartTime;
+        audio.play().catch(error => {
+            console.error("Lỗi phát audio:", error);
+        });
+
+        audio.onended = () => {
+            callback();
+        };
+
+        audio.addEventListener('timeupdate', function handler() {
+            if (audio.currentTime >= audioEndTime) {
+                audio.pause();
+                audio.currentTime = audioStartTime;
+                audio.removeEventListener('timeupdate', handler);
+                audio.onended();
+            }
+        });
+    }
+
+    const audio = document.getElementById('audio');
+    const playButton = document.getElementById('playButton');
+    let isHintVisible = false;
+    const hintButton = document.getElementById('hintButton');
+
+    hintButton.addEventListener('click', function() {
+    const questionElement = document.getElementById('question');
+    const pinyinElement = document.getElementById('pinyin');
+    const kyhieuElement = document.getElementById('kyhieu');
+    const pinyinContainer = document.getElementById('pinyin-container');
+    const phanTichElement = document.getElementById('phanTich');
+    const phanTichContainer = document.getElementById('phanTich-container');
+    const meaningContainer = document.getElementById('meaning-container');
+    const dialogueDisplay = document.getElementById('dialogue-display');
+
+    if (isHintVisible) {
+        pinyinElement.style.display = 'none';
+        kyhieuElement.style.display = 'none';
+        pinyinContainer.style.display = 'none';
+        phanTichElement.style.display = 'none';
+        phanTichContainer.style.display = 'none';
+        questionElement.style.display = 'none';
+        meaningContainer.style.display = showMeaning ? 'block' : 'none';
+        if (quizType === 'dialogue' && !isScrambleMode) {
+            dialogueDisplay.style.display = 'block';
+        }
+        isHintVisible = false;
+    } else {
+        questionElement.innerText = currentQuestion.hanzi.replace(/\|/g, '\n');
+        pinyinElement.innerText = currentQuestion.pinyin ? currentQuestion.pinyin.replace(/\|/g, '\n') : '';
+        kyhieuElement.innerText = currentQuestion.kyhieu ? currentQuestion.kyhieu.replace(/\|/g, '\n') : '';
+        if (quizType === 'vocabulary') showAnalysis();
+        
+        // Hiển thị Hán tự trong mọi chế độ
+        questionElement.style.display = 'block';
+        
+        // Hiển thị pinyin và ký hiệu nếu có
+        pinyinElement.style.display = currentQuestion.pinyin ? 'block' : 'none';
+        kyhieuElement.style.display = currentQuestion.kyhieu ? 'block' : 'none';
+        
+        // Hiển thị pinyinContainer nếu có pinyin hoặc ký hiệu, hoặc trong Hội Thoại để chứa Hán tự
+        pinyinContainer.style.display = (currentQuestion.pinyin || currentQuestion.kyhieu || quizType === 'dialogue') ? 'flex' : 'none';
+        
+        // Xử lý phân tích cho Từ Vựng
+        if (quizType === 'vocabulary') {
+            phanTichContainer.style.display = 'block';
+            phanTichElement.style.display = 'block';
+        } else {
+            phanTichContainer.style.display = 'none';
+            phanTichElement.style.display = 'none';
+        }
+        
+        meaningContainer.style.display = 'block';
+        if (quizType === 'dialogue') {
+            dialogueDisplay.style.display = 'block';
+        }
+        isHintVisible = true;
+    }
+});
+
+    playButton.addEventListener('click', function() {
+    if (currentQuestion.linkmp3) {
+        setupAudio(audio, currentQuestion.linkmp3, currentQuestion.time);
+        playCurrentAudio(() => {});
+    } else {
+        console.warn('Không có linkmp3 để phát:', currentQuestion);
+    }
+});
+
+    function showRelatedHanzi() {
+        const hanzi = currentQuestion.hanzi;
+        const characters = hanzi.split('');
+        const relatedWords = allWords.filter(word => 
+            characters.some(char => word.hanzi.includes(char)) && word.hanzi !== hanzi
+        );
+
+        relatedHanziList.innerHTML = '';
+        if (relatedWords.length === 0) {
+            relatedHanziList.innerHTML = '<p>Không tìm thấy hanzi liên quan.</p>';
+        } else {
+            relatedWords.forEach(word => {
+                const p = document.createElement('p');
+                p.innerText = `${word.id}. ${word.hanzi} (${word.pinyin}): ${word.nghia} | Bài: ${word.bai}`;
+                relatedHanziList.appendChild(p);
+            });
+        }
+    }
+
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    function updateStatus() {
+        document.getElementById('wrong-count').innerText = `Số từ bị sai: ${wrongHanzi.length}`;
+        document.getElementById('total-count').innerText = `Tổng số từ: ${totalWords - questionCount}`;
+        document.getElementById('review-mode').style.display = isReviewMode ? 'inline' : 'none';
+    }
+
+    function getUniqueWrongOptions(currentHanzi, sourceArray, count) {
+        const filtered = sourceArray.filter(item => item.hanzi !== currentHanzi);
+        const shuffled = shuffle([...filtered]);
+        return shuffled.slice(0, Math.min(count, shuffled.length));
+    }
+
+    let totalWords = 0;
+
+    function loadNewQuestion() {
+	
+	// Ẩn hình ảnh hội thoại nếu không phải chế độ dialogue
+const dialogueImage = document.getElementById('dialogue-image');
+if (quizType !== 'dialogue') {
+    dialogueImage.style.display = 'none';
+}
+
+    currentScrambleAnswer = '';
+    document.getElementById('diceButton').disabled = false;
+    relatedHanziList.style.display = 'none';
+    document.getElementById('question').style.display = 'none';
+    document.getElementById('pinyin-container').style.display = 'none';
+    document.getElementById('pinyin').style.display = 'none';
+    document.getElementById('kyhieu').style.display = 'none';
+
+    const phanTichContainer = document.getElementById('phanTich-container');
+    const relatedBtn = document.querySelector('.related-btn');
+    const infoButton = document.getElementById('infoButton');
+    const authorButton = document.getElementById('authorButton');
+
+    infoButton.style.display = 'none';
+    authorButton.style.display = 'none';
+    // Xóa dòng này: relatedBtn.style.display = 'inline-block';
+    phanTichContainer.style.display = 'none';
+
+    // Cập nhật hiển thị nút 🔍 và 🔗
+    updateButtonVisibility();
+
+    // Đảm bảo status-container hiển thị cho Từ Vựng và Mẫu Câu
+    const statusContainer = document.getElementById('status-container');
+    if (quizType === 'vocabulary' || quizType === 'sentence') {
+        statusContainer.style.display = 'flex';
+    } else {
+        statusContainer.style.display = 'none';
+    }
+
+    let currentList = isReviewMode ? currentReviewList.map(id => allWords.find(word => word.id === id)).filter(word => word) : selectedHanzi;
+
+    if (quizType === 'dialogue') {
+        if (questionCount >= currentList.length || questionCount < 0) {
+            endGame();
+            return;
+        }
+        currentQuestion = currentList[questionCount];
+        if (!currentQuestion) {
+            console.error(`Không tìm thấy câu hỏi tại questionCount: ${questionCount}`);
+            endGame();
+            return;
+        }
+
+        // Hiển thị nút 📋 và 👲 cho Hội Thoại
+        if (currentQuestion.thongTin) {
+            infoButton.style.display = 'inline-block';
+            infoButton.onclick = () => showInfoPopup(currentQuestion.thongTin);
+        }
+        if (currentQuestion.tacGia) {
+            authorButton.style.display = 'inline-block';
+            authorButton.onclick = () => showAuthorPopup(currentQuestion.tacGia);
+        }
+
+        relatedBtn.style.display = 'none';
+        if (isWritingMode) {
+            startWritingMode();
+        } else if (isScrambleMode) {
+            startScrambleGame();
+        } else {
+            updateDialogueContainer();
+            document.getElementById('dialogue-display').style.display = 'block';
+            document.getElementById('option-buttons').style.display = 'none';
+            document.getElementById('meaning-container').style.display = showMeaning ? 'block' : 'none';
+        }
+    } else {
+        // Kiểm tra điều kiện chuyển sang chế độ ôn tập
+        if (questionCount >= maxWords || questionCount >= currentList.length) {
+            if (wrongHanzi.length > 0 && !isReviewMode) {
+                isReviewMode = true;
+                questionCount = 0;
+                currentReviewList = [...wrongHanzi];
+                totalWords = currentReviewList.length;
+                wrongHanzi = [];
+                currentList = currentReviewList.map(id => allWords.find(word => word.id === id)).filter(word => word);
+                const reviewHanziDisplay = document.getElementById('review-hanzi-display');
+                const reviewHanziList = document.getElementById('review-hanzi-list');
+                reviewHanziList.innerHTML = '';
+                currentList.forEach(word => {
+                    const li = document.createElement('li');
+                    li.textContent = `ID: ${word.id}, Hanzi: ${word.hanzi}`;
+                    reviewHanziList.appendChild(li);
+                });
+                reviewHanziDisplay.style.display = 'block';
+            } else {
+                endGame();
+                return;
+            }
+        }
+
+        currentQuestion = currentList[questionCount];
+        if (!currentQuestion) {
+            console.error(`Không tìm thấy câu hỏi tại questionCount: ${questionCount}`);
+            endGame();
+            return;
+        }
+
+        // Hiển thị nút 📋 cho Mẫu Câu
+        if (quizType === 'sentence' && currentQuestion.thongTin) {
+            infoButton.style.display = 'inline-block';
+            infoButton.onclick = () => showInfoPopup(currentQuestion.thongTin);
+        }
+
+        if (quizType === 'sentence') {
+            relatedBtn.style.display = 'none';
+        }
+
+        if (timerInterval) clearInterval(timerInterval);
+
+        document.getElementById('searchInput').value = currentQuestion.hanzi;
+
+        const meaningContainer = document.getElementById('meaning-container');
+        const optionButtons = document.getElementById('option-buttons');
+        const answerInput = document.getElementById('answerInput');
+
+        document.getElementById('meaning').innerText = currentQuestion.nghia.replace(/\|/g, '\n');
+        meaningContainer.style.display = showMeaning ? 'block' : 'none';
+        document.getElementById('dialogue-display').style.display = 'none';
+
+        if (isWritingMode) {
+            startWritingMode();
+        } else if (isScrambleMode) {
+            startScrambleGame();
+        } else {
+            optionButtons.style.display = 'grid';
+            isHintVisible = false;
+            if (currentQuestion.linkmp3) {
+                setupAudio(audio, currentQuestion.linkmp3, currentQuestion.time);
+                if (!showMeaning) {
+                    playCurrentAudio(() => {});
+                }
+            }
+
+            const optionCount = quizType === "vocabulary" ? 9 : 5;
+            const otherOptions = getUniqueWrongOptions(currentQuestion.hanzi, allWords, optionCount);
+            const options = shuffle([currentQuestion, ...otherOptions]);
+
+            optionButtons.innerHTML = '';
+            options.forEach(option => {
+                const button = document.createElement('button');
+                button.innerText = option.hanzi.replace(/\|/g, '\n');
+                button.style.justifyContent = quizType === "sentence" ? 'flex-start' : 'center';
+                button.addEventListener('click', () => validateAnswer(button, option));
+                optionButtons.appendChild(button);
+            });
+
+            document.getElementById('answerInput').value = '';
+            document.getElementById('answerInput').disabled = false;
+            document.getElementById('inputPinyinDisplay').textContent = '';
+
+            timeRemaining = timeLimit;
+            const timerElement = document.getElementById('timer');
+            timerElement.innerText = `Thời gian: ${timeRemaining}`;
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                timerElement.innerText = `Thời gian: ${timeRemaining}`;
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    const fakeOption = { hanzi: '' };
+                    validateAnswer(null, fakeOption);
+                }
+            }, 1000);
+        }
+    }
+
+    updateStatus();
+	
+}
+
+    function validateAnswer(button, selectedOption) {
+    const feedbackMessage = document.getElementById('feedback');
+    const pinyinElement = document.getElementById('pinyin');
+    const kyhieuElement = document.getElementById('kyhieu');
+    const pinyinContainer = document.getElementById('pinyin-container');
+    const phanTichElement = document.getElementById('phanTich');
+    const phanTichContainer = document.getElementById('phanTich-container');
+    const answerInput = document.getElementById('answerInput');
+    const meaningContainer = document.getElementById('meaning-container');
+    const questionElement = document.getElementById('question');
+    const readCompleteContainer = document.getElementById('read-complete-container');
+
+    if (selectedOption.hanzi === currentQuestion.hanzi) {
+        if (button) button.classList.add('correct');
+        feedbackMessage.innerText = 'Tốt lắm, bạn đã chọn đúng!';
+        feedbackMessage.style.display = 'block';
+        document.querySelectorAll('#option-buttons button').forEach(btn => btn.disabled = true);
+        answerInput.disabled = true;
+        if (timerInterval) clearInterval(timerInterval);
+
+        questionElement.innerText = currentQuestion.hanzi.replace(/\|/g, '\n');
+        pinyinElement.innerText = currentQuestion.pinyin.replace(/\|/g, '\n');
+        kyhieuElement.innerText = currentQuestion.kyhieu.replace(/\|/g, '\n');
+        if (quizType === 'vocabulary') showAnalysis();
+
+        questionElement.style.display = 'block';
+        pinyinElement.style.display = 'block';
+        kyhieuElement.style.display = 'block';
+        pinyinContainer.style.display = 'flex';
+        if (quizType === 'vocabulary') {
+earnedEXP += 1; // 1 điểm cho Từ Vựng
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            phanTichContainer.style.display = 'block';
+            phanTichElement.style.display = 'block';
+        } else {
+earnedEXP += 2; // 2 điểm cho Mẫu Câu
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            phanTichContainer.style.display = 'none';
+            phanTichElement.style.display = 'none';
+        }
+        meaningContainer.style.display = 'block';
+        isHintVisible = true;
+
+        const nextAction = () => {
+            feedbackMessage.style.display = 'none';
+            pinyinElement.style.display = 'none';
+            kyhieuElement.style.display = 'none';
+            pinyinContainer.style.display = 'none';
+            phanTichContainer.style.display = 'none';
+            phanTichElement.style.display = 'none';
+            questionElement.style.display = 'none';
+            readCompleteContainer.style.display = 'none';
+            meaningContainer.style.display = showMeaning ? 'block' : 'none';
+            isHintVisible = false;
+            answerInput.value = '';
+            answerInput.disabled = false;
+            questionCount++;
+            if (questionCount < selectedHanzi.length) {
+                loadNewQuestion();
+            } else {
+                // Kiểm tra chế độ ôn tập
+                if ((quizType === 'vocabulary' || quizType === 'sentence') && wrongHanzi.length > 0 && !isReviewMode) {
+                    isReviewMode = true;
+                    questionCount = 0;
+                    currentReviewList = [...wrongHanzi];
+                    totalWords = currentReviewList.length;
+                    wrongHanzi = [];
+                    selectedHanzi = currentReviewList.map(id => allWords.find(word => word.id === id)).filter(word => word);
+                    const reviewHanziDisplay = document.getElementById('review-hanzi-display');
+                    const reviewHanziList = document.getElementById('review-hanzi-list');
+                    reviewHanziList.innerHTML = '';
+                    selectedHanzi.forEach(word => {
+                        const li = document.createElement('li');
+                        li.textContent = `ID: ${word.id}, Hanzi: ${word.hanzi}`;
+                        reviewHanziList.appendChild(li);
+                    });
+                    reviewHanziDisplay.style.display = 'block';
+                    loadNewQuestion();
+                } else {
+                    endGame();
+                }
+            }
+        };
+
+        if (isNewWordMode) {
+            readCompleteContainer.style.display = 'block';
+            const readCompleteButton = document.getElementById('read-complete-button');
+            readCompleteButton.onclick = () => {
+                playCurrentAudio(nextAction);
+            };
+        } else {
+            playCurrentAudio(nextAction);
+        }
+    } else {
+        if (button) button.classList.add('incorrect');
+        feedbackMessage.innerText = 'Sai rồi, vui lòng chọn lại!';
+        feedbackMessage.style.display = 'block';
+        if (quizType === 'vocabulary' || quizType === 'sentence') {
+    if (!wrongHanzi.includes(currentQuestion.id)) {
+        wrongHanzi.push(currentQuestion.id);
+        const wrongHanziList = document.getElementById('wrong-hanzi-list');
+        const li = document.createElement('li');
+        li.textContent = `ID: ${currentQuestion.id}, Hanzi: ${currentQuestion.hanzi}`;
+        wrongHanziList.appendChild(li);
+    }
+    // Trừ điểm dựa trên loại quiz
+    if (quizType === 'vocabulary') {
+        earnedEXP -= 3;
+    } else if (quizType === 'sentence') {
+        earnedEXP -=6;
+    }
+    document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+}
+        setTimeout(() => {
+            if (button) button.classList.remove('incorrect');
+            feedbackMessage.innerText = '';
+            feedbackMessage.style.display = 'none';
+            answerInput.value = '';
+            updateStatus();
+        }, 200);
+    }
+}
+
+    function endGame() {
+    // Dừng timer nếu đang chạy
+    if (timerInterval) clearInterval(timerInterval);
+
+    // Vô hiệu hóa các nút và input
+    document.getElementById('answerInput').disabled = true;
+    document.getElementById('playButton').disabled = true;
+    document.getElementById('hintButton').disabled = true;
+    document.getElementById('diceButton').disabled = true;
+    document.getElementById('writeButton').disabled = true;
+    document.getElementById('write-dialogue-button').disabled = true;
+    document.getElementById('back-button').disabled = true;
+    document.getElementById('next-button').disabled = true;
+    document.querySelectorAll('#option-buttons button').forEach(btn => btn.disabled = true);
+    document.querySelectorAll('#scrambled-buttons button').forEach(btn => btn.disabled = true);
+
+    // Dừng audio
+    const audio = document.getElementById('audio');
+    audio.src = '';
+
+    // Kiểm tra nhiệm vụ ngẫu nhiên
+    let finalEXP = earnedEXP;
+    let missionMessage = '';
+    const lessonInput = document.getElementById('lesson-input').value.trim();
+    const lessonFilter = parseLessonInput(lessonInput);
+    if (randomMissionLesson && lessonFilter && lessonFilter.includes(randomMissionLesson.toString())) {
+        finalEXP *= 2;
+        missionMessage = `<div style="font-size: 18px; color: green; text-align: center; margin: 10px 0;">
+            Hoàn thành nhiệm vụ! EXP được nhân đôi!
+        </div>`;
+    }
+
+    // Kiểm tra nếu đang ở chế độ Từ Vựng hoặc Mẫu Câu và còn từ sai
+    if ((quizType === 'vocabulary' || quizType === 'sentence') && wrongHanzi.length > 0) {
+        // Chuyển sang chế độ ôn tập
+        isReviewMode = true;
+        questionCount = 0;
+        currentReviewList = [...wrongHanzi];
+        totalWords = currentReviewList.length;
+        wrongHanzi = []; // Xóa danh sách từ sai để bắt đầu lượt mới
+        selectedHanzi = currentReviewList.map(id => allWords.find(word => word.id === id)).filter(word => word);
+
+        // Cập nhật danh sách từ ôn tập
+        const reviewHanziDisplay = document.getElementById('review-hanzi-display');
+        const reviewHanziList = document.getElementById('review-hanzi-list');
+        reviewHanziList.innerHTML = '';
+        selectedHanzi.forEach(word => {
+            const li = document.createElement('li');
+            li.textContent = `ID: ${word.id}, Hanzi: ${word.hanzi}`;
+            reviewHanziList.appendChild(li);
+        });
+        reviewHanziDisplay.style.display = 'block';
+
+        // Tải câu hỏi mới
+        document.getElementById('answerInput').disabled = false;
+        document.getElementById('playButton').disabled = false;
+        document.getElementById('hintButton').disabled = false;
+        loadNewQuestion();
+    } else {
+        // Hiển thị popup thông báo hoàn thành
+        const popup = document.getElementById('endgame-popup');
+        const popupContent = document.getElementById('endgame-popup-content');
+        popupContent.innerHTML = `
+            <div style="font-size: 24px; color: green; text-align: center;">
+                Bài ôn tập đã hoàn thành!
+            </div>
+            ${missionMessage}
+            <div style="font-size: 18px; text-align: center; margin: 10px 0;">
+                Điểm kinh nghiệm kiếm được: ${finalEXP}
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button2 id="claim-exp-button" class="quiz-type-button">NHẬN ĐIỂM KINH NGHIỆM</button2>
+            </div>
+        `;
+        popup.style.display = 'block';
+
+        // Gắn sự kiện cho nút Nhận điểm kinh nghiệm
+        document.getElementById('claim-exp-button').addEventListener('click', () => claimExperience(finalEXP));
+    }
+}
+
+    function parseLessonInput(input) {
+    // Lấy danh sách bài hợp lệ dựa trên cấp độ hiện tại
+    const currentLevel = parseInt(document.getElementById('account-level').textContent) || 1;
+    const validLessons = lessonListData
+        .filter(item => currentLevel >= item.level_unlock)
+        .map(item => item.bai.toString());
+
+    if (!input) {
+        // Nếu input trống, chọn ngẫu nhiên một bài từ danh sách hợp lệ
+        if (validLessons.length === 0) {
+            alert('Không có bài nào hợp lệ hoặc đã mở khóa!');
+            return null;
+        }
+        const randomLesson = validLessons[Math.floor(Math.random() * validLessons.length)];
+        return [randomLesson];
+    }
+
+    if (input.includes('-')) {
+        const [start, end] = input.split('-').map(num => parseInt(num.trim()));
+        if (isNaN(start) || isNaN(end) || start > end) {
+            alert('Định dạng khoảng bài không hợp lệ!');
+            return null;
+        }
+        // Lọc chỉ các bài hợp lệ và đã mở khóa trong khoảng từ start đến end
+        const filteredLessons = [];
+        for (let i = start; i <= end; i++) {
+            if (validLessons.includes(i.toString())) {
+                filteredLessons.push(i.toString());
+            }
+        }
+        if (filteredLessons.length === 0) {
+            alert('Không có bài nào hợp lệ hoặc đã mở khóa trong khoảng đã chọn!');
+            return null;
+        }
+        return filteredLessons;
+    }
+
+    if (input.includes(',')) {
+        const lessons = input.split(',').map(num => num.trim());
+        // Lọc chỉ các bài hợp lệ và đã mở khóa
+        const filteredLessons = lessons.filter(num => !isNaN(parseInt(num)) && validLessons.includes(num));
+        if (filteredLessons.length === 0) {
+            alert('Không có bài nào hợp lệ hoặc đã mở khóa trong danh sách đã chọn!');
+            return null;
+        }
+        return filteredLessons;
+    }
+
+    const singleLesson = input.trim();
+    const lessonData = lessonListData.find(item => item.bai.toString() === singleLesson);
+    if (!lessonData) {
+        alert(`Bài ${singleLesson} không có trong danh sách bài hợp lệ!`);
+        return null;
+    }
+    if (currentLevel < lessonData.level_unlock) {
+        alert(`Bạn chưa đạt cấp ${lessonData.level_unlock} để mở khóa bài ${singleLesson}!`);
+        return null;
+    }
+    return [singleLesson];
+}
+
+    function startGame() {
+    const diceButton = document.getElementById('diceButton');
+    const writeButton = document.getElementById('writeButton');
+    const diceDialogueButton = document.getElementById('dice-button');
+    const writeDialogueButton = document.getElementById('write-dialogue-button');
+    
+    diceButton.style.display = (quizType === "sentence" || quizType === "dialogue") ? 'inline-block' : 'none';
+    writeButton.style.display = (quizType === "vocabulary" || quizType === "sentence") ? 'inline-block' : 'none';
+    diceDialogueButton.style.display = (quizType === "dialogue") ? 'inline-block' : 'none';
+    writeDialogueButton.style.display = (quizType === "dialogue") ? 'inline-block' : 'none';
+
+    const phanTichContainer = document.getElementById('phanTich-container');
+    const relatedBtn = document.querySelector('.related-btn');
+    if (quizType === 'dialogue' || quizType === 'sentence') {
+        phanTichContainer.style.display = 'none';
+        relatedBtn.style.display = 'none';
+    } else {
+        phanTichContainer.style.display = 'none';
+        // Xóa dòng này: relatedBtn.style.display = 'inline-block';
+    }
+
+    // Cập nhật hiển thị nút 🔍 và 🔗 dựa trên selectedMode
+    updateButtonVisibility();
+
+    const wordCountInput = document.getElementById('word-count');
+    const lessonInput = document.getElementById('lesson-input').value;
+    const timeLimitInput = document.getElementById('time-limit');
+
+    // Hiển thị status-container cho Từ Vựng và Mẫu Câu
+    const statusContainer = document.getElementById('status-container');
+    if (quizType === 'vocabulary' || quizType === 'sentence') {
+        statusContainer.style.display = 'flex';
+    } else {
+        statusContainer.style.display = 'none';
+    }
+
+    if (quizType !== 'dialogue') {
+        // Sử dụng toàn bộ số từ trong bài nếu để trống
+        maxWords = parseInt(wordCountInput.value) || Infinity;
+        if (!maxWords || maxWords < 1) maxWords = Infinity;
+
+        timeLimit = parseInt(timeLimitInput.value) || 20;
+        timeRemaining = timeLimit;
+    } else {
+        maxWords = Infinity;
+        timeLimit = 0;
+        timeRemaining = 0;
+    }
+
+    let filteredWords = [];
+    const lessonFilter = parseLessonInput(lessonInput);
+
+// Kiểm tra nếu lessonFilter là null (tức là không có bài hợp lệ)
+    if (!lessonFilter && lessonInput) {
+        return; // Dừng hàm startGame, không chạy game
+    }
+
+// Lấy danh sách các bài hợp lệ dựa trên cấp độ hiện tại
+    const currentLevel = parseInt(document.getElementById('account-level').textContent) || 1;
+    const validLessons = lessonListData
+        .filter(item => currentLevel >= item.level_unlock)
+        .map(item => item.bai.toString());
+
+    if (quizType === 'dialogue') {
+        selectedDialogue = document.getElementById('dialogue-number').value.trim();
+        filteredWords = dialogueData.filter(item => lessonFilter ? lessonFilter.includes(item.bai) : true);
+        if (filteredWords.length === 0) {
+            alert('Không tìm thấy dữ liệu hội thoại!');
+            return;
+        }
+
+        if (!selectedDialogue) {
+            let allDialogues = [];
+            filteredWords.forEach(item => {
+                const dialoguesInBai = Object.keys(item.hoiThoai)
+                    .filter(key => item.hoiThoai[key].length > 0)
+                    .map(key => item.hoiThoai[key]);
+                allDialogues = allDialogues.concat(dialoguesInBai);
+            });
+            if (allDialogues.length === 0) {
+                alert('Không tìm thấy hội thoại nào trong bài này!');
+                return;
+            }
+            allWords = shuffle([...allDialogues]).flat();
+        } else {
+            const dialogueNum = parseInt(selectedDialogue);
+            if (isNaN(dialogueNum) || dialogueNum < 1) {
+                alert('Vui lòng nhập số hội thoại hợp lệ!');
+                return;
+            }
+            allWords = filteredWords[0].hoiThoai[dialogueNum] || [];
+            if (allWords.length === 0) {
+                alert(`Không tìm thấy hội thoại số ${dialogueNum} trong bài này!`);
+                return;
+            }
+        }
+        selectedHanzi = allWords;
+        totalWords = selectedHanzi.length;
+    } else {
+        filteredWords = jsonData;
+        if (lessonFilter) {
+            filteredWords = jsonData.filter(word => lessonFilter.includes(word.bai));
+        }
+        allWords = filteredWords;
+        if (filteredWords.length === 0) {
+            alert('Không tìm thấy dữ liệu cho lựa chọn này!');
+            return;
+        }
+        if (maxWords > filteredWords.length) maxWords = filteredWords.length;
+        selectedHanzi = shuffle([...filteredWords]).slice(0, maxWords);
+        totalWords = selectedHanzi.length;
+    }
+
+    document.getElementById('start-screen').style.display = 'none';
+    document.getElementById('game-container').style.display = 'block';
+
+    const pinyinContainer = document.getElementById('pinyin-container');
+    const pinyinKyhieuGroup = document.querySelector('.pinyin-kyhieu-group');
+    const buttonGrid = document.getElementById('option-buttons');
+    const meaningContainer = document.getElementById('meaning-container');
+    const questionElement = document.getElementById('question');
+
+    if (quizType === "dialogue" || quizType === "sentence") {
+        pinyinContainer.style.textAlign = 'left';
+        pinyinContainer.style.marginTop = '0';
+        pinyinContainer.style.display = 'none';
+        pinyinContainer.style.flexDirection = 'column';
+        pinyinContainer.style.alignItems = 'flex-start';
+        pinyinKyhieuGroup.style.flexDirection = 'column';
+        pinyinKyhieuGroup.style.textAlign = 'left';
+        pinyinKyhieuGroup.style.justifyContent = 'flex-start';
+        buttonGrid.style.gridTemplateColumns = 'repeat(1, 1fr)';
+        meaningContainer.style.textAlign = 'left';
+        questionElement.style.textAlign = 'left';
+    } else {
+        pinyinContainer.style.textAlign = 'center';
+        pinyinContainer.style.marginTop = '0';
+        pinyinContainer.style.display = 'none';
+        pinyinContainer.style.flexDirection = 'column';
+        pinyinContainer.style.alignItems = 'center';
+        pinyinKyhieuGroup.style.flexDirection = 'row';
+        pinyinKyhieuGroup.style.textAlign = 'center';
+        pinyinKyhieuGroup.style.justifyContent = 'center';
+        buttonGrid.style.gridTemplateColumns = 'repeat(2, 1fr)';
+        meaningContainer.style.textAlign = 'center';
+        questionElement.style.textAlign = 'center';
+    }
+
+    questionCount = 0;
+    wrongHanzi = [];
+    isReviewMode = false;
+    currentReviewList = [];
+    loadNewQuestion();
+
+    const answerInput = document.getElementById('answerInput');
+    const inputPinyinDisplay = document.getElementById('inputPinyinDisplay');
+    const testButton = document.getElementById('testButton');
+    const autoCheck = document.getElementById('autoCheck');
+
+    function displayPinyin() {
+        const userInput = answerInput.value.trim();
+        inputPinyinDisplay.textContent = '';
+        if (userInput) {
+            const inputPinyin = hanziToPinyin(userInput);
+            inputPinyinDisplay.textContent = `Pinyin: ${inputPinyin}`;
+        }
+    }
+
+    function checkPinyin() {
+        const userInput = document.getElementById('answerInput').value.trim();
+        const feedbackMessage = document.getElementById('feedback');
+        const inputPinyinDisplay = document.getElementById('inputPinyinDisplay');
+        const readCompleteContainer = document.getElementById('read-complete-container');
+
+        if (!userInput) {
+            feedbackMessage.innerText = 'Vui lòng nhập Hán tự!';
+            feedbackMessage.style.display = 'block';
+            setTimeout(() => {
+                feedbackMessage.innerText = '';
+                feedbackMessage.style.display = 'none';
+            }, 1000);
+            return;
+        }
+
+        const cleanUserInput = userInput.replace(/[.,!?，。！？]/g, '');
+        const cleanQuestionHanzi = currentQuestion.hanzi.replace(/[.,!?，。！？]/g, '');
+        const inputPinyin = hanziToPinyin(cleanUserInput);
+        const questionPinyinOptions = getAllPinyinCombinations(cleanQuestionHanzi);
+        const isCorrect = isPinyinMatch(inputPinyin, questionPinyinOptions);
+
+        if (isCorrect) {
+            feedbackMessage.innerText = 'Tốt lắm, bạn đã chọn đúng!';
+            feedbackMessage.style.display = 'block';
+            document.getElementById('answerInput').disabled = true;
+            if (timerInterval) clearInterval(timerInterval);
+
+            const questionElement = document.getElementById('question');
+            const pinyinElement = document.getElementById('pinyin');
+            const kyhieuElement = document.getElementById('kyhieu');
+            const pinyinContainer = document.getElementById('pinyin-container');
+            const phanTichElement = document.getElementById('phanTich');
+            const phanTichContainer = document.getElementById('phanTich-container');
+            const meaningContainer = document.getElementById('meaning-container');
+
+            questionElement.innerText = currentQuestion.hanzi.replace(/\|/g, '\n');
+            pinyinElement.innerText = currentQuestion.pinyin ? currentQuestion.pinyin.replace(/\|/g, '\n') : hanziToPinyin(currentQuestion.hanzi);
+            kyhieuElement.innerText = currentQuestion.kyhieu ? currentQuestion.kyhieu.replace(/\|/g, '\n') : '';
+            questionElement.style.display = 'block';
+            pinyinElement.style.display = 'block';
+            kyhieuElement.style.display = currentQuestion.kyhieu ? 'block' : 'none';
+            pinyinContainer.style.display = 'flex';
+            meaningContainer.style.display = 'block';
+            if (quizType === 'vocabulary') {
+                showAnalysis();
+                phanTichContainer.style.display = 'block';
+                phanTichElement.style.display = 'block';
+if (quizType === 'vocabulary') {
+            earnedEXP += 2; // 2 điểm cho Từ Vựng
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+        } else if (quizType === 'sentence') {
+            earnedEXP += 4; // 4 điểm cho Mẫu Câu
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+        }
+            }
+
+            const nextAction = () => {
+                feedbackMessage.style.display = 'none';
+                questionCount++;
+                currentScrambleAnswer = '';
+                pinyinElement.style.display = 'none';
+                kyhieuElement.style.display = 'none';
+                pinyinContainer.style.display = 'none';
+                phanTichContainer.style.display = 'none';
+                phanTichElement.style.display = 'none';
+                questionElement.style.display = 'none';
+                readCompleteContainer.style.display = 'none';
+                meaningContainer.style.display = showMeaning ? 'block' : 'none';
+                document.getElementById('answerInput').value = '';
+                document.getElementById('answerInput').disabled = false;
+                inputPinyinDisplay.textContent = '';
+
+                if (questionCount < selectedHanzi.length) {
+                    if (quizType === 'sentence' && isScrambleMode) {
+                        startScrambleGame();
+                    } else {
+                        if (quizType === 'dialogue') {
+                            updateDialogueContainer();
+                        }
+                        loadNewQuestion();
+                    }
+                } else {
+                    endGame();
+                }
+            };
+
+            if (isNewWordMode) {
+                readCompleteContainer.style.display = 'block';
+                const readCompleteButton = document.getElementById('read-complete-button');
+                readCompleteButton.onclick = () => {
+                    playCurrentAudio(nextAction);
+                };
+            } else {
+                playCurrentAudio(nextAction);
+            }
+        } else {
+            feedbackMessage.innerText = 'Sai rồi, vui lòng nhập lại!';
+            feedbackMessage.style.display = 'block';
+            // Ghi nhận câu sai cho Từ Vựng và Mẫu Câu
+            if ((quizType === 'vocabulary' || quizType === 'sentence') && !wrongHanzi.includes(currentQuestion.id)) {
+                wrongHanzi.push(currentQuestion.id);
+                const wrongHanziList = document.getElementById('wrong-hanzi-list');
+                const li = document.createElement('li');
+                li.textContent = `ID: ${currentQuestion.id}, Hanzi: ${currentQuestion.hanzi}`;
+                wrongHanziList.appendChild(li);
+                updateStatus();
+            }
+            setTimeout(() => {
+                feedbackMessage.innerText = '';
+                feedbackMessage.style.display = 'none';
+                if (quizType !== 'dialogue') {
+                    document.getElementById('answerInput').value = '';
+                    inputPinyinDisplay.textContent = '';
+                }
+            }, 1000);
+        }
+    }
+
+    answerInput.removeEventListener('input', answerInput._inputHandler);
+    function inputHandler() {
+        displayPinyin();
+        if (autoCheck.checked) {
+            checkPinyin();
+        }
+    }
+    answerInput._inputHandler = inputHandler;
+    answerInput.addEventListener('input', inputHandler);
+
+    testButton.removeEventListener('click', testButton._clickHandler);
+    function testHandler() {
+        checkPinyin();
+    }
+    testButton._clickHandler = testHandler;
+    testButton.addEventListener('click', testHandler);
+	
+	// Ẩn hình ảnh hội thoại nếu không phải chế độ dialogue
+const dialogueImage = document.getElementById('dialogue-image');
+if (quizType !== 'dialogue') {
+    dialogueImage.style.display = 'none';
+}
+}
+
+    // Sự kiện cho diceButton (dùng trong Mẫu Câu và Hội Thoại)
+document.getElementById('diceButton').addEventListener('click', function() {
+    if (isWritingMode) {
+        stopWritingMode(); // Tắt chế độ tập viết nếu đang bật
+    }
+    if (!isScrambleMode) {
+        startScrambleGame(); // Bật chế độ xếp chữ
+    } else {
+        stopScrambleGame(); // Tắt chế độ xếp chữ
+    }
+});
+
+ function displayScrambleQuestion() {
+    const dialogueContainer = document.getElementById('dialogue-container');
+    dialogueContainer.innerHTML = '';
+
+    const hanzi = currentQuestion.hanzi.replace(/\|/g, '');
+    const correctAnswer = hanzi;
+    const validChars = correctAnswer.split('').filter(char => !/[.,!?，。！？]/.test(char));
+    let hiddenHanzi = '';
+    let answerIndex = 0; // Chỉ số theo dõi vị trí trong currentScrambleAnswer
+
+    for (let j = 0; j < correctAnswer.length; j++) {
+        if (/[.,!?，。！？]/.test(correctAnswer[j])) {
+            hiddenHanzi += correctAnswer[j]; // Giữ nguyên dấu câu
+        } else {
+            if (answerIndex < currentScrambleAnswer.length) {
+                hiddenHanzi += currentScrambleAnswer[answerIndex];
+                answerIndex++;
+            } else {
+                hiddenHanzi += '*';
+                answerIndex++;
+            }
+        }
+    }
+
+    const dialogueBox = document.createElement('div');
+    dialogueBox.className = 'dialogue-box';
+    dialogueBox.innerText = hiddenHanzi;
+    dialogueContainer.appendChild(dialogueBox);
+}
+
+function startScrambleGame() {
+    isScrambleMode = true;
+    document.getElementById('writing-container').style.display = 'none';
+    document.getElementById('option-buttons').style.display = 'none';
+    document.getElementById('word-scramble-game').style.display = 'none';
+    document.getElementById('question').style.display = 'none';
+    document.getElementById('pinyin-container').style.display = 'none';
+    document.getElementById('dialogue-display').style.display = 'block';
+
+    // Ẩn nút Back và Next trong Mẫu Câu
+    if (quizType === 'sentence') {
+        document.getElementById('back-button').style.display = 'none';
+        document.getElementById('next-button').style.display = 'none';
+    } else {
+        document.getElementById('back-button').style.display = 'inline-block';
+        document.getElementById('next-button').style.display = 'inline-block';
+    }
+
+    // Cập nhật currentQuestion dựa trên questionCount
+    if (questionCount < selectedHanzi.length) {
+        currentQuestion = selectedHanzi[questionCount];
+    }
+
+    currentScrambleAnswer = '';
+
+    // Cập nhật Dịch nghĩa
+    document.getElementById('meaning').innerText = currentQuestion.nghia.replace(/\|/g, '\n');
+    document.getElementById('meaning-container').style.display = showMeaning ? 'block' : 'none';
+
+    // Phát âm thanh khi bắt đầu câu hỏi
+    if (currentQuestion.linkmp3) {
+        setupAudio(audio, currentQuestion.linkmp3, currentQuestion.time);
+        playCurrentAudio(() => {});
+    }
+
+    // Hiển thị câu hỏi
+    if (quizType === 'sentence') {
+        displayScrambleQuestion();
+    } else {
+        updateDialogueContainer();
+    }
+
+    // Lọc bỏ dấu câu khỏi danh sách ký tự cho nút xếp chữ
+    const hanzi = currentQuestion.hanzi.replace(/\|/g, '');
+    const characters = hanzi.split('').filter(char => !/[.,!?，。！？]/.test(char));
+    const shuffledChars = shuffle([...characters]);
+
+    const scrambleButtonsContainer = document.getElementById('scrambled-buttons');
+    scrambleButtonsContainer.innerHTML = '';
+    scrambleButtonsContainer.style.display = 'flex';
+    shuffledChars.forEach(char => {
+        const button = document.createElement('button');
+        button.innerText = char;
+        button.addEventListener('click', () => handleScrambleButtonClick(button, char));
+        scrambleButtonsContainer.appendChild(button);
+    });
+}
+
+function stopScrambleGame() {
+    isScrambleMode = false;
+    document.getElementById('word-scramble-game').style.display = 'none';
+    document.getElementById('scrambled-buttons').style.display = 'none';
+    document.getElementById('diceButton').disabled = false;
+
+    if (quizType === 'sentence') {
+        // Khôi phục giao diện nút bấm cho Mẫu Câu
+        document.getElementById('dialogue-display').style.display = 'none';
+        document.getElementById('option-buttons').style.display = 'grid';
+        document.getElementById('meaning-container').style.display = showMeaning ? 'block' : 'none';
+        document.getElementById('back-button').style.display = 'none';
+        document.getElementById('next-button').style.display = 'none';
+        loadNewQuestion(); // Tải lại giao diện nút bấm
+    } else {
+        // Giữ giao diện Hội Thoại
+        document.getElementById('dialogue-display').style.display = 'block';
+        document.getElementById('option-buttons').style.display = 'none';
+        document.getElementById('back-button').style.display = 'inline-block';
+        document.getElementById('next-button').style.display = 'inline-block';
+        updateDialogueContainer();
+    }
+}
+
+function handleScrambleButtonClick(button, char) {
+    const correctAnswer = currentQuestion.hanzi.replace(/\|/g, '').replace(/[.,!?，。！？]/g, '');
+    const nextChar = correctAnswer[currentScrambleAnswer.length];
+
+    if (char === nextChar) {
+        currentScrambleAnswer += char;
+        button.style.display = 'none';
+
+// Award 1 EXP for each correct character
+        earnedEXP += 1;
+        document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+
+        if (quizType === 'sentence') {
+            displayScrambleQuestion();
+        } else {
+            updateDialogueContainer();
+        }
+
+        if (currentScrambleAnswer === correctAnswer) {
+            document.getElementById('feedback').innerText = 'Tốt lắm, bạn đã chọn đúng!';
+            document.getElementById('feedback').style.display = 'block';
+            document.getElementById('answerInput').disabled = true;
+            if (timerInterval) clearInterval(timerInterval);
+
+            const questionElement = document.getElementById('question');
+            const pinyinElement = document.getElementById('pinyin');
+            const kyhieuElement = document.getElementById('kyhieu');
+            const pinyinContainer = document.getElementById('pinyin-container');
+            const phanTichElement = document.getElementById('phanTich');
+            const phanTichContainer = document.getElementById('phanTich-container');
+            const meaningContainer = document.getElementById('meaning-container');
+            const readCompleteContainer = document.getElementById('read-complete-container');
+
+            questionElement.innerText = currentQuestion.hanzi.replace(/\|/g, '\n');
+            pinyinElement.innerText = currentQuestion.pinyin ? currentQuestion.pinyin.replace(/\|/g, '\n') : hanziToPinyin(currentQuestion.hanzi);
+            kyhieuElement.innerText = currentQuestion.kyhieu ? currentQuestion.kyhieu.replace(/\|/g, '\n') : '';
+            questionElement.style.display = 'block';
+            pinyinElement.style.display = 'block';
+            kyhieuElement.style.display = currentQuestion.kyhieu ? 'block' : 'none';
+            pinyinContainer.style.display = 'flex';
+            meaningContainer.style.display = 'block';
+            if (quizType === 'vocabulary') {
+                showAnalysis();
+                phanTichContainer.style.display = 'block';
+                phanTichElement.style.display = 'block';
+                earnedEXP += 0; // 1 điểm cho Từ Vựng
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            } else if (quizType === 'sentence') {
+               earnedEXP += 0; // 5 điểm cho Mẫu Câu
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            }
+
+            const nextAction = () => {
+                document.getElementById('feedback').style.display = 'none';
+                currentScrambleAnswer = '';
+                pinyinElement.style.display = 'none';
+                kyhieuElement.style.display = 'none';
+                pinyinContainer.style.display = 'none';
+                phanTichContainer.style.display = 'none';
+                phanTichElement.style.display = 'none';
+                questionElement.style.display = 'none';
+                readCompleteContainer.style.display = 'none';
+                meaningContainer.style.display = showMeaning ? 'block' : 'none';
+                document.getElementById('answerInput').value = '';
+                document.getElementById('answerInput').disabled = false;
+                document.getElementById('inputPinyinDisplay').textContent = '';
+
+                questionCount++;
+                if (questionCount < selectedHanzi.length) {
+                    if (quizType === 'sentence' && isScrambleMode) {
+                        startScrambleGame();
+                    } else {
+                        if (quizType === 'dialogue') {
+                            updateDialogueContainer();
+                        }
+                        loadNewQuestion();
+                    }
+                } else {
+                    endGame();
+                }
+            };
+
+            if (isNewWordMode) {
+                readCompleteContainer.style.display = 'block';
+                const readCompleteButton = document.getElementById('read-complete-button');
+                readCompleteButton.onclick = () => {
+                    playCurrentAudio(nextAction);
+                };
+            } else {
+                playCurrentAudio(nextAction);
+            }
+        }
+    } else {
+        button.classList.add('incorrect');
+// Trừ 2 điểm khi chọn sai ký tự trong chế độ Mẫu câu hoặc Hội thoại
+        if (quizType === 'sentence' || quizType === 'dialogue') {
+            earnedEXP -=2;
+            document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+        }
+        setTimeout(() => {
+            button.classList.remove('incorrect');
+        }, 200);
+    }
+}
+
+    document.getElementById('back-button').addEventListener('click', function() {
+        if (quizType === 'dialogue' && questionCount > 0) {
+earnedEXP -=2;
+            document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            questionCount--;
+            currentScrambleAnswer = '';
+            loadNewQuestion();
+        }
+    });
+
+    document.getElementById('next-button').addEventListener('click', function() {
+    if (quizType === 'dialogue' && showMeaning && currentQuestion.linkmp3) {
+        // Phát audio trước khi xử lý logic Next
+        const audio = document.getElementById('audio');
+        setupAudio(audio, currentQuestion.linkmp3, currentQuestion.time);
+        playCurrentAudio(() => {
+            // Callback: Thực hiện logic Next sau khi audio phát xong
+            if (questionCount < selectedHanzi.length - 1) {
+                earnedEXP += 2; // 2 điểm cho mỗi câu Hội Thoại
+                document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+                questionCount++;
+                currentScrambleAnswer = '';
+                loadNewQuestion();
+            } else {
+                earnedEXP += 2; // Thêm 2 điểm cho câu cuối
+                document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+                endGame();
+            }
+        });
+    } else if (quizType === 'dialogue') {
+        // Hành vi bình thường cho Hội Thoại (khi showMeaning = false hoặc không có linkmp3)
+        if (questionCount < selectedHanzi.length - 1) {
+            earnedEXP += 2; // 2 điểm cho mỗi câu Hội Thoại
+            document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            questionCount++;
+            currentScrambleAnswer = '';
+            loadNewQuestion();
+        } else {
+            earnedEXP += 2; // Thêm 2 điểm cho câu cuối
+            document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            endGame();
+        }
+    }
+});
+
+    function showHanziPopup(char) {
+    const popup = document.getElementById('hanzi-popup');
+    const popupContent = document.getElementById('hanzi-popup-content');
+    let content = '';
+
+    // Kiểm tra xem char có phải là từ/cụm từ mới trong hanzi3Data không
+    const lessonInput = document.getElementById('lesson-input').value.trim();
+    const lessonFilter = parseLessonInput(lessonInput) || [];
+    const wordInfo = hanzi3Data.find(item => item.hanzi === char && lessonFilter.includes(item.bai));
+    if (wordInfo) {
+        content += '<strong style="color: darkblue; text-align: center; display: block;">Thông tin từ mới:</strong>';
+        content += `<p><strong>Từ mới: </strong><span style="color: red">${char}</span> <span style="color: blue">(${wordInfo.pinyin})</span></p>`;
+        content += `<p><strong>Hán việt: </strong><span style="color: green">${wordInfo.kyhieu.replace(/\|/g, '\n')}</span></p>`;
+        content += `<p><strong>Nghĩa: </strong><span style="color: green">${wordInfo.nghia.replace(/\|/g, '\n')}</span></p>`;
+        if (wordInfo.phanTich) {
+            content += `<p><strong>Phân tích:</strong></p>`;
+            content += `<p><span style="color: blue">${wordInfo.phanTich.replace(/\|/g, '\n')}</span></p>`;
+        }
+        content += '<hr>'; // Thêm đường phân cách sau thông tin từ/cụm từ mới
+    }
+
+    // Tách cụm từ thành từng ký tự và lấy thông tin từ bangHanTuData
+    const characters = char.split('');
+    content += '<strong style="color: darkblue; text-align: center; display: block;">Phân tích Hán Tự:</strong>';
+    characters.forEach(c => {
+        const hanTuInfo = bangHanTuData.find(item => item.hanTu === c);
+        const pinyinInfo = pinyinTuDienData[c];
+        content += `<p><strong>Hán Tự:</strong> <span style="color: red">${c}</span></p>`;
+        if (pinyinInfo) {
+            content += `<p><strong>Pinyin:</strong> <span style="color: blue">${pinyinInfo}</span></p>`;
+        } else {
+            content += `<p>Không tìm thấy pinyin cho Hán tự: <span style="color: purple">${c}</span></p>`;
+        }
+        if (hanTuInfo) {
+            content += `<p><span style="color: purple">${hanTuInfo.cauTao.replace(/\|/g, '\n')}</span></p>`;
+        } else {
+            content += `<p>Không tìm thấy cấu tạo cho Hán tự: <span style="color: purple">${c}</span></p>`;
+        }
+        content += '<hr class="dashed-divider">'; // Thêm đường nét đứt giữa các ký tự
+    });
+
+    popupContent.innerHTML = content;
+    popup.style.display = 'block';
+}
+
+    function closeHanziPopup() {
+        document.getElementById('hanzi-popup').style.display = 'none';
+    }
+
+    function updateDialogueContainer() {
+    const dialogueContainer = document.getElementById('dialogue-container');
+    const dialogueDisplay = document.getElementById('dialogue-display');
+    const dialogueImage = document.getElementById('dialogue-image');
+    const meaningContainer = document.getElementById('meaning-container');
+    const optionButtons = document.getElementById('option-buttons');
+    const answerInput = document.getElementById('answerInput');
+
+    dialogueContainer.innerHTML = '';
+
+    // Lấy danh sách từ mới từ hanzi3Data tương ứng với bài hiện tại
+    const lessonInput = document.getElementById('lesson-input').value.trim();
+    const lessonFilter = parseLessonInput(lessonInput) || [];
+    const newWords = hanzi3Data.filter(word => lessonFilter.includes(word.bai)).map(word => word.hanzi);
+
+    for (let i = 0; i <= questionCount; i++) {
+        const question = selectedHanzi[i];
+        if (!question) continue;
+
+        const dialogueBox = document.createElement('div');
+        dialogueBox.className = 'dialogue-box';
+        if (question.kieu === 'A') {
+            dialogueBox.classList.add('kieu-A');
+        } else if (question.kieu === 'B') {
+            dialogueBox.classList.add('kieu-B');
+        } else if (question.kieu === 'C') {
+            dialogueBox.classList.add('kieu-C');
+        } else if (question.kieu === 'D') {
+            dialogueBox.classList.add('kieu-D');
+        } else if (question.kieu === 'E') {
+            dialogueBox.classList.add('kieu-E');
+        } else if (question.kieu === 'F') {
+            dialogueBox.classList.add('kieu-F');
+        } else if (question.kieu === 'G') {
+            dialogueBox.classList.add('kieu-G');
+        }
+
+        const nhanVatSpan = document.createElement('span');
+        nhanVatSpan.className = 'nhanvat';
+        nhanVatSpan.innerText = question.nhanVat ? `${question.nhanVat} ` : '';
+        dialogueBox.appendChild(nhanVatSpan);
+
+        const hanziContainer = document.createElement('span');
+        const hanzi = question.hanzi.replace(/\|/g, '');
+
+        if (i === questionCount && (isScrambleMode || isWritingMode)) {
+            const validChars = hanzi.split('').filter(char => !/[.,!?，。！？]/.test(char));
+            let hiddenHanzi = '';
+            let answerIndex = 0;
+
+            hanzi.split('').forEach(char => {
+                if (/[.,!?，。！？]/.test(char)) {
+                    hiddenHanzi += char;
+                } else {
+                    if (answerIndex < currentScrambleAnswer.length) {
+                        hiddenHanzi += currentScrambleAnswer[answerIndex];
+                        answerIndex++;
+                    } else {
+                        hiddenHanzi += '*';
+                        answerIndex++;
+                    }
+                }
+            });
+
+            hanziContainer.innerText = hiddenHanzi;
+        } else {
+            let currentText = '';
+            let j = 0;
+            while (j < hanzi.length) {
+                let matched = false;
+                // Kiểm tra các cụm từ mới có độ dài từ dài đến ngắn
+                for (let len = Math.min(4, hanzi.length - j); len >= 1; len--) {
+                    const substring = hanzi.substr(j, len);
+                    if (newWords.includes(substring)) {
+                        const wordSpan = document.createElement('span');
+                        wordSpan.style.color = 'red';
+                        wordSpan.className = 'hanzi-clickable';
+                        wordSpan.innerText = substring;
+                        wordSpan.addEventListener('click', () => showHanziPopup(substring));
+                        hanziContainer.appendChild(wordSpan);
+                        j += len;
+                        matched = true;
+                        break;
+                    }
+                }
+                if (!matched) {
+                    const char = hanzi[j];
+                    const charSpan = document.createElement('span');
+                    if (char.trim() && !/[.,!?，。！？]/.test(char)) {
+                        charSpan.className = 'hanzi-clickable';
+                        charSpan.addEventListener('click', () => showHanziPopup(char));
+                    }
+                    charSpan.innerText = char;
+                    hanziContainer.appendChild(charSpan);
+                    j++;
+                }
+            }
+        }
+        dialogueBox.appendChild(hanziContainer);
+        dialogueContainer.appendChild(dialogueBox);
+    }
+
+    currentQuestion = selectedHanzi[questionCount];
+    if (!currentQuestion) return;
+
+    dialogueDisplay.style.display = 'block';
+    dialogueImage.src = currentQuestion.anh || '';
+    dialogueImage.style.display = !currentQuestion.anh ? 'none' : 'block';
+    document.getElementById('meaning').innerText = currentQuestion.nghia ? currentQuestion.nghia.replace(/\|/g, '\n') : '';
+    meaningContainer.style.display = showMeaning ? 'block' : 'none';
+    optionButtons.style.display = 'none';
+    document.getElementById('timer').innerText = '';
+
+    dialogueContainer.scrollTop = dialogueContainer.scrollHeight;
+    dialogueDisplay.scrollTop = dialogueDisplay.scrollHeight;
+
+    isHintVisible = false;
+    document.getElementById('question').style.display = 'none';
+    document.getElementById('pinyin-container').style.display = 'none';
+    document.getElementById('pinyin').style.display = 'none';
+    document.getElementById('kyhieu').style.display = 'none';
+    document.getElementById('phanTich-container').style.display = 'none';
+    document.getElementById('phanTich').style.display = 'none';
+
+    if (!isScrambleMode && !isWritingMode && currentQuestion.linkmp3 && !showMeaning) {
+        setupAudio(audio, currentQuestion.linkmp3, currentQuestion.time);
+        playCurrentAudio(() => {});
+    }
+
+    answerInput.value = '';
+    answerInput.disabled = false;
+    document.getElementById('inputPinyinDisplay').textContent = '';
+
+    updateStatus();
+}
+
+function showInfoPopup(txtLink) {
+    const popup = document.getElementById('info-popup');
+    const popupContent = document.getElementById('info-popup-content');
+
+    fetch(txtLink)
+        .then(response => {
+            if (!response.ok) throw new Error('Không thể tải file thông tin');
+            return response.text();
+        })
+        .then(data => {
+            // Tách nội dung thành các dòng
+            const lines = data.split('\n');
+            let htmlContent = '';
+            
+            // Xử lý từng dòng
+            lines.forEach(line => {
+                // Loại bỏ khoảng trắng đầu/cuối dòng
+                const trimmedLine = line.trim();
+                
+                // Kiểm tra dòng có khớp với mẫu _*.txt không
+                if (trimmedLine.match(/^_[^.]+\.txt$/)) {
+                    // Tạo nút bấm với tên tùy chỉnh
+                    htmlContent += `<a href="#" onclick="showNestedInfoPopup('${trimmedLine}'); return false;">>>Bấm để xem<<</a>\n`;
+                } else {
+                    // Giữ nguyên dòng dưới dạng văn bản, thoát ký tự HTML
+                    htmlContent += `${line.replace(/</g, '<').replace(/>/g, '>')}\n`;
+                }
+            });
+
+            // Gán nội dung đã xử lý
+            popupContent.innerHTML = htmlContent;
+            popup.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Lỗi khi tải file thông tin:', error);
+            popupContent.innerText = 'Không thể tải thông tin.';
+            popup.style.display = 'block';
+        });
+}
+
+function showNestedInfoPopup(txtLink) {
+    const popup = document.getElementById('nested-info-popup');
+    const popupContent = document.getElementById('nested-info-popup-content');
+
+    fetch(txtLink)
+        .then(response => {
+            if (!response.ok) throw new Error('Không thể tải file thông tin liên kết');
+            return response.text();
+        })
+        .then(data => {
+            // Tách nội dung thành các dòng
+            const lines = data.split('\n');
+            let htmlContent = '';
+            
+            // Xử lý từng dòng
+            lines.forEach(line => {
+                // Loại bỏ khoảng trắng đầu/cuối dòng
+                const trimmedLine = line.trim();
+                
+                // Kiểm tra dòng có khớp với mẫu _*.txt không
+                if (trimmedLine.match(/^_[^.]+\.txt$/)) {
+                    // Tạo nút bấm với tên tùy chỉnh
+                    htmlContent += `<a href="#" onclick="showNestedInfoPopup('${trimmedLine}'); return false;">>>Bấm để xem<<</a>\n`;
+                } else {
+                    // Giữ nguyên dòng dưới dạng văn bản, thoát ký tự HTML
+                    htmlContent += `${line.replace(/</g, '<').replace(/>/g, '>')}\n`;
+                }
+            });
+
+            // Gán nội dung đã xử lý
+            popupContent.innerHTML = htmlContent;
+            popup.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Lỗi khi tải file thông tin liên kết:', error);
+            popupContent.innerText = 'Không thể tải thông tin liên kết.';
+            popup.style.display = 'block';
+        });
+}
+
+function closeNestedInfoPopup() {
+    document.getElementById('nested-info-popup').style.display = 'none';
+}
+
+function showAuthorPopup(txtLink) {
+    const popup = document.getElementById('author-popup');
+    const popupContent = document.getElementById('author-popup-content');
+
+    fetch(txtLink)
+        .then(response => {
+            if (!response.ok) throw new Error('Không thể tải file tác giả');
+            return response.text();
+        })
+        .then(data => {
+            const lines = data.split('\n');
+            const imageUrl = lines[0].trim();
+            const textContent = lines.slice(1).join('\n');
+
+            let content = '';
+            if (imageUrl.endsWith('.jpg') || imageUrl.endsWith('.png')) {
+                content += `<img src="${imageUrl}" alt="Author Image">`;
+            }
+            content += `<div>${textContent}</div>`;
+
+            popupContent.innerHTML = content;
+            popup.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Lỗi khi tải file tác giả:', error);
+            popupContent.innerText = 'Không thể tải thông tin tác giả.';
+            popup.style.display = 'block';
+        });
+}
+
+document.querySelectorAll('.meaning-button').forEach(button => {
+    button.addEventListener('click', () => {
+        console.log('Meaning button clicked:', button.getAttribute('data-value')); // Debug
+        // Xóa lớp active từ tất cả các nút
+        document.querySelectorAll('.meaning-button').forEach(btn => btn.classList.remove('active'));
+        // Thêm lớp active cho nút được nhấn
+        button.classList.add('active');
+        // Cập nhật showMeaning dựa trên data-value
+        showMeaning = button.getAttribute('data-value') === 'show';
+        console.log('showMeaning updated to:', showMeaning); // Debug
+    });
+});
+
+function updateButtonVisibility() {
+    const relatedBtn = document.querySelector('.related-btn');
+    const magnifierBtn = document.querySelector('.magnifier-btn');
+    
+    if (selectedMode === 'taiwanese') {
+        relatedBtn.style.display = 'inline-block';
+        magnifierBtn.style.display = 'inline-block';
+    } else {
+        relatedBtn.style.display = 'none';
+        magnifierBtn.style.display = 'none';
+    }
+}
+
+function closeInfoPopup() {
+    document.getElementById('info-popup').style.display = 'none';
+}
+
+function closeAuthorPopup() {
+    document.getElementById('author-popup').style.display = 'none';
+}
+
+// Sự kiện cho writeButton (dùng trong Từ Vựng và Mẫu Câu)
+document.getElementById('writeButton').addEventListener('click', function() {
+    if (isScrambleMode) {
+        stopScrambleGame(); // Tắt chế độ xếp chữ nếu đang bật
+    }
+    if (!isWritingMode) {
+        startWritingMode(); // Bật chế độ tập viết
+    } else {
+        stopWritingMode(); // Tắt chế độ tập viết
+    }
+});
+
+// Sự kiện cho write-dialogue-button (dùng trong Hội Thoại)
+document.getElementById('write-dialogue-button').addEventListener('click', function() {
+    if (isScrambleMode) {
+        stopScrambleGame(); // Tắt chế độ xếp chữ nếu đang bật
+    }
+    if (!isWritingMode) {
+        startWritingMode(); // Bật chế độ tập viết
+    } else {
+        stopWritingMode(); // Tắt chế độ tập viết
+    }
+});
+
+document.getElementById('back-to-mode-button').addEventListener('click', () => {
+    document.getElementById('start-screen').style.display = 'none';
+    document.getElementById('mode-selection-screen').style.display = 'block';
+    // Reset các trạng thái nếu cần
+    document.getElementById('quiz-type-buttons').style.display = 'none';
+    document.querySelectorAll('.mode-button').forEach(btn => btn.classList.remove('active'));
+});
+
+document.getElementById('homeButton').addEventListener('click', () => {
+    if (confirm('Bạn có muốn quay về màn hình chọn chế độ? Tiến độ hiện tại sẽ bị mất.')) {
+        // Ẩn các container không cần thiết
+        document.getElementById('game-container').style.display = 'none';
+        document.getElementById('start-screen').style.display = 'none';
+        document.getElementById('endgame-popup').style.display = 'none';
+        
+        // Ẩn các bảng chức năng
+        document.getElementById('related-hanzi-list').style.display = 'none';
+        document.getElementById('menuContainer').style.display = 'none';
+        document.getElementById('searchContainer').style.display = 'none';
+        document.getElementById('translateContainer').style.display = 'none';
+        document.getElementById('hanziiContainer').style.display = 'none';
+        document.getElementById('hanzi-popup').style.display = 'none';
+        document.getElementById('info-popup').style.display = 'none';
+        document.getElementById('author-popup').style.display = 'none';
+        document.getElementById('nested-info-popup').style.display = 'none';
+
+        // Hiển thị màn hình chọn chế độ
+        const modeSelectionScreen = document.getElementById('mode-selection-screen');
+        modeSelectionScreen.style.display = 'block';
+        
+        // Đảm bảo các thành phần bên trong mode-selection-screen hiển thị
+        const quizTypeButtons = document.getElementById('quiz-type-buttons');
+        quizTypeButtons.style.display = 'none'; // Ẩn nút loại ôn tập
+        const accountInfo = document.getElementById('account-info');
+        accountInfo.style.display = 'block';
+        
+        // Đảm bảo các nút chế độ hiển thị
+        document.querySelectorAll('.mode-button').forEach(btn => {
+            btn.style.display = 'block';
+            btn.classList.remove('active');
+        });
+
+        // Reset trạng thái trò chơi
+        questionCount = 0;
+        wrongHanzi = [];
+        selectedHanzi = [];
+        isReviewMode = false;
+        isScrambleMode = false;
+        isWritingMode = false;
+        isNewWordMode = false;
+        currentScrambleAnswer = '';
+        currentCharIndex = 0;
+        randomMissionLesson = null; // Reset nhiệm vụ ngẫu nhiên
+        earnedEXP = 0; // Reset EXP kiếm được
+document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+
+        // Reset giao diện trò chơi
+        document.getElementById('answerInput').value = '';
+        document.getElementById('answerInput').disabled = false;
+        document.getElementById('playButton').disabled = false;
+        document.getElementById('hintButton').disabled = false;
+        document.getElementById('wrong-hanzi-list').innerHTML = '';
+        document.getElementById('review-hanzi-list').innerHTML = '';
+        document.getElementById('review-hanzi-display').style.display = 'none';
+        document.getElementById('option-buttons').innerHTML = '';
+        document.getElementById('scrambled-buttons').innerHTML = '';
+        document.getElementById('dialogue-container').innerHTML = '';
+        document.getElementById('writing-container').style.display = 'none';
+        document.getElementById('pinyin-container').style.display = 'none';
+        document.getElementById('phanTich-container').style.display = 'none';
+        document.getElementById('meaning-container').style.display = 'none';
+        document.getElementById('dialogue-display').style.display = 'none';
+
+        // Reset các trường input
+        document.getElementById('lesson-input').value = '';
+        document.getElementById('word-count').value = '30';
+        document.getElementById('time-limit').value = '20';
+        document.getElementById('dialogue-number').value = '';
+
+        // Reset audio
+        const audio = document.getElementById('audio');
+        audio.src = '';
+        audio.pause();
+
+        // Dừng timer nếu đang chạy
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
+
+        // Đảm bảo header-container hiển thị
+        document.querySelector('.header-container').style.display = 'block';
+
+        // Tải lại dữ liệu tài khoản để đảm bảo thông tin mới nhất
+        loadAccountData();
+    }
+});
+
+function returnToModeSelection() {
+    // Ẩn popup
+    document.getElementById('hanzi-popup').style.display = 'none';
+
+    // Ẩn game-container
+    document.getElementById('game-container').style.display = 'none';
+
+    // Hiển thị mode-selection-screen
+    document.getElementById('mode-selection-screen').style.display = 'block';
+
+    // Reset trạng thái trò chơi
+    document.getElementById('quiz-type-buttons').style.display = 'none';
+    document.querySelectorAll('.mode-button').forEach(btn => btn.classList.remove('active'));
+    questionCount = 0;
+    wrongHanzi = [];
+    selectedHanzi = [];
+    isReviewMode = false;
+    isScrambleMode = false;
+    isWritingMode = false;
+    isNewWordMode = false;
+    currentScrambleAnswer = '';
+    currentCharIndex = 0;
+    document.getElementById('answerInput').value = '';
+    document.getElementById('answerInput').disabled = false;
+    document.getElementById('playButton').disabled = false;
+    document.getElementById('hintButton').disabled = false;
+    document.getElementById('wrong-hanzi-list').innerHTML = '';
+    document.getElementById('review-hanzi-list').innerHTML = '';
+    document.getElementById('review-hanzi-display').style.display = 'none';
+
+    // Reset các trường input
+    document.getElementById('lesson-input').value = '';
+    document.getElementById('word-count').value = '30';
+    document.getElementById('time-limit').value = '20';
+    document.getElementById('dialogue-number').value = '';
+
+// Đóng endgame-popup
+    const popup = document.getElementById('endgame-popup');
+    if (popup) {
+        popup.style.display = 'none';
+    }
+
+    // Reset các biến và trạng thái trò chơi (nếu cần)
+    isReviewMode = false;
+    questionCount = 0;
+    wrongHanzi = [];
+    currentReviewList = [];
+    selectedHanzi = [];
+    totalWords = 0;
+
+    // Chuyển về màn hình chọn chế độ
+    document.getElementById('mode-selection').style.display = 'block';
+    document.getElementById('quiz-container').style.display = 'none';
+    document.getElementById('review-hanzi-display').style.display = 'none';
+
+    // Bật lại các nút và input nếu cần
+    document.getElementById('answerInput').disabled = false;
+    document.getElementById('playButton').disabled = false;
+    document.getElementById('hintButton').disabled = false;
+}
+
+async function claimExperience(finalEXP) {
+    try {
+        // Ensure accountData is defined and has EXP property
+        if (!accountData || typeof accountData.EXP === 'undefined') {
+            console.error('accountData is not properly initialized');
+            alert('Lỗi: Dữ liệu tài khoản không hợp lệ!');
+            return;
+        }
+
+        // Update EXP in accountData
+        accountData.EXP = (parseInt(accountData.EXP) || 0) + finalEXP;
+
+        // Prepare content for GitHub
+        const content = JSON.stringify(accountData, null, 2);
+        // Use btoa with proper UTF-8 handling
+        const encodedContent = btoa(unescape(encodeURIComponent(content)));
+
+        // Get current file SHA
+        const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ${GITHUB_TOKEN}',
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (!getFileResponse.ok) {
+            const errorData = await getFileResponse.json();
+            console.error('Failed to fetch file SHA:', errorData);
+            throw new Error(`Không thể lấy SHA của file: ${errorData.message}`);
+        }
+
+        const fileData = await getFileResponse.json();
+        const sha = fileData.sha;
+
+        // Update file on GitHub
+        const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'PUT',
+            headers: {
+                'Authorization': 'Bearer ${GITHUB_TOKEN}',
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: 'Cập nhật điểm kinh nghiệm EXP',
+                content: encodedContent,
+                sha: sha,
+                branch: 'main'
+            })
+        });
+
+        if (updateResponse.ok) {
+            // Update UI
+            document.getElementById('account-exp').textContent = accountData.EXP;
+            await updateLevelInfo(); // Ensure this is awaited since it depends on async loadLevelData
+            earnedEXP = 0; // Reset EXP
+            randomMissionLesson = null; // Reset mission
+            document.getElementById('endgame-popup').style.display = 'none';
+            returnToModeSelection();
+        } else {
+            const errorData = await updateResponse.json();
+            console.error('Failed to update EXP:', errorData);
+            alert(`Lỗi khi cập nhật EXP: ${errorData.message}`);
+        }
+    } catch (error) {
+        console.error('Lỗi khi cập nhật EXP:', error);
+    }
+}
+</script>
+</body>
+</html>
