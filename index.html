@@ -1058,6 +1058,8 @@ button3.read-complete-button:hover {
     <div style='font-family: "Arial"; font-size: 30px; font-weight: bold; color: blue;'>
         Chọn chế độ học
     </div>
+<!-- Container cho các nút loại ôn tập -->
+    <div id="quiz-type-buttons" style="display: none; margin-top: 10px; justify-content: center; gap: 5px;"></div>
     <br>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
         <button2 class="mode-button" data-mode="taiwanese">Tiếng Trung Đài Loan</button2>
@@ -1066,8 +1068,6 @@ button3.read-complete-button:hover {
         <button2 class="mode-button" data-mode="poetry">300 Bài Thơ Đường</button2>
         <button2 class="mode-button disabled" data-mode="hongngam" disabled>Hồng Ngâm</button2>
     </div>
-    <!-- Container cho các nút loại ôn tập -->
-    <div id="quiz-type-buttons" style="display: none; margin-top: 10px; justify-content: center; gap: 5px;"></div>
 </div>
 
 <!-- Màn hình khởi động -->
@@ -1971,18 +1971,18 @@ document.querySelectorAll('.mode-button').forEach(button => {
         }
 
         if (selectedMode === 'taiwanese') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Mẫu Câu', 'sentence');
-            createQuizTypeButton('Hội Thoại', 'dialogue');
+            createQuizTypeButton('1.Hội Thoại', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
+            createQuizTypeButton('3.Mẫu Câu', 'sentence');
         } else if (selectedMode === 'samtukinh') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Bài Thơ', 'dialogue');
+            createQuizTypeButton('1.Bài Thơ', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');       
         } else if (selectedMode === 'poetry') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Bài Thơ', 'dialogue');
+            createQuizTypeButton('1.Bài Thơ', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');    
         } else if (selectedMode === 'hongngam') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Bài Thơ', 'dialogue');
+            createQuizTypeButton('1.Bài Thơ', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');    
         }
     });
 });
@@ -4056,7 +4056,7 @@ async function claimExperience(finalEXP) {
         const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'GET',
             headers: {
-                'Authorization': 'Bearer ${GITHUB_TOKEN}',
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
                 'Accept': 'application/vnd.github+json',
                 'Content-Type': 'application/json'
             }
@@ -4075,7 +4075,7 @@ async function claimExperience(finalEXP) {
         const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'PUT',
             headers: {
-                'Authorization': 'Bearer ${GITHUB_TOKEN}',
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
                 'Accept': 'application/vnd.github+json',
                 'Content-Type': 'application/json'
             },
