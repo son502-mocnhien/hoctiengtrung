@@ -1,0 +1,3290 @@
+[
+  {
+    "hanTu": "一",
+    "cauTao": "- Nghĩa: Một, số 1; đồng nhất |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Một nét ngang duy nhất, biểu thị sự khởi đầu hoặc đơn vị cơ bản."
+  },
+  {
+    "hanTu": "上",
+    "cauTao": "- Nghĩa: Trên, lên |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Nét ngắn 丨 (gǔn) ở trên nét dài 一 (yī), chỉ vị trí phía trên một đường cơ sở."
+  },
+  {
+    "hanTu": "下",
+    "cauTao": "- Nghĩa: Dưới, xuống |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Nét ngắn 丨 (gǔn) ở dưới nét dài 一 (yī), chỉ vị trí phía dưới một đường cơ sở."
+  },
+  {
+    "hanTu": "不",
+    "cauTao": "- Nghĩa: Không, chẳng (phủ định) |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Hình ảnh trừu tượng, gốc có thể từ hình đài hoa rụng xuống, biểu thị sự phủ định."
+  },
+  {
+    "hanTu": "中",
+    "cauTao": "- Nghĩa: Giữa, trung tâm; trúng; Trung Quốc |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Nét sổ 丨 (gǔn) đi xuyên qua tâm của bộ Khẩu 口 (kǒu), chỉ vị trí trung tâm."
+  },
+  {
+    "hanTu": "久",
+    "cauTao": "- Nghĩa: Lâu, lâu dài |- Cấu tạo: Hội ý (biến đổi từ tượng hình) |- Thành phần: Giống chữ Nhân 人 (rén) với một nét ngang/chéo phía sau (như chống đỡ hoặc ngải cứu), chỉ sự chịu đựng kéo dài."
+  },
+  {
+    "hanTu": "也",
+    "cauTao": "- Nghĩa: Cũng, vậy, nữa (trợ từ) |- Cấu tạo: Tượng hình (đã biến đổi nhiều) |- Thành phần: Hình dạng gốc có thể là cái bầu đựng nước hoặc con rắn, sau được mượn âm làm trợ từ."
+  },
+  {
+    "hanTu": "乾",
+    "cauTao": "- Nghĩa: Khô (gān); Càn (trời, vua) (qián) |- Cấu tạo: Hình thanh/Hội ý |- Trái: Chữ 倝 (gàn) - mặt trời mọc, ánh sáng |- Phải: Chữ Ất 乙 (yǐ) - can thứ hai, uốn lượn (có thể chỉ hơi nước bốc lên -> khô)."
+  },
+  {
+    "hanTu": "了",
+    "cauTao": "- Nghĩa: Rồi (trợ từ) (le); hiểu rõ, xong xuôi (liǎo) |- Cấu tạo: Tượng hình (đã giản lược) |- Thành phần: Hình ảnh đứa trẻ sơ sinh (liên quan chữ 子 zǐ), được giản lược thành một nét móc."
+  },
+  {
+    "hanTu": "事",
+    "cauTao": "- Nghĩa: Việc, sự việc, công việc |- Cấu tạo: Hội ý |- Thành phần: Gốc từ hình ảnh bàn tay (史 shǐ / 又 yòu) cầm vật dụng ghi chép (口 kǒu và các nét trên), chỉ việc ghi lại sự kiện -> sự việc."
+  },
+  {
+    "hanTu": "二",
+    "cauTao": "- Nghĩa: Hai, số 2 |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Hai nét ngang 一 (yī) song song, biểu thị số lượng hai."
+  },
+  {
+    "hanTu": "五",
+    "cauTao": "- Nghĩa: Năm, số 5 |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Các nét tượng trưng cho số 5, có thể liên quan đến hình hai que tính bắt chéo hoặc năm ngón tay."
+  },
+  {
+    "hanTu": "些",
+    "cauTao": "- Nghĩa: Một ít, một vài, những |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm/ý): Chữ Thử 此 (cǐ) - này, đây |- Dưới (Chỉ ý): Chữ Nhị 二 (èr) - hai (biểu thị số nhiều nhưng không lớn)."
+  },
+  {
+    "hanTu": "交",
+    "cauTao": "- Nghĩa: Giao nhau, kết giao, trao đổi |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Hình ảnh người ngồi bắt chéo chân hoặc hai vật giao nhau."
+  },
+  {
+    "hanTu": "亮",
+    "cauTao": "- Nghĩa: Sáng, sáng sủa |- Cấu tạo: Hội ý |- Trên: Phần trên của chữ Cao 高 (gāo) hoặc bộ Đầu 亠 (tóu) |- Dưới: Chữ Nhân 儿 (rén) - người |- Diễn giải: Ánh sáng từ trên cao chiếu xuống người -> sáng sủa."
+  },
+  {
+    "hanTu": "人",
+    "cauTao": "- Nghĩa: Người |- Cấu tạo: Tượng hình |- Thành phần: Hai nét phẩy, mác mô tả hình dáng người nhìn nghiêng."
+  },
+  {
+    "hanTu": "什",
+    "cauTao": "- Nghĩa: Gì (shén); mười (shí) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Thập 十 (shí) - mười."
+  },
+  {
+    "hanTu": "今",
+    "cauTao": "- Nghĩa: Nay, bây giờ, hiện tại |- Cấu tạo: Hội ý |- Trên: Chữ Cập 亼 (jí) - tập hợp, bao gồm |- Dưới: Nét cong ㇇ |- Diễn giải: Tập hợp lại (亼) trong khoảnh khắc hiện tại -> bây giờ."
+  },
+  {
+    "hanTu": "他",
+    "cauTao": "- Nghĩa: Anh ấy, nó (ngôi thứ ba nam/trung tính) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Dã 也 (yě) - cũng."
+  },
+  {
+    "hanTu": "付",
+    "cauTao": "- Nghĩa: Giao phó, trả (tiền) |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ ý/âm): Chữ Thốn 寸 (cùn) - tấc, bàn tay. |- Diễn giải: Người (亻) dùng tay (寸) để trao đi -> giao phó, trả."
+  },
+  {
+    "hanTu": "代",
+    "cauTao": "- Nghĩa: Thay thế, đại diện; đời, thế hệ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ弋 (yì) - cái cọc, bắn tên."
+  },
+  {
+    "hanTu": "以",
+    "cauTao": "- Nghĩa: Lấy, dùng; bởi vì; để mà |- Cấu tạo: Tượng hình/Hội ý (nguồn gốc phức tạp) |- Thành phần: Hình dạng gốc có thể liên quan đến người 人 (rén) hoặc vật dụng, chỉ sự sử dụng, phương tiện."
+  },
+  {
+    "hanTu": "休",
+    "cauTao": "- Nghĩa: Nghỉ ngơi |- Cấu tạo: Hội ý |- Trái: Bộ Nhân đứng 亻(rén) - người |- Phải: Chữ Mộc 木 (mù) - cây |- Diễn giải: Người (亻) tựa vào gốc cây (木) để nghỉ."
+  },
+  {
+    "hanTu": "伯",
+    "cauTao": "- Nghĩa: Bác (anh cả của cha); bá tước |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Bạch 白 (bái) - trắng."
+  },
+  {
+    "hanTu": "但",
+    "cauTao": "- Nghĩa: Nhưng, nhưng mà; chỉ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Đán 旦 (dàn) - buổi sáng."
+  },
+  {
+    "hanTu": "住",
+    "cauTao": "- Nghĩa: Ở, cư trú; dừng lại |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Chủ 主 (zhǔ) - chủ, chính."
+  },
+  {
+    "hanTu": "作",
+    "cauTao": "- Nghĩa: Làm, làm ra, chế tác; nổi lên |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Sạ 乍 (zhà) - đột nhiên, làm."
+  },
+  {
+    "hanTu": "你",
+    "cauTao": "- Nghĩa: Bạn, ngươi (ngôi thứ hai) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Nhĩ 尔 (ěr) - ngươi, bạn (gợi âm nǐ)."
+  },
+  {
+    "hanTu": "來",
+    "cauTao": "- Nghĩa: Đến, tới; tương lai |- Cấu tạo: Tượng hình |- Thành phần: Nguyên là hình ảnh cây lúa mạch/lúa mì (liên quan chữ 麥 mài), sau được mượn để chỉ sự \"đến\". Cấu trúc hiện đại khó phân tích thành các bộ phận có ý nghĩa trực tiếp."
+  },
+  {
+    "hanTu": "便",
+    "cauTao": "- Nghĩa: Tiện lợi, liền thì (biàn); rẻ (pián) |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Canh 更 (gēng/gèng) - thay đổi, hơn nữa."
+  },
+  {
+    "hanTu": "係",
+    "cauTao": "- Nghĩa: Là (Cantonese); hệ thống, quan hệ; buộc |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Hệ 系 (xì) - hệ, sợi dây."
+  },
+  {
+    "hanTu": "保",
+    "cauTao": "- Nghĩa: Giữ, bảo vệ, bảo đảm |- Cấu tạo: Hội ý |- Trái: Bộ Nhân đứng 亻(rén) - người |- Phải: Biến thể của chữ Tử 子 (zǐ) - đứa trẻ (chỉ người được bảo vệ) |- Diễn giải: Người (亻) che chở cho đứa trẻ (子) -> bảo vệ."
+  },
+  {
+    "hanTu": "個",
+    "cauTao": "- Nghĩa: Cái, con (lượng từ); cá nhân |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Cố 固 (gù) - bền vững."
+  },
+  {
+    "hanTu": "們",
+    "cauTao": "- Nghĩa: Hậu tố số nhiều (cho người) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Môn 門 (mén) - cửa."
+  },
+  {
+    "hanTu": "候",
+    "cauTao": "- Nghĩa: Chờ đợi; thăm hỏi; khí hậu; tước Hầu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Hầu 侯 (hóu) - tước Hầu."
+  },
+  {
+    "hanTu": "假",
+    "cauTao": "- Nghĩa: Giả, không thật (jiǎ); kỳ nghỉ (jià) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Giá 叚 (jiǎ) - mượn."
+  },
+  {
+    "hanTu": "做",
+    "cauTao": "- Nghĩa: Làm, chế tạo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Cố 故 (gù) - nguyên nhân, cũ."
+  },
+  {
+    "hanTu": "停",
+    "cauTao": "- Nghĩa: Dừng, đỗ lại |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Đình 亭 (tíng) - cái đình, nơi dừng chân."
+  },
+  {
+    "hanTu": "健",
+    "cauTao": "- Nghĩa: Khỏe mạnh, tráng kiện |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Kiến 建 (jiàn) - xây dựng."
+  },
+  {
+    "hanTu": "傘",
+    "cauTao": "- Nghĩa: Cái ô, cái dù |- Cấu tạo: Tượng hình |- Thành phần: Mô phỏng hình ảnh cái ô che mưa/nắng, với khung và các nan ô (chứa nhiều chữ Nhân 人 (rén) bên trong)."
+  },
+  {
+    "hanTu": "傳",
+    "cauTao": "- Nghĩa: Truyền, chuyển giao; truyện |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Chuyên 專 (zhuān) - chuyên."
+  },
+  {
+    "hanTu": "像",
+    "cauTao": "- Nghĩa: Giống như; hình tượng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Tượng 象 (xiàng) - con voi, hình tượng."
+  },
+  {
+    "hanTu": "兄",
+    "cauTao": "- Nghĩa: Anh trai |- Cấu tạo: Hội ý |- Trên: Bộ Khẩu 口 (kǒu) - miệng |- Dưới: Chữ Nhân 儿 (rén) - người |- Diễn giải: Người (儿) có cái miệng (口) lớn hơn (chỉ quyền nói, ra lệnh) -> anh trai."
+  },
+  {
+    "hanTu": "先",
+    "cauTao": "- Nghĩa: Trước, đầu tiên; tổ tiên; ngài |- Cấu tạo: Hội ý |- Trên: Biến thể của 之 (zhī - đi) hoặc 止 (zhǐ - chân), chỉ sự đi tới trước |- Dưới: Chữ Nhân 儿 (rén/ér) - người |- Diễn giải: Người (儿) đi phía trước (之/止)."
+  },
+  {
+    "hanTu": "內",
+    "cauTao": "- Nghĩa: Trong, nội bộ |- Cấu tạo: Hội ý |- Ngoài: Bộ Quynh 冂 (jiōng) - vùng ven, nhà |- Trong: Chữ Nhập 入 (rù) - vào |- Diễn giải: Đi vào (入) bên trong một khu vực (冂) -> bên trong."
+  },
+  {
+    "hanTu": "兩",
+    "cauTao": "- Nghĩa: Hai (dùng với lượng từ); lạng (đơn vị) |- Cấu tạo: Tượng hình/Hội ý |- Ngoài: Bộ Quynh 冂 (jiōng) - bao bọc |- Trong: Hai thành phần giống nhau (gần giống 入 rù), đối xứng, chỉ cặp đôi -> hai."
+  },
+  {
+    "hanTu": "公",
+    "cauTao": "- Nghĩa: Chung, công cộng; tước Công; đực |- Cấu tạo: Hội ý |- Trên: Chữ Bát 八 (bā) - tám, phân chia |- Dưới: Chữ Tư 厶 (sī) - riêng tư |- Diễn giải: Phân chia (八) cái riêng (厶) ra thành của chung."
+  },
+  {
+    "hanTu": "共",
+    "cauTao": "- Nghĩa: Chung, cùng nhau; cộng |- Cấu tạo: Hội ý |- Thành phần: Hình ảnh hai (hoặc nhiều) bàn tay cùng đưa ra hoặc chắp lại (廾 gǒng), chỉ sự chung sức, cùng nhau."
+  },
+  {
+    "hanTu": "再",
+    "cauTao": "- Nghĩa: Lại, lần nữa, thêm nữa |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Cấu trúc chỉ sự lặp lại hoặc thêm vào, có thể liên quan đến việc xây dựng thêm (土 tǔ?) trên nền có sẵn (冂 jiōng?)."
+  },
+  {
+    "hanTu": "冒",
+    "cauTao": "- Nghĩa: Mạo hiểm; bốc lên; giả mạo |- Cấu tạo: Hội ý |- Trên: Bộ Viết 曰 (yuē) hoặc Nhật 日 (rì) - vật che |- Dưới: Bộ Mục 目 (mù) - mắt |- Diễn giải: Mắt (目) bị che (曰/日) -> không thấy rõ, liều lĩnh -> mạo hiểm."
+  },
+  {
+    "hanTu": "冬",
+    "cauTao": "- Nghĩa: Mùa đông |- Cấu tạo: Hội ý |- Trên: Biến thể của 夂 (zhǐ - đi tới) hoặc gốc từ 終 (zhōng - cuối cùng) |- Dưới: Bộ Băng 冫 (bīng) - băng, đá |- Diễn giải: Sự kết thúc (夂/終) của năm với băng giá (冫)."
+  },
+  {
+    "hanTu": "冰",
+    "cauTao": "- Nghĩa: Băng, đá |- Cấu tạo: Hội ý |- Trái: Bộ Băng 冫 (bīng) - băng |- Phải: Chữ Thủy 水 (shuǐ) - nước |- Diễn giải: Nước (水) đông lại thành băng (冫)."
+  },
+  {
+    "hanTu": "冷",
+    "cauTao": "- Nghĩa: Lạnh, lạnh lẽo |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Băng 冫 (bīng) - băng, lạnh |- Phải (Chỉ âm): Chữ Lệnh 令 (lìng) - mệnh lệnh."
+  },
+  {
+    "hanTu": "出",
+    "cauTao": "- Nghĩa: Ra, đi ra, xuất hiện |- Cấu tạo: Hội ý |- Thành phần: Hình ảnh bàn chân (biến thể của 止 zhǐ) bước ra khỏi một khu vực trũng/hố (凵 qū)."
+  },
+  {
+    "hanTu": "分",
+    "cauTao": "- Nghĩa: Chia, phân tách; phút; điểm (fēn); phận sự (fèn) |- Cấu tạo: Hội ý |- Trên: Chữ Bát 八 (bā) - tám, phân chia |- Dưới: Bộ Đao 刀 (dāo) - con dao |- Diễn giải: Dùng dao (刀) để chia tách (八)."
+  },
+  {
+    "hanTu": "別",
+    "cauTao": "- Nghĩa: Khác biệt, riêng biệt; đừng; chia ly |- Cấu tạo: Hội ý |- Trái: Chữ冎 (guǎ) - xương (hoặc gốc từ 骨 gǔ) |- Phải: Bộ Đao đứng 刂 (dāo) - con dao |- Diễn giải: Dùng dao (刂) để tách rời xương thịt (冎) -> chia lìa, khác biệt."
+  },
+  {
+    "hanTu": "利",
+    "cauTao": "- Nghĩa: Lợi ích, thuận lợi; sắc bén |- Cấu tạo: Hội ý |- Trái: Chữ Hòa 禾 (hé) - cây lúa |- Phải: Bộ Đao đứng 刂 (dāo) - con dao |- Diễn giải: Dùng dao (刂) cắt lúa (禾) -> thu hoạch, lợi ích; hoặc dao sắc để cắt."
+  },
+  {
+    "hanTu": "到",
+    "cauTao": "- Nghĩa: Đến, tới nơi |- Cấu tạo: Hội ý/Hình thanh |- Trái: Chữ Chí 至 (zhì) - đến, đạt tới |- Phải: Bộ Đao đứng 刂 (dāo) - con dao (vai trò không rõ ràng, có thể gợi âm hoặc là biến thể) |- Diễn giải: Đạt tới (至) một điểm."
+  },
+  {
+    "hanTu": "前",
+    "cauTao": "- Nghĩa: Trước, phía trước; trước đây |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Gốc có thể là hình ảnh bàn chân 止 (zhǐ) và con thuyền 舟 (zhōu) chỉ sự tiến về phía trước, có thêm bộ Đao 刂 (dāo). Dạng hiện đại khó phân tích rõ ràng."
+  },
+  {
+    "hanTu": "剛",
+    "cauTao": "- Nghĩa: Cương, cứng rắn; vừa mới |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Cương 岡 (gāng) - gò, đồi |- Phải (Chỉ ý): Bộ Đao đứng 刂 (dāo) - con dao (chỉ sự cứng rắn)."
+  },
+  {
+    "hanTu": "功",
+    "cauTao": "- Nghĩa: Công lao, công trạng; công phu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý/âm): Chữ Công 工 (gōng) - công việc |- Phải (Chỉ ý/âm): Chữ Lực 力 (lì) - sức lực |- Diễn giải: Dùng sức lực (力) làm việc (工) tạo ra công trạng."
+  },
+  {
+    "hanTu": "加",
+    "cauTao": "- Nghĩa: Thêm vào, gia tăng; cộng (+) | Cấu tạo: Hội ý/Hình thanh |- Trái: Chữ Lực 力 (lì) - sức lực |- Phải: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Thêm sức lực (力) hoặc thêm lời nói (口) -> thêm vào."
+  },
+  {
+    "hanTu": "動",
+    "cauTao": "- Nghĩa: Động, cử động, hoạt động |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Trọng/Trùng 重 (zhòng/chóng) - nặng, lặp lại |- Phải (Chỉ ý): Chữ Lực 力 (lì) - sức lực |- Diễn giải: Dùng sức (力) để di chuyển vật nặng (重) -> cử động."
+  },
+  {
+    "hanTu": "包",
+    "cauTao": "- Nghĩa: Bao, bọc; cái túi; bao gồm |- Cấu tạo: Tượng hình/Hội ý |- Ngoài: Bộ Bao 勹 (bāo) - bao bọc |- Trong: Chữ Tỵ 巳 (sì) - thai nhi |- Diễn giải: Hình ảnh thai nhi (巳) trong bụng mẹ (勹) -> bao bọc."
+  },
+  {
+    "hanTu": "十",
+    "cauTao": "- Nghĩa: Mười, số 10 |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Nét ngang 一 (yī) và nét sổ 丨 (gǔn) giao nhau, biểu thị sự đầy đủ, hoàn chỉnh (số 10)."
+  },
+  {
+    "hanTu": "千",
+    "cauTao": "- Nghĩa: Nghìn, một ngàn (1000) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Nét phẩy 丿 (piě) hoặc chữ Nhân 人 (rén) - người |- Dưới: Chữ Thập 十 (shí) - mười |- Diễn giải: Con người (丿/人) và số lượng lớn (十 x 100)."
+  },
+  {
+    "hanTu": "午",
+    "cauTao": "- Nghĩa: Ngọ (giờ/chi); giữa trưa |- Cấu tạo: Tượng hình |- Thành phần: Mô phỏng hình ảnh cái chày giã gạo, sau được mượn âm chỉ giờ Ngọ."
+  },
+  {
+    "hanTu": "半",
+    "cauTao": "- Nghĩa: Một nửa, rưỡi |- Cấu tạo: Hội ý |- Thành phần: Gốc là hình ảnh chia (八 bā) đôi con bò (牛 niú). Dạng hiện đại gồm 八 (bā) và phần dưới giống chữ Can 干 (gān)."
+  },
+  {
+    "hanTu": "南",
+    "cauTao": "- Nghĩa: Nam, phía nam |- Cấu tạo: Tượng hình/Hình thanh |- Thành phần: Cấu trúc phức tạp, gốc có thể là hình nhạc khí bằng đồng (鐘 zhōng) phổ biến ở phương Nam. Dạng hiện đại gồm 十 (shí), 冂 (jiōng) và phần trong phức tạp (liên quan đến 羊 yáng?)."
+  },
+  {
+    "hanTu": "博",
+    "cauTao": "- Nghĩa: Rộng lớn, uyên bác; đánh bạc |- Cấu tạo: Hình thanh/Hội ý |- Trái: Chữ Thập 十 (shí) - mười, nhiều |- Phải: Chữ Phù 尃 (fū) = 甫 (fǔ) + 寸 (cùn) (chỉ sự rộng rãi, hoặc 甫 chỉ âm) |- Diễn giải: Rộng lớn (尃) về nhiều mặt (十).."
+  },
+  {
+    "hanTu": "厭",
+    "cauTao": "- Nghĩa: Chán ghét, không thích |- Cấu tạo: Hội ý |- Ngoài: Bộ Hán 厂 (hàn) - sườn núi, mái che |- Trong: Chữ Khuyển 犬 (quǎn) - con chó và bộ Nhục 月 (yuè) - thịt |- Diễn giải: Chó (犬) ăn thịt (月) no nê dưới mái hiên (厂) -> chán."
+  },
+  {
+    "hanTu": "去",
+    "cauTao": "- Nghĩa: Đi, đi khỏi; khử, bỏ đi |- Cấu tạo: Hội ý |- Thành phần: Gốc là hình ảnh người 大 (dà) rời khỏi miệng/nhà 口 (kǒu). Dạng hiện đại gồm Thổ 土 (tǔ) và Tư 厶 (sī)."
+  },
+  {
+    "hanTu": "參",
+    "cauTao": "- Nghĩa: Tham gia, tham khảo (cān); sao Sâm, nhân sâm (shēn) |- Cấu tạo: Hội ý/Hình thanh (rất phức tạp) |- Thành phần: Gồm nhiều bộ phận (厶 sī, 大 dà, 彡 shān...), gốc liên quan đến hình ảnh 3 ngôi sao (chòm sao Sâm) và có thể là người hoặc các yếu tố khác."
+  },
+  {
+    "hanTu": "又",
+    "cauTao": "- Nghĩa: Lại, nữa; và; tay phải |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh bàn tay phải."
+  },
+  {
+    "hanTu": "友",
+    "cauTao": "- Nghĩa: Bạn bè |- Cấu tạo: Hội ý |- Thành phần: Gồm hai chữ Hựu 又 (yòu) - bàn tay phải, đặt cạnh nhau, chỉ sự hợp tác, giúp đỡ -> bạn bè."
+  },
+  {
+    "hanTu": "口",
+    "cauTao": "- Nghĩa: Miệng; cửa khẩu |- Cấu tạo: Tượng hình |- Thành phần: Hình vuông mô tả cái miệng đang mở."
+  },
+  {
+    "hanTu": "古",
+    "cauTao": "- Nghĩa: Cổ xưa, cũ |- Cấu tạo: Hội ý |- Trên: Chữ Thập 十 (shí) - mười, nhiều |- Dưới: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Chuyện được kể qua miệng (口) của mười (十) đời -> cổ xưa."
+  },
+  {
+    "hanTu": "只",
+    "cauTao": "- Nghĩa: Chỉ (zhǐ); lượng từ (zhī) |- Cấu tạo: Hội ý (nguồn gốc không chắc chắn) |- Trên: Bộ Khẩu 口 (kǒu) - miệng |- Dưới: Giống chữ Bát 八 (bā) - tám."
+  },
+  {
+    "hanTu": "叫",
+    "cauTao": "- Nghĩa: Kêu, gọi; tên là; bảo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Củ 丩 (jiū) - quấn quýt."
+  },
+  {
+    "hanTu": "可",
+    "cauTao": "- Nghĩa: Có thể; đáng; được |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Khẩu 口 (kǒu) - miệng và phần còn lại gần giống chữ Đinh 丁 (dīng) - can thứ tư (có thể chỉ âm hoặc ý chấp thuận)."
+  },
+  {
+    "hanTu": "右",
+    "cauTao": "- Nghĩa: Phải, bên phải |- Cấu tạo: Hội ý |- Trên: Chữ Hựu 又 (yòu) - tay phải |- Dưới: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Tay phải (又) đưa thức ăn vào miệng (口) hoặc trợ giúp -> bên phải."
+  },
+  {
+    "hanTu": "司",
+    "cauTao": "- Nghĩa: Ty (cơ quan); quản lý |- Cấu tạo: Hội ý |- Thành phần: Gốc mô tả miệng (口 kǒu) ra lệnh và người (reversed 卩 jié) quay lại nghe lệnh -> cơ quan quản lý."
+  },
+  {
+    "hanTu": "吃",
+    "cauTao": "- Nghĩa: Ăn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Khất 乞 (qǐ) - ăn xin."
+  },
+  {
+    "hanTu": "同",
+    "cauTao": "- Nghĩa: Cùng, giống nhau; với |- Cấu tạo: Hội ý |- Ngoài: Bộ Quynh 冂 (jiōng) - bao bọc |- Trong: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Nhiều miệng (口) cùng nói một lời dưới một mái nhà/khu vực (冂) -> giống nhau, cùng nhau."
+  },
+  {
+    "hanTu": "名",
+    "cauTao": "- Nghĩa: Tên; danh tiếng |- Cấu tạo: Hội ý |- Trên: Bộ Tịch 夕 (xī) - buổi tối |- Dưới: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Trời tối (夕), phải dùng miệng (口) gọi tên để nhận ra nhau -> tên gọi."
+  },
+  {
+    "hanTu": "吐",
+    "cauTao": "- Nghĩa: Nôn, ói, nhổ (tù); thổ lộ (tǔ) |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm/ý): Chữ Thổ 土 (tǔ) - đất |- Diễn giải: Đẩy vật từ miệng (口) ra như đẩy đất (土) -> nôn, thổ lộ."
+  },
+  {
+    "hanTu": "君",
+    "cauTao": "- Nghĩa: Vua, quân chủ; anh, ông (kính ngữ) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Doãn 尹 (yǐn) - cai trị (tay cầm trượng) |- Dưới: Bộ Khẩu 口 (kǒu) - miệng (ra lệnh) |- Diễn giải: Người cầm quyền (尹) dùng miệng (口) ra lệnh -> vua."
+  },
+  {
+    "hanTu": "吧",
+    "cauTao": "- Nghĩa: Trợ từ cuối câu (đề nghị, phỏng đoán) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng, lời nói |- Phải (Chỉ âm): Chữ Ba 巴 (bā) - mong chờ."
+  },
+  {
+    "hanTu": "呢",
+    "cauTao": "- Nghĩa: Trợ từ cuối câu (hỏi, tiếp diễn) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng, lời nói |- Phải (Chỉ âm): Chữ Ni 尼 (ní) - ni cô."
+  },
+  {
+    "hanTu": "和",
+    "cauTao": "- Nghĩa: Và, cùng; hòa bình, hòa hợp (hé); pha trộn (huò); họa theo (hè) |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý/âm): Chữ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Có lúa (禾) cho miệng (口) ăn -> hòa hợp, đầy đủ."
+  },
+  {
+    "hanTu": "咖",
+    "cauTao": "- Nghĩa: Dùng trong 咖啡 (cà phê) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Gia 加 (jiā) - thêm vào."
+  },
+  {
+    "hanTu": "哥",
+    "cauTao": "- Nghĩa: Anh trai |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm hai chữ Khả 可 (kě) - có thể, được. Gốc có thể liên quan đến chữ Ca 歌 (gē) - hát."
+  },
+  {
+    "hanTu": "哪",
+    "cauTao": "- Nghĩa: Nào (nǎ); trợ từ (na); đâu (né) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng, câu hỏi |- Phải (Chỉ âm): Chữ Na 那 (nà) - kia, đó."
+  },
+  {
+    "hanTu": "唱",
+    "cauTao": "- Nghĩa: Hát, ca hát |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Xương 昌 (chāng) - hưng thịnh, sáng sủa."
+  },
+  {
+    "hanTu": "啊",
+    "cauTao": "- Nghĩa: A, à, ạ (thán từ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng, âm thanh |- Phải (Chỉ âm): Chữ A 阿 (ā) - A (tiền tố)."
+  },
+  {
+    "hanTu": "問",
+    "cauTao": "- Nghĩa: Hỏi |- Cấu tạo: Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Đứng ở cửa (門) dùng miệng (口) để hỏi."
+  },
+  {
+    "hanTu": "啡",
+    "cauTao": "- Nghĩa: Dùng trong 咖啡 (cà phê) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Phi 非 (fēi) - không phải."
+  },
+  {
+    "hanTu": "喂",
+    "cauTao": "- Nghĩa: Alo; này (gọi); cho ăn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Úy 畏 (wèi) - sợ hãi."
+  },
+  {
+    "hanTu": "喉",
+    "cauTao": "- Nghĩa: Họng, cổ họng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Hầu 侯 (hóu) - tước Hầu."
+  },
+  {
+    "hanTu": "喜",
+    "cauTao": "- Nghĩa: Vui, mừng, thích, hỉ |- Cấu tạo: Hội ý |- Trên: Chữ 壴 (zhù) - cái trống, nhạc cụ |- Dưới: Chữ Khẩu 口 (kǒu) - cái miệng |- Diễn giải: Miệng (口) cười nói vui vẻ cùng tiếng trống nhạc (壴) trong dịp lễ hội -> sự vui mừng."
+  },
+  {
+    "hanTu": "喝",
+    "cauTao": "- Nghĩa: Uống; quát, hét |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Hạt 曷 (hé) - sao mà, gì mà."
+  },
+  {
+    "hanTu": "嗎",
+    "cauTao": "- Nghĩa: Trợ từ nghi vấn cuối câu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - cái miệng, lời nói |- Phải (Chỉ âm): Chữ Mã 馬 (mǎ) - con ngựa."
+  },
+  {
+    "hanTu": "器",
+    "cauTao": "- Nghĩa: Dụng cụ, đồ vật; tài năng |- Cấu tạo: Hội ý |- Thành phần: Bốn bộ Khẩu 口 (kǒu) bao quanh bộ Khuyển 犬 (quǎn) - con chó |- Diễn giải: Chó (犬) canh giữ nhiều đồ vật (口) -> dụng cụ quý."
+  },
+  {
+    "hanTu": "嚨",
+    "cauTao": "- Nghĩa: Họng (trong 喉嚨) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Long 龍 (lóng) - con rồng."
+  },
+  {
+    "hanTu": "回",
+    "cauTao": "- Nghĩa: Về, quay lại; lần; Hồi (dân tộc) |- Cấu tạo: Tượng hình/Hội ý |- Ngoài: Bộ Vi 囗 (wéi) - vây quanh |- Trong: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Hình ảnh vòng xoáy nước hoặc đi vòng quanh quay về điểm cũ -> về, lần."
+  },
+  {
+    "hanTu": "因",
+    "cauTao": "- Nghĩa: Nguyên nhân; bởi vì |- Cấu tạo: Hội ý |- Ngoài: Bộ Vi 囗 (wéi) - vây quanh |- Trong: Chữ Đại 大 (dà) - to lớn, người |- Diễn giải: Người (大) nằm trên chiếu/nệm trong nhà (囗) -> dựa vào, nguyên nhân."
+  },
+  {
+    "hanTu": "國",
+    "cauTao": "- Nghĩa: Nước, quốc gia |- Cấu tạo: Hình thanh/Hội ý |- Ngoài (Chỉ ý): Bộ Vi 囗 (wéi) - vây quanh, biên giới |- Trong (Chỉ âm/ý): Chữ Hoặc 或 (huò) - hoặc là (gốc chỉ lãnh thổ được bảo vệ)."
+  },
+  {
+    "hanTu": "圖",
+    "cauTao": "- Nghĩa: Bản đồ, bức vẽ; mưu đồ |- Cấu tạo: Hội ý |- Ngoài: Bộ Vi 囗 (wéi) - vây quanh |- Trong: Chữ Bỉ 啚 (bǐ) - kho thóc tròn (chỉ kế hoạch, bản vẽ trong phạm vi)."
+  },
+  {
+    "hanTu": "在",
+    "cauTao": "- Nghĩa: Tại, ở; đang; tồn tại |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ âm/ý): Chữ Tài 才 (cái) - tài năng, mới |- Phải (Chỉ ý): Chữ Thổ 土 (tǔ) - đất |- Diễn giải: Cây non (才) mọc trên đất (土) -> tồn tại, ở tại."
+  },
+  {
+    "hanTu": "地",
+    "cauTao": "- Nghĩa: Đất, địa vị, nơi chốn (dì); trợ từ trạng ngữ (de) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Dã 也 (yě) - cũng."
+  },
+  {
+    "hanTu": "坐",
+    "cauTao": "- Nghĩa: Ngồi |- Cấu tạo: Hội ý |- Thành phần: Hai chữ Nhân 人 (rén) ngồi đối diện nhau trên mặt đất 土 (tǔ)."
+  },
+  {
+    "hanTu": "塊",
+    "cauTao": "- Nghĩa: Khối, cục, hòn; đồng (tiền) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Quỷ 鬼 (guǐ) - con ma |- Diễn giải: Cục đất (土)."
+  },
+  {
+    "hanTu": "夏",
+    "cauTao": "- Nghĩa: Mùa hè; nước Hạ |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Gốc có thể là hình người (頁 yè) đang nhảy múa hoặc hình con ve sầu kêu mùa hè."
+  },
+  {
+    "hanTu": "外",
+    "cauTao": "- Nghĩa: Ngoài, bên ngoài; nước ngoài |- Cấu tạo: Hội ý |- Trái: Bộ Tịch 夕 (xī) - buổi tối |- Phải: Bộ Bốc 卜 (bǔ) - xem bói |- Diễn giải: Nguồn gốc không chắc chắn, có thể liên quan việc bói toán (卜) hỏi việc bên ngoài vào buổi tối (夕)."
+  },
+  {
+    "hanTu": "多",
+    "cauTao": "- Nghĩa: Nhiều |- Cấu tạo: Hội ý |- Thành phần: Hai bộ Tịch 夕 (xī) chồng lên nhau (gốc là Nhục 肉 ròu - thịt) |- Diễn giải: Nhiều thịt chồng lên -> nhiều."
+  },
+  {
+    "hanTu": "夜",
+    "cauTao": "- Nghĩa: Đêm, ban đêm |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Đầu 亠 (tóu), bộ Nhân đứng 亻(rén), bộ Tịch 夕 (xī) - buổi tối. Hoặc gốc phức tạp hơn với 亦 (yì) chỉ âm |- Diễn giải: Người (亻) vào buổi tối (夕)."
+  },
+  {
+    "hanTu": "大",
+    "cauTao": "- Nghĩa: To, lớn |- Cấu tạo: Tượng hình |- Thành phần: Hình ảnh người 人 (rén) dang rộng tay chân (nét ngang 一 yī), chỉ sự to lớn."
+  },
+  {
+    "hanTu": "天",
+    "cauTao": "- Nghĩa: Trời, bầu trời; ngày |- Cấu tạo: Hội ý/Tượng hình |- Trên: Chữ Nhất 一 (yī) - một, bầu trời |- Dưới: Chữ Đại 大 (dà) - to lớn, người |- Diễn giải: Cái lớn nhất (一) bên trên người (大) -> bầu trời."
+  },
+  {
+    "hanTu": "太",
+    "cauTao": "- Nghĩa: Quá, lắm; rất; thái (cực) |- Cấu tạo: Hội ý/Chỉ sự |- Thành phần: Chữ Đại 大 (dà) - to lớn, thêm một dấu chấm 丶(zhǔ) ở dưới để nhấn mạnh mức độ -> quá, rất."
+  },
+  {
+    "hanTu": "套",
+    "cauTao": "- Nghĩa: Bộ (quần áo); bao, vỏ; thói quen |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Đại 大 (dà) - to lớn |- Dưới: Chữ Trường/Trưởng 長 (cháng/zhǎng) - dài |- Diễn giải: Cái bao (dài 長) và lớn (大)?."
+  },
+  {
+    "hanTu": "女",
+    "cauTao": "- Nghĩa: Nữ, con gái, phụ nữ |- Cấu tạo: Tượng hình |- Thành phần: Ba nét mô tả hình dáng phụ nữ đang ngồi hoặc quỳ."
+  },
+  {
+    "hanTu": "她",
+    "cauTao": "- Nghĩa: Cô ấy, bà ấy (ngôi thứ ba nữ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Dã 也 (yě) - cũng."
+  },
+  {
+    "hanTu": "好",
+    "cauTao": "- Nghĩa: Tốt, đẹp (hǎo); thích (hào) |- Cấu tạo: Hội ý |- Trái: Bộ Nữ 女 (nǚ) - nữ, mẹ |- Phải: Chữ Tử 子 (zǐ) - con trai, con cái |- Diễn giải: Mẹ (女) và con (子) -> tình cảm tốt đẹp; hoặc có con gái (女) con trai (子) là điều tốt."
+  },
+  {
+    "hanTu": "如",
+    "cauTao": "- Nghĩa: Như, giống như; bằng |- Cấu tạo: Hình thanh/Hội ý |- Trái: Bộ Nữ 女 (nǚ) - nữ |- Phải: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Lời nói (口) của người phụ nữ (女) thì thuận theo -> như ý."
+  },
+  {
+    "hanTu": "妳",
+    "cauTao": "- Nghĩa: Bạn, ngươi (ngôi thứ hai, chỉ nữ giới) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Nhĩ 尔 (ěr) - ngươi, bạn (gợi âm nǐ)."
+  },
+  {
+    "hanTu": "妹",
+    "cauTao": "- Nghĩa: Em gái |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Vị 未 (wèi) - chưa."
+  },
+  {
+    "hanTu": "始",
+    "cauTao": "- Nghĩa: Bắt đầu, khởi đầu; mới |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ (liên quan đến nguồn gốc, sinh sản?) |- Phải (Chỉ âm): Chữ Đài 台 (tái / yí) - cái đài."
+  },
+  {
+    "hanTu": "姐",
+    "cauTao": "- Nghĩa: Chị gái |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Thả 且 (qiě) - và, lại còn."
+  },
+  {
+    "hanTu": "姓",
+    "cauTao": "- Nghĩa: Họ (tên) |- Cấu tạo: Hội ý |- Trái: Bộ Nữ 女 (nǚ) - nữ, mẹ |- Phải: Chữ Sinh 生 (shēng) - sinh ra |- Diễn giải: Con cái sinh ra (生) bởi người mẹ (女) -> lấy họ mẹ (xã hội mẫu hệ xưa) -> họ."
+  },
+  {
+    "hanTu": "媽",
+    "cauTao": "- Nghĩa: Mẹ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Mã 馬 (mǎ) - con ngựa."
+  },
+  {
+    "hanTu": "子",
+    "cauTao": "- Nghĩa: Con trai, con cái; hạt giống; Tý |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh đứa trẻ sơ sinh đầu to, tay giơ ra."
+  },
+  {
+    "hanTu": "字",
+    "cauTao": "- Nghĩa: Chữ viết; tên tự |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Tử 子 (zǐ) - đứa trẻ |- Diễn giải: Đứa trẻ (子) trong nhà (宀) học chữ; hoặc chữ (字) được sinh ra (子) dưới mái nhà (宀)."
+  },
+  {
+    "hanTu": "學",
+    "cauTao": "- Nghĩa: Học, học tập; trường học |- Cấu tạo: Hội ý |- Trên: Phần trên (爻 yáo x 2 + 冖 mì) mô tả hai bàn tay và mái che/đồ vật | Dưới: Chữ Tử 子 (zǐ) - đứa trẻ |- Diễn giải: Trẻ con (子) dưới mái nhà dùng tay học tập -> học."
+  },
+  {
+    "hanTu": "安",
+    "cauTao": "- Nghĩa: An, yên ổn, bình an; đặt |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Bộ Nữ 女 (nǚ) - nữ |- Diễn giải: Có người phụ nữ (女) trong nhà (宀) thì yên ổn, an toàn."
+  },
+  {
+    "hanTu": "定",
+    "cauTao": "- Nghĩa: Định, ổn định, quyết định |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Chính 正 (zhèng) - thẳng, đúng (có thể gợi âm) |- Diễn giải: Ở yên trong nhà (宀) một cách chính đáng (正) -> ổn định."
+  },
+  {
+    "hanTu": "宜",
+    "cauTao": "- Nghĩa: Nên, thích hợp |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Thả 且 (qiě) - và (gốc là cái thớt/bàn thờ 俎 zǔ) |- Diễn giải: Đặt đồ cúng (俎) đúng vị trí trong nhà (宀) -> thích hợp."
+  },
+  {
+    "hanTu": "客",
+    "cauTao": "- Nghĩa: Khách; khách quan |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Các 各 (gè) - mỗi, các (có thể gợi âm) |- Diễn giải: Người từ các (各) nơi đến nhà (宀) -> khách."
+  },
+  {
+    "hanTu": "室",
+    "cauTao": "- Nghĩa: Phòng; nhà; vợ |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Chí 至 (zhì) - đến (có thể gợi âm) |- Diễn giải: Nơi đến (至) và ở lại trong nhà (宀) -> phòng."
+  },
+  {
+    "hanTu": "宮",
+    "cauTao": "- Nghĩa: Cung, cung điện |- Cấu tạo: Tượng hình/Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Lữ 呂 (lǚ) - hai cái miệng/phòng (口+口) |- Diễn giải: Nhiều phòng (呂) dưới một mái nhà lớn (宀) -> cung điện."
+  },
+  {
+    "hanTu": "家",
+    "cauTao": "- Nghĩa: Nhà, gia đình |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Bộ Thỉ 豕 (shǐ) - con lợn |- Diễn giải: Có mái nhà (宀) và nuôi lợn (豕) -> nhà (biểu tượng gia đình)."
+  },
+  {
+    "hanTu": "宿",
+    "cauTao": "- Nghĩa: Ngủ trọ, ở lại (sù); đêm (xiǔ); chòm sao (xiù) |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Bộ Nhân đứng 亻(rén) - người và chữ Bách 百 (bǎi) - trăm |- Diễn giải: Nhiều người (亻+百) ở dưới một mái nhà (宀) qua đêm -> ngủ trọ."
+  },
+  {
+    "hanTu": "寫",
+    "cauTao": "- Nghĩa: Viết |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Tích 舄 (xì) - đôi giày, chim thước (chỉ âm) |- Diễn giải: Viết (寫) dưới mái nhà (宀)."
+  },
+  {
+    "hanTu": "對",
+    "cauTao": "- Nghĩa: Đối, đối diện; đúng; cặp, đôi |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gốc gồm hình ảnh bụi cây/vật tế 丵 (zhuó) và bàn tay 寸 (cùn) hướng về phía đó -> đối diện. Dạng hiện đại có thể khác."
+  },
+  {
+    "hanTu": "小",
+    "cauTao": "- Nghĩa: Nhỏ, bé |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Nét sổ móc và hai dấu chấm hai bên, mô tả những hạt nhỏ li ti."
+  },
+  {
+    "hanTu": "少",
+    "cauTao": "- Nghĩa: Ít, thiếu (shǎo); trẻ (shào) |- Cấu tạo: Hội ý/Chỉ sự |- Thành phần: Chữ Tiểu 小 (xiǎo) - nhỏ, thêm một nét phẩy 丿 (piě)."
+  },
+  {
+    "hanTu": "就",
+    "cauTao": "- Nghĩa: Thì, liền, ngay; tới gần; thành tựu |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Chữ Kinh 京 (jīng) - kinh đô |- Phải (Chỉ ý?): Chữ Vưu 尤 (yóu) - đặc biệt, hơn nữa |- Diễn giải: Tiến tới kinh đô (京) hoặc nơi cao sang?."
+  },
+  {
+    "hanTu": "局",
+    "cauTao": "- Nghĩa: Cục, ván; tình thế; cơ quan |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Thi 尸 (shī) - thân thể (cong lại) |- Dưới: Chữ Câu 句 (jù) - câu, móc (chỉ sự giới hạn, khuôn khổ) |- Diễn giải: Thân thể (尸) bị giới hạn trong khuôn khổ (句) -> cục bộ, tình thế."
+  },
+  {
+    "hanTu": "山",
+    "cauTao": "- Nghĩa: Núi, sơn |- Cấu tạo: Tượng hình |- Thành phần: Ba nét sổ mô tả hình ảnh ba ngọn núi liền kề."
+  },
+  {
+    "hanTu": "工",
+    "cauTao": "- Nghĩa: Công việc, công nhân, kỹ thuật |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái thước thợ hoặc dụng cụ lao động."
+  },
+  {
+    "hanTu": "左",
+    "cauTao": "- Nghĩa: Trái, bên trái |- Cấu tạo: Hội ý |- Trên: Biến thể của chữ Hựu 又 (yòu) - bàn tay |- Dưới: Chữ Công 工 (gōng) - công cụ |- Diễn giải: Bàn tay (又) cầm công cụ (工) để trợ giúp (tay trái thường làm việc phụ) -> bên trái."
+  },
+  {
+    "hanTu": "差",
+    "cauTao": "- Nghĩa: Sai khác, kém (chā); sai lệch (chà); sai khiến (chāi); không đều (cī) |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Cấu trúc phức tạp, có thể liên quan đến hình ảnh bàn tay (左 zuǒ?) và sự rủ xuống, không đều (垂 chuí?), biểu thị sự sai lệch, khác biệt."
+  },
+  {
+    "hanTu": "己",
+    "cauTao": "- Nghĩa: Kỷ (thiên can); bản thân mình |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình sợi dây thừng hoặc vật cuộn lại."
+  },
+  {
+    "hanTu": "已",
+    "cauTao": "- Nghĩa: Đã, rồi; dừng lại |- Cấu tạo: Tượng hình |- Thành phần: Gần giống chữ Kỷ 己 (jǐ), có thể là hình ảnh khác của vật cuộn hoặc biểu thị sự kết thúc, dừng lại."
+  },
+  {
+    "hanTu": "市",
+    "cauTao": "- Nghĩa: Chợ; thành phố |- Cấu tạo: Hội ý |- Trên: Bộ Đầu 亠 (tóu) - trên cao, nơi chốn |- Dưới: Bộ Cân 巾 (jīn) - cái khăn, hàng hóa |- Diễn giải: Nơi (亠) bày bán hàng hóa/vải vóc (巾) -> chợ."
+  },
+  {
+    "hanTu": "希",
+    "cauTao": "- Nghĩa: Hy vọng; hiếm, ít |- Cấu tạo: Hội ý |- Thành phần: Gồm các nét (爻 yáo?) và bộ Cân 巾 (jīn) - khăn vải |- Diễn giải: Vải (巾) thưa (爻?) -> hiếm, ít -> hy vọng (mong manh)."
+  },
+  {
+    "hanTu": "師",
+    "cauTao": "- Nghĩa: Thầy giáo; quân đội; sư |- Cấu tạo: Hội ý |- Trái: Biến thể của 堆 (duī) - gò đất, thành lũy |- Phải: Bộ Cân 巾 (jīn) - khăn, cờ hiệu |- Diễn giải: Người cầm cờ hiệu (巾) chỉ huy ở nơi đóng quân/dạy học (堆) -> thầy, tướng."
+  },
+  {
+    "hanTu": "帶",
+    "cauTao": "- Nghĩa: Mang, đem theo; đai lưng; khu vực |- Cấu tạo: Hội ý |- Thành phần: Mô tả hình ảnh cái đai lưng (巾 jīn) có các vật treo xuống dưới một cái che (冖 mì) -> đai lưng, mang theo."
+  },
+  {
+    "hanTu": "常",
+    "cauTao": "- Nghĩa: Thường, thường xuyên; bình thường |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm/ý): Chữ Thượng 尚 (shàng) - tôn sùng, còn |- Dưới (Chỉ ý): Bộ Cân 巾 (jīn) - khăn, quần áo |- Diễn giải: Quần áo (巾) thường mặc -> thường xuyên, bình thường."
+  },
+  {
+    "hanTu": "幫",
+    "cauTao": "- Nghĩa: Giúp đỡ; băng nhóm |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Bang 邦 (bāng) - nước chư hầu |- Dưới (Chỉ ý): Bộ Cân 巾 (jīn) - khăn (chỉ sự hỗ trợ?)."
+  },
+  {
+    "hanTu": "年",
+    "cauTao": "- Nghĩa: Năm; tuổi |- Cấu tạo: Hội ý |- Thành phần: Gốc là hình người 人 (rén) cõng lúa 禾 (hé), chỉ vụ thu hoạch hàng năm. Dạng hiện đại đã biến đổi nhiều."
+  },
+  {
+    "hanTu": "幾",
+    "cauTao": "- Nghĩa: Mấy, bao nhiêu (jǐ); gần như, suýt; cơ vi (jī) |- Cấu tạo: Hình thanh (phức tạp) |- Thành phần: Bộ Yêu 幺 (yāo) - nhỏ bé, sợi tơ; kết hợp với Nhân 人 (rén) - người và Qua 戈 (gē) - vũ khí. Tổ hợp 人+戈 (liên quan đến chữ 戍 shù - canh gác) có thể gợi âm hoặc ý kiểm đếm/sự tinh vi."
+  },
+  {
+    "hanTu": "底",
+    "cauTao": "- Nghĩa: Đáy, cuối; nền tảng |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong (Chỉ âm/ý): Chữ Đê 氐 (dǐ) - gốc rễ, nền tảng |- Diễn giải: Phần gốc rễ (氐) dưới mái nhà (广) -> đáy, nền."
+  },
+  {
+    "hanTu": "店",
+    "cauTao": "- Nghĩa: Cửa hàng, cửa hiệu; quán trọ |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong (Chỉ âm): Chữ Chiêm/Chiếm 占 (zhān / zhàn) - xem bói, chiếm."
+  },
+  {
+    "hanTu": "康",
+    "cauTao": "- Nghĩa: Khang, khỏe mạnh; yên ổn |- Cấu tạo: Hội ý |- Thành phần: Gốc từ chữ Canh 庚 (gēng) - cái chày và chữ Mễ 米 (mǐ) - gạo (hoặc biến thể) |- Diễn giải: Giã gạo (庚+米) -> có thóc gạo đầy đủ -> khỏe mạnh, yên ổn."
+  },
+  {
+    "hanTu": "廚",
+    "cauTao": "- Nghĩa: Bếp, nhà bếp; đầu bếp |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong (Chỉ âm): Chữ Thù 尌 (shù) - dựng lên (gồm 壴 và 寸)."
+  },
+  {
+    "hanTu": "廳",
+    "cauTao": "- Nghĩa: Phòng khách, sảnh đường |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong (Chỉ âm/ý): Phần phức tạp 𢿀 (tīng) liên quan đến chữ Thính 聽 (tīng) - nghe |- Diễn giải: Nơi trong nhà (广) để nghe ngóng, tiếp khách (𢿀)."
+  },
+  {
+    "hanTu": "建",
+    "cauTao": "- Nghĩa: Xây dựng, kiến tạo; thành lập |- Cấu tạo: Hội ý |- Trái: Chữ Duật 聿 (yù) - bút lông (vẽ kiểu?) |- Phải: Bộ Dẫn 廴 (yǐn) - bước dài (thi công?) |- Diễn giải: Lập kế hoạch (聿) và thực hiện (廴) -> xây dựng."
+  },
+  {
+    "hanTu": "弟",
+    "cauTao": "- Nghĩa: Em trai; đệ tử |- Cấu tạo: Hội ý |- Thành phần: Mô tả hình ảnh sợi dây quấn quanh một vật theo thứ tự từ trên xuống dưới -> thứ đệ -> em trai."
+  },
+  {
+    "hanTu": "張",
+    "cauTao": "- Nghĩa: Giương, căng ra; tờ, trang; họ Trương |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Cung 弓 (gōng) - cái cung |- Phải (Chỉ âm): Chữ Trường/Trưởng 長 (cháng/zhǎng) - dài |- Diễn giải: Kéo dài (長) cái cung (弓) -> giương cung."
+  },
+  {
+    "hanTu": "影",
+    "cauTao": "- Nghĩa: Bóng, hình ảnh; ảnh hưởng |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm/ý): Chữ Cảnh 景 (jǐng) - cảnh vật, ánh sáng |- Phải (Chỉ ý): Bộ Sam 彡 (shān) - lông, vân (chỉ đường nét, hình ảnh mờ) |- Diễn giải: Hình ảnh (彡) của cảnh vật (景) dưới ánh sáng -> bóng, ảnh."
+  },
+  {
+    "hanTu": "往",
+    "cauTao": "- Nghĩa: Đi đến, hướng về; trước đây |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Xích 彳(chì) - bước chân trái, đi |- Phải (Chỉ âm/ý): Chữ Chủ 主 (zhǔ) - chủ, hướng đến |- Diễn giải: Bước đi (彳) hướng về (主) một nơi -> đi đến."
+  },
+  {
+    "hanTu": "很",
+    "cauTao": "- Nghĩa: Rất, lắm |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý?): Bộ Xích 彳(chì) - bước đi |- Phải (Chỉ âm/ý): Chữ Cấn 艮 (gěn) - dừng lại, cứng rắn (gợi âm?) |- Diễn giải: Gốc liên quan sự đối đầu, ngoan cố -> nghĩa \"rất\" là phát triển sau."
+  },
+  {
+    "hanTu": "後",
+    "cauTao": "- Nghĩa: Sau, phía sau; tương lai; con cháu |- Cấu tạo: Hội ý |- Trái: Bộ Xích 彳(chì) - bước đi |- Phải: Chữ Yêu 幺 (yāo) - sợi tơ và chữ Trĩ 夂 (zhǐ) - đi sau |- Diễn giải: Bước đi (彳) với sợi dây (幺) kéo theo sau (夂) -> phía sau."
+  },
+  {
+    "hanTu": "得",
+    "cauTao": "- Nghĩa: Đạt được (dé); trợ từ (de); phải (děi) |- Cấu tạo: Hội ý |- Trái: Bộ Xích 彳(chì) - bước đi |- Phải: Gồm bộ Bối 貝 (bèi) - vỏ sò, tiền và bộ Thốn 寸 (cùn) - tấc, bàn tay |- Diễn giải: Đi đường (彳) dùng tay (寸) nhặt được của cải (貝) -> đạt được."
+  },
+  {
+    "hanTu": "從",
+    "cauTao": "- Nghĩa: Từ; theo sau, tuân theo |- Cấu tạo: Hội ý |- Trái: Bộ Xích 彳(chì) - bước đi |- Phải: Chữ Trọng 乑 (zhòng) - nhiều người theo sau (人+人) |- Diễn giải: Đi theo (彳) đám đông (乑) -> theo sau, từ."
+  },
+  {
+    "hanTu": "微",
+    "cauTao": "- Nghĩa: Vi, nhỏ bé, tinh vi; hơi, khẽ |- Cấu tạo: Hình thanh/Hội ý (phức tạp) |- Trái: Bộ Xích 彳(chì) - bước đi |- Phải: Phần phức tạp (𢼸?) gợi âm wēi và ý nghĩa nhỏ bé, ẩn giấu."
+  },
+  {
+    "hanTu": "心",
+    "cauTao": "- Nghĩa: Tim; tâm trí, tấm lòng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh trái tim với các buồng tâm nhĩ/tâm thất."
+  },
+  {
+    "hanTu": "必",
+    "cauTao": "- Nghĩa: Tất, ắt, phải; cần phải |- Cấu tạo: Hội ý/Chỉ sự |- Thành phần: Giống chữ Tâm 心 (xīn) với một nét phẩy 丿(piě) xuyên qua |- Diễn giải: Tâm (心) đã quyết, không thay đổi -> tất phải."
+  },
+  {
+    "hanTu": "忘",
+    "cauTao": "- Nghĩa: Quên |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm/ý): Chữ Vong 亡 (wáng) - mất, chết |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Tâm trí (心) đã mất (亡) đi điều gì đó -> quên."
+  },
+  {
+    "hanTu": "忙",
+    "cauTao": "- Nghĩa: Bận, bận rộn |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm/ý): Chữ Vong 亡 (wáng) - mất, chết |- Diễn giải: Tâm trí (忄) như mất đi (亡) vì quá nhiều việc -> bận."
+  },
+  {
+    "hanTu": "快",
+    "cauTao": "- Nghĩa: Nhanh; vui vẻ; sắp |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm/ý): Chữ Quái/Quyết 夬 (guài / jué) - quyết đoán, chia lìa |- Diễn giải: Tâm trạng (忄) dứt khoát (夬) -> nhanh; hoặc tâm trạng (忄) dứt khoát (夬) -> nhanh; hoặc tâm trạng (忄) được giải tỏa (夬) -> vui vẻ."
+  },
+  {
+    "hanTu": "念",
+    "cauTao": "- Nghĩa: Nghĩ, nhớ nhung; đọc; ý niệm |- Cấu tạo: Hội ý |- Trên: Chữ Kim 今 (jīn) - nay, bây giờ |- Dưới: Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Tâm trí (心) của hiện tại (今) -> ý nghĩ, niệm."
+  },
+  {
+    "hanTu": "怎",
+    "cauTao": "- Nghĩa: Sao, thế nào |- Cấu tạo: Hình thanh |- Trên (Chỉ âm?): Chữ Sạ 乍 (zhà) - đột nhiên |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Tâm trí (心) băn khoăn về điều đột ngột (乍) -> thế nào?."
+  },
+  {
+    "hanTu": "怕",
+    "cauTao": "- Nghĩa: Sợ, e rằng |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm/ý): Chữ Bạch 白 (bái) - trắng |- Diễn giải: Tâm trạng (忄) khiến mặt trắng bệch (白) -> sợ."
+  },
+  {
+    "hanTu": "思",
+    "cauTao": "- Nghĩa: Nghĩ, suy nghĩ, tư duy; nhớ |- Cấu tạo: Hội ý |- Trên: Chữ Điền 田 (tián) (gốc là 囟 xìn - đỉnh đầu, não) |- Dưới: Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Não (囟) và tim (心) cùng hoạt động -> suy nghĩ."
+  },
+  {
+    "hanTu": "怡",
+    "cauTao": "- Nghĩa: Vui vẻ, hòa nhã |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Đài 台 (tái / yí) - cái đài."
+  },
+  {
+    "hanTu": "息",
+    "cauTao": "- Nghĩa: Hơi thở; nghỉ ngơi; tin tức; lãi suất |- Cấu tạo: Hội ý |- Trên: Chữ Tự 自 (zì) - mũi, tự mình |- Dưới: Bộ Tâm 心 (xīn) - tim |- Diễn giải: Hơi thở từ mũi (自) và nhịp tim (心) -> nghỉ ngơi, hơi thở."
+  },
+  {
+    "hanTu": "您",
+    "cauTao": "- Nghĩa: Ngài, ông, bà (kính trọng) |- Cấu tạo: Hội ý |- Trên: Chữ Nễ 你 (nǐ) - bạn |- Dưới: Bộ Tâm 心 (xīn) - tim, tấm lòng |- Diễn giải: Dùng cả tấm lòng (心) đối với bạn (你) -> kính trọng."
+  },
+  {
+    "hanTu": "想",
+    "cauTao": "- Nghĩa: Nghĩ, suy nghĩ; muốn; nhớ |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm/ý): Chữ Tương/Tướng 相 (xiāng / xiàng) - nhau, tướng mạo |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Tâm trí (心) nghĩ về hình ảnh (相) -> suy nghĩ, nhớ."
+  },
+  {
+    "hanTu": "意",
+    "cauTao": "- Nghĩa: Ý, ý nghĩa, ý muốn |- Cấu tạo: Hội ý |- Trên: Chữ Âm 音 (yīn) - âm thanh, tiếng nói |- Dưới: Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Âm thanh (音) của lòng (心) -> ý nghĩ."
+  },
+  {
+    "hanTu": "感",
+    "cauTao": "- Nghĩa: Cảm thấy, cảm giác; cảm động; cảm ơn |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm): Chữ Hàm 咸 (xián) - đều, cùng |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Tâm (心) cùng rung động (咸) -> cảm giác."
+  },
+  {
+    "hanTu": "慢",
+    "cauTao": "- Nghĩa: Chậm, từ từ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Mạn 曼 (màn) - kéo dài, đẹp."
+  },
+  {
+    "hanTu": "慣",
+    "cauTao": "- Nghĩa: Quen, quen thuộc; thói quen |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Quán 貫 (guàn) - xuyên qua, quán triệt."
+  },
+  {
+    "hanTu": "應",
+    "cauTao": "- Nghĩa: Nên, phải (yīng); đáp ứng (yìng) |- Cấu tạo: Hình thanh/Hội ý |- Thành phần: Gồm phần trên liên quan chữ Ưng 鷹 (yīng) - chim ưng (gợi âm) và bộ Tâm 心 (xīn) - tim, tấm lòng bên dưới."
+  },
+  {
+    "hanTu": "成",
+    "cauTao": "- Nghĩa: Thành, thành công; trở thành |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Qua 戈 (gē) - vũ khí và phần còn lại (戊 wù / 丁 dīng?) chỉ mục tiêu hoặc hoàn thành |- Diễn giải: Dùng vũ khí (戈) đạt mục tiêu (戊/丁) -> hoàn thành."
+  },
+  {
+    "hanTu": "我",
+    "cauTao": "- Nghĩa: Tôi, ta (ngôi thứ nhất) |- Cấu tạo: Nguyên là chữ tượng hình (vũ khí), sau mượn âm chỉ ngôi thứ nhất |- Thành phần: Thường được xem là một khối, gốc từ 手 (shǒu) và 戈 (gē) nhưng đã biến đổi nhiều."
+  },
+  {
+    "hanTu": "或",
+    "cauTao": "- Nghĩa: Hoặc là, có lẽ; có người |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Qua 戈 (gē) - vũ khí, bộ Khẩu 口 (kǒu) - miệng/vùng đất, và nét ngang 一 (yī) - biên giới |- Diễn giải: Vũ khí (戈) bảo vệ vùng đất (口) -> lãnh thổ, quốc gia (gốc của 國); sau phát triển nghĩa \"hoặc là\"."
+  },
+  {
+    "hanTu": "戶",
+    "cauTao": "- Nghĩa: Hộ, cửa một cánh; nhà |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái cửa một cánh."
+  },
+  {
+    "hanTu": "房",
+    "cauTao": "- Nghĩa: Phòng; nhà ở |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Hộ 戶 (hù) - cửa, nhà |- Dưới (Chỉ âm): Chữ Phương 方 (fāng) - vuông, phương hướng."
+  },
+  {
+    "hanTu": "所",
+    "cauTao": "- Nghĩa: Nơi, chỗ; sở; trợ từ |- Cấu tạo: Hình thanh/Hội ý |- Trái: Bộ Hộ 戶 (hù) - cửa, nhà |- Phải: Bộ Cân 斤 (jīn) - cái rìu (có thể gợi âm) |- Diễn giải: Nơi chốn (戶) được tạo ra bằng công cụ (斤)?."
+  },
+  {
+    "hanTu": "手",
+    "cauTao": "- Nghĩa: Tay; người làm |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh bàn tay với các ngón tay."
+  },
+  {
+    "hanTu": "打",
+    "cauTao": "- Nghĩa: Đánh, đập; chơi; làm; gọi (điện thoại) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Đinh 丁 (dīng) - can Đinh."
+  },
+  {
+    "hanTu": "找",
+    "cauTao": "- Nghĩa: Tìm, tìm kiếm |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm?): Bộ Qua 戈 (gē) - vũ khí |- Diễn giải: Dùng tay (扌) tìm kiếm (có thể là tìm vũ khí 戈?)."
+  },
+  {
+    "hanTu": "把",
+    "cauTao": "- Nghĩa: Cầm, nắm; giới từ (bǎ); cái chuôi (bà) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Ba 巴 (bā) - mong chờ, bám vào |- Diễn giải: Dùng tay (扌) để cầm nắm."
+  },
+  {
+    "hanTu": "拍",
+    "cauTao": "- Nghĩa: Vỗ, đập; chụp (ảnh) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Bạch 白 (bái) - trắng."
+  },
+  {
+    "hanTu": "拿",
+    "cauTao": "- Nghĩa: Cầm, lấy, nắm giữ |- Cấu tạo: Hội ý |- Trên: Chữ Hợp 合 (hé) - hợp lại |- Dưới: Chữ Thủ 手 (shǒu) - tay |- Diễn giải: Tay (手) hợp (合) lại để cầm nắm."
+  },
+  {
+    "hanTu": "捷",
+    "cauTao": "- Nghĩa: Nhanh nhẹn, thắng lợi (tiệp) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Tiệp 疌 (jié) - gốc phức tạp."
+  },
+  {
+    "hanTu": "接",
+    "cauTao": "- Nghĩa: Tiếp xúc, nối liền, đón nhận, tiếp đón |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Thiếp 妾 (qiè) - vợ lẽ |- Diễn giải: Dùng tay (扌) để đón nhận, nối tiếp."
+  },
+  {
+    "hanTu": "換",
+    "cauTao": "- Nghĩa: Đổi, thay đổi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Hoán 奐 (huàn) - rực rỡ."
+  },
+  {
+    "hanTu": "支",
+    "cauTao": "- Nghĩa: Cành, nhánh; chống đỡ; chi trả; lượng từ |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Hình ảnh bàn tay 又 (yòu) cầm cành cây (phần trên giống 十 shí)."
+  },
+  {
+    "hanTu": "收",
+    "cauTao": "- Nghĩa: Thu, nhận vào, thu hoạch |- Cấu tạo: Hình thanh/Hội ý |- Trái: Chữ Củ 丩 (jiū) - quấn quýt |- Phải: Bộ Phộc 攴 (pū) - đánh khẽ, hành động |- Diễn giải: Hành động (攴) bó lại (丩) -> thu gom."
+  },
+  {
+    "hanTu": "放",
+    "cauTao": "- Nghĩa: Thả, phóng thích; đặt, để |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Phương 方 (fāng) - vuông, phương hướng |- Phải (Chỉ ý): Bộ Phộc 攴 (pū) - đánh khẽ, hành động |- Diễn giải: Hành động (攴) thả ra các hướng (方)."
+  },
+  {
+    "hanTu": "故",
+    "cauTao": "- Nghĩa: Nguyên nhân, lý do; cũ, xưa; chết; cố ý |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm/ý): Chữ Cổ 古 (gǔ) - cổ xưa |- Phải (Chỉ ý): Bộ Phộc 攴 (pū) - đánh khẽ, hành động |- Diễn giải: Sự việc (攴) đã cũ (古) -> nguyên nhân, đã qua."
+  },
+  {
+    "hanTu": "教",
+    "cauTao": "- Nghĩa: Dạy (jiāo); đạo, sự dạy dỗ (jiào) |- Cấu tạo: Hội ý |- Trái: Chữ Hiếu 孝 (xiào) - hiếu thảo |- Phải: Bộ Phộc 攴 (pū) - đánh khẽ, dạy bảo |- Diễn giải: Dạy (攴) đạo hiếu (孝)."
+  },
+  {
+    "hanTu": "文",
+    "cauTao": "- Nghĩa: Văn, chữ viết; văn hóa; hoa văn |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh hoa văn, các đường nét giao nhau."
+  },
+  {
+    "hanTu": "新",
+    "cauTao": "- Nghĩa: Mới, tân |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ âm/ý): Chữ Tân 辛 (xīn) - cay đắng, tân |- Phải (Chỉ ý): Bộ Cân 斤 (jīn) - cái rìu |- Diễn giải: Dùng rìu (斤) chặt cây (辛?) -> làm mới."
+  },
+  {
+    "hanTu": "方",
+    "cauTao": "- Nghĩa: Vuông; phương hướng; phương pháp; nơi chốn |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình dáng vuông vức hoặc công cụ (cái cày?)."
+  },
+  {
+    "hanTu": "旁",
+    "cauTao": "- Nghĩa: Bên cạnh; những người khác |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm?): Chữ Thượng 尚 (shàng) - tôn sùng, còn |- Dưới (Chỉ ý): Chữ Phương 方 (fāng) - phương hướng, nơi chốn |- Diễn giải: Ở phương (方) bên cạnh."
+  },
+  {
+    "hanTu": "旅",
+    "cauTao": "- Nghĩa: Du lịch; quân đội; ở trọ |- Cấu tạo: Hội ý |- Trái: Bộ Thi 㫃 (yǎn) - cờ bay |- Phải: Biến thể của 從 (cóng) - nhiều người theo sau (人+人) |- Diễn giải: Nhiều người (从) đi theo lá cờ (㫃) -> quân đội đi xa, du lịch."
+  },
+  {
+    "hanTu": "日",
+    "cauTao": "- Nghĩa: Mặt trời; ngày |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh mặt trời (hình tròn có chấm ở giữa, sau thành hình chữ nhật có nét ngang)."
+  },
+  {
+    "hanTu": "早",
+    "cauTao": "- Nghĩa: Sớm, buổi sáng |- Cấu tạo: Hội ý |- Trên: Chữ Nhật 日 (rì) - mặt trời |- Dưới: Chữ Thập 十 (shí) - mười (hoặc gốc từ 甲 jiǎ?) |- Diễn giải: Mặt trời (日) vừa nhô lên (十?) -> sáng sớm."
+  },
+  {
+    "hanTu": "明",
+    "cauTao": "- Nghĩa: Sáng; rõ ràng; hiểu; Minh (triều) |- Cấu tạo: Hội ý |- Trái: Chữ Nhật 日 (rì) - mặt trời |- Phải: Chữ Nguyệt 月 (yuè) - mặt trăng |- Diễn giải: Cả mặt trời (日) và mặt trăng (月) cùng chiếu -> sáng rõ."
+  },
+  {
+    "hanTu": "星",
+    "cauTao": "- Nghĩa: Sao, ngôi sao |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Chữ Nhật 日 (rì) - mặt trời, ánh sáng |- Dưới (Chỉ âm/ý): Chữ Sinh 生 (shēng) - sinh ra |- Diễn giải: Vật sáng (日) được sinh ra (生) trên trời -> ngôi sao."
+  },
+  {
+    "hanTu": "春",
+    "cauTao": "- Nghĩa: Mùa xuân |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Thảo 艸 (cǎo) - cỏ cây (biến thể ở trên), chữ Nhật 日 (rì) - mặt trời và chữ Truân 屯 (tún) - đâm chồi, nảy nở (có thể gợi âm) |- Diễn giải: Cỏ cây (艸) đâm chồi (屯) dưới ánh mặt trời (日) -> mùa xuân."
+  },
+  {
+    "hanTu": "昨",
+    "cauTao": "- Nghĩa: Hôm qua |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhật 日 (rì) - ngày |- Phải (Chỉ âm): Chữ Sạ 乍 (zhà) - đột nhiên."
+  },
+  {
+    "hanTu": "是",
+    "cauTao": "- Nghĩa: Là, phải, đúng; này (chỉ thị) |- Cấu tạo: Hội ý |- Trên: Chữ Nhật 日 (rì) - mặt trời, ngày |- Dưới: Chữ Chính 正 (zhèng) - thẳng, đúng |- Diễn giải: Mặt trời (日) luôn đi theo đường thẳng (正), chỉ sự chính xác, không đổi -> nghĩa \"là\", \"đúng\"."
+  },
+  {
+    "hanTu": "時",
+    "cauTao": "- Nghĩa: Thời gian; giờ; thời đại; lúc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhật 日 (rì) - ngày, mặt trời |- Phải (Chỉ âm): Chữ Tự 寺 (sì) - chùa."
+  },
+  {
+    "hanTu": "晚",
+    "cauTao": "- Nghĩa: Muộn, tối, buổi tối; cuối |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhật 日 (rì) - ngày, mặt trời |- Phải (Chỉ âm): Chữ Miễn 免 (miǎn) - miễn, tránh."
+  },
+  {
+    "hanTu": "景",
+    "cauTao": "- Nghĩa: Cảnh, cảnh vật; ánh sáng; ngưỡng mộ |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Chữ Nhật 日 (rì) - mặt trời |- Dưới (Chỉ âm/ý): Chữ Kinh 京 (jīng) - kinh đô, cao lớn |- Diễn giải: Ánh mặt trời (日) chiếu xuống nơi cao lớn (京) -> cảnh đẹp."
+  },
+  {
+    "hanTu": "更",
+    "cauTao": "- Nghĩa: Canh; thay đổi (gēng); càng, hơn nữa (gèng) |- Cấu tạo: Hội ý |- Thành phần: Mô tả hình ảnh tay (攴/又) cầm dùi gõ vào vật gì đó (曰/丙) để báo canh/thay đổi."
+  },
+  {
+    "hanTu": "書",
+    "cauTao": "- Nghĩa: Sách; viết |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Duật 聿 (yù) - bút lông |- Dưới: Chữ Viết 曰 (yuē) - nói rằng |- Diễn giải: Dùng bút (聿) để ghi lại lời nói/ý tưởng (曰) thành văn bản, sách vở."
+  },
+  {
+    "hanTu": "替",
+    "cauTao": "- Nghĩa: Thay, thay thế |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Viết 曰 (yuē) ở trên và hai chữ Phu 夫 (fū) - người chồng, người đàn ông bên dưới |- Diễn giải: Hai người (夫+夫) thay phiên nhau nói (曰) hoặc làm việc -> thay thế."
+  },
+  {
+    "hanTu": "最",
+    "cauTao": "- Nghĩa: Nhất, cực kỳ |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Viết 曰 (yuē) - nói rằng |- Dưới (Chỉ âm?): Chữ Thủ 取 (qǔ) - lấy |- Diễn giải: Lấy (取) cái đầu tiên/tốt nhất để nói (曰)?."
+  },
+  {
+    "hanTu": "會",
+    "cauTao": "- Nghĩa: Biết; sẽ; họp, gặp gỡ; hội |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Cập 亼 (jí) - tập hợp, chữ Viết 曰 (yuē) - nói và phần dưới liên quan chữ Tằng 曾 (zēng) - tầng, nồi hấp |- Diễn giải: Mọi người tập hợp (亼) nói chuyện (曰) quanh nồi hấp chung (曾) -> gặp gỡ, hội họp."
+  },
+  {
+    "hanTu": "月",
+    "cauTao": "- Nghĩa: Mặt trăng; tháng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh mặt trăng khuyết."
+  },
+  {
+    "hanTu": "有",
+    "cauTao": "- Nghĩa: Có, sở hữu; tồn tại |- Cấu tạo: Hội ý |- Trên: Biến thể của chữ Hựu 又 (yòu) - bàn tay |- Dưới: Bộ Nguyệt 月 (yuè) (gốc là Nhục 肉 ròu - thịt) |- Diễn giải: Tay (又) cầm miếng thịt (肉) -> có, sở hữu."
+  },
+  {
+    "hanTu": "朋",
+    "cauTao": "- Nghĩa: Bạn, bè |- Cấu tạo: Hội ý |- Thành phần: Hai bộ Nguyệt 月 (yuè) đặt cạnh nhau (gốc có thể là hai xâu tiền 貝 bèi) |- Diễn giải: Hai vật giống nhau đi cùng nhau -> bạn bè."
+  },
+  {
+    "hanTu": "服",
+    "cauTao": "- Nghĩa: Quần áo; phục tùng; uống (thuốc) |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Gồm bộ Nguyệt 月 (yuè) (cơ thể?), bộ Tiết 卩 (jié) - người quỳ và chữ Hựu 又 (yòu) - bàn tay |- Diễn giải: Cơ thể (月) bị tay (又) khuất phục (卩) -> phục tùng; hoặc liên quan đến vật dùng cho cơ thể -> quần áo."
+  },
+  {
+    "hanTu": "望",
+    "cauTao": "- Nghĩa: Nhìn xa, vọng; hy vọng; ngày rằm |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Thần 臣 (chén) - thần tử (chỉ người/mắt), chữ Nguyệt 月 (yuè) - mặt trăng, và chữ Nhâm/Đình 壬/廷 (rén/tǐng) - đứng thẳng/sân đình |- Diễn giải: Người (臣) đứng thẳng (壬) nhìn mặt trăng (月) -> nhìn xa, vọng."
+  },
+  {
+    "hanTu": "期",
+    "cauTao": "- Nghĩa: Kỳ, thời hạn; mong đợi |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Kỳ 其 (qí) - nó, kia |- Phải (Chỉ ý): Bộ Nguyệt 月 (yuè) - tháng, mặt trăng (chỉ thời gian)."
+  },
+  {
+    "hanTu": "末",
+    "cauTao": "- Nghĩa: Ngọn, cuối cùng; bột |- Cấu tạo: Chỉ sự |- Thành phần: Chữ Mộc 木 (mù) - cây, với nét ngang 一 (yī) ở trên cùng nhấn mạnh phần ngọn -> ngọn, cuối."
+  },
+  {
+    "hanTu": "本",
+    "cauTao": "- Nghĩa: Gốc, rễ; bản chất; vốn; quyển; này |- Cấu tạo: Chỉ sự |- Thành phần: Chữ Mộc 木 (mù) - cây, với nét ngang 一 (yī) ở dưới cùng nhấn mạnh phần gốc -> gốc, bản chất."
+  },
+  {
+    "hanTu": "李",
+    "cauTao": "- Nghĩa: Mận; họ Lý |- Cấu tạo: Hội ý |- Trên: Chữ Mộc 木 (mù) - cây |- Dưới: Chữ Tử 子 (zǐ) - con, quả |- Diễn giải: Quả (子) của cây (木) -> quả mận/lý."
+  },
+  {
+    "hanTu": "束",
+    "cauTao": "- Nghĩa: Bó, buộc lại; ràng buộc |- Cấu tạo: Hội ý |- Ngoài: Bộ Khẩu 口 (kǒu) - miệng (chỉ sự buộc) |- Trong: Chữ Mộc 木 (mù) - cây, gỗ |- Diễn giải: Buộc (口) gỗ (木) lại thành bó."
+  },
+  {
+    "hanTu": "杯",
+    "cauTao": "- Nghĩa: Cái cốc, cái ly |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Bất 不 (bù) - không |- Diễn giải: Cốc làm bằng gỗ (木)."
+  },
+  {
+    "hanTu": "東",
+    "cauTao": "- Nghĩa: Đông, phía đông |- Cấu tạo: Hội ý |- Thành phần: Chữ Nhật 日 (rì) - mặt trời, nằm giữa chữ Mộc 木 (mù) - cây |- Diễn giải: Mặt trời (日) mọc giữa lùm cây (木) -> phía đông."
+  },
+  {
+    "hanTu": "林",
+    "cauTao": "- Nghĩa: Rừng cây |- Cấu tạo: Hội ý |- Thành phần: Hai chữ Mộc 木 (mù) đặt cạnh nhau -> nhiều cây -> rừng."
+  },
+  {
+    "hanTu": "果",
+    "cauTao": "- Nghĩa: Quả, trái cây; kết quả |- Cấu tạo: Tượng hình/Hội ý |- Trên: Chữ Điền 田 (tián) - ruộng (hình quả) |- Dưới: Chữ Mộc 木 (mù) - cây |- Diễn giải: Quả (田) trên cây (木)."
+  },
+  {
+    "hanTu": "校",
+    "cauTao": "- Nghĩa: Trường học (xiào); hiệu chỉnh (jiào) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Giao 交 (jiāo) - giao nhau."
+  },
+  {
+    "hanTu": "棒",
+    "cauTao": "- Nghĩa: Gậy; tuyệt vời, cừ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Phụng 奉 (fèng) - phụng sự |- Diễn giải: Cái gậy làm bằng gỗ (木)."
+  },
+  {
+    "hanTu": "棟",
+    "cauTao": "- Nghĩa: Đòn dông; tòa nhà (lượng từ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Đông 東 (dōng) - phía đông |- Diễn giải: Thanh gỗ (木) chính của mái nhà."
+  },
+  {
+    "hanTu": "概",
+    "cauTao": "- Nghĩa: Khái quát, đại khái; cái gạt đấu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Ký 既 (jì) - đã, rồi |- Diễn giải: Dụng cụ bằng gỗ (木) để gạt bằng miệng đấu."
+  },
+  {
+    "hanTu": "樂",
+    "cauTao": "- Nghĩa: Vui vẻ (lè); âm nhạc (yuè); yêu thích (yào) |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh nhạc cụ (幺 yāo + 白 bái?) trên giá đỡ bằng gỗ 木 (mù) |- Diễn giải: Nhạc cụ -> âm nhạc -> vui vẻ."
+  },
+  {
+    "hanTu": "樓",
+    "cauTao": "- Nghĩa: Lầu, tòa nhà cao tầng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Lâu 婁 (lóu) - họ Lâu, trống rỗng."
+  },
+  {
+    "hanTu": "樣",
+    "cauTao": "- Nghĩa: Kiểu, dạng, mẫu; dáng vẻ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Dạng 樣 (yàng) - con dê |- Diễn giải: Khuôn mẫu làm bằng gỗ (木)?."
+  },
+  {
+    "hanTu": "機",
+    "cauTao": "- Nghĩa: Máy móc; cơ hội; then chốt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Kỷ/Cơ 幾 (jǐ / jī) - mấy, gần như."
+  },
+  {
+    "hanTu": "次",
+    "cauTao": "- Nghĩa: Thứ, lần; thứ yếu |- Cấu tạo: Hình thanh/Hội ý |- Trái: Chữ Nhị 二 (èr) - hai |- Phải: Chữ Khiếm 欠 (qiàn) - thiếu, há miệng |- Diễn giải: Người thứ hai (二) há miệng (欠) chờ? Chỉ thứ tự."
+  },
+  {
+    "hanTu": "歌",
+    "cauTao": "- Nghĩa: Ca hát; bài hát |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Ca 哥 (gē) - anh trai |- Phải (Chỉ ý): Chữ Khiếm 欠 (qiàn) - há miệng |- Diễn giải: Há miệng (欠) để hát."
+  },
+  {
+    "hanTu": "歡",
+    "cauTao": "- Nghĩa: Vui vẻ, hoan lạc, hoan hỉ |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Quán 雚 (guàn) - loài chim/nhìn kỹ |- Phải (Chỉ ý): Chữ Khiếm 欠 (qiàn) - há miệng (chỉ trạng thái vui cười)."
+  },
+  {
+    "hanTu": "母",
+    "cauTao": "- Nghĩa: Mẹ; cái (giống loài) |- Cấu tạo: Tượng hình |- Thành phần: Biến thể của chữ Nữ 女 (nǚ) với hai chấm tượng trưng cho bầu vú -> mẹ."
+  },
+  {
+    "hanTu": "每",
+    "cauTao": "- Nghĩa: Mỗi, từng |- Cấu tạo: Hội ý |- Thành phần: Gốc có thể là hình ảnh người phụ nữ 母 (mǔ) với mái tóc rậm rạp hoặc cây cỏ um tùm (phần trên), chỉ sự phong phú, phổ biến -> mỗi."
+  },
+  {
+    "hanTu": "比",
+    "cauTao": "- Nghĩa: So sánh; tỉ lệ; gần đây |- Cấu tạo: Hội ý |- Thành phần: Hai chữ Chuỷ 匕 (bǐ) (gốc là 人 người) đặt cạnh nhau -> so sánh."
+  },
+  {
+    "hanTu": "氣",
+    "cauTao": "- Nghĩa: Khí, hơi; không khí; tức giận |- Cấu tạo: Hội ý |- Ngoài: Bộ Khí 气 (qì) - hơi nước |- Trong: Chữ Mễ 米 (mǐ) - gạo |- Diễn giải: Hơi (气) bốc lên từ gạo (米) đang nấu -> khí."
+  },
+  {
+    "hanTu": "水",
+    "cauTao": "- Nghĩa: Nước; sông; chất lỏng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh dòng nước đang chảy."
+  },
+  {
+    "hanTu": "池",
+    "cauTao": "- Nghĩa: Ao, hồ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Dã 也 (yě) - cũng."
+  },
+  {
+    "hanTu": "決",
+    "cauTao": "- Nghĩa: Quyết định; đê vỡ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Quái/Quyết 夬 (guài / jué) - quyết đoán, chia lìa |- Diễn giải: Nước (氵) vỡ đê; hoặc sự quyết đoán (夬)."
+  },
+  {
+    "hanTu": "汽",
+    "cauTao": "- Nghĩa: Hơi nước |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Khí 气 (qì) - khí, hơi."
+  },
+  {
+    "hanTu": "沒",
+    "cauTao": "- Nghĩa: Không có (méi); chìm, ngập; chết (mò) |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải: Bộ Thù 殳 (shū) - binh khí dài (tay cầm vũ khí) |- Diễn giải: Chìm (殳?) trong nước (氵)."
+  },
+  {
+    "hanTu": "油",
+    "cauTao": "- Nghĩa: Dầu, mỡ; trơn tru |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước, chất lỏng |- Phải (Chỉ âm): Chữ Do 由 (yóu) - do, bởi."
+  },
+  {
+    "hanTu": "法",
+    "cauTao": "- Nghĩa: Pháp luật, phép tắc; phương pháp |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước (sự công bằng) |- Phải (Chỉ âm/ý): Chữ Khứ 去 (qù) - đi, loại bỏ |- Diễn giải: Nước (氵) chảy đi (去) công bằng; hoặc loại bỏ (去) cái xấu theo chuẩn mực (氵)."
+  },
+  {
+    "hanTu": "波",
+    "cauTao": "- Nghĩa: Sóng, ba đào |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Bì 皮 (pí) - da."
+  },
+  {
+    "hanTu": "泳",
+    "cauTao": "- Nghĩa: Bơi lội |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Vĩnh 永 (yǒng) - vĩnh viễn."
+  },
+  {
+    "hanTu": "流",
+    "cauTao": "- Nghĩa: Chảy, dòng chảy; lưu hành |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải: Phần phức tạp 㐬 (liú) chỉ âm và ý dòng chảy."
+  },
+  {
+    "hanTu": "浴",
+    "cauTao": "- Nghĩa: Tắm |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Cốc 谷 (gǔ) - thung lũng."
+  },
+  {
+    "hanTu": "海",
+    "cauTao": "- Nghĩa: Biển, hải dương |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Mỗi 每 (měi) - mỗi."
+  },
+  {
+    "hanTu": "淨",
+    "cauTao": "- Nghĩa: Sạch sẽ; chỉ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Tranh 爭 (zhēng) - tranh giành |- Diễn giải: Dùng nước (氵) để rửa sạch."
+  },
+  {
+    "hanTu": "游",
+    "cauTao": "- Nghĩa: Bơi; du lịch, đi chơi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Du 斿 (yóu) - cờ bay, đi chơi."
+  },
+  {
+    "hanTu": "湯",
+    "cauTao": "- Nghĩa: Canh, súp; nước nóng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Dương 昜 (yáng) - mặt trời."
+  },
+  {
+    "hanTu": "滑",
+    "cauTao": "- Nghĩa: Trơn, trượt; xảo quyệt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Cốt 骨 (gǔ) - xương."
+  },
+  {
+    "hanTu": "漂",
+    "cauTao": "- Nghĩa: Trôi nổi (piāo); tẩy trắng (piǎo); đẹp (piào) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Phiếu 票 (piào) - vé, phiếu."
+  },
+  {
+    "hanTu": "濕",
+    "cauTao": "- Nghĩa: Ướt, ẩm ướt |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải: Phần phức tạp 㬎 (xiǎn) (gồm Nhật 日 và Tơ 絲?) gợi âm hoặc chỉ sự ẩm ướt của tơ dưới nắng?."
+  },
+  {
+    "hanTu": "灣",
+    "cauTao": "- Nghĩa: Vịnh, chỗ sông uốn khúc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Loan 彎 (wān) - cong, uốn cong."
+  },
+  {
+    "hanTu": "火",
+    "cauTao": "- Nghĩa: Lửa; nóng; gấp |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh ngọn lửa đang bốc cháy."
+  },
+  {
+    "hanTu": "炎",
+    "cauTao": "- Nghĩa: Viêm, nóng rực; viêm nhiễm |- Cấu tạo: Hội ý |- Thành phần: Hai chữ Hỏa 火 (huǒ) chồng lên nhau -> rất nóng."
+  },
+  {
+    "hanTu": "為",
+    "cauTao": "- Nghĩa: Vì, cho (wèi); làm, là (wéi) |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gốc mô tả hình bàn tay (爪 zhǎo?) dắt con voi (象 xiàng?), chỉ hành động. Dạng hiện đại đã biến đổi."
+  },
+  {
+    "hanTu": "烏",
+    "cauTao": "- Nghĩa: Quạ; đen; ô hô |- Cấu tạo: Tượng hình |- Thành phần: Chữ Điểu 鳥 (niǎo) - chim, nhưng thiếu nét tượng trưng cho mắt |- Diễn giải: Con chim màu đen nên không thấy rõ mắt -> con quạ."
+  },
+  {
+    "hanTu": "然",
+    "cauTao": "- Nghĩa: Như vậy, thế; nhưng; tự nhiên |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Nhục 月 (ròu) - thịt, bộ Khuyển 犬 (quǎn) - chó, và bộ Hỏa 灬 (huǒ) - lửa |- Diễn giải: Thịt chó (月+犬) nướng trên lửa (灬) -> nghĩa gốc là đốt cháy, sau mượn nghĩa \"như vậy\"."
+  },
+  {
+    "hanTu": "照",
+    "cauTao": "- Nghĩa: Chiếu, soi; chụp ảnh; theo như |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm/ý): Chữ Chiêu 昭 (zhāo) - sáng sủa |- Dưới (Chỉ ý): Bộ Hỏa 灬 (huǒ) - lửa |- Diễn giải: Lửa (灬) chiếu sáng rõ (昭) -> chiếu soi."
+  },
+  {
+    "hanTu": "熱",
+    "cauTao": "- Nghĩa: Nóng, nhiệt |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Nghệ 埶 (yì) - nghệ thuật, trồng trọt |- Dưới (Chỉ ý): Bộ Hỏa 灬 (huǒ) - lửa |- Diễn giải: Sức nóng từ lửa (灬)."
+  },
+  {
+    "hanTu": "燒",
+    "cauTao": "- Nghĩa: Đốt, thiêu; nấu; sốt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hỏa 火 (huǒ) - lửa |- Phải (Chỉ âm): Chữ Nghiêu 堯 (yáo) - vua Nghiêu."
+  },
+  {
+    "hanTu": "父",
+    "cauTao": "- Nghĩa: Cha, bố |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh bàn tay cầm cây gậy hoặc rìu đá, biểu tượng quyền lực của người cha."
+  },
+  {
+    "hanTu": "爸",
+    "cauTao": "- Nghĩa: Bố, ba |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Chữ Phụ 父 (fù) - cha |- Dưới (Chỉ âm): Chữ Ba 巴 (bā) - mong chờ."
+  },
+  {
+    "hanTu": "片",
+    "cauTao": "- Nghĩa: Mảnh, tấm, lát; phiến; phim |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Hình ảnh nửa bên trái của chữ Mộc 木 (mù), chỉ mảnh gỗ được chẻ ra."
+  },
+  {
+    "hanTu": "牙",
+    "cauTao": "- Nghĩa: Răng; ngà |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh răng hàm cắm vào nhau."
+  },
+  {
+    "hanTu": "牛",
+    "cauTao": "- Nghĩa: Trâu, bò |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh đầu trâu/bò với cặp sừng."
+  },
+  {
+    "hanTu": "物",
+    "cauTao": "- Nghĩa: Vật, đồ vật; sự vật |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngưu 牛 (niú) - trâu bò |- Phải (Chỉ âm): Chữ Vật 勿 (wù) - đừng, chớ |- Diễn giải: Trâu bò (牛) là loại tài sản, đồ vật quan trọng."
+  },
+  {
+    "hanTu": "特",
+    "cauTao": "- Nghĩa: Đặc biệt, đặc sắc; riêng biệt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngưu 牛 (niú) - trâu bò |- Phải (Chỉ âm): Chữ Tự 寺 (sì) - chùa |- Diễn giải: Con bò đực (牛) đặc biệt khỏe mạnh?."
+  },
+  {
+    "hanTu": "獎",
+    "cauTao": "- Nghĩa: Khen thưởng; giải thưởng |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm?): Chữ Tương/Tướng 將 (jiāng/jiàng) - sẽ, tướng |- Dưới: Chữ Đại 大 (dà) - to lớn |- Diễn giải: Tưởng thưởng (將?) lớn lao (大)."
+  },
+  {
+    "hanTu": "玉",
+    "cauTao": "- Nghĩa: Ngọc; đẹp đẽ |- Cấu tạo: Tượng hình |- Thành phần: Giống chữ Vương 王 (wáng) nhưng thêm dấu chấm 丶 (zhǔ), mô tả hình ảnh ba miếng ngọc được xâu chuỗi."
+  },
+  {
+    "hanTu": "王",
+    "cauTao": "- Nghĩa: Vua, vương; họ Vương |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Ba nét ngang (trời, đất, người) được nối bởi nét sổ (người cai trị thông suốt); hoặc hình ảnh cái rìu chiến (quyền lực)."
+  },
+  {
+    "hanTu": "玩",
+    "cauTao": "- Nghĩa: Chơi, vui đùa; đồ chơi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Nguyên 元 (yuán) - ban đầu |- Diễn giải: Chơi đùa với ngọc (玉)."
+  },
+  {
+    "hanTu": "班",
+    "cauTao": "- Nghĩa: Lớp, ban; ca; chuyến |- Cấu tạo: Hội ý |- Thành phần: Gồm hai chữ Ngọc 玉 (yù) ở hai bên và bộ Đao 刀 (dāo) ở giữa |- Diễn giải: Dùng dao (刀) chia ngọc (玉) -> phân chia, xếp hạng -> lớp, ban."
+  },
+  {
+    "hanTu": "現",
+    "cauTao": "- Nghĩa: Hiện ra, xuất hiện; hiện tại; tiền mặt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm/ý): Chữ Kiến 見 (jiàn) - thấy, nhìn |- Diễn giải: Ngọc (玉) lộ ra cho thấy (見)."
+  },
+  {
+    "hanTu": "球",
+    "cauTao": "- Nghĩa: Quả cầu, trái bóng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Cầu 求 (qiú) - cầu xin |- Diễn giải: Quả cầu làm bằng ngọc (玉)."
+  },
+  {
+    "hanTu": "瓜",
+    "cauTao": "- Nghĩa: Dưa (các loại) |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh quả dưa còn trên dây leo."
+  },
+  {
+    "hanTu": "甜",
+    "cauTao": "- Nghĩa: Ngọt |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ ý): Bộ Thiệt 舌 (shé) - cái lưỡi |- Phải (Chỉ âm/ý): Chữ Cam 甘 (gān) - ngọt |- Diễn giải: Lưỡi (舌) nếm vị ngọt (甘)."
+  },
+  {
+    "hanTu": "生",
+    "cauTao": "- Nghĩa: Sinh, đẻ; sống; học sinh; chưa chín |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh cây cỏ nảy mầm, mọc lên từ mặt đất."
+  },
+  {
+    "hanTu": "用",
+    "cauTao": "- Nghĩa: Dùng, sử dụng; cần |- Cấu tạo: Tượng hình |- Thành phần: Gốc mô tả hình cái thùng gỗ hoặc chuông, sau được mượn nghĩa \"dùng\"."
+  },
+  {
+    "hanTu": "田",
+    "cauTao": "- Nghĩa: Ruộng, đồng ruộng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh thửa ruộng được chia thành các ô bởi bờ ruộng (囗 + 十)."
+  },
+  {
+    "hanTu": "男",
+    "cauTao": "- Nghĩa: Nam, đàn ông, con trai |- Cấu tạo: Hội ý |- Trên: Chữ Điền 田 (tián) - ruộng |- Dưới: Chữ Lực 力 (lì) - sức lực |- Diễn giải: Người dùng sức lực (力) làm việc trên đồng ruộng (田) -> đàn ông."
+  },
+  {
+    "hanTu": "畫",
+    "cauTao": "- Nghĩa: Vẽ; bức tranh; vạch |- Cấu tạo: Hội ý |- Trên: Chữ Duật 聿 (yù) - bút lông |- Dưới: Phần phức tạp gồm Điền 田 (tián) và các nét bao quanh |- Diễn giải: Dùng bút (聿) vẽ ra các khu vực, hình ảnh (田...) -> vẽ."
+  },
+  {
+    "hanTu": "當",
+    "cauTao": "- Nghĩa: Đảm đương, làm; đúng lúc (dāng); thích đáng, cầm đồ (dàng) |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Thượng 尚 (shàng) - tôn sùng, còn |- Dưới (Chỉ ý): Chữ Điền 田 (tián) - ruộng |- Diễn giải: Làm việc trên đồng ruộng (田)?."
+  },
+  {
+    "hanTu": "病",
+    "cauTao": "- Nghĩa: Bệnh, ốm; tật xấu |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nạch 疒 (nè) - bệnh tật |- Trong (Chỉ âm): Chữ Bính 丙 (bǐng) - can Bính."
+  },
+  {
+    "hanTu": "痛",
+    "cauTao": "- Nghĩa: Đau, đau đớn; thương tiếc |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nạch 疒 (nè) - bệnh tật |- Trong (Chỉ âm): Chữ Dũng 甬 (yǒng) - cái ống."
+  },
+  {
+    "hanTu": "發",
+    "cauTao": "- Nghĩa: Phát, phát ra; gửi đi; trở nên giàu có |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gốc liên quan đến hành động bắn tên từ cung (弓 gōng) hoặc bước chân đi (癶 bō). Dạng hiện đại gồm 癶 và phần dưới (弓 + 殳?)."
+  },
+  {
+    "hanTu": "白",
+    "cauTao": "- Nghĩa: Trắng; rõ ràng; trống không |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Giống chữ Nhật 日 (rì) có thêm nét phẩy 丿(piě), chỉ ánh sáng mặt trời hoặc hạt gạo trắng."
+  },
+  {
+    "hanTu": "百",
+    "cauTao": "- Nghĩa: Trăm (100); nhiều |- Cấu tạo: Hình thanh/Hội ý |- Trên: Chữ Nhất 一 (yī) - một |- Dưới: Chữ Bạch 白 (bái) - trắng (có thể gợi âm) |- Diễn giải: Một (一) trăm."
+  },
+  {
+    "hanTu": "的",
+    "cauTao": "- Nghĩa: Trợ từ (de); đích thực (dí); mục đích (dì) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Chữ Bạch 白 (bái) - trắng, rõ ràng |- Phải (Chỉ âm): Chữ Chước 勺 (sháo) - cái thìa."
+  },
+  {
+    "hanTu": "直",
+    "cauTao": "- Nghĩa: Thẳng; trực tiếp; ngay thẳng |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Mục 目 (mù) - mắt và các đường thẳng (十, L), mô tả con mắt nhìn thẳng."
+  },
+  {
+    "hanTu": "相",
+    "cauTao": "- Nghĩa: Nhau, lẫn nhau (xiāng); tướng mạo, xem tướng, tể tướng (xiàng) |- Cấu tạo: Hội ý |- Trái: Bộ Mộc 木 (mù) - cây |- Phải: Bộ Mục 目 (mù) - mắt |- Diễn giải: Dùng mắt (目) quan sát cây (木) -> xem xét, tướng mạo."
+  },
+  {
+    "hanTu": "看",
+    "cauTao": "- Nghĩa: Nhìn, xem; coi như (kàn); trông coi (kān) |- Cấu tạo: Hội ý |- Trên: Biến thể của bộ Thủ 手 (shǒu) - tay |- Dưới: Bộ Mục 目 (mù) - mắt |- Diễn giải: Tay (手) che trên mắt (目) để nhìn rõ hơn -> nhìn, xem."
+  },
+  {
+    "hanTu": "真",
+    "cauTao": "- Nghĩa: Thật, chân thực; rõ ràng |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Gồm bộ Thập 十 (shí), bộ Mục 目 (mù) và phần dưới (L+八), gốc có thể liên quan đến sự biến đổi, tu luyện -> đạt đến chân thật."
+  },
+  {
+    "hanTu": "睡",
+    "cauTao": "- Nghĩa: Ngủ |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Mục 目 (mù) - mắt |- Phải (Chỉ âm/ý): Chữ Thùy 垂 (chuí) - rủ xuống |- Diễn giải: Mắt (目) rủ xuống (垂) -> buồn ngủ, ngủ."
+  },
+  {
+    "hanTu": "知",
+    "cauTao": "- Nghĩa: Biết, hiểu biết; tri thức; thông báo |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ âm?): Chữ Thỉ 矢 (shǐ) - mũi tên |- Phải (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng, lời nói |- Diễn giải: Lời nói (口) bắn ra như mũi tên (矢) -> truyền bá tri thức."
+  },
+  {
+    "hanTu": "矮",
+    "cauTao": "- Nghĩa: Lùn, thấp |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thỉ 矢 (shǐ) - mũi tên (ngắn?) |- Phải (Chỉ âm): Chữ Ủy 委 (wěi) - ủy thác, cong queo."
+  },
+  {
+    "hanTu": "碗",
+    "cauTao": "- Nghĩa: Cái bát, cái chén |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thạch 石 (shí) - đá |- Phải (Chỉ âm): Chữ Uyển 宛 (wǎn) - uyển chuyển, như là."
+  },
+  {
+    "hanTu": "祝",
+    "cauTao": "- Nghĩa: Chúc, chúc mừng; cầu chúc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kỳ 示 (shì) - thần đất, cầu cúng |- Phải (Chỉ âm): Chữ Huynh 兄 (xiōng) - anh trai |- Diễn giải: Cầu khấn thần linh (示)."
+  },
+  {
+    "hanTu": "票",
+    "cauTao": "- Nghĩa: Vé, phiếu; lá phiếu |- Cấu tạo: Hình thanh/Hội ý |- Trên: Chữ Á 覀 (yà) - che đậy |- Dưới: Bộ Kỳ 示 (shì) - thần đất, chỉ thị (có thể gợi âm piào?) |- Diễn giải: Gốc liên quan đến lửa bay, sau chỉ mảnh giấy -> vé, phiếu."
+  },
+  {
+    "hanTu": "禮",
+    "cauTao": "- Nghĩa: Lễ, lễ nghi, lễ phép; quà tặng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kỳ 示 (shì) - thần đất, cúng tế |- Phải (Chỉ âm/ý): Chữ Lễ 豊 (lǐ) - đồ tế lễ phong phú |- Diễn giải: Nghi thức cúng tế thần linh (示) với đồ lễ phong phú (豊)."
+  },
+  {
+    "hanTu": "秋",
+    "cauTao": "- Nghĩa: Mùa thu |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Chữ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm/ý): Chữ Hỏa 火 (huǒ) - lửa |- Diễn giải: Mùa thu hoạch lúa (禾) và đốt đồng (火)? Hoặc lúa chín vàng như lửa."
+  },
+  {
+    "hanTu": "租",
+    "cauTao": "- Nghĩa: Thuê, mướn; tô thuế |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm): Chữ Thả 且 (qiě) - và, lại còn |- Diễn giải: Thuế nộp bằng lúa (禾)."
+  },
+  {
+    "hanTu": "程",
+    "cauTao": "- Nghĩa: Trình tự; quãng đường; quy trình |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm): Chữ Trình 呈 (chéng) - trình, dâng lên."
+  },
+  {
+    "hanTu": "種",
+    "cauTao": "- Nghĩa: Chủng, loài, giống (zhǒng); trồng (zhòng) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm): Chữ Trọng/Trùng 重 (zhòng/chóng) - nặng, lặp lại."
+  },
+  {
+    "hanTu": "空",
+    "cauTao": "- Nghĩa: Trống rỗng, không khí, trời (kōng); để trống, rảnh (kòng) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Huyệt 穴 (xuè) - hang động |- Dưới: Chữ Công 工 (gōng) - công việc (có thể gợi âm) |- Diễn giải: Bên trong hang động (穴) thì trống rỗng."
+  },
+  {
+    "hanTu": "穿",
+    "cauTao": "- Nghĩa: Xuyên qua; mặc (quần áo) |- Cấu tạo: Hội ý |- Trên: Bộ Huyệt 穴 (xuè) - hang động, lỗ |- Dưới: Chữ Nha 牙 (yá) - răng |- Diễn giải: Răng (牙) xuyên qua lỗ (穴)? Chỉ sự xuyên qua."
+  },
+  {
+    "hanTu": "窗",
+    "cauTao": "- Nghĩa: Cửa sổ |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Huyệt 穴 (xuè) - lỗ hổng |- Dưới: Chữ Song 囱 (cōng) - ống khói, cửa sổ (gợi âm) |- Diễn giải: Lỗ hổng (穴) trên tường làm cửa sổ (囱)."
+  },
+  {
+    "hanTu": "站",
+    "cauTao": "- Nghĩa: Đứng; trạm, bến |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Lập 立 (lì) - đứng |- Phải (Chỉ âm): Chữ Chiêm/Chiếm 占 (zhān / zhàn) - xem bói, chiếm."
+  },
+  {
+    "hanTu": "笑",
+    "cauTao": "- Nghĩa: Cười; chê cười |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới: Chữ Yêu 夭 (yāo) - non yếu (có thể gợi âm) |- Diễn giải: Cây tre (竹) non cong mình (夭) như đang cười?."
+  },
+  {
+    "hanTu": "等",
+    "cauTao": "- Nghĩa: Đợi; bằng; loại; vân vân |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới: Chữ Tự 寺 (sì) - chùa (có thể gợi âm) |- Diễn giải: Sắp xếp các thẻ tre (竹) cho bằng nhau?."
+  },
+  {
+    "hanTu": "算",
+    "cauTao": "- Nghĩa: Tính toán; kể là |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Trúc 竹 (zhú) - tre, trúc (bàn tính) |- Dưới: Gồm bộ Mục 目 (mù) - mắt và bộ Củng 廾 (gǒng) - hai tay |- Diễn giải: Dùng mắt (目) và tay (廾) để tính trên bàn tính tre (竹) -> tính toán."
+  },
+  {
+    "hanTu": "籃",
+    "cauTao": "- Nghĩa: Cái giỏ, cái rổ; bóng rổ |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới (Chỉ âm): Chữ Giám 監 (jiān) - giám sát |- Diễn giải: Cái giỏ đan bằng tre (竹)."
+  },
+  {
+    "hanTu": "籠",
+    "cauTao": "- Nghĩa: Cái lồng; bao trùm |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới (Chỉ âm): Chữ Long 龍 (lóng) - con rồng |- Diễn giải: Cái lồng làm bằng tre (竹)."
+  },
+  {
+    "hanTu": "糕",
+    "cauTao": "- Nghĩa: Bánh |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mễ 米 (mǐ) - gạo |- Phải (Chỉ âm): Chữ Cao 羔 (gāo) - cừu non |- Diễn giải: Bánh làm từ gạo (米)."
+  },
+  {
+    "hanTu": "約",
+    "cauTao": "- Nghĩa: Ước hẹn; khoảng; giản lược |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Chước 勺 (sháo) - cái thìa |- Diễn giải: Dùng tơ (糸) buộc lại -> ước hẹn?."
+  },
+  {
+    "hanTu": "紅",
+    "cauTao": "- Nghĩa: Đỏ, hồng; may mắn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Công 工 (gōng) - công việc |- Diễn giải: Tơ (糸) nhuộm màu đỏ."
+  },
+  {
+    "hanTu": "紐",
+    "cauTao": "- Nghĩa: Nút, khuy áo; New (York) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Sửu 丑 (chǒu) - Sửu, xấu xí."
+  },
+  {
+    "hanTu": "累",
+    "cauTao": "- Nghĩa: Mệt mỏi (lèi); liên lụy, tích lũy (lěi); dây thừng (léi) |- Cấu tạo: Hội ý |- Trên: Chữ Điền 田 (tián) - ruộng |- Dưới: Bộ Mịch 糸 (mì) - sợi tơ |- Diễn giải: Tơ (糸) vướng vào ruộng (田) -> mệt mỏi, liên lụy."
+  },
+  {
+    "hanTu": "結",
+    "cauTao": "- Nghĩa: Kết, thắt nút; kết thúc; kết quả |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Cát 吉 (jí) - tốt lành |- Diễn giải: Dùng tơ (糸) thắt nút."
+  },
+  {
+    "hanTu": "給",
+    "cauTao": "- Nghĩa: Cho, đưa cho; bị (gěi); cung cấp (jǐ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Hợp 合 (hé) - hợp lại |- Diễn giải: Trao tơ lụa (糸)?."
+  },
+  {
+    "hanTu": "統",
+    "cauTao": "- Nghĩa: Thống nhất; hệ thống; cai trị |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Sung 充 (chōng) - sung mãn |- Diễn giải: Nối các sợi tơ (糸) lại -> thống nhất."
+  },
+  {
+    "hanTu": "經",
+    "cauTao": "- Nghĩa: Kinh (sách); trải qua; kinh độ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Kính 巠 (jīng) - dòng nước ngầm |- Diễn giải: Sợi tơ dọc (糸) trên khung cửi -> nền tảng, kinh điển."
+  },
+  {
+    "hanTu": "網",
+    "cauTao": "- Nghĩa: Lưới, mạng lưới; internet |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Võng 罔 (wǎng) - không có, che đậy |- Diễn giải: Lưới đan bằng tơ/dây (糸)."
+  },
+  {
+    "hanTu": "線",
+    "cauTao": "- Nghĩa: Tuyến, đường dây, sợi chỉ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Tuyền 泉 (quán) - suối nước."
+  },
+  {
+    "hanTu": "績",
+    "cauTao": "- Nghĩa: Thành tích; xe sợi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Trách 責 (zé) - trách nhiệm |- Diễn giải: Công lao xe sợi (糸)."
+  },
+  {
+    "hanTu": "美",
+    "cauTao": "- Nghĩa: Đẹp; tốt; nước Mỹ |- Cấu tạo: Hội ý |- Trên: Chữ Dương 羊 (yáng) - con dê |- Dưới: Chữ Đại 大 (dà) - to lớn |- Diễn giải: Con dê (羊) to béo (大) -> tốt đẹp, ngon."
+  },
+  {
+    "hanTu": "習",
+    "cauTao": "- Nghĩa: Tập, luyện tập; quen; thói quen |- Cấu tạo: Hội ý |- Trên: Bộ Vũ 羽 (yǔ) - lông vũ, cánh chim |- Dưới: Chữ Bạch 白 (bái) - trắng |- Diễn giải: Chim non (羽) tập bay nhiều lần -> luyện tập."
+  },
+  {
+    "hanTu": "老",
+    "cauTao": "- Nghĩa: Già; cũ; kính trọng; luôn luôn |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Gốc mô tả hình ảnh người già (耂) tóc dài chống gậy (匕?). Dạng hiện đại gồm Thổ 土 (?) và Chủy 匕."
+  },
+  {
+    "hanTu": "聞",
+    "cauTao": "- Nghĩa: Nghe; ngửi; tin tức; danh tiếng |- Cấu tạo: Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Bộ Nhĩ 耳 (ěr) - tai |- Diễn giải: Tai (耳) áp vào cửa (門) để nghe ngóng."
+  },
+  {
+    "hanTu": "聽",
+    "cauTao": "- Nghĩa: Nghe |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Gồm bộ Nhĩ 耳 (ěr) - tai và phần bên phải phức tạp (thường liên quan đến mắt 目 mục, tim 心 tâm, vua 王 wáng, đức 德 đức), chỉ sự lắng nghe bằng cả tai, mắt và tâm."
+  },
+  {
+    "hanTu": "肉",
+    "cauTao": "- Nghĩa: Thịt; thân xác |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh miếng thịt có thớ. Dạng bộ thủ thường là 月 (yuè)."
+  },
+  {
+    "hanTu": "肚",
+    "cauTao": "- Nghĩa: Bụng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (ròu) - thịt, cơ thể |- Phải (Chỉ âm): Chữ Thổ 土 (tǔ) - đất."
+  },
+  {
+    "hanTu": "胃",
+    "cauTao": "- Nghĩa: Dạ dày |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý/âm?): Chữ Điền 田 (tián) - ruộng |- Dưới (Chỉ ý): Bộ Nhục 月 (ròu) - thịt, cơ thể |- Diễn giải: Bộ phận cơ thể (月) chứa thức ăn như kho ruộng (田)."
+  },
+  {
+    "hanTu": "能",
+    "cauTao": "- Nghĩa: Có thể, năng lực; năng lượng |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gốc mô tả hình con gấu (熊 xióng), biểu tượng sức mạnh -> năng lực. Dạng hiện đại gồm 月 (?), 匕, 匕, 厶."
+  },
+  {
+    "hanTu": "腐",
+    "cauTao": "- Nghĩa: Hủ bại, thối rữa; đậu phụ |- Cấu tạo: Hình thanh/Hội ý |- Trên/Ngoài: Chữ Phủ 府 (fǔ) - phủ, kho (có thể gợi âm) |- Dưới/Trong: Bộ Nhục 肉 (ròu) - thịt |- Diễn giải: Thịt (肉) để trong kho (府) lâu ngày -> thối rữa."
+  },
+  {
+    "hanTu": "腳",
+    "cauTao": "- Nghĩa: Chân, bàn chân |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (ròu) - thịt, cơ thể |- Phải (Chỉ âm): Chữ Khước 卻 (què) - lại, lùi lại."
+  },
+  {
+    "hanTu": "臉",
+    "cauTao": "- Nghĩa: Mặt, gương mặt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (ròu) - thịt, cơ thể |- Phải (Chỉ âm): Chữ Thiêm 僉 (qiān) - đều, cùng."
+  },
+  {
+    "hanTu": "自",
+    "cauTao": "- Nghĩa: Tự mình; từ |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái mũi (người xưa chỉ vào mũi để chỉ bản thân)."
+  },
+  {
+    "hanTu": "臭",
+    "cauTao": "- Nghĩa: Hôi thối (chòu); ngửi (xiù) |- Cấu tạo: Hội ý |- Trên: Chữ Tự 自 (zì) - mũi |- Dưới: Chữ Khuyển 犬 (quǎn) - chó |- Diễn giải: Mũi (自) của chó (犬) rất thính -> ngửi; sau chỉ mùi khó ngửi -> hôi."
+  },
+  {
+    "hanTu": "臺",
+    "cauTao": "- Nghĩa: Đài, bệ cao; Đài Loan; ngài |- Cấu tạo: Hội ý/Hình thanh (rất phức tạp) |- Thành phần: Cấu trúc phức tạp, mô tả bệ/đài cao nơi quan sát hoặc diễn thuyết. (Chữ viết khác là 台)."
+  },
+  {
+    "hanTu": "舊",
+    "cauTao": "- Nghĩa: Cũ, xưa |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Thảo 艹 (cǎo)?, bộ Truy 隹 (zhuī) - chim và bộ Cữu 臼 (jiù) - cái cối |- Diễn giải: Hình ảnh chim (隹) trong tổ/cối (臼) -> ở lâu -> cũ."
+  },
+  {
+    "hanTu": "舍",
+    "cauTao": "- Nghĩa: Nhà trọ, nơi ở; xá (bỏ qua) |- Cấu tạo: Hội ý |- Trên: Chữ Cập 亼 (jí) - tập hợp |- Giữa: Chữ Can 干 (gān) - cái khiên |- Dưới: Bộ Khẩu 口 (kǒu) - miệng, nơi chốn |- Diễn giải: Nơi (口) tập hợp (亼) người -> nhà ở."
+  },
+  {
+    "hanTu": "舒",
+    "cauTao": "- Nghĩa: Thư thái, thoải mái; duỗi ra |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Chữ Xá 舍 (shè) - nhà ở |- Phải (Chỉ âm): Chữ Dư 予 (yǔ) - cho, tôi |- Diễn giải: Ở nhà (舍) thì thoải mái."
+  },
+  {
+    "hanTu": "色",
+    "cauTao": "- Nghĩa: Màu sắc; vẻ mặt; nữ sắc |- Cấu tạo: Hội ý |- Trên: Biến thể của chữ Nhân 人 (rén) - người |- Dưới: Bộ Tiết 卩 (jié) - người quỳ |- Diễn giải: Gốc chỉ vẻ mặt hoặc sự thân mật giữa hai người -> màu sắc (vẻ mặt)."
+  },
+  {
+    "hanTu": "芒",
+    "cauTao": "- Nghĩa: Râu lúa, gai nhọn; ánh sáng; cỏ mang |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ, cây |- Dưới (Chỉ âm/ý): Chữ Vong 亡 (wáng) - mất, chết (gợi âm máng, hoặc chỉ vật nhọn?)."
+  },
+  {
+    "hanTu": "花",
+    "cauTao": "- Nghĩa: Hoa; bông; tiêu xài; hoa văn |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm/ý): Chữ Hóa 化 (huà) - biến hóa, thay đổi |- Diễn giải: Phần đẹp đẽ, biến đổi (化) của cây (艹)."
+  },
+  {
+    "hanTu": "茶",
+    "cauTao": "- Nghĩa: Trà, chè |- Cấu tạo: Hội ý |- Trên: Bộ Thảo 艹 (cǎo) - cỏ, cây |- Giữa: Chữ Nhân 人 (rén) - người |- Dưới: Chữ Mộc 木 (mù) - cây, gỗ |- Diễn giải: Người (人) thu hái lá (艹) từ cây (木) để làm trà."
+  },
+  {
+    "hanTu": "菜",
+    "cauTao": "- Nghĩa: Rau; món ăn |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm?/ý): Chữ Thải 采 (cǎi) - hái, chọn lựa |- Diễn giải: Cây cỏ (艹) được hái (采) làm thức ăn -> rau."
+  },
+  {
+    "hanTu": "華",
+    "cauTao": "- Nghĩa: Hoa; đẹp đẽ; Trung Hoa (huá); Hoa Sơn (huà) |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh bông hoa đang nở rộ với nhiều cánh. Dạng hiện đại gồm Thảo 艹 và phần phức tạp bên dưới."
+  },
+  {
+    "hanTu": "萬",
+    "cauTao": "- Nghĩa: Vạn (10,000); rất nhiều; họ Vạn |- Cấu tạo: Tượng hình |- Thành phần: Gốc mô tả hình con bọ cạp, sau được mượn âm chỉ số lượng vạn. Dạng hiện đại gồm 艹?, 田?, 冂?."
+  },
+  {
+    "hanTu": "葉",
+    "cauTao": "- Nghĩa: Lá cây; đời; họ Diệp |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm/ý): Chữ Diệp 枼 (yè) - lá cây mỏng."
+  },
+  {
+    "hanTu": "蓮",
+    "cauTao": "- Nghĩa: Sen, hoa sen |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm): Chữ Liên 連 (lián) - liền, nối tiếp."
+  },
+  {
+    "hanTu": "藍",
+    "cauTao": "- Nghĩa: Màu xanh lam; cây chàm |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm): Chữ Giám 監 (jiān) - giám sát |- Diễn giải: Cây chàm (艹) dùng để nhuộm màu xanh lam."
+  },
+  {
+    "hanTu": "藥",
+    "cauTao": "- Nghĩa: Thuốc; dược liệu |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm?): Chữ Nhạc/Lạc 樂 (yuè / lè) - âm nhạc, vui vẻ |- Diễn giải: Cây cỏ (艹) dùng làm thuốc chữa bệnh (có thể liên quan đến âm nhạc 樂 dùng trong trị liệu?)."
+  },
+  {
+    "hanTu": "號",
+    "cauTao": "- Nghĩa: Hiệu, tên hiệu; số; hiệu lệnh; gào khóc |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Hô 虍 (hū) - vằn hổ |- Dưới: Chữ Khảo 丂 (kǎo) - hơi thở ra (có thể chỉ âm hoặc tiếng gầm) |- Diễn giải: Tiếng gầm của hổ -> hiệu lệnh, gào."
+  },
+  {
+    "hanTu": "蛋",
+    "cauTao": "- Nghĩa: Trứng |- Cấu tạo: Hình thanh/Hội ý (phức tạp) |- Thành phần: Gồm phần trên phức tạp (có thể gợi âm 'dàn') và bộ Trùng 虫 (chóng) - côn trùng, sinh vật nhỏ bên dưới."
+  },
+  {
+    "hanTu": "行",
+    "cauTao": "- Nghĩa: Đi, thực hiện, được (xíng); hàng, nghề (háng) |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh ngã tư đường."
+  },
+  {
+    "hanTu": "衣",
+    "cauTao": "- Nghĩa: Áo, quần áo; lớp vỏ bọc |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái áo cổ xưa."
+  },
+  {
+    "hanTu": "裝",
+    "cauTao": "- Nghĩa: Trang phục, hóa trang; lắp đặt; giả bộ |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Tráng 壯 (zhuàng) - tráng kiện |- Dưới (Chỉ ý): Bộ Y 衣 (yī) - áo |- Diễn giải: Mặc quần áo (衣) cho chỉnh tề, trang trọng (壯)."
+  },
+  {
+    "hanTu": "裡",
+    "cauTao": "- Nghĩa: Trong, bên trong; dặm |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Y 衣 (yī) - áo |- Phải (Chỉ âm/ý): Chữ Lý 里 (lǐ) - dặm, làng xóm |- Diễn giải: Bên trong (里) lớp áo (衣)?."
+  },
+  {
+    "hanTu": "西",
+    "cauTao": "- Nghĩa: Tây, phía tây |- Cấu tạo: Tượng hình |- Thành phần: Gốc mô tả hình con chim về tổ lúc mặt trời lặn -> phía tây."
+  },
+  {
+    "hanTu": "要",
+    "cauTao": "- Nghĩa: Muốn; cần; quan trọng (yào); yêu cầu (yāo) |- Cấu tạo: Hội ý |- Trên: Chữ Á 覀 (yà) - che đậy (biến thể của hai tay) |- Dưới: Bộ Nữ 女 (nǚ) - nữ |- Diễn giải: Gốc là hình người phụ nữ chống nạnh -> quan trọng, muốn."
+  },
+  {
+    "hanTu": "見",
+    "cauTao": "- Nghĩa: Thấy, nhìn thấy; gặp mặt; ý kiến |- Cấu tạo: Hội ý |- Trên: Bộ Mục 目 (mù) - mắt |- Dưới: Chữ Nhân 儿 (rén) - người |- Diễn giải: Con mắt (目) của người (儿) -> nhìn thấy."
+  },
+  {
+    "hanTu": "視",
+    "cauTao": "- Nghĩa: Nhìn, xem xét; coi như |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Kỳ 示 (shì) - chỉ thị, thần linh |- Phải (Chỉ âm/ý): Chữ Kiến 見 (jiàn) - thấy, nhìn |- Diễn giải: Nhìn (見) để xem xét (示)."
+  },
+  {
+    "hanTu": "覺",
+    "cauTao": "- Nghĩa: Cảm thấy, giác ngộ (jué); giấc ngủ (jiào) |- Cấu tạo: Hội ý |- Trên: Phần trên của chữ Học 學 (xué) (học tập) |- Dưới: Chữ Kiến 見 (jiàn) - thấy |- Diễn giải: Thấy (見) và học (學) -> nhận thức, cảm giác."
+  },
+  {
+    "hanTu": "觀",
+    "cauTao": "- Nghĩa: Quan sát, xem; quan điểm; đạo quán |- Cấu tạo: Hình thanh |- Trái (Chỉ âm/ý): Chữ Quán 雚 (guàn) - loài chim/nhìn kỹ |- Phải (Chỉ ý): Chữ Kiến 見 (jiàn) - thấy, nhìn |- Diễn giải: Nhìn (見) một cách kỹ lưỡng (雚)."
+  },
+  {
+    "hanTu": "言",
+    "cauTao": "- Nghĩa: Lời nói; nói |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gồm bộ Khẩu 口 (kǒu) và các nét bên trên tượng trưng cho lời nói phát ra."
+  },
+  {
+    "hanTu": "訂",
+    "cauTao": "- Nghĩa: Đặt (hàng); đính chính; đóng sách |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Đinh 丁 (dīng) - can Đinh |- Diễn giải: Dùng lời nói (言) để thỏa thuận, đặt trước."
+  },
+  {
+    "hanTu": "計",
+    "cauTao": "- Nghĩa: Kế hoạch, tính toán; thiết bị đo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Thập 十 (shí) - mười |- Diễn giải: Dùng lời nói (言) để tính toán (十?)."
+  },
+  {
+    "hanTu": "討",
+    "cauTao": "- Nghĩa: Thảo luận; đòi; chinh phạt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm?): Bộ Thốn 寸 (cùn) - tấc, bàn tay |- Diễn giải: Dùng lời nói (言) để bàn bạc, yêu cầu."
+  },
+  {
+    "hanTu": "記",
+    "cauTao": "- Nghĩa: Ghi nhớ; ghi chép; ký hiệu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Kỷ 己 (jǐ) - bản thân, kỷ |- Diễn giải: Dùng lời nói (言) để ghi lại, ghi nhớ."
+  },
+  {
+    "hanTu": "試",
+    "cauTao": "- Nghĩa: Thử, thử nghiệm; thi cử |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Thức 式 (shì) - kiểu, thức |- Diễn giải: Dùng lời nói (言) để kiểm tra theo hình thức (式) -> thi cử, thử nghiệm."
+  },
+  {
+    "hanTu": "話",
+    "cauTao": "- Nghĩa: Lời nói, chuyện; nói chuyện |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm?/ý): Chữ Thiệt 舌 (shé) - cái lưỡi |- Diễn giải: Lời nói (言) phát ra từ lưỡi (舌)."
+  },
+  {
+    "hanTu": "該",
+    "cauTao": "- Nghĩa: Nên, phải; đến lượt; đáng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Hợi 亥 (hài) - Hợi (địa chi)."
+  },
+  {
+    "hanTu": "語",
+    "cauTao": "- Nghĩa: Ngữ, ngôn ngữ; lời nói |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Ngô 吾 (wú) - ta, tôi."
+  },
+  {
+    "hanTu": "誠",
+    "cauTao": "- Nghĩa: Thành, thành thực, chân thành |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Thành 成 (chéng) - thành, hoàn thành |- Diễn giải: Lời nói (言) thành thực."
+  },
+  {
+    "hanTu": "說",
+    "cauTao": "- Nghĩa: Nói (shuō); thuyết phục (shuì); vui vẻ (yuè) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Đoài 兌 (duì) - Đoài (quẻ), đổi, vui vẻ."
+  },
+  {
+    "hanTu": "誰",
+    "cauTao": "- Nghĩa: Ai |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói, hỏi |- Phải (Chỉ âm): Chữ Truy 隹 (zhuī) - chim đuôi ngắn."
+  },
+  {
+    "hanTu": "課",
+    "cauTao": "- Nghĩa: Bài học, môn học; khóa; thuế |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Quả 果 (guǒ) - quả, kết quả."
+  },
+  {
+    "hanTu": "請",
+    "cauTao": "- Nghĩa: Thỉnh, mời; xin vui lòng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Thanh 青 (qīng) - xanh."
+  },
+  {
+    "hanTu": "謝",
+    "cauTao": "- Nghĩa: Cảm ơn; tạ lỗi; từ chối; tàn úa |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Xạ 射 (shè) - bắn tên."
+  },
+  {
+    "hanTu": "議",
+    "cauTao": "- Nghĩa: Nghị luận, bàn bạc; ý kiến |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm/ý): Chữ Nghĩa 義 (yì) - nghĩa, chính nghĩa."
+  },
+  {
+    "hanTu": "豆",
+    "cauTao": "- Nghĩa: Đậu, đỗ |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh đồ đựng thức ăn có chân cao (giống cái đĩa), sau mượn chỉ các loại đậu."
+  },
+  {
+    "hanTu": "豬",
+    "cauTao": "- Nghĩa: Con lợn, con heo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khuyển 犭(quǎn) - chó (chỉ động vật) |- Phải (Chỉ âm): Chữ Giả 者 (zhě) - người, cái mà."
+  },
+  {
+    "hanTu": "貓",
+    "cauTao": "- Nghĩa: Con mèo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khuyển 犭(quǎn) - chó (chỉ động vật) |- Phải (Chỉ âm): Chữ Miêu 苗 (miáo) - mạ non."
+  },
+  {
+    "hanTu": "貴",
+    "cauTao": "- Nghĩa: Quý, quý giá, đắt; kính ngữ |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Bối 貝 (bèi) - vỏ sò, tiền của và phần trên phức tạp (臾?), chỉ sự quý giá."
+  },
+  {
+    "hanTu": "買",
+    "cauTao": "- Nghĩa: Mua |- Cấu tạo: Hội ý |- Trên: Bộ Võng 罒 (wǎng) - lưới |- Dưới: Bộ Bối 貝 (bèi) - vỏ sò, tiền của |- Diễn giải: Dùng lưới (罒) để gom tiền/hàng (貝) -> mua."
+  },
+  {
+    "hanTu": "費",
+    "cauTao": "- Nghĩa: Phí, chi phí; lãng phí |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Phất 弗 (fú) - không |- Dưới (Chỉ ý): Bộ Bối 貝 (bèi) - vỏ sò, tiền của |- Diễn giải: Tiền của (貝) không còn (弗) -> chi phí, lãng phí."
+  },
+  {
+    "hanTu": "賣",
+    "cauTao": "- Nghĩa: Bán |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Mãi 買 (mǎi) - mua và chữ Sĩ 士 (shì) - học trò? (Gốc là 出 chū - đưa ra) |- Diễn giải: Đưa hàng ra (出) để đổi lấy tiền (買) -> bán."
+  },
+  {
+    "hanTu": "賽",
+    "cauTao": "- Nghĩa: Thi đấu, cuộc thi; hơn |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gồm bộ Miên 宀 (mián) - mái nhà, bộ Bối 貝 (bèi) - tiền của và phần giữa phức tạp (𡧳?), liên quan đến tế lễ, thi đấu giành phần thưởng (貝)."
+  },
+  {
+    "hanTu": "走",
+    "cauTao": "- Nghĩa: Đi bộ; chạy; rời đi |- Cấu tạo: Hội ý |- Thành phần: Gốc là hình người 大 (dà) và bàn chân 止 (zhǐ) đang di chuyển -> đi. Dạng hiện đại gồm Thổ 土 (?) và Chỉ 止."
+  },
+  {
+    "hanTu": "起",
+    "cauTao": "- Nghĩa: Đứng dậy, thức dậy; bắt đầu |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Tẩu 走 (zǒu) - đi, chạy |- Phải (Chỉ âm): Chữ Kỷ 己 (jǐ) - bản thân, kỷ |- Diễn giải: Bắt đầu đi (走)."
+  },
+  {
+    "hanTu": "超",
+    "cauTao": "- Nghĩa: Vượt qua, siêu; vượt trội |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tẩu 走 (zǒu) - đi, chạy |- Phải (Chỉ âm): Chữ Triệu 召 (zhào) - gọi, triệu tập |- Diễn giải: Chạy (走) vượt lên trước."
+  },
+  {
+    "hanTu": "越",
+    "cauTao": "- Nghĩa: Vượt qua; Việt (cổ); càng...càng... |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tẩu 走 (zǒu) - đi, chạy |- Phải (Chỉ âm): Chữ Việt 戉 (yuè) - cái rìu chiến."
+  },
+  {
+    "hanTu": "足",
+    "cauTao": "- Nghĩa: Chân, bàn chân; đủ |- Cấu tạo: Hội ý/Tượng hình |- Trên: Bộ Khẩu 口 (kǒu) |- Dưới: Chữ Chỉ 止 (zhǐ) - bàn chân |- Diễn giải: Gốc mô tả hình ảnh bàn chân."
+  },
+  {
+    "hanTu": "跟",
+    "cauTao": "- Nghĩa: Gót chân; đi theo; và, cùng với |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Túc 足 (zú) - chân |- Phải (Chỉ âm): Chữ Cấn 艮 (gěn) - dừng lại, cứng rắn."
+  },
+  {
+    "hanTu": "路",
+    "cauTao": "- Nghĩa: Đường, con đường; lộ trình |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Túc 足 (zú) - chân |- Phải (Chỉ âm): Chữ Các 各 (gè) - mỗi, các."
+  },
+  {
+    "hanTu": "踢",
+    "cauTao": "- Nghĩa: Đá (bằng chân) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Túc 足 (zú) - chân |- Phải (Chỉ âm): Chữ Dịch/Dị 易 (yì) - dễ dàng, thay đổi."
+  },
+  {
+    "hanTu": "車",
+    "cauTao": "- Nghĩa: Xe |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cỗ xe ngựa nhìn từ trên xuống."
+  },
+  {
+    "hanTu": "較",
+    "cauTao": "- Nghĩa: So sánh, tương đối; rõ ràng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Xa 車 (chē) - xe |- Phải (Chỉ âm): Chữ Giao 交 (jiāo) - giao nhau."
+  },
+  {
+    "hanTu": "載",
+    "cauTao": "- Nghĩa: Chở, tải; chứa đựng; năm |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Xa 車 (chē) - xe |- Phải (Chỉ âm): Chữ Tai 哉 (zāi) - trợ từ cuối câu."
+  },
+  {
+    "hanTu": "輕",
+    "cauTao": "- Nghĩa: Nhẹ; xem nhẹ; trẻ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Xa 車 (chē) - xe |- Phải (Chỉ âm): Chữ Kính 巠 (jīng) - dòng nước ngầm |- Diễn giải: Xe (車) chạy nhanh nên cảm giác nhẹ?."
+  },
+  {
+    "hanTu": "辣",
+    "cauTao": "- Nghĩa: Cay; tàn nhẫn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Chữ Tân 辛 (xīn) - cay |- Phải (Chỉ âm?): Chữ Thúc 束 (shù) - bó, buộc."
+  },
+  {
+    "hanTu": "迎",
+    "cauTao": "- Nghĩa: Nghênh, đón, tiếp đón |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm): Chữ Ngang/Ngưỡng 卬 (áng / yǎng) - ngẩng cao |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi ra (辶) để đón tiếp."
+  },
+  {
+    "hanTu": "近",
+    "cauTao": "- Nghĩa: Gần; thân cận |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Bộ Cân 斤 (jīn) - cái rìu |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Khoảng cách (辶) ngắn."
+  },
+  {
+    "hanTu": "這",
+    "cauTao": "- Nghĩa: Này, đây (chỉ thị) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy (liên quan đến vị trí) |- Phải (Chỉ âm): Chữ Giả 者 (zhě) - người, cái mà (gợi âm zhè)."
+  },
+  {
+    "hanTu": "逛",
+    "cauTao": "- Nghĩa: Dạo chơi, đi dạo |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Cuồng 狂 (kuáng) - cuồng |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy."
+  },
+  {
+    "hanTu": "週",
+    "cauTao": "- Nghĩa: Tuần; chu vi, vòng quanh |- Cấu tạo: Hình thanh/Hội ý |- Ngoài (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Trong (Chỉ âm/ý): Chữ Chu 周 (zhōu) - chu đáo, vòng quanh |- Diễn giải: Đi (辶) một vòng (周)."
+  },
+  {
+    "hanTu": "進",
+    "cauTao": "- Nghĩa: Tiến, đi vào, tiến lên |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm/ý): Chữ Truy 隹 (zhuī) - chim đuôi ngắn |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Chim (隹) bay đi (辶) -> tiến lên."
+  },
+  {
+    "hanTu": "運",
+    "cauTao": "- Nghĩa: Vận chuyển; vận mệnh; vận động |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm/ý): Chữ Quân 軍 (jūn) - quân đội |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Quân đội (軍) di chuyển (辶) -> vận chuyển."
+  },
+  {
+    "hanTu": "過",
+    "cauTao": "- Nghĩa: Qua, đi qua; trải qua; lỗi lầm; quá |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Oa 咼 (guō) - miệng méo |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy."
+  },
+  {
+    "hanTu": "道",
+    "cauTao": "- Nghĩa: Đường; đạo lý; nói |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ âm/ý): Chữ Thủ 首 (shǒu) - cái đầu, dẫn đầu |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Con đường (辶) do người đi trước dẫn lối (首)."
+  },
+  {
+    "hanTu": "遠",
+    "cauTao": "- Nghĩa: Xa, xa xôi |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Viên 袁 (yuán) - họ Viên, áo dài |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy."
+  },
+  {
+    "hanTu": "還",
+    "cauTao": "- Nghĩa: Còn, vẫn (hái); trả lại (huán) |- Cấu tạo: Hình thanh |- Trái/Trong: Chữ Quỳnh 睘 (huán) - nhìn trừng trừng (gợi âm) |- Phải/Ngoài: Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) quay trở lại."
+  },
+  {
+    "hanTu": "邊",
+    "cauTao": "- Nghĩa: Bên, cạnh; biên giới |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Biên 臱 (biān) (phức tạp) |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy."
+  },
+  {
+    "hanTu": "那",
+    "cauTao": "- Nghĩa: Kia, đó; vậy thì (nà); đó (nèi) |- Cấu tạo: Hình thanh |- Trái: Phần còn lại của chữ Bang 邦 (bāng) (丰+?) |- Phải (Chỉ ý): Bộ Ấp 阝(yì) - vùng đất, thành phố |- Diễn giải: Gốc chỉ địa danh, sau dùng làm đại từ chỉ thị."
+  },
+  {
+    "hanTu": "部",
+    "cauTao": "- Nghĩa: Bộ, bộ phận; bộ (cơ quan) |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Phẩu 咅 (pǒu) - phụ họa |- Phải (Chỉ ý): Bộ Ấp 阝(yì) - vùng đất, thành phố."
+  },
+  {
+    "hanTu": "都",
+    "cauTao": "- Nghĩa: Đều, tất cả (dōu); đô, kinh đô (dū) |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Giả 者 (zhě) - người, cái mà |- Phải (Chỉ ý): Bộ Ấp 阝(yì) - vùng đất, thành phố."
+  },
+  {
+    "hanTu": "醫",
+    "cauTao": "- Nghĩa: Y học, thầy thuốc |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gồm các bộ phận như hộp tên 医 (矢 thỉ trong 匚 khuông), vũ khí 殳 (thù), rượu 酉 (dậu), chỉ việc chữa bệnh bằng các phương pháp cổ."
+  },
+  {
+    "hanTu": "金",
+    "cauTao": "- Nghĩa: Vàng; kim loại; tiền |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Gồm bộ Nhân 人/Cập 亼, bộ Thổ 土 và hai chấm 丶丶, mô tả hình ảnh kim loại được tìm thấy trong lòng đất."
+  },
+  {
+    "hanTu": "銀",
+    "cauTao": "- Nghĩa: Bạc (kim loại); tiền bạc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại |- Phải (Chỉ âm): Chữ Cấn 艮 (gěn) - dừng lại, cứng rắn."
+  },
+  {
+    "hanTu": "錢",
+    "cauTao": "- Nghĩa: Tiền; họ Tiền |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại, tiền |- Phải (Chỉ âm): Chữ Tiên 戔 (jiān) - nhỏ bé (戈+戈)."
+  },
+  {
+    "hanTu": "錯",
+    "cauTao": "- Nghĩa: Sai, sai lầm; xen lẫn; mài giũa |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại |- Phải (Chỉ âm): Chữ Tích 昔 (xī) - xưa kia."
+  },
+  {
+    "hanTu": "鐘",
+    "cauTao": "- Nghĩa: Chuông, đồng hồ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại |- Phải (Chỉ âm): Chữ Đồng 童 (tóng) - trẻ con."
+  },
+  {
+    "hanTu": "鐵",
+    "cauTao": "- Nghĩa: Sắt, thép |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại |- Phải (Chỉ âm): Phần phức tạp (𢧤?) gợi âm tiě."
+  },
+  {
+    "hanTu": "門",
+    "cauTao": "- Nghĩa: Cửa (hai cánh); cổng; môn phái |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái cửa hai cánh."
+  },
+  {
+    "hanTu": "開",
+    "cauTao": "- Nghĩa: Mở; bắt đầu; nở; sôi |- Cấu tạo: Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Hình hai tay 廾 (gǒng) đang mở then cửa (一 yī) |- Diễn giải: Dùng tay (廾) mở then (一) cửa (門)."
+  },
+  {
+    "hanTu": "間",
+    "cauTao": "- Nghĩa: Gian, khoảng giữa; phòng (jiān); xen kẽ (jiàn) |- Cấu tạo: Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Chữ Nhật 日 (rì) - mặt trời, ngày |- Diễn giải: Ánh sáng mặt trời (日) lọt qua khe cửa (門) -> khoảng giữa, khe hở."
+  },
+  {
+    "hanTu": "闆",
+    "cauTao": "- Nghĩa: Ông chủ (trong 老闆) |- Cấu tạo: Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Chữ Phẩm 品 (pǐn) - phẩm chất, hàng hóa |- Diễn giải: Người ở cửa (門) quản lý hàng hóa (品)?."
+  },
+  {
+    "hanTu": "關",
+    "cauTao": "- Nghĩa: Đóng; quan hệ; cửa ải |- Cấu tạo: Hình thanh/Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Phần phức tạp (liên quan đến 糸 mì?) chỉ then cài hoặc gợi âm."
+  },
+  {
+    "hanTu": "附",
+    "cauTao": "- Nghĩa: Phụ, kèm theo; gần |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất, thành lũy |- Phải (Chỉ âm): Chữ Phó 付 (fù) - giao phó, trả."
+  },
+  {
+    "hanTu": "院",
+    "cauTao": "- Nghĩa: Viện, sân trong; cơ quan |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất, thành lũy |- Phải (Chỉ âm): Chữ Hoàn 完 (wán) - hoàn thành."
+  },
+  {
+    "hanTu": "陪",
+    "cauTao": "- Nghĩa: Bồi, đi cùng, phụ tá |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất, thành lũy |- Phải (Chỉ âm): Chữ Bội 倍 (bèi) - gấp bội."
+  },
+  {
+    "hanTu": "陳",
+    "cauTao": "- Nghĩa: Trần, bày ra; cũ; họ Trần |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất |- Phải (Chỉ âm): Chữ Đông 東 (dōng) - phía đông."
+  },
+  {
+    "hanTu": "險",
+    "cauTao": "- Nghĩa: Hiểm, nguy hiểm; hiểm trở |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất, núi non |- Phải (Chỉ âm): Chữ Thiêm 僉 (qiān) - đều, cùng."
+  },
+  {
+    "hanTu": "難",
+    "cauTao": "- Nghĩa: Khó (nán); tai nạn (nàn) |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Phần phức tạp (liên quan 堇 jǐn / 歎 tàn) |- Phải (Chỉ ý): Bộ Truy 隹 (zhuī) - chim đuôi ngắn |- Diễn giải: Bắt chim (隹) là việc khó?."
+  },
+  {
+    "hanTu": "雨",
+    "cauTao": "- Nghĩa: Mưa |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh bầu trời (冂+一) và những giọt mưa (..) rơi xuống."
+  },
+  {
+    "hanTu": "雪",
+    "cauTao": "- Nghĩa: Tuyết; rửa sạch |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Bộ Vũ 雨 (yǔ) - mưa |- Dưới (Chỉ âm?/ý): Chữ Tuệ 彗 (huì) - cái chổi (chỉ tuyết rơi?)."
+  },
+  {
+    "hanTu": "電",
+    "cauTao": "- Nghĩa: Điện; tia chớp; điện báo |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Bộ Vũ 雨 (yǔ) - mưa |- Dưới (Chỉ âm/ý): Chữ Thân 申 (shēn) - duỗi ra (hình tia chớp) |- Diễn giải: Tia chớp (申) xuất hiện cùng mưa (雨)."
+  },
+  {
+    "hanTu": "需",
+    "cauTao": "- Nghĩa: Cần, nhu cầu |- Cấu tạo: Hội ý |- Trên: Bộ Vũ 雨 (yǔ) - mưa |- Dưới: Chữ Nhi 而 (ér) - mà, và (chỉ sự chờ đợi?) |- Diễn giải: Chờ đợi (而) cơn mưa (雨) -> cần thiết."
+  },
+  {
+    "hanTu": "非",
+    "cauTao": "- Nghĩa: Không phải; sai trái |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh đôi cánh dang ra ngược chiều nhau, chỉ sự trái ngược, phủ định."
+  },
+  {
+    "hanTu": "面",
+    "cauTao": "- Nghĩa: Mặt; bề mặt; mì sợi; gặp mặt |- Cấu tạo: Tượng hình |- Thành phần: Gốc mô tả hình ảnh khuôn mặt được bao quanh."
+  },
+  {
+    "hanTu": "音",
+    "cauTao": "- Nghĩa: Âm, âm thanh; tin tức |- Cấu tạo: Hội ý |- Trên: Chữ Lập 立 (lì) - đứng |- Dưới: Chữ Viết 曰 (yuē) - nói rằng |- Diễn giải: Lời nói (曰) được phát ra? Gốc là lưỡi trong miệng phát âm."
+  },
+  {
+    "hanTu": "頭",
+    "cauTao": "- Nghĩa: Đầu; người đứng đầu; trước tiên |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Chữ Đậu 豆 (dòu) - đậu |- Phải (Chỉ ý): Bộ Hiệt 頁 (yè) - đầu."
+  },
+  {
+    "hanTu": "題",
+    "cauTao": "- Nghĩa: Đề, đầu đề, chủ đề; viết |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Chữ Thị 是 (shì) - là, đúng |- Phải (Chỉ ý): Bộ Hiệt 頁 (yè) - đầu."
+  },
+  {
+    "hanTu": "風",
+    "cauTao": "- Nghĩa: Gió; phong tục; phong thái |- Cấu tạo: Hình thanh |- Ngoài: Bộ Kỷ 几 (jǐ) - ghế |- Trong (Chỉ âm): Chữ Phàm 凡 (fán) - bình thường (gốc là thuyền buồm?) |- Diễn giải: Gió thổi thuyền buồm (凡)."
+  },
+  {
+    "hanTu": "颱",
+    "cauTao": "- Nghĩa: Bão (trong 颱風) |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Phong 風 (fēng) - gió |- Trong (Chỉ âm): Chữ Đài 台 (tái) - cái đài."
+  },
+  {
+    "hanTu": "飯",
+    "cauTao": "- Nghĩa: Cơm; bữa ăn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm): Chữ Phản 反 (fǎn) - phản đối, ngược lại."
+  },
+  {
+    "hanTu": "餐",
+    "cauTao": "- Nghĩa: Bữa ăn; ăn |- Cấu tạo: Hình thanh/Hội ý |- Thành phần: Gồm bộ Thực 食 (shí) - ăn, thức ăn và phần trên phức tạp (歺+?), chỉ việc chuẩn bị và dùng bữa."
+  },
+  {
+    "hanTu": "館",
+    "cauTao": "- Nghĩa: Quán, nhà khách; bảo tàng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm): Chữ Quan 官 (guān) - quan lại |- Diễn giải: Nơi công cộng (官) để ăn uống (食)."
+  },
+  {
+    "hanTu": "香",
+    "cauTao": "- Nghĩa: Thơm; hương, nhang |- Cấu tạo: Hội ý |- Trên: Chữ Hòa 禾 (hé) - cây lúa |- Dưới: Chữ Nhật 日 (rì) - mặt trời |- Diễn giải: Lúa (禾) phơi dưới nắng (日) tỏa mùi thơm."
+  },
+  {
+    "hanTu": "馬",
+    "cauTao": "- Nghĩa: Ngựa |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con ngựa với bờm, chân, đuôi."
+  },
+  {
+    "hanTu": "騎",
+    "cauTao": "- Nghĩa: Cưỡi (ngựa, xe) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mã 馬 (mǎ) - ngựa |- Phải (Chỉ âm): Chữ Kỳ 奇 (qí) - kỳ lạ."
+  },
+  {
+    "hanTu": "高",
+    "cauTao": "- Nghĩa: Cao; họ Cao |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh tòa nhà cao tầng với mái, các tầng và đế."
+  },
+  {
+    "hanTu": "麵",
+    "cauTao": "- Nghĩa: Mì, bột mì |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Chữ Mạch 麥 (mài) - lúa mạch |- Phải (Chỉ âm): Chữ Diện 面 (miàn) - mặt, bột |- Diễn giải: Bột làm từ lúa mạch (麥)."
+  },
+  {
+    "hanTu": "麼",
+    "cauTao": "- Nghĩa: Trợ từ (trong 什麼, 這麼...); nhỏ bé (mó) |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Ma 麻 (má) - cây gai dầu, tê |- Dưới (Chỉ ý?): Bộ Yêu 幺 (yāo) - nhỏ bé (hoặc biến thể)."
+  },
+  {
+    "hanTu": "黃",
+    "cauTao": "- Nghĩa: Vàng (màu); họ Hoàng |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gốc có thể là hình người đeo vật trang sức màu vàng. Dạng hiện đại gồm 廿?, 田, 八."
+  },
+  {
+    "hanTu": "點",
+    "cauTao": "- Nghĩa: Điểm, chấm; giờ; gọi món |- Cấu tạo: Hình thanh |- Trái: Chữ Hắc 黑 (hēi) - đen |- Phải: Chữ Chiêm/Chiếm 占 (zhān / zhàn) - xem bói, chiếm (có thể gợi âm) |- Diễn giải: Chấm đen (黑)?."
+  },
+  {
+    "hanTu": "鼻",
+    "cauTao": "- Nghĩa: Mũi |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Chữ Tự 自 (zì) - mũi |- Dưới (Chỉ âm): Chữ Tý 畀 (bì) - cho, ban cho."
+  },
+  {
+    "hanTu": "龍",
+    "cauTao": "- Nghĩa: Rồng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con rồng với sừng, thân, móng, đuôi."
+  },
+  {
+    "hanTu": "世",
+    "cauTao": "- Nghĩa: Thế giới; đời, thế hệ; thế tục |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gốc là ba chữ Thập 十 (shí), chỉ 30 năm -> một đời người."
+  },
+  {
+    "hanTu": "位",
+    "cauTao": "- Nghĩa: Vị trí; ngôi vị; vị (lượng từ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Lập 立 (lì) - đứng |- Diễn giải: Vị trí đứng (立) của người (亻)."
+  },
+  {
+    "hanTu": "備",
+    "cauTao": "- Nghĩa: Chuẩn bị; đầy đủ; phòng bị |- Cấu tạo: Hội ý/Hình thanh |- Trái: Bộ Nhân đứng 亻(rén) - người |- Phải: Phần phức tạp 𤰌 (gốc là bao đựng tên), chỉ sự đầy đủ, sẵn sàng."
+  },
+  {
+    "hanTu": "化",
+    "cauTao": "- Nghĩa: Hóa, biến hóa; thay đổi; hóa học |- Cấu tạo: Hội ý |- Trái: Bộ Nhân đứng 亻(rén) - người |- Phải: Chữ Chuỷ 匕 (bǐ) - cái thìa (biến thể người lộn ngược?) |- Diễn giải: Người (亻) thay đổi trạng thái (匕) -> biến hóa."
+  },
+  {
+    "hanTu": "北",
+    "cauTao": "- Nghĩa: Bắc, phía bắc; thua trận |- Cấu tạo: Hội ý |- Thành phần: Hình ảnh hai người quay lưng lại với nhau."
+  },
+  {
+    "hanTu": "區",
+    "cauTao": "- Nghĩa: Khu, khu vực; phân biệt |- Cấu tạo: Hội ý |- Ngoài: Bộ Phương 匚 (xì) - cái hộp |- Trong: Chữ Phẩm 品 (pǐn) - nhiều vật phẩm |- Diễn giải: Nhiều vật phẩm (品) được xếp trong một khu vực (匚)."
+  },
+  {
+    "hanTu": "卡",
+    "cauTao": "- Nghĩa: Thẻ (kǎ); kẹt, chặn (qiǎ) |- Cấu tạo: Hội ý/Chỉ sự |- Trên: Chữ Thượng 上 (shàng) - trên |- Dưới: Chữ Hạ 下 (xià) - dưới |- Diễn giải: Bị kẹt giữa trên (上) và dưới (下) -> kẹt; mượn âm đọc kǎ cho \"card\"."
+  },
+  {
+    "hanTu": "台",
+    "cauTao": "- Nghĩa: Đài; Đài Loan; ngài; lượng từ |- Cấu tạo: Hội ý/Hình thanh (Viết khác của 臺) |- Trên: Chữ Tư 厶 (sī) - riêng tư |- Dưới: Bộ Khẩu 口 (kǒu) - miệng."
+  },
+  {
+    "hanTu": "告",
+    "cauTao": "- Nghĩa: Báo cho biết, cáo; tố cáo |- Cấu tạo: Hội ý |- Trên: Chữ Ngưu 牛 (niú) - trâu bò |- Dưới: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Miệng (口) con bò (牛) đang kêu -> báo hiệu, cáo."
+  },
+  {
+    "hanTu": "品",
+    "cauTao": "- Nghĩa: Phẩm chất; vật phẩm; nếm thử |- Cấu tạo: Hội ý |- Thành phần: Ba bộ Khẩu 口 (kǒu) xếp chồng lên nhau -> nhiều miệng/vật -> phẩm chất, vật phẩm."
+  },
+  {
+    "hanTu": "商",
+    "cauTao": "- Nghĩa: Thương mại; thương lượng; nhà Thương |- Cấu tạo: Hình thanh/Hội ý |- Thành phần: Gồm phần trên phức tạp (啇 dí?) gợi âm và bộ Khẩu 口 (kǒu) bên dưới, liên quan đến việc bàn bạc, buôn bán."
+  },
+  {
+    "hanTu": "噢",
+    "cauTao": "- Nghĩa: Ô (thán từ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Áo 奥 (ào) - áo, bí ẩn."
+  },
+  {
+    "hanTu": "報",
+    "cauTao": "- Nghĩa: Báo, báo cáo; báo đáp; báo chí |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gốc có thể liên quan đến việc trình báo (幸 xìng?) hoặc hành động dùng tay (扌/又) và sự lặp lại/phục hồi (复 fù?)."
+  },
+  {
+    "hanTu": "場",
+    "cauTao": "- Nghĩa: Bãi, sân; hiện trường; trận, buổi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Dương 昜 (yáng) - mặt trời |- Diễn giải: Khoảnh đất (土) trống trải."
+  },
+  {
+    "hanTu": "境",
+    "cauTao": "- Nghĩa: Cảnh, hoàn cảnh, cảnh giới; biên giới |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Cánh 竟 (jìng) - xong, hết, lại."
+  },
+  {
+    "hanTu": "士",
+    "cauTao": "- Nghĩa: Sĩ, học trò; quan; binh sĩ |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Mô tả hình vũ khí (rìu?) hoặc người có địa vị (nét ngang trên dài hơn)."
+  },
+  {
+    "hanTu": "夠",
+    "cauTao": "- Nghĩa: Đủ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Chữ Đa 多 (duō) - nhiều |- Phải (Chỉ âm): Chữ Câu 句 (jù) - câu, móc |- Diễn giải: Nhiều (多) đến mức cần thiết -> đủ."
+  },
+  {
+    "hanTu": "容",
+    "cauTao": "- Nghĩa: Dung chứa; dung mạo; dễ dàng; cho phép |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới: Chữ Cốc 谷 (gǔ) - thung lũng |- Diễn giải: Mái nhà (宀) che thung lũng (谷) -> không gian chứa đựng -> dung chứa, dung mạo."
+  },
+  {
+    "hanTu": "展",
+    "cauTao": "- Nghĩa: Triển, mở ra, bày ra; triển lãm |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Thi 尸 (shī) - thân thể và phần bên trong (?), chỉ sự duỗi ra, mở rộng."
+  },
+  {
+    "hanTu": "島",
+    "cauTao": "- Nghĩa: Đảo, hòn đảo |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm?/ý): Chữ Điểu 鳥 (niǎo) - chim |- Dưới (Chỉ ý): Chữ Sơn 山 (shān) - núi |- Diễn giải: Núi (山) có chim (鳥) ở -> đảo (nơi chim đậu ngoài biển?)."
+  },
+  {
+    "hanTu": "巴",
+    "cauTao": "- Nghĩa: Mong chờ; bám vào; Ba (nước cổ) |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình con rắn hoặc người đang cúi/bám."
+  },
+  {
+    "hanTu": "巷",
+    "cauTao": "- Nghĩa: Ngõ, hẻm (xiàng) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Cộng 共 (gòng) - chung, cùng nhau |- Dưới: Chữ Tỵ 巳 (sì) - Tỵ (địa chi) |- Diễn giải: Lối đi chung (共)?."
+  },
+  {
+    "hanTu": "平",
+    "cauTao": "- Nghĩa: Bằng phẳng; bình đẳng; bình yên |- Cấu tạo: Hội ý/Chỉ sự |- Thành phần: Mô tả sự cân bằng, có thể là hình cán cân hoặc mặt phẳng."
+  },
+  {
+    "hanTu": "廣",
+    "cauTao": "- Nghĩa: Quảng, rộng lớn |- Cấu tạo: Hình thanh/Hội ý |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà rộng |- Trong (Chỉ âm?): Chữ Hoàng 黃 (huáng) - màu vàng |- Diễn giải: Ngôi nhà (广) rộng lớn."
+  },
+  {
+    "hanTu": "急",
+    "cauTao": "- Nghĩa: Gấp, khẩn cấp; vội vàng |- Cấu tạo: Hội ý |- Trên: Chữ Cập 及 (jí) - kịp, đến |- Dưới: Bộ Tâm 心 (xīn) - tim |- Diễn giải: Tim (心) đập nhanh vì phải đuổi cho kịp (及) -> gấp gáp."
+  },
+  {
+    "hanTu": "悠",
+    "cauTao": "- Nghĩa: Thong thả, ung dung; xa xăm |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Du 攸 (yōu) - xa xăm |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trạng |- Diễn giải: Tâm trạng (心) thảnh thơi, nghĩ chuyện xa xăm (攸)."
+  },
+  {
+    "hanTu": "才",
+    "cauTao": "- Nghĩa: Tài năng; mới |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Mô tả hình ảnh mầm cây vừa nhú lên khỏi mặt đất -> tài năng mới chớm, vừa mới."
+  },
+  {
+    "hanTu": "拜",
+    "cauTao": "- Nghĩa: Bái, lạy; thăm viếng |- Cấu tạo: Hội ý |- Thành phần: Mô tả hình ảnh hai bàn tay (手 + 手 biến thể) chắp lại để vái lạy."
+  },
+  {
+    "hanTu": "提",
+    "cauTao": "- Nghĩa: Đề, nêu ra; xách, nhấc lên |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Thị 是 (shì) - là, đúng."
+  },
+  {
+    "hanTu": "搭",
+    "cauTao": "- Nghĩa: Bắt (xe); dựng lên; đi cùng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Đáp 荅 (dā) - đáp lại."
+  },
+  {
+    "hanTu": "易",
+    "cauTao": "- Nghĩa: Dễ dàng; thay đổi; Dịch (kinh) |- Cấu tạo: Tượng hình/Hội ý |- Trên: Chữ Nhật 日 (rì) - mặt trời |- Dưới: Chữ Vật 勿 (wù) - đừng (biến thể?) |- Diễn giải: Gốc có thể là hình con tắc kè (thay đổi màu sắc) hoặc sự thay đổi của mặt trời -> thay đổi, dễ dàng."
+  },
+  {
+    "hanTu": "枝",
+    "cauTao": "- Nghĩa: Cành cây; nhánh; lượng từ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - cây |- Phải (Chỉ âm/ý): Chữ Chi 支 (zhī) - cành, nhánh."
+  },
+  {
+    "hanTu": "業",
+    "cauTao": "- Nghĩa: Nghề nghiệp; sự nghiệp; công nghiệp |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh cái giá treo nhạc cụ hoặc dụng cụ, chỉ công việc, sự nghiệp."
+  },
+  {
+    "hanTu": "款",
+    "cauTao": "- Nghĩa: Khoản (tiền); kiểu dáng; khoản đãi |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Phần phức tạp (㱂?) |- Phải (Chỉ ý): Chữ Khiếm 欠 (qiàn) - thiếu, há miệng |- Diễn giải: Há miệng (欠) tiếp đãi?."
+  },
+  {
+    "hanTu": "歐",
+    "cauTao": "- Nghĩa: Âu (châu Âu); họ Âu |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Khu 區 (qū) - khu vực |- Phải (Chỉ ý): Chữ Khiếm 欠 (qiàn) - thiếu, há miệng (chỉ hành động?)."
+  },
+  {
+    "hanTu": "正",
+    "cauTao": "- Nghĩa: Chính, thẳng, đúng; tháng giêng |- Cấu tạo: Hội ý/Chỉ sự |- Trên: Chữ Nhất 一 (yī) - một, đường thẳng |- Dưới: Chữ Chỉ 止 (zhǐ) - dừng lại, bàn chân |- Diễn giải: Dừng lại (止) đúng vạch (一) -> thẳng, đúng."
+  },
+  {
+    "hanTu": "步",
+    "cauTao": "- Nghĩa: Bước, bước đi; giai đoạn |- Cấu tạo: Hội ý |- Thành phần: Mô tả hình ảnh hai dấu chân 止 (zhǐ) nối tiếp nhau -> bước đi."
+  },
+  {
+    "hanTu": "段",
+    "cauTao": "- Nghĩa: Đoạn, khúc; giai đoạn; thủ đoạn |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Phần phức tạp (?) |- Phải (Chỉ ý): Bộ Thù 殳 (shū) - binh khí dài, đập |- Diễn giải: Dùng gậy (殳) đập vỡ ra thành đoạn?."
+  },
+  {
+    "hanTu": "洲",
+    "cauTao": "- Nghĩa: Châu, lục địa, bãi nổi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Châu 州 (zhōu) - châu, vùng đất |- Diễn giải: Vùng đất (州) nổi giữa nước (氵)."
+  },
+  {
+    "hanTu": "活",
+    "cauTao": "- Nghĩa: Sống, hoạt động; linh hoạt; công việc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Thiệt 舌 (shé) - cái lưỡi."
+  },
+  {
+    "hanTu": "準",
+    "cauTao": "- Nghĩa: Chuẩn, tiêu chuẩn; chính xác; cho phép |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Chuẩn 隼 (zhǔn) - chim cắt."
+  },
+  {
+    "hanTu": "演",
+    "cauTao": "- Nghĩa: Diễn, biểu diễn; diễn giải; phát triển |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Dần 寅 (yín) - Dần (địa chi)."
+  },
+  {
+    "hanTu": "漢",
+    "cauTao": "- Nghĩa: Hán (sông, triều đại, dân tộc, chữ) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Phần phức tạp (𦰩?) liên quan chữ Nan 難."
+  },
+  {
+    "hanTu": "煩",
+    "cauTao": "- Nghĩa: Phiền, phiền phức; bực mình |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hỏa 火 (huǒ) - lửa |- Phải (Chỉ âm): Bộ Hiệt 頁 (yè) - đầu |- Diễn giải: Nóng (火) trong đầu (頁) -> phiền não."
+  },
+  {
+    "hanTu": "燈",
+    "cauTao": "- Nghĩa: Đèn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hỏa 火 (huǒ) - lửa |- Phải (Chỉ âm): Chữ Đăng 登 (dēng) - leo lên."
+  },
+  {
+    "hanTu": "爬",
+    "cauTao": "- Nghĩa: Bò, leo, trèo |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Trảo 爪 (zhuǎ / zhǎo) - móng vuốt, tay |- Phải (Chỉ âm/ý): Chữ Ba 巴 (bā) - bám vào."
+  },
+  {
+    "hanTu": "環",
+    "cauTao": "- Nghĩa: Vòng, khuyên; môi trường; bao quanh |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Quỳnh 睘 (huán) - nhìn trừng trừng |- Diễn giải: Cái vòng bằng ngọc (玉)."
+  },
+  {
+    "hanTu": "第",
+    "cauTao": "- Nghĩa: Thứ (số thứ tự); đệ |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới (Chỉ âm/ý): Chữ Đệ 弟 (dì) - em trai, thứ đệ |- Diễn giải: Sắp xếp thẻ tre (竹) theo thứ tự (弟)."
+  },
+  {
+    "hanTu": "筆",
+    "cauTao": "- Nghĩa: Bút |- Cấu tạo: Hội ý |- Trên: Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới: Chữ Duật 聿 (yù) - bút lông |- Diễn giải: Bút lông (聿) làm bằng tre (竹)."
+  },
+  {
+    "hanTu": "範",
+    "cauTao": ".- Nghĩa: Khuôn mẫu, phạm vi; gương mẫu |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Trúc 竹 (zhú) - tre |- Dưới (Chỉ âm): Chữ Phạm 笵 (fàn) (phức tạp, gồm 車 xa) |- Diễn giải: Khuôn làm bằng tre (竹)?."
+  },
+  {
+    "hanTu": "紙",
+    "cauTao": "- Nghĩa: Giấy |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Thị 氏 (shì) - họ, thị tộc."
+  },
+  {
+    "hanTu": "綠",
+    "cauTao": "- Nghĩa: Màu xanh lá cây |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Lục 录 (lù) - ghi chép |- Diễn giải: Tơ (糸) nhuộm màu xanh lá."
+  },
+  {
+    "hanTu": "練",
+    "cauTao": "- Nghĩa: Luyện tập; luộc tơ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Giản 柬 (jiǎn) - cái thiếp, giản lược |- Diễn giải: Xử lý tơ (糸) cho tốt -> luyện tập."
+  },
+  {
+    "hanTu": "考",
+    "cauTao": "- Nghĩa: Khảo, thi cử; khảo sát; cha đã mất |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Lão 耂 (lǎo) - già |- Dưới (Chỉ âm?): Chữ Khảo 丂 (kǎo) - hơi thở ra |- Diễn giải: Người già (耂) suy xét -> khảo sát."
+  },
+  {
+    "hanTu": "聊",
+    "cauTao": "- Nghĩa: Trò chuyện; tạm thời |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhĩ 耳 (ěr) - tai |- Phải (Chỉ âm): Chữ Mão 卯 (mǎo) - Mão (địa chi)."
+  },
+  {
+    "hanTu": "背",
+    "cauTao": "- Nghĩa: Lưng; quay lưng lại; học thuộc lòng |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm?/ý): Chữ Bắc 北 (běi) - bắc, quay lưng |- Dưới (Chỉ ý): Bộ Nhục 月 (yuè) - thịt, cơ thể |- Diễn giải: Phần cơ thể (月) quay về phía sau (北) -> lưng."
+  },
+  {
+    "hanTu": "腦",
+    "cauTao": "- Nghĩa: Não, óc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (ròu) - thịt, cơ thể |- Phải (Chỉ âm): Phần phức tạp 匘 (nǎo)."
+  },
+  {
+    "hanTu": "興",
+    "cauTao": "- Nghĩa: Hưng thịnh (xīng); hứng thú (xìng) |- Cấu tạo: Hội ý |- Thành phần: Mô tả hình ảnh nhiều bàn tay (臼/廾) cùng nhau nâng vật gì đó (同?) -> cùng nhau làm việc -> hưng thịnh."
+  },
+  {
+    "hanTu": "船",
+    "cauTao": "- Nghĩa: Thuyền |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Chu 舟 (zhōu) - thuyền |- Phải (Chỉ âm): Chữ Diên 㕣 (yǎn) - đầm lầy."
+  },
+  {
+    "hanTu": "著",
+    "cauTao": "- Nghĩa: Trợ từ (zhe); mặc (zhuó); trứ danh, viết (zhù) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm?): Chữ Giả 者 (zhě) - người, cái mà |- Diễn giải: Cỏ cây (艹) bám vào?."
+  },
+  {
+    "hanTu": "處",
+    "cauTao": "- Nghĩa: Xử lý, ở (chǔ); nơi, chỗ (chù) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Bộ Hô 虍 (hū) - vằn hổ |- Dưới: Phần phức tạp (処?) có thể chỉ chỗ ngồi hoặc gợi âm."
+  },
+  {
+    "hanTu": "複",
+    "cauTao": "- Nghĩa: Phức tạp; kép, lặp lại |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Y 衣 (yī) - áo |- Phải (Chỉ âm/ý): Chữ Phục 复 (fù) - phục hồi, lặp lại |- Diễn giải: Áo kép (衣) -> lặp lại, phức tạp."
+  },
+  {
+    "hanTu": "覽",
+    "cauTao": "- Nghĩa: Lãm, xem, ngắm |- Cấu tạo: Hình thanh |- Trên (Chỉ âm?): Chữ Giám 監 (jiān) - giám sát |- Dưới (Chỉ ý): Chữ Kiến 見 (jiàn) - thấy, nhìn |- Diễn giải: Nhìn (見) bao quát như giám sát (監)."
+  },
+  {
+    "hanTu": "解",
+    "cauTao": "- Nghĩa: Giải quyết, hiểu; cởi ra (jiě); họ Giải (xiè); áp giải (jiè) |- Cấu tạo: Hội ý |- Thành phần: Gồm Giác 角 (jiǎo) - sừng, Đao 刀 (dāo) - dao, Ngưu 牛 (niú) - trâu bò |- Diễn giải: Dùng dao (刀) tách sừng (角) bò (牛) -> tháo gỡ, giải quyết."
+  },
+  {
+    "hanTu": "訴",
+    "cauTao": "- Nghĩa: Tố cáo, kể lể |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm?): Chữ Xích 斥 (chì) - quát mắng."
+  },
+  {
+    "hanTu": "認",
+    "cauTao": "- Nghĩa: Nhận, nhận ra; thừa nhận |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Nhẫn 忍 (rěn) - nhẫn nại."
+  },
+  {
+    "hanTu": "講",
+    "cauTao": "- Nghĩa: Giảng, nói, kể |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Cấu 冓 (gòu) - giao cấu, kết cấu."
+  },
+  {
+    "hanTu": "識",
+    "cauTao": "- Nghĩa: Biết, nhận thức; tri thức |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Sí/Chức 戠 (zhí) - dính bùn."
+  },
+  {
+    "hanTu": "貿",
+    "cauTao": "- Nghĩa: Mậu dịch, buôn bán; hấp tấp |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Mão 卯 (mǎo) - Mão (địa chi) |- Dưới (Chỉ ý): Bộ Bối 貝 (bèi) - tiền của |- Diễn giải: Trao đổi tiền bạc (貝) -> buôn bán."
+  },
+  {
+    "hanTu": "趕",
+    "cauTao": "- Nghĩa: Đuổi theo, đuổi kịp; vội vàng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tẩu 走 (zǒu) - đi, chạy |- Phải (Chỉ âm): Chữ Can 干 (gān) - can thiệp, khô."
+  },
+  {
+    "hanTu": "轉",
+    "cauTao": "- Nghĩa: Chuyển, xoay chuyển (zhuǎn); quay (zhuàn) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Xa 車 (chē) - xe |- Phải (Chỉ âm): Chữ Chuyên 專 (zhuān) - chuyên |- Diễn giải: Bánh xe (車) quay."
+  },
+  {
+    "hanTu": "迷",
+    "cauTao": "- Nghĩa: Mê, lạc đường; say mê; fan |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Bộ Mễ 米 (mǐ) - gạo |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) lạc như trong ruộng lúa (米)?."
+  },
+  {
+    "hanTu": "通",
+    "cauTao": "- Nghĩa: Thông, thông suốt; đi qua; hiểu rõ |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Dũng 甬 (yǒng) - cái ống, lối đi |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) thông suốt qua lối (甬)."
+  },
+  {
+    "hanTu": "遊",
+    "cauTao": "- Nghĩa: Du lịch, đi chơi; bơi lội |- Cấu tạo: Hình thanh |- Trái (Chỉ âm/ý): Chữ Du 斿 (yóu) - cờ bay, đi chơi |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) chơi theo cờ hiệu (斿)."
+  },
+  {
+    "hanTu": "選",
+    "cauTao": "- Nghĩa: Tuyển, chọn lựa |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Chữ Tốn 巽 (xùn) - Tốn (quẻ), thuận theo |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) để chọn lựa?."
+  },
+  {
+    "hanTu": "郵",
+    "cauTao": "- Nghĩa: Bưu điện, thư tín |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Do 由 (yóu) - do, bởi |- Phải (Chỉ ý): Bộ Ấp 阝(yì) - vùng đất, thành phố."
+  },
+  {
+    "hanTu": "陽",
+    "cauTao": "- Nghĩa: Dương (mặt trời, nam tính); dương tính |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất, núi |- Phải (Chỉ âm/ý): Chữ Dương 昜 (yáng) - mặt trời |- Diễn giải: Phía có nắng (昜) của ngọn núi (阝) -> dương."
+  },
+  {
+    "hanTu": "雖",
+    "cauTao": "- Nghĩa: Tuy, tuy rằng, mặc dù |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Bộ Trùng 虫 (chóng) - côn trùng |- Phải (Chỉ ý?): Bộ Truy 隹 (zhuī) - chim đuôi ngắn |- Diễn giải: Nguồn gốc phức tạp, không rõ ràng từ thành phần."
+  },
+  {
+    "hanTu": "雜",
+    "cauTao": "- Nghĩa: Tạp, pha trộn, lộn xộn |- Cấu tạo: Hội ý/Hình thanh |- Trái: Gồm chữ Cửu 九 (jiǔ) và chữ Mộc 木 (mù)? |- Phải: Bộ Truy 隹 (zhuī) - chim đuôi ngắn |- Diễn giải: Nhiều loại chim (隹) tụ tập trên cây? -> lộn xộn, pha tạp."
+  },
+  {
+    "hanTu": "離",
+    "cauTao": "- Nghĩa: Ly, rời khỏi, cách xa; Ly (quẻ) |- Cấu tạo: Hình thanh/Hội ý |- Thành phần: Gốc mô tả hình ảnh con chim (隹) bị mắc vào lưới/bẫy (离), chỉ sự chia cắt -> rời xa."
+  },
+  {
+    "hanTu": "飛",
+    "cauTao": "- Nghĩa: Bay |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con chim đang dang cánh bay."
+  },
+  {
+    "hanTu": "餓",
+    "cauTao": "- Nghĩa: Đói |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm): Chữ Ngã 我 (wǒ) - tôi."
+  },
+  {
+    "hanTu": "鬆",
+    "cauTao": "- Nghĩa: Lỏng, chùng; thư giãn; tùng (cây) |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Tiêu 髟 (biāo) - tóc dài |- Dưới (Chỉ âm/ý): Chữ Tùng 松 (sōng) - cây tùng, lỏng lẻo |- Diễn giải: Tóc (髟) xõa ra -> lỏng lẻo, thư giãn."
+  },
+  {
+    "hanTu": "麻",
+    "cauTao": "- Nghĩa: Cây gai dầu; vừng; tê |- Cấu tạo: Hội ý |- Ngoài: Bộ Nghiễm 广 (yǎn) - mái che |- Trong: Chữ Lâm 林 (lín) - rừng cây (木+木) |- Diễn giải: Phơi cây gai dầu (林) dưới mái che (广)."
+  },
+  {
+    "hanTu": "三",
+    "cauTao": "- Nghĩa: Ba, số 3 |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Ba nét ngang 一 (yī) song song, biểu thị số lượng ba."
+  },
+  {
+    "hanTu": "主",
+    "cauTao": "- Nghĩa: Chủ, chủ nhân; chính; chủ trương |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Mô tả hình ngọn đèn (dấu chấm 丶 zhǔ) trên giá đỡ (王 wáng biến thể), chỉ vật trung tâm -> chủ."
+  },
+  {
+    "hanTu": "亞",
+    "cauTao": "- Nghĩa: Á, thứ hai; châu Á |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh vật thể đan chéo hoặc hai người khom lưng, chỉ sự thấp kém hơn -> thứ hai, á."
+  },
+  {
+    "hanTu": "介",
+    "cauTao": "- Nghĩa: Giới thiệu; ở giữa; giới; mảnh nhỏ |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Gồm chữ Nhân 人 (rén) và hai nét sổ 丨 (gǔn) hai bên, mô tả người mặc áo giáp hoặc ranh giới -> ở giữa, giới thiệu."
+  },
+  {
+    "hanTu": "任",
+    "cauTao": "- Nghĩa: Nhiệm vụ, đảm nhiệm; mặc cho; họ Nhậm |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Nhâm 壬 (rén) - can Nhâm, gánh vác |- Diễn giải: Người (亻) gánh vác (壬) công việc -> nhiệm vụ."
+  },
+  {
+    "hanTu": "份",
+    "cauTao": "- Nghĩa: Phần, suất; bản |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Phân 分 (fēn) - chia, phân |- Diễn giải: Phần chia (分) cho người (亻)."
+  },
+  {
+    "hanTu": "僑",
+    "cauTao": "- Nghĩa: Kiều (ở nhờ); kiều bào |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Kiều 喬 (qiáo) - cao lớn, họ Kiều."
+  },
+  {
+    "hanTu": "助",
+    "cauTao": "- Nghĩa: Trợ giúp, giúp đỡ |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Chữ Thả 且 (qiě) - và, lại còn |- Phải (Chỉ ý): Chữ Lực 力 (lì) - sức lực |- Diễn giải: Dùng sức lực (力) để giúp thêm (且)."
+  },
+  {
+    "hanTu": "合",
+    "cauTao": "- Nghĩa: Hợp, hợp lại; đóng; cùng nhau; nên |- Cấu tạo: Hội ý |- Trên: Chữ Cập 亼 (jí) - tập hợp, nắp đậy |- Dưới: Bộ Khẩu 口 (kǒu) - miệng, vật chứa |- Diễn giải: Nắp (亼) đậy khớp miệng (口) -> hợp lại."
+  },
+  {
+    "hanTu": "履",
+    "cauTao": "- Nghĩa: Giày dép; đi, thực hiện; lý lịch |- Cấu tạo: Hội ý/Hình thanh |- Ngoài: Bộ Thi 尸 (shī) - thân thể (liên quan đến bước đi?) |- Trong: Chữ Phục 复 (fù) - lặp lại, phục hồi (có thể gợi âm lǚ?) |- Diễn giải: Liên quan đến việc đi lại (尸) lặp lại (复) -> giày dép, thực hiện."
+  },
+  {
+    "hanTu": "形",
+    "cauTao": "- Nghĩa: Hình, hình dạng, hình thể |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ幵 (jiān) - bằng phẳng |- Phải (Chỉ ý): Bộ Sam 彡 (shān) - lông, vân, đường nét."
+  },
+  {
+    "hanTu": "律",
+    "cauTao": "- Nghĩa: Luật, luật pháp; luật (thơ); kiềm chế |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Xích 彳(chì) - bước đi, hành vi |- Phải (Chỉ âm/ý): Chữ Duật 聿 (yù) - bút lông (ghi chép luật)."
+  },
+  {
+    "hanTu": "情",
+    "cauTao": "- Nghĩa: Tình, tình cảm, tình hình |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Thanh 青 (qīng) - xanh."
+  },
+  {
+    "hanTu": "按",
+    "cauTao": "- Nghĩa: Ấn, nhấn, bấm; theo, dựa theo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ An 安 (ān) - yên ổn."
+  },
+  {
+    "hanTu": "授",
+    "cauTao": "- Nghĩa: Trao cho, truyền thụ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Thụ 受 (shòu) - nhận, chịu đựng."
+  },
+  {
+    "hanTu": "暑",
+    "cauTao": "- Nghĩa: Nóng nực (mùa hè) |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Chữ Nhật 日 (rì) - mặt trời |- Dưới (Chỉ âm): Chữ Giả 者 (zhě) - người, cái mà |- Diễn giải: Trời nắng (日) nóng."
+  },
+  {
+    "hanTu": "歲",
+    "cauTao": "- Nghĩa: Tuổi; năm |- Cấu tạo: Hội ý/Hình thanh |- Trên: Biến thể của chữ Bộ 步 (bù) - bước đi |- Dưới: Chữ Tuất 戌 (xū) - Tuất (địa chi) |- Diễn giải: Bước đi (步) của thời gian qua các năm (戌?)."
+  },
+  {
+    "hanTu": "歷",
+    "cauTao": "- Nghĩa: Trải qua; lịch sử; lịch |- Cấu tạo: Hội ý |- Ngoài: Bộ Hán 厂 (hàn) - sườn núi |- Trong: Chữ Lịch 秝 (lì) - lúa mọc san sát (禾+禾) và chữ Chỉ 止 (zhǐ) - bàn chân |- Diễn giải: Đi (止) qua những cánh đồng lúa (秝) -> trải qua."
+  },
+  {
+    "hanTu": "玲",
+    "cauTao": "- Nghĩa: (Tiếng ngọc); lanh lợi, xinh xắn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Lệnh 令 (lìng) - mệnh lệnh."
+  },
+  {
+    "hanTu": "答",
+    "cauTao": "- Nghĩa: Đáp, trả lời |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới (Chỉ âm?): Chữ Hợp 合 (hé) - hợp lại |- Diễn giải: Trả lời câu hỏi trên thẻ tre (竹)?."
+  },
+  {
+    "hanTu": "級",
+    "cauTao": "- Nghĩa: Cấp, bậc; lớp học |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Cập 及 (jí) - kịp, đến."
+  },
+  {
+    "hanTu": "紹",
+    "cauTao": "- Nghĩa: Thiệu, nối tiếp; giới thiệu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Triệu 召 (zhào) - gọi, triệu tập."
+  },
+  {
+    "hanTu": "英",
+    "cauTao": "- Nghĩa: Anh (nước); anh hùng; tinh hoa; đẹp |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm): Chữ Ương 央 (yāng) - giữa, trung tâm |- Diễn giải: Bông hoa đẹp (央) của cây cỏ (艹) -> tinh hoa, đẹp."
+  },
+  {
+    "hanTu": "薪",
+    "cauTao": "- Nghĩa: Củi; lương bổng |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm): Chữ Tân 新 (xīn) - mới |- Diễn giải: Cỏ cây (艹) mới (新) dùng làm củi."
+  },
+  {
+    "hanTu": "表",
+    "cauTao": "- Nghĩa: Biểu, bề ngoài; đồng hồ; bảng biểu; biểu thị; họ (ngoại) |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Y 衣 (yī) - áo và phần trên (?) chỉ lớp lông/vật bên ngoài |- Diễn giải: Lớp áo (衣) mặc bên ngoài -> bề ngoài, biểu thị."
+  },
+  {
+    "hanTu": "談",
+    "cauTao": "- Nghĩa: Đàm, nói chuyện, bàn bạc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Viêm 炎 (yán) - nóng rực."
+  },
+  {
+    "hanTu": "辦",
+    "cauTao": "- Nghĩa: Làm, giải quyết, xử lý; biện |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm chữ Lực 力 (lì) - sức lực ở giữa hai chữ Tân 辛 (xīn) - cay đắng |- Diễn giải: Dùng sức (力) giải quyết việc khó khăn (辛+辛)."
+  },
+  {
+    "hanTu": "適",
+    "cauTao": "- Nghĩa: Thích, thích hợp; đi đến |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Đích 啇 (dí) (phức tạp) |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) đến nơi phù hợp?."
+  },
+  {
+    "hanTu": "除",
+    "cauTao": "- Nghĩa: Trừ, loại bỏ; ngoài ra; bậc thềm |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất, bậc thềm |- Phải (Chỉ âm): Chữ Dư 余 (yú) - thừa, tôi."
+  },
+  {
+    "hanTu": "順",
+    "cauTao": "- Nghĩa: Thuận, thuận theo; trôi chảy |- Cấu tạo: Hội ý/Hình thanh |- Trái: Bộ Xuyên 川 (chuān) - sông, dòng chảy |- Phải: Bộ Hiệt 頁 (yè) - đầu |- Diễn giải: Đầu (頁) xuôi theo dòng nước (川) -> thuận theo."
+  },
+  {
+    "hanTu": "驗",
+    "cauTao": "- Nghĩa: Nghiệm, kiểm nghiệm; linh nghiệm |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mã 馬 (mǎ) - ngựa |- Phải (Chỉ âm): Chữ Thiêm 僉 (qiān) - đều, cùng |- Diễn giải: Kiểm tra (僉) ngựa (馬)?."
+  },
+  {
+    "hanTu": "佛",
+    "cauTao": "- Nghĩa: Phật (fó); phảng phất (fú) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Phất 弗 (fú) - không."
+  },
+  {
+    "hanTu": "光",
+    "cauTao": "- Nghĩa: Ánh sáng; quang cảnh; vinh quang; hết |- Cấu tạo: Hội ý |- Trên: Biến thể của chữ Hỏa 火 (huǒ) - lửa |- Dưới: Chữ Nhân 儿 (rén) - người |- Diễn giải: Người (儿) đội lửa (火) trên đầu -> ánh sáng."
+  },
+  {
+    "hanTu": "圓",
+    "cauTao": "- Nghĩa: Tròn, viên; viên mãn; đồng tiền |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Vi 囗 (wéi) - vây quanh |- Trong (Chỉ âm): Chữ Viên 員 (yuán) - viên, thành viên |- Diễn giải: Hình tròn (囗)."
+  },
+  {
+    "hanTu": "普",
+    "cauTao": "- Nghĩa: Phổ, phổ biến, khắp cả |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Tịnh 並 (bìng) - cùng nhau, ngang hàng |- Dưới (Chỉ ý): Chữ Nhật 日 (rì) - mặt trời |- Diễn giải: Ánh mặt trời (日) chiếu khắp nơi (並)."
+  },
+  {
+    "hanTu": "精",
+    "cauTao": "- Nghĩa: Tinh, tinh túy; tinh thần; tinh thông |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mễ 米 (mǐ) - gạo |- Phải (Chỉ âm): Chữ Thanh 青 (qīng) - xanh |- Diễn giải: Gạo (米) đã giã trắng, tinh sạch."
+  },
+  {
+    "hanTu": "義",
+    "cauTao": "- Nghĩa: Nghĩa, ý nghĩa; chính nghĩa |- Cấu tạo: Hội ý |- Trên: Chữ Dương 羊 (yáng) - con dê |- Dưới: Chữ Ngã 我 (wǒ) - tôi, ta |- Diễn giải: Con dê (羊) đẹp biểu thị sự tốt lành, đúng đắn (我) -> nghĩa khí, chính nghĩa."
+  },
+  {
+    "hanTu": "件",
+    "cauTao": "- Nghĩa: Kiện, cái, chiếc (lượng từ) |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm?): Chữ Ngưu 牛 (niú) - trâu bò."
+  },
+  {
+    "hanTu": "兒",
+    "cauTao": "- Nghĩa: Nhi, trẻ con; hậu tố |- Cấu tạo: Tượng hình |- Trên: Biến thể của 臼 (jiù) - cái cối (chỉ thóp chưa liền) |- Dưới: Chữ Nhân 人 (rén) - người |- Diễn giải: Đứa trẻ (人) còn thóp (臼)."
+  },
+  {
+    "hanTu": "句",
+    "cauTao": "- Nghĩa: Câu (văn); móc câu |- Cấu tạo: Hội ý/Hình thanh |- Ngoài: Bộ Bao 勹 (bāo) - bao bọc, móc |- Trong: Bộ Khẩu 口 (kǒu) - miệng |- Diễn giải: Lời nói (口) được ngắt ra thành đoạn (勹) -> câu."
+  },
+  {
+    "hanTu": "另",
+    "cauTao": "- Nghĩa: Khác, riêng |- Cấu tạo: Hội ý |- Trên: Bộ Khẩu 口 (kǒu) - miệng |- Dưới: Bộ Đao 刀 (dāo) - con dao |- Diễn giải: Dùng dao (刀) tách ra khỏi (口) -> riêng biệt, khác."
+  },
+  {
+    "hanTu": "娘",
+    "cauTao": "- Nghĩa: Nương, cô gái; mẹ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Lương 良 (liáng) - tốt, lành."
+  },
+  {
+    "hanTu": "婚",
+    "cauTao": "- Nghĩa: Hôn nhân, kết hôn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ âm): Chữ Hôn 昏 (hūn) - hoàng hôn |- Diễn giải: Việc của người nữ (女), thường cử hành vào buổi tối (昏)?."
+  },
+  {
+    "hanTu": "孩",
+    "cauTao": "- Nghĩa: Hài nhi, trẻ con |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tử 子 (zǐ) - con cái |- Phải (Chỉ âm): Chữ Hợi 亥 (hài) - Hợi (địa chi)."
+  },
+  {
+    "hanTu": "宴",
+    "cauTao": "- Nghĩa: Yến tiệc; yên vui |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà |- Dưới (Chỉ âm/ý): Chữ Yến 妟 (yàn) (gồm 日+女), chỉ sự yên ổn, vui vẻ |- Diễn giải: Tiệc tùng vui vẻ (妟) trong nhà (宀)."
+  },
+  {
+    "hanTu": "帥",
+    "cauTao": "- Nghĩa: Soái, tướng |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gốc mô tả người cầm cờ hiệu (?). Dạng hiện đại gồm phần trên phức tạp và bộ Cân 巾 (jīn) - khăn, cờ hiệu."
+  },
+  {
+    "hanTu": "座",
+    "cauTao": "- Nghĩa: Chỗ ngồi; cái đế; tòa; chòm sao |- Cấu tạo: Hội ý/Hình thanh |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong (Chỉ âm?/ý): Chữ Tọa 坐 (zuò) - ngồi |- Diễn giải: Chỗ ngồi (坐) trong nhà (广)."
+  },
+  {
+    "hanTu": "式",
+    "cauTao": "'- Nghĩa: Kiểu, thức, hình thức; lễ nghi |- Cấu tạo: Hình thanh/Hội ý |- Trái: Chữ Công 工 (gōng) - công cụ |- Phải: Chữ弋 (yì) - cái cọc, bắn tên |- Diễn giải: Dùng công cụ (工) để tạo ra quy tắc, khuôn mẫu (弋)?."
+  },
+  {
+    "hanTu": "恭",
+    "cauTao": "- Nghĩa: Cung kính |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm?): Chữ Cộng 共 (gòng) - chung, cùng nhau |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tấm lòng |- Diễn giải: Tấm lòng (心) cùng hướng về, tôn trọng (共)."
+  },
+  {
+    "hanTu": "慶",
+    "cauTao": "- Nghĩa: Khánh, chúc mừng |- Cấu tạo: Hội ý |- Thành phần: Gồm phần trên liên quan đến Lộc 鹿 (lù) - con hươu (quà mừng), bộ Tâm 心 (xīn) - tấm lòng và bộ Trĩ 夂 (zhǐ) - đi tới |- Diễn giải: Mang quà (鹿) và tấm lòng (心) đến (夂) chúc mừng."
+  },
+  {
+    "hanTu": "戚",
+    "cauTao": "- Nghĩa: Thích (họ hàng); buồn rầu; vũ khí |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Chữ Thúc 尗 (shū) - loại đậu |- Phải (Chỉ ý): Bộ Qua 戈 (gē) - vũ khí."
+  },
+  {
+    "hanTu": "敬",
+    "cauTao": "- Nghĩa: Kính, tôn kính; kính tặng |- Cấu tạo: Hình thanh/Hội ý |- Trái: Phần phức tạp (liên quan 茍 gǒu?) |- Phải (Chỉ ý): Bộ Phộc 攵 (pū) - đánh khẽ, hành động |- Diễn giải: Hành động (攵) thể hiện sự kính trọng (苟?)."
+  },
+  {
+    "hanTu": "福",
+    "cauTao": "- Nghĩa: Phúc, phúc lợi, may mắn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kỳ 示 (shì) - thần đất, cầu cúng |- Phải (Chỉ âm/ý): Chữ Phúc 畐 (fú) - đầy, tràn |- Diễn giải: Cầu xin thần linh (示) cho sự đầy đủ (畐)."
+  },
+  {
+    "hanTu": "糖",
+    "cauTao": "- Nghĩa: Đường (ăn) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mễ 米 (mǐ) - gạo |- Phải (Chỉ âm): Chữ Đường 唐 (táng) - nhà Đường."
+  },
+  {
+    "hanTu": "親",
+    "cauTao": "- Nghĩa: Thân, thân thích; tự mình; hôn |- Cấu tạo: Hội ý/Hình thanh |- Trái: Phần phức tạp liên quan đến chữ Tân 辛 (xīn) |- Phải: Chữ Kiến 見 (jiàn) - thấy, nhìn |- Diễn giải: Nhìn (見) một cách gần gũi, kỹ lưỡng (辛?) -> thân thiết."
+  },
+  {
+    "hanTu": "送",
+    "cauTao": "- Nghĩa: Tặng; tiễn đưa; giao hàng |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Sước 辶 (chuò) - đi, chạy và phần trên phức tạp (?) chỉ hành động tiễn đưa hoặc gợi âm."
+  },
+  {
+    "hanTu": "郎",
+    "cauTao": "- Nghĩa: Chàng trai; lang quân; chức quan |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Lương 良 (liáng) - tốt, lành |- Phải (Chỉ ý): Bộ Ấp 阝(yì) - vùng đất, thành phố."
+  },
+  {
+    "hanTu": "酒",
+    "cauTao": "- Nghĩa: Rượu |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Dậu 酉 (yǒu) - Dậu (địa chi), bình rượu |- Diễn giải: Chất lỏng (氵) là rượu (酉)."
+  },
+  {
+    "hanTu": "鬧",
+    "cauTao": "- Nghĩa: Náo, ồn ào; gây chuyện |- Cấu tạo: Hội ý |- Ngoài: Bộ Môn 門 (mén) - cửa |- Trong: Chữ Thị 市 (shì) - chợ |- Diễn giải: Cảnh ồn ào, tranh giành ở chợ (市) trước cổng (門) -> náo nhiệt."
+  },
+  {
+    "hanTu": "丸",
+    "cauTao": "- Nghĩa: Hoàn (viên thuốc); viên tròn |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Mô tả vật hình tròn hoặc người đang xoay tròn (丿 + ㇆)."
+  },
+  {
+    "hanTu": "何",
+    "cauTao": "- Nghĩa: Gì, nào; sao; họ Hà |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Khả 可 (kě) - có thể."
+  },
+  {
+    "hanTu": "側",
+    "cauTao": "- Nghĩa: Trắc, bên cạnh, nghiêng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Tắc 則 (zé) - thì, quy tắc."
+  },
+  {
+    "hanTu": "冥",
+    "cauTao": "- Nghĩa: Minh, tối tăm; cõi âm |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Mịch 冖 (mì) - che phủ, chữ Nhật 日 (rì) - mặt trời và chữ Lục 六 (liù) - sáu |- Diễn giải: Mặt trời (日) bị che phủ (冖) -> tối tăm."
+  },
+  {
+    "hanTu": "孤",
+    "cauTao": "- Nghĩa: Cô, mồ côi, cô độc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tử 子 (zǐ) - con cái |- Phải (Chỉ âm): Chữ Qua 瓜 (guā) - dưa |- Diễn giải: Đứa trẻ (子) không nơi nương tựa."
+  },
+  {
+    "hanTu": "巔",
+    "cauTao": "- Nghĩa: Điên, đỉnh núi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Sơn 山 (shān) - núi |- Phải (Chỉ âm): Chữ Điên 顛 (diān) - điên đảo, đỉnh đầu."
+  },
+  {
+    "hanTu": "巢",
+    "cauTao": "- Nghĩa: Sào, tổ chim |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gồm chữ Mộc 木 (mù) - cây và phần trên phức tạp mô tả hình cái tổ trên cây."
+  },
+  {
+    "hanTu": "弋",
+    "cauTao": "- Nghĩa: Cái cọc; bắn tên buộc dây; chiếm lấy |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình cái cọc nhọn hoặc mũi tên có buộc dây."
+  },
+  {
+    "hanTu": "患",
+    "cauTao": "- Nghĩa: Hoạn, tai họa, lo lắng; mắc bệnh |- Cấu tạo: Hội ý |- Trên: Chữ Xuyến 串 (chuàn) - xâu, chuỗi |- Dưới: Bộ Tâm 心 (xīn) - tim |- Diễn giải: Tim (心) như bị xiên (串) -> lo lắng, tai họa."
+  },
+  {
+    "hanTu": "惡",
+    "cauTao": "- Nghĩa: Ác, xấu (è); ghét (wù); ô hô (wū) |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Á 亞 (yà) - á, thứ hai |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trí |- Diễn giải: Tâm địa (心) xấu xa, thấp kém (亞)."
+  },
+  {
+    "hanTu": "慕",
+    "cauTao": "- Nghĩa: Mộ, ngưỡng mộ; tưởng nhớ |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Mạc 莫 (mò) - không, đừng |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tấm lòng |- Diễn giải: Tấm lòng (心) hướng về."
+  },
+  {
+    "hanTu": "懼",
+    "cauTao": "- Nghĩa: Cụ, sợ hãi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Cù 瞿 (qú) - nhìn kinh ngạc."
+  },
+  {
+    "hanTu": "指",
+    "cauTao": "- Nghĩa: Chỉ, ngón tay; chỉ trỏ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Chỉ 旨 (zhǐ) - ý chỉ, ngon."
+  },
+  {
+    "hanTu": "敢",
+    "cauTao": "- Nghĩa: Dám, can đảm |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gồm phần bên trái (?) và bộ Phộc 攵 (pū) - đánh khẽ, hành động. Gốc có thể liên quan đến việc bắt thú dữ -> can đảm."
+  },
+  {
+    "hanTu": "木",
+    "cauTao": "- Nghĩa: Mộc, cây, gỗ |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái cây với cành (phía trên) và rễ (phía dưới)."
+  },
+  {
+    "hanTu": "樹",
+    "cauTao": "- Nghĩa: Thụ, cây cối; trồng cây |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - cây |- Phải (Chỉ âm): Chữ Thù 尌 (shù) - dựng lên."
+  },
+  {
+    "hanTu": "潢",
+    "cauTao": "- Nghĩa: Ao hồ tù đọng; trang hoàng (giấy) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Hoàng 黃 (huáng) - màu vàng."
+  },
+  {
+    "hanTu": "無",
+    "cauTao": "- Nghĩa: Vô, không có |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Gốc là hình người nhảy múa (舞 vũ). Dạng hiện đại gồm phần trên (?) và bộ Hỏa 灬 (huǒ). Sau mượn nghĩa \"không\". (Viết khác: 无)."
+  },
+  {
+    "hanTu": "珍",
+    "cauTao": "- Nghĩa: Trân, quý báu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Chẩn 㐱 (zhěn) - lông mày rậm."
+  },
+  {
+    "hanTu": "珠",
+    "cauTao": "- Nghĩa: Châu, hạt châu, ngọc trai |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Chu 朱 (zhū) - màu đỏ son."
+  },
+  {
+    "hanTu": "矯",
+    "cauTao": "- Nghĩa: Kiểu, uốn nắn; giả tạo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thỉ 矢 (shǐ) - mũi tên |- Phải (Chỉ âm): Chữ Kiều 喬 (qiáo) - cao lớn |- Diễn giải: Nắn thẳng (喬?) mũi tên (矢)."
+  },
+  {
+    "hanTu": "神",
+    "cauTao": "- Nghĩa: Thần, thần linh; tinh thần; thần kỳ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kỳ 示 (shì) - thần đất, cầu cúng |- Phải (Chỉ âm): Chữ Thân 申 (shēn) - duỗi ra, trình bày."
+  },
+  {
+    "hanTu": "翠",
+    "cauTao": "- Nghĩa: Thúy, màu xanh biếc; chim trả |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Tốt 卒 (zú) - binh lính, xong |- Dưới (Chỉ ý): Bộ Vũ 羽 (yǔ) - lông vũ |- Diễn giải: Lông vũ (羽) màu xanh biếc."
+  },
+  {
+    "hanTu": "者",
+    "cauTao": "- Nghĩa: Người, kẻ; cái; trợ từ |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Lão 耂 (lǎo) lược bỏ nét cuối và chữ Nhật 日 (rì). Gốc có thể chỉ việc đun nấu."
+  },
+  {
+    "hanTu": "逼",
+    "cauTao": "- Nghĩa: Bức, ép buộc; đến gần |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Phúc 畐 (fú) - đầy, tràn |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy |- Diễn giải: Đi (辶) đến gần, thúc ép."
+  },
+  {
+    "hanTu": "雙",
+    "cauTao": "- Nghĩa: Song, đôi, kép |- Cấu tạo: Hội ý |- Thành phần: Gồm hai chữ Truy 隹 (zhuī) - chim và chữ Hựu 又 (yòu) - bàn tay |- Diễn giải: Tay (又) bắt được một đôi chim (隹+隹)."
+  },
+  {
+    "hanTu": "顧",
+    "cauTao": "- Nghĩa: Cố, ngoảnh lại; quan tâm; khách hàng |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Cố 固 (gù) - bền vững |- Phải (Chỉ ý): Bộ Hiệt 頁 (yè) - đầu |- Diễn giải: Quay đầu (頁) lại nhìn."
+  },
+  {
+    "hanTu": "鳥",
+    "cauTao": "- Nghĩa: Điểu, chim |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con chim nhìn nghiêng."
+  },
+  {
+    "hanTu": "鴻",
+    "cauTao": "- Nghĩa: Hồng (chim nhạn lớn); lớn lao |- Cấu tạo: Hình thanh |- Trái (Chỉ âm?): Chữ Giang 江 (jiāng) - sông |- Phải (Chỉ ý): Chữ Điểu 鳥 (niǎo) - chim |- Diễn giải: Loài chim (鳥) lớn như chim nhạn."
+  },
+  {
+    "hanTu": "之",
+    "cauTao": "- Nghĩa: Chi (trợ từ); nó; đi đến |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gốc mô tả hình bàn chân (止 zhǐ) rời khỏi vạch (一) -> đi tới. Dạng hiện đại gồm 丶, ㇒, ㇏."
+  },
+  {
+    "hanTu": "初",
+    "cauTao": "- Nghĩa: Sơ, ban đầu, lúc đầu |- Cấu tạo: Hội ý |- Trái (Chỉ ý): Bộ Y 衣 (yī) - áo |- Phải (Chỉ ý): Bộ Đao 刀 (dāo) - con dao |- Diễn giải: Việc đầu tiên khi may áo (衣) là cắt vải bằng dao (刀) -> ban đầu."
+  },
+  {
+    "hanTu": "性",
+    "cauTao": "- Nghĩa: Tính, bản tính; giới tính; tính chất |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm/ý): Chữ Sinh 生 (shēng) - sinh ra |- Diễn giải: Cái tâm (忄) có từ lúc sinh ra (生) -> bản tính."
+  },
+  {
+    "hanTu": "善",
+    "cauTao": "- Nghĩa: Thiện, tốt lành, giỏi |- Cấu tạo: Hội ý |- Trên: Chữ Dương 羊 (yáng) - con dê |- Dưới: Chữ Cạnh 誩 (jìng) - tranh cãi (言+言) (hoặc hai chữ Khẩu 口) |- Diễn giải: Con dê (羊) hiền lành, biểu tượng cho sự tốt đẹp và lời nói/phán xét (誩) đúng đắn -> thiện."
+  },
+  {
+    "hanTu": "苟",
+    "cauTao": "- Nghĩa: Cẩu thả; nếu, giả như |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm): Chữ Câu 句 (jù) - câu, móc |- Diễn giải: Như cỏ dại (艹) -> cẩu thả?"
+  },
+  {
+    "hanTu": "乃",
+    "cauTao": "- Nghĩa: Nãi, là; bèn, thì; của anh/ông |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh khí hoặc sữa tuôn ra."
+  },
+  {
+    "hanTu": "遷",
+    "cauTao": "- Nghĩa: Thiên, dời đổi, di chuyển |- Cấu tạo: Hình thanh/Hội ý |- Thành phần: Gồm bộ Sước 辶 (chuò) - đi, chạy (chỉ sự di chuyển) và phần bên trái phức tạp (có thể gợi âm qiān)."
+  },
+  {
+    "hanTu": "專",
+    "cauTao": "- Nghĩa: Chuyên, chuyên tâm; riêng |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm bộ Thốn 寸 (cùn) - tấc, bàn tay và phần trên phức tạp (?), chỉ sự tập trung vào một việc."
+  },
+  {
+    "hanTu": "昔",
+    "cauTao": "- Nghĩa: Tích, xưa kia, ngày xưa |- Cấu tạo: Hội ý |- Thành phần: Gồm phần trên (廿/艹?) và chữ Nhật 日 (rì) - mặt trời, ngày. Gốc chỉ nước lũ hoặc thời gian đã qua -> xưa kia."
+  },
+  {
+    "hanTu": "孟",
+    "cauTao": "- Nghĩa: Mạnh (Mạnh Tử); con trưởng; tháng đầu mùa |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Tử 子 (zǐ) - con cái |- Dưới: Bộ Mãnh 皿 (mǐn) - cái đĩa, đồ đựng |- Diễn giải: Đứa con trai cả (子)."
+  },
+  {
+    "hanTu": "擇",
+    "cauTao": "- Nghĩa: Trạch, lựa chọn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Dịch/Trạch 睪 (yì / zé) - rình xem |- Diễn giải: Dùng tay (扌) để lựa chọn."
+  },
+  {
+    "hanTu": "鄰",
+    "cauTao": "- Nghĩa: Lân, hàng xóm; gần kề |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Lân 粦 (lín) (phức tạp) |- Phải (Chỉ ý): Bộ Ấp 阝(yì) - vùng đất, thành phố |- Diễn giải: Vùng đất (阝) ở gần."
+  },
+  {
+    "hanTu": "斷",
+    "cauTao": "- Nghĩa: Đoạn, cắt đứt; phán đoán |- Cấu tạo: Hình thanh/Hội ý |- Trái: Phần phức tạp 㡭 (jì?) liên quan đến sợi dây, sự nối tiếp |- Phải (Chỉ ý): Bộ Cân 斤 (jīn) - cái rìu |- Diễn giải: Dùng rìu (斤) cắt đứt (㡭) -> đoạn tuyệt."
+  },
+  {
+    "hanTu": "杼",
+    "cauTao": "- Nghĩa: Trữ, cái thoi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Dư 予 (yǔ) - cho, tôi |- Diễn giải: Cái thoi làm bằng gỗ (木)."
+  },
+  {
+    "hanTu": "竇",
+    "cauTao": "- Nghĩa: Đậu, hang lỗ; họ Đậu |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Bộ Huyệt 穴 (xuè) - hang động |- Dưới: Phần phức tạp (𧶠?) có thể gợi âm hoặc chỉ ý nghĩa liên quan."
+  },
+  {
+    "hanTu": "燕",
+    "cauTao": "- Nghĩa: Yến, chim én; nước Yên; yến tiệc |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh chim én đang bay (gồm 廿?, 口, 北?, 灬?)."
+  },
+  {
+    "hanTu": "俱",
+    "cauTao": "- Nghĩa: Câu, đều, cùng nhau |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Cụ 具 (jù) - dụng cụ, có đủ."
+  },
+  {
+    "hanTu": "揚",
+    "cauTao": "- Nghĩa: Dương, giương lên; tuyên dương |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Dương 昜 (yáng) - mặt trời |- Diễn giải: Dùng tay (扌) giương cao lên."
+  },
+  {
+    "hanTu": "養",
+    "cauTao": "- Nghĩa: Dưỡng, nuôi dưỡng; tu dưỡng |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Dương 羊 (yáng) - con dê, cừu |- Dưới: Bộ Thực 食 (shí) - ăn, thức ăn. |- Diễn giải: Cho cừu (羊) ăn (食) -> nuôi dưỡng."
+  },
+  {
+    "hanTu": "嚴",
+    "cauTao": "- Nghĩa: Nghiêm, nghiêm khắc; chặt chẽ |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Cấu trúc rất phức tạp, có thể liên quan đến lời nói (吅?), sự kính sợ (敢?) hoặc các yếu tố khác chỉ sự nghiêm trang, chặt chẽ."
+  },
+  {
+    "hanTu": "惰",
+    "cauTao": "- Nghĩa: Nọa, lười biếng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Phần phức tạp 㤢 (liên quan chữ 隋 suí)."
+  },
+  {
+    "hanTu": "幼",
+    "cauTao": "- Nghĩa: Ấu, non nớt, trẻ thơ |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Yêu 幺 (yāo) - nhỏ bé |- Phải (Chỉ ý?): Chữ Lực 力 (lì) - sức lực. |- Diễn giải: Sức lực (力) còn nhỏ bé (幺) -> non nớt."
+  },
+  {
+    "hanTu": "琢",
+    "cauTao": "- Nghĩa: Trác, đẽo gọt, mài giũa (ngọc) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Trác 豖 (chù) - con heo đi chậm."
+  },
+  {
+    "hanTu": "儀",
+    "cauTao": "- Nghĩa: Nghi, nghi lễ, dáng vẻ; quà tặng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm/ý): Chữ Nghĩa 義 (yì) - nghĩa, chính nghĩa. |- Diễn giải: Dáng vẻ, cử chỉ (亻) đúng đắn, hợp lễ (義)."
+  },
+  {
+    "hanTu": "九",
+    "cauTao": "- Nghĩa: Cửu, chín, số 9 |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình cánh tay cong lại ở khuỷu. Sau mượn chỉ số 9."
+  },
+  {
+    "hanTu": "齡",
+    "cauTao": "- Nghĩa: Linh, tuổi tác |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Xỉ 齒 (chǐ) - răng |- Phải (Chỉ âm): Chữ Lệnh 令 (lìng) - mệnh lệnh. |- Diễn giải: Tuổi tác xác định qua răng (齒)."
+  },
+  {
+    "hanTu": "溫",
+    "cauTao": "- Nghĩa: Ôn, ấm áp; ôn hòa; ôn tập |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Ôn 昷 (wēn) - ấm áp. |- Diễn giải: Nước (氵) ấm (昷)."
+  },
+  {
+    "hanTu": "席",
+    "cauTao": "- Nghĩa: Tịch, chiếu; chỗ ngồi; bữa tiệc |- Cấu tạo: Hội ý/Hình thanh |- Ngoài: Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong: Phần phức tạp (㢍?) có thể gợi âm hoặc chỉ cái chiếu. |- Diễn giải: Cái chiếu (㢍?) trải trong nhà (广)."
+  },
+  {
+    "hanTu": "孝",
+    "cauTao": "- Nghĩa: Hiếu, hiếu thảo |- Cấu tạo: Hội ý |- Trên: Bộ Lão 耂 (lǎo) - già (lược bỏ phần dưới) |- Dưới: Chữ Tử 子 (zǐ) - con cái. |- Diễn giải: Con cái (子) đỡ đần cha mẹ già (耂) -> hiếu thảo."
+  },
+  {
+    "hanTu": "於",
+    "cauTao": "- Nghĩa: Vu, ở, tại, vào; hơn (yú); ô hô (yū) |- Cấu tạo: Hình thanh/Hội ý (phức tạp) |- Thành phần: Có thể gồm chữ Phương 方 (fāng) và biến thể của cờ 㫃 (yǎn) hoặc quạ 烏 (wū)."
+  },
+  {
+    "hanTu": "執",
+    "cauTao": "- Nghĩa: Chấp, cầm, nắm giữ; thi hành |- Cấu tạo: Hội ý (phức tạp) |- Thành phần: Gồm chữ Hạnh 幸 (xìng) - may mắn (biến thể) và chữ Hoàn 丸 (wán) - viên tròn. Gốc chỉ việc bắt giữ người."
+  },
+  {
+    "hanTu": "融",
+    "cauTao": "- Nghĩa: Dung, hòa hợp; tan chảy; lưu thông |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Cách 鬲 (lì) - cái đỉnh, nồi |- Phải (Chỉ âm?): Bộ Trùng 虫 (chóng) - côn trùng. |- Diễn giải: Đun nóng trong nồi (鬲) -> tan chảy, hòa hợp."
+  },
+  {
+    "hanTu": "四",
+    "cauTao": "- Nghĩa: Tứ, bốn, số 4 |- Cấu tạo: Tượng hình/Hội ý |- Ngoài: Bộ Vi 囗 (wéi) - vây quanh |- Trong: Bộ Nhân 儿 (rén) biến thể. |- Diễn giải: Gốc là hình hơi thở ra từ mũi, sau mượn chỉ số 4."
+  },
+  {
+    "hanTu": "讓",
+    "cauTao": "- Nghĩa: Nhượng, nhường nhịn; để cho |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Tương 襄 (xiāng) - tương trợ. |- Diễn giải: Dùng lời nói (言) để nhường nhịn."
+  },
+  {
+    "hanTu": "梨",
+    "cauTao": "- Nghĩa: Lê (cây, quả) |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ âm?): Chữ Lợi 利 (lì) - lợi ích, sắc bén |- Dưới (Chỉ ý): Chữ Mộc 木 (mù) - cây. |- Diễn giải: Cây (木) lê."
+  },
+  {
+    "hanTu": "悌",
+    "cauTao": "- Nghĩa: Đễ, kính trọng anh chị |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tấm lòng |- Phải (Chỉ âm/ý): Chữ Đệ 弟 (dì) - em trai. |- Diễn giải: Tấm lòng (忄) kính nhường của người em (弟) đối với anh chị."
+  },
+  {
+    "hanTu": "長",
+    "cauTao": "- Nghĩa: Trường, dài; sở trường (cháng); trưởng, lớn lên (zhǎng) |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình ảnh người già tóc dài (biến thể của 毛 máo?) chống gậy."
+  },
+  {
+    "hanTu": "乎",
+    "cauTao": "- Nghĩa: Hô (trợ từ nghi vấn, thán từ); ở, tại |- Cấu tạo: Hình thanh/Hội ý |- Thành phần: Gồm nét phẩy 丿(piě) và chữ Khảo 丂 (kǎo) - hơi thở ra, gợi âm hoặc chỉ hơi thở/tiếng kêu."
+  },
+  {
+    "hanTu": "仁",
+    "cauTao": "- Nghĩa: Nhân, lòng nhân ái; hạt (nhân) |- Cấu tạo: Hội ý |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ ý): Chữ Nhị 二 (èr) - hai |- Diễn giải: Mối quan hệ giữa hai (二) người (亻) -> lòng nhân ái."
+  },
+  {
+    "hanTu": "信",
+    "cauTao": "- Nghĩa: Tín, tin tưởng; thư tín; tín hiệu |- Cấu tạo: Hội ý |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Diễn giải: Lời nói (言) của người (亻) phải đáng tin."
+  },
+  {
+    "hanTu": "六",
+    "cauTao": "- Nghĩa: Lục, sáu, số 6 |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Gồm bộ Đầu 亠 (tóu) và bộ Bát 八 (bā), gốc mô tả hình cái lều, sau mượn chỉ số 6."
+  },
+  {
+    "hanTu": "土",
+    "cauTao": "- Nghĩa: Thổ, đất; địa phương |- Cấu tạo: Tượng hình (Chỉ sự) |- Thành phần: Mô tả hình ảnh mầm cây nhú lên khỏi mặt đất hoặc ụ đất."
+  },
+  {
+    "hanTu": "夫",
+    "cauTao": "- Nghĩa: Phu, chồng; người đàn ông; trợ từ |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Chữ Đại 大 (dà) - người lớn, thêm nét ngang 一 (yī) ở trên (tượng trưng trâm cài tóc) -> người đàn ông trưởng thành."
+  },
+  {
+    "hanTu": "婦",
+    "cauTao": "- Nghĩa: Phụ, vợ; phụ nữ đã có chồng |- Cấu tạo: Hội ý |- Trái (Chỉ ý): Bộ Nữ 女 (nǚ) - nữ |- Phải (Chỉ ý): Chữ Trửu 帚 (zhǒu) - cái chổi |- Diễn giải: Người phụ nữ (女) cầm chổi (帚) làm việc nhà -> vợ."
+  },
+  {
+    "hanTu": "數",
+    "cauTao": "- Nghĩa: Số, số lượng (shù); đếm (shǔ); nhiều lần (shuò) |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Chữ Lâu 婁 (lóu) - họ Lâu |- Phải (Chỉ ý): Bộ Phộc 攵 (pū) - đánh khẽ, hành động |- Diễn giải: Hành động (攵) đếm số."
+  },
+  {
+    "hanTu": "智",
+    "cauTao": "- Nghĩa: Trí, trí tuệ, thông minh |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?/ý): Chữ Tri 知 (zhī) - biết |- Dưới (Chỉ ý): Chữ Nhật 日 (rì) - mặt trời, sáng suốt |- Diễn giải: Sự hiểu biết (知) sáng suốt (日) -> trí tuệ."
+  },
+  {
+    "hanTu": "曰",
+    "cauTao": "- Nghĩa: Viết, rằng, nói rằng |- Cấu tạo: Tượng hình/Chỉ sự |- Thành phần: Bộ Khẩu 口 (kǒu) có nét ngang bên trong, chỉ lời nói phát ra từ miệng."
+  },
+  {
+    "hanTu": "某",
+    "cauTao": "- Nghĩa: Mỗ, nào đó; tôi |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Cam 甘 (gān) - ngọt |- Dưới: Chữ Mộc 木 (mù) - cây |- Diễn giải: Gốc chỉ quả ngọt trên cây (như quả mơ), sau mượn nghĩa \"nào đó\"."
+  },
+  {
+    "hanTu": "此",
+    "cauTao": "- Nghĩa: Thử, này, đây |- Cấu tạo: Hội ý |- Trái: Bộ Chỉ 止 (zhǐ) - dừng lại, bàn chân |- Phải: Bộ Chuỷ 匕 (bǐ) - cái thìa (biến thể của 人 người) |- Diễn giải: Người (匕) dừng chân (止) tại đây -> này, đây."
+  },
+  {
+    "hanTu": "犬",
+    "cauTao": "- Nghĩa: Khuyển, con chó |- Cấu tạo: Tượng hình |- Thành phần: Chữ Đại 大 (dà) có thêm dấu chấm 丶(zhǔ), mô tả hình con chó. Dạng bộ thủ là 犭."
+  },
+  {
+    "hanTu": "畜",
+    "cauTao": "- Nghĩa: Súc vật, gia súc; nuôi (xù); tích trữ (chù) |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?): Chữ Huyền 玄 (xuán) - đen, sâu xa |- Dưới (Chỉ ý): Chữ Điền 田 (tián) - ruộng |- Diễn giải: Nuôi gia súc trên đồng ruộng (田)."
+  },
+  {
+    "hanTu": "稷",
+    "cauTao": "- Nghĩa: Tắc, cây kê; thần nông nghiệp |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm): Phần phức tạp (畟?) gợi âm jì."
+  },
+  {
+    "hanTu": "稻",
+    "cauTao": "- Nghĩa: Đạo, cây lúa nước |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm): Chữ Yểu 舀 (yǎo) - múc, vục."
+  },
+  {
+    "hanTu": "穀",
+    "cauTao": "- Nghĩa: Cốc, ngũ cốc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Phải (Chỉ âm): Chữ Xác 殼 (ké/qiào) - vỏ (biến thể?)."
+  },
+  {
+    "hanTu": "窮",
+    "cauTao": "- Nghĩa: Cùng, nghèo túng; tận cùng |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Huyệt 穴 (xuè) - hang động |- Dưới (Chỉ âm?): Chữ Cung 躬 (gōng) - thân thể, tự mình |- Diễn giải: Thân thể (躬) bị kẹt trong hang (穴) -> cùng đường."
+  },
+  {
+    "hanTu": "粱",
+    "cauTao": "- Nghĩa: Lương (cao lương); lương (mỹ vị) |- Cấu tạo: Hình thanh |- Thành phần: Gồm bộ Mễ 米 (mǐ) - gạo và phần phức tạp (?) gợi âm liáng."
+  },
+  {
+    "hanTu": "紊",
+    "cauTao": "- Nghĩa: Vặn, rối loạn, lộn xộn |- Cấu tạo: Hội ý |- Trên: Chữ Văn 文 (wén) - hoa văn |- Dưới: Bộ Mịch 糸 (mì) - sợi tơ |- Diễn giải: Sợi tơ (糸) bị rối thành hoa văn (文) -> rối loạn."
+  },
+  {
+    "hanTu": "綱",
+    "cauTao": "- Nghĩa: Cương, dây giềng; cương lĩnh |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm): Chữ Cương 岡 (gāng) - gò, đồi."
+  },
+  {
+    "hanTu": "羊",
+    "cauTao": "- Nghĩa: Dương, con dê, con cừu |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh đầu con dê/cừu với cặp sừng."
+  },
+  {
+    "hanTu": "而",
+    "cauTao": "- Nghĩa: Nhi, mà, và; râu |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh bộ râu trên mặt. Sau mượn làm liên từ."
+  },
+  {
+    "hanTu": "臣",
+    "cauTao": "- Nghĩa: Thần, bề tôi; phục tùng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con mắt nhìn xuống, chỉ sự phục tùng của bề tôi."
+  },
+  {
+    "hanTu": "菽",
+    "cauTao": "- Nghĩa: Thúc, các loại đậu |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Thảo 艹 (cǎo) - cỏ cây |- Dưới (Chỉ âm): Chữ Thúc 叔 (shū) - chú |- Diễn giải: Cây (艹) họ đậu."
+  },
+  {
+    "hanTu": "豕",
+    "cauTao": "- Nghĩa: Thỉ, con lợn, con heo |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con lợn."
+  },
+  {
+    "hanTu": "雞",
+    "cauTao": "- Nghĩa: Kê, con gà |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Hề 奚 (xī) - sao mà |- Phải (Chỉ ý): Chữ Điểu 鳥 (niǎo) - chim."
+  },
+  {
+    "hanTu": "食",
+    "cauTao": "- Nghĩa: Thực, ăn; thức ăn |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Gốc mô tả hình đồ đựng thức ăn có nắp (亼 +?). Dạng bộ thủ là 飠."
+  },
+  {
+    "hanTu": "飼",
+    "cauTao": "- Nghĩa: Tự, cho ăn, nuôi |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm): Chữ Ty 司 (sī) - ty, quản lý."
+  },
+  {
+    "hanTu": "首",
+    "cauTao": "- Nghĩa: Thủ, cái đầu; đứng đầu; đầu tiên |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái đầu với tóc phía trên."
+  },
+  {
+    "hanTu": "麥",
+    "cauTao": "- Nghĩa: Mạch, lúa mạch, lúa mì |- Cấu tạo: Hội ý/Tượng hình |- Trên: Chữ Lai 來 (lái) - đến (gốc là lúa mạch) |- Dưới: Bộ Tuy 夊 (suī) - đi chậm (chỉ rễ?) |- Diễn giải: Hình ảnh cây lúa mạch."
+  },
+  {
+    "hanTu": "黍",
+    "cauTao": "- Nghĩa: Thử, lúa nếp hạt tròn |- Cấu tạo: Hội ý/Hình thanh |- Trên (Chỉ ý): Bộ Hòa 禾 (hé) - cây lúa |- Dưới: Phần phức tạp (?) có thể gợi âm shǔ."
+  },
+  {
+    "hanTu": "河",
+    "cauTao": "- Nghĩa: Sông |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Khả 可 (kě) - có thể."
+  },
+  {
+    "hanTu": "園",
+    "cauTao": "- Nghĩa: Vườn |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Vi 囗 (wéi) - vây quanh |- Trong (Chỉ âm): Chữ Viên 袁 (yuán) - họ Viên, áo dài |- Diễn giải: Khu đất có rào (囗) để trồng trọt."
+  },
+  {
+    "hanTu": "踏",
+    "cauTao": "- Nghĩa: Đạp, giẫm lên |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Túc 足 (zú) - chân |- Phải (Chỉ âm): Chữ Đạp 沓 (tà) - chồng chất, lặp lại |- Diễn giải: Dùng chân (足) để giẫm."
+  },
+  {
+    "hanTu": "資",
+    "cauTao": "- Nghĩa: Tư (của cải, tư chất); cung cấp |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Thứ 次 (cì) - thứ, lần |- Dưới (Chỉ ý): Bộ Bối 貝 (bèi) - vỏ sò, tiền của |- Diễn giải: Tiền của (貝) tích lũy."
+  },
+  {
+    "hanTu": "料",
+    "cauTao": "- Nghĩa: Liệu (vật liệu, liệu tính); thức ăn (gia súc) |- Cấu tạo: Hội ý |- Trái: Bộ Mễ 米 (mǐ) - gạo |- Phải: Chữ Đẩu 斗 (dǒu) - cái đấu (đo lường) |- Diễn giải: Đong gạo (米) bằng đấu (斗) -> liệu lường, vật liệu."
+  },
+  {
+    "hanTu": "搬",
+    "cauTao": "- Nghĩa: Dọn, chuyển, dời |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Ban/Bàn 般 (bān) - loại, giống như |- Diễn giải: Dùng tay (扌) để di chuyển."
+  },
+  {
+    "hanTu": "重",
+    "cauTao": "- Nghĩa: Trọng, nặng; quan trọng (zhòng); trùng, lặp lại; tầng (chóng) |- Cấu tạo: Hội ý/Tượng hình |- Thành phần: Gốc mô tả hình người (壬?) cõng vật nặng (東?) hoặc vật nặng trên xe. Dạng hiện đại gồm phần trên (壬/千) và phần dưới (東/里)."
+  },
+  {
+    "hanTu": "惜",
+    "cauTao": "- Nghĩa: Tích, tiếc, thương tiếc; yêu quý |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Tích 昔 (xī) - xưa kia."
+  },
+  {
+    "hanTu": "願",
+    "cauTao": "- Nghĩa: Nguyện, ước muốn; tự nguyện |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Nguyên 原 (yuán) - nguyên, ban đầu |- Phải (Chỉ ý): Bộ Hiệt 頁 (yè) - đầu |- Diễn giải: Ước muốn từ trong đầu (頁)."
+  },
+  {
+    "hanTu": "存",
+    "cauTao": "- Nghĩa: Tồn, còn lại, tồn tại; gửi |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Chữ Tài 才 (cái) - tài năng, mới |- Phải (Chỉ ý): Chữ Tử 子 (zǐ) - con cái |- Diễn giải: Con cái (子) là sự tồn tại, tiếp nối."
+  },
+  {
+    "hanTu": "隨",
+    "cauTao": "- Nghĩa: Tùy, đi theo; tùy theo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phụ 阝(fù) - gò đất (đi theo) |- Phải (Chỉ âm): Phần phức tạp 㤢 (liên quan chữ 隋 suí)."
+  },
+  {
+    "hanTu": "身",
+    "cauTao": "- Nghĩa: Thân, thân thể; bản thân; mang thai |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh người phụ nữ mang thai, chỉ thân thể."
+  },
+  {
+    "hanTu": "碟",
+    "cauTao": "- Nghĩa: Đĩa (đựng thức ăn) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thạch 石 (shí) - đá |- Phải (Chỉ âm): Chữ Diệp 葉 (yè) - lá."
+  },
+  {
+    "hanTu": "床",
+    "cauTao": "- Nghĩa: Giường |- Cấu tạo: Hội ý/Hình thanh |- Trái (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Phải (Chỉ ý): Chữ Mộc 木 (mù) - gỗ |- Diễn giải: Cái giường bằng gỗ (木) đặt trong nhà (广)."
+  },
+  {
+    "hanTu": "桌",
+    "cauTao": "- Nghĩa: Bàn |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Trác 卓 (zhuō) - trác việt, cao |- Dưới (Chỉ ý): Chữ Mộc 木 (mù) - gỗ |- Diễn giải: Cái bàn bằng gỗ (木)."
+  },
+  {
+    "hanTu": "椅",
+    "cauTao": "- Nghĩa: Ghế |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Kỳ 奇 (qí) - kỳ lạ."
+  },
+  {
+    "hanTu": "具",
+    "cauTao": "- Nghĩa: Dụng cụ; có đủ; bản (khai) |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Mục 目 (mù) - mắt (hoặc 八) và bộ Bối 貝 (bèi) - vỏ sò, của cải |- Diễn giải: Mắt (目) nhìn đồ vật quý (貝) -> dụng cụ, có đủ."
+  },
+  {
+    "hanTu": "且",
+    "cauTao": "- Nghĩa: Và, lại còn; sắp; tạm thời |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái giá để đồ cúng tế hoặc bài vị tổ tiên."
+  },
+  {
+    "hanTu": "吵",
+    "cauTao": "- Nghĩa: Cãi nhau, ồn ào |- Cấu tạo: Hội ý |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ ý?): Chữ Thiểu 少 (shǎo) - ít |- Diễn giải: Ít (少) khi nào mà miệng (口) không ồn ào? Hoặc nhiều tiếng nói nhỏ (少) gộp lại thành ồn ào."
+  },
+  {
+    "hanTu": "低",
+    "cauTao": "- Nghĩa: Thấp, đê; cúi xuống |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Đê 氐 (dǐ) - gốc rễ, nền tảng |- Diễn giải: Người (亻) ở vị trí thấp."
+  },
+  {
+    "hanTu": "留",
+    "cauTao": "- Nghĩa: Lưu, ở lại; giữ lại; du học |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Mão 卯 (mǎo) - Mão (địa chi) |- Dưới: Chữ Điền 田 (tián) - ruộng |- Diễn giải: Ở lại (卯) trên ruộng (田)?"
+  },
+  {
+    "hanTu": "論",
+    "cauTao": "- Nghĩa: Luận, bàn luận; lý luận |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Luân 侖 (lún) - thứ tự, luân lý."
+  },
+  {
+    "hanTu": "社",
+    "cauTao": "- Nghĩa: Xã, xã hội; đền thờ thần đất |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kỳ 示 (shì) - thần đất, cầu cúng |- Phải (Chỉ âm/ý): Chữ Thổ 土 (tǔ) - đất |- Diễn giải: Nơi thờ thần đất (示+土)."
+  },
+  {
+    "hanTu": "團",
+    "cauTao": "- Nghĩa: Đoàn, đoàn thể; tròn; vo lại |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Vi 囗 (wéi) - vây quanh |- Trong (Chỉ âm): Chữ Chuyên 專 (zhuān) - chuyên |- Diễn giải: Tập hợp lại thành vòng tròn (囗)."
+  },
+  {
+    "hanTu": "失",
+    "cauTao": "- Nghĩa: Thất, mất mát; sai lầm |- Cấu tạo: Hội ý |- Thành phần: Gồm nét phẩy 丿(piě) (tay?) và chữ Phu 夫 (fū) (biến thể), chỉ việc tuột tay làm rơi -> mất."
+  },
+  {
+    "hanTu": "爾",
+    "cauTao": "- Nghĩa: Nhĩ, ngươi, bạn (cổ); như thế |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Mô tả hình cái trâm cài tóc hoặc đồ trang sức tinh xảo."
+  },
+  {
+    "hanTu": "丟",
+    "cauTao": "- Nghĩa: Ném, vứt; mất |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm chữ Khứ 去 (qù) - đi, mất và nét phẩy (丿) hoặc nét ngang (一) bên trên, chỉ hành động vứt bỏ."
+  },
+  {
+    "hanTu": "倒",
+    "cauTao": "- Nghĩa: Ngã, đổ (dǎo); rót; đảo ngược (dào) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Đáo 到 (dào) - đến. |- Diễn giải: Người (亻) ngã xuống."
+  },
+  {
+    "hanTu": "圾",
+    "cauTao": "- Nghĩa: Rác (trong 垃圾) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Cập 及 (jí) - kịp, đến."
+  },
+  {
+    "hanTu": "垃",
+    "cauTao": "- Nghĩa: Rác (trong 垃圾) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Lập 立 (lì) - đứng."
+  },
+  {
+    "hanTu": "城",
+    "cauTao": "- Nghĩa: Thành, thành phố, thành lũy |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Thành 成 (chéng) - thành, hoàn thành."
+  },
+  {
+    "hanTu": "塑",
+    "cauTao": "- Nghĩa: Nặn tượng, tạo hình; nhựa |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Sóc 朔 (shuò) - mồng một, phương bắc |- Phải (Chỉ ý): Chữ Thổ 土 (tǔ) - đất. |- Diễn giải: Nặn tượng bằng đất (土)."
+  },
+  {
+    "hanTu": "壞",
+    "cauTao": "- Nghĩa: Hỏng, xấu; hư hỏng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thổ 土 (tǔ) - đất |- Phải (Chỉ âm): Chữ Hoài 褱 (huái) (phức tạp)."
+  },
+  {
+    "hanTu": "奇",
+    "cauTao": "- Nghĩa: Kỳ, kỳ lạ; lẻ (số) |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Đại 大 (dà) - to lớn |- Dưới: Chữ Khả 可 (kě) - có thể. |- Diễn giải: Điều to lớn (大) mà có thể (可) xảy ra -> kỳ lạ."
+  },
+  {
+    "hanTu": "忽",
+    "cauTao": "- Nghĩa: Hốt, bỗng nhiên; lơ là |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Vật 勿 (wù) - đừng |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trí. |- Diễn giải: Tâm trí (心) không để ý (勿)."
+  },
+  {
+    "hanTu": "怪",
+    "cauTao": "- Nghĩa: Quái, kỳ quái; trách móc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Thánh 圣 (shèng) (biến thể)."
+  },
+  {
+    "hanTu": "桶",
+    "cauTao": "- Nghĩa: Thùng (để đựng) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Dũng 甬 (yǒng) - cái ống."
+  },
+  {
+    "hanTu": "源",
+    "cauTao": "- Nghĩa: Nguồn, nguồn gốc |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm/ý): Chữ Nguyên 原 (yuán) - nguyên, ban đầu. |- Diễn giải: Nguồn (原) của nước (氵)."
+  },
+  {
+    "hanTu": "瓶",
+    "cauTao": "- Nghĩa: Bình, lọ |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Tịnh 並 (bìng) - cùng nhau, ngang hàng |- Phải (Chỉ ý): Bộ Ngõa 瓦 (wǎ) - ngói, đồ gốm."
+  },
+  {
+    "hanTu": "皮",
+    "cauTao": "- Nghĩa: Da; vỏ; bề ngoài; bướng bỉnh |- Cấu tạo: Tượng hình/Hội ý |- Thành phần: Gốc mô tả bàn tay (又 yòu) đang lột da thú (?)."
+  },
+  {
+    "hanTu": "罐",
+    "cauTao": "- Nghĩa: Lon, hộp, bình, vại |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Phẫu 缶 (fǒu) - đồ sành, hũ |- Phải (Chỉ âm): Chữ Quán 雚 (guàn) - loài chim/nhìn kỹ."
+  },
+  {
+    "hanTu": "聲",
+    "cauTao": "- Nghĩa: Thanh, âm thanh; tiếng tăm |- Cấu tạo: Hội ý/Hình thanh |- Trên: Chữ Thanh 声 (shēng) (gốc là 石 đá + 殳 đánh -> nhạc cụ đá) |- Dưới: Chữ Nhĩ 耳 (ěr) - tai. |- Diễn giải: Tai (耳) nghe thấy tiếng (声)."
+  },
+  {
+    "hanTu": "膠",
+    "cauTao": "- Nghĩa: Keo, chất dính; cao su |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (yuè) - thịt (chất hữu cơ) |- Phải (Chỉ âm): Chữ Giao 交 (jiāo) - giao nhau."
+  },
+  {
+    "hanTu": "袋",
+    "cauTao": "- Nghĩa: Túi, bao |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm): Chữ Đại 代 (dài) - thay thế, đời |- Dưới (Chỉ ý): Bộ Y 衣 (yī) - áo, vải. |- Diễn giải: Cái túi bằng vải (衣)."
+  },
+  {
+    "hanTu": "規",
+    "cauTao": "- Nghĩa: Quy, quy tắc; com-pa |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Quy 㚘 (guī) (gồm 夫+夫?) |- Phải (Chỉ ý): Chữ Kiến 見 (jiàn) - thấy, nhìn. |- Diễn giải: Dùng mắt (見) để xem xét, định ra quy tắc (㚘)."
+  },
+  {
+    "hanTu": "護",
+    "cauTao": "- Nghĩa: Hộ, bảo vệ, che chở |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Hoạch 蒦 (huò) (phức tạp)."
+  },
+  {
+    "hanTu": "趣",
+    "cauTao": "- Nghĩa: Thú, thú vị; hướng về |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tẩu 走 (zǒu) - đi, chạy |- Phải (Chỉ âm): Chữ Thủ 取 (qǔ) - lấy. |- Diễn giải: Hướng (走) tới cái mình muốn lấy (取) -> thú vị."
+  },
+  {
+    "hanTu": "跑",
+    "cauTao": "- Nghĩa: Chạy |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Túc 足 (zú) - chân |- Phải (Chỉ âm): Chữ Bao 包 (bāo) - bao bọc."
+  },
+  {
+    "hanTu": "輛",
+    "cauTao": "- Nghĩa: Lượng, chiếc (lượng từ cho xe) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Xa 車 (chē) - xe |- Phải (Chỉ âm): Chữ Lưỡng 兩 (liǎng) - hai, đôi."
+  },
+  {
+    "hanTu": "追",
+    "cauTao": "- Nghĩa: Truy, đuổi theo; truy cứu |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ âm?): Chữ Truy 隹 (zhuī) - chim đuôi ngắn |- Phải (Chỉ ý): Bộ Sước 辶 (chuò) - đi, chạy. |- Diễn giải: Đi (辶) đuổi theo. (隹 cũng có thể gợi âm)."
+  },
+  {
+    "hanTu": "類",
+    "cauTao": "- Nghĩa: Loại, chủng loại; giống nhau |- Cấu tạo: Hình thanh |- Thành phần: Gồm phần trên (娄 lóu biến thể) gợi âm, bộ Khuyển 犬 (quǎn) - chó và bộ Hiệt 頁 (yè) - đầu (chỉ các đặc điểm để phân loại)."
+  },
+  {
+    "hanTu": "借",
+    "cauTao": "- Nghĩa: Mượn, vay; giả như, nhờ vào |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhân đứng 亻(rén) - người |- Phải (Chỉ âm): Chữ Tích 昔 (xī) - xưa kia."
+  },
+  {
+    "hanTu": "力",
+    "cauTao": "- Nghĩa: Lực, sức lực; cố gắng |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái cày hoặc cánh tay đang gồng lên thể hiện sức mạnh."
+  },
+  {
+    "hanTu": "完",
+    "cauTao": "- Nghĩa: Hoàn, hoàn thành, xong; nguyên vẹn |- Cấu tạo: Hội ý |- Trên: Bộ Miên 宀 (mián) - mái nhà, che đậy |- Dưới: Chữ Nguyên 元 (yuán) - đầu, ban đầu |- Diễn giải: Việc từ đầu (元) đến cuối được bao trùm (宀) -> hoàn thành."
+  },
+  {
+    "hanTu": "尺",
+    "cauTao": "- Nghĩa: Xích, thước (đo); thước kẻ |- Cấu tạo: Tượng hình |- Thành phần: Gốc mô tả hình người dang tay đo (尸 shī biến thể)."
+  },
+  {
+    "hanTu": "怨",
+    "cauTao": "- Nghĩa: Oán, oán hận, oán trách |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Uyển 夗 (yuàn) - trằn trọc |- Dưới (Chỉ ý): Bộ Tâm 心 (xīn) - tim, tâm trạng |- Diễn giải: Tấm lòng (心) uất ức (夗)."
+  },
+  {
+    "hanTu": "懂",
+    "cauTao": "- Nghĩa: Hiểu, biết |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tâm đứng 忄(xīn) - tim, tâm trạng |- Phải (Chỉ âm): Chữ Đổng 董 (dǒng) - quản lý, họ Đổng."
+  },
+  {
+    "hanTu": "抱",
+    "cauTao": "- Nghĩa: Bão, ôm; ấp ủ; bế |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Bao 包 (bāo) - bao bọc |- Diễn giải: Dùng tay (扌) để bao bọc (包) -> ôm."
+  },
+  {
+    "hanTu": "拳",
+    "cauTao": "- Nghĩa: Quyền, nắm tay; võ quyền |- Cấu tạo: Hội ý |- Thành phần: Gồm bộ Thủ 手 (shǒu) - tay và phần trên phức tạp (龹?) chỉ hành động nắm lại."
+  },
+  {
+    "hanTu": "推",
+    "cauTao": "- Nghĩa: Thôi, đẩy; suy ra; tiến cử |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Truy 隹 (zhuī) - chim đuôi ngắn."
+  },
+  {
+    "hanTu": "整",
+    "cauTao": "- Nghĩa: Chỉnh, chỉnh đốn; toàn bộ |- Cấu tạo: Hội ý/Hình thanh |- Thành phần: Gồm chữ Thúc 束 (shù) - bó buộc, chữ Chính 正 (zhèng) - đúng đắn và bộ Phộc 攵 (pū) - đánh khẽ (hành động) |- Diễn giải: Dùng hành động (攵) sắp xếp (束) cho ngay ngắn (正)."
+  },
+  {
+    "hanTu": "極",
+    "cauTao": "- Nghĩa: Cực, cực điểm; rất |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Cức 亟 (jí) - gấp gáp |- Diễn giải: Điểm xa nhất, cao nhất (như nóc nhà bằng gỗ 木)."
+  },
+  {
+    "hanTu": "總",
+    "cauTao": "- Nghĩa: Tổng, tổng cộng; đứng đầu; luôn luôn |- Cấu tạo: Hình thanh/Hội ý |- Trái (Chỉ ý): Bộ Mịch 糸 (mì) - sợi tơ |- Phải (Chỉ âm?): Gồm chữ Song 囪 (cōng) - cửa sổ và chữ Tâm 心 (xīn) - tim |- Diễn giải: Buộc các sợi tơ (糸) lại với nhau -> tổng hợp."
+  },
+  {
+    "hanTu": "育",
+    "cauTao": "- Nghĩa: Dục, nuôi nấng, giáo dục |- Cấu tạo: Hội ý |- Trên: Biến thể của chữ Tử 子 (zǐ) (chỉ trẻ sơ sinh) |- Dưới: Bộ Nhục 月 (yuè) - thịt, cơ thể (chỉ người mẹ) |- Diễn giải: Người mẹ (月) sinh con (子) -> nuôi dưỡng, giáo dục."
+  },
+  {
+    "hanTu": "腿",
+    "cauTao": "- Nghĩa: Đùi, chân |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (ròu) - thịt, cơ thể |- Phải (Chỉ âm): Chữ Thoái 退 (tuì) - lui, rút lui."
+  },
+  {
+    "hanTu": "響",
+    "cauTao": "- Nghĩa: Hưởng (âm thanh, tiếng vang); ảnh hưởng |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Hương 鄉 (xiāng) - hương, làng quê |- Dưới (Chỉ ý): Chữ Âm 音 (yīn) - âm thanh."
+  },
+  {
+    "hanTu": "體",
+    "cauTao": "- Nghĩa: Thể, thân thể; hình thể; thể loại |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Cốt 骨 (gǔ) - xương |- Phải (Chỉ âm): Chữ Lễ 豊 (lǐ) - lễ, phong phú."
+  },
+  {
+    "hanTu": "各",
+    "cauTao": "- Nghĩa: Các, mỗi, từng |- Cấu tạo: Hội ý |- Trên: Chữ Trĩ 夂 (zhǐ) - đi chậm, đến |- Dưới: Bộ Khẩu 口 (kǒu) - miệng, nơi chốn |- Diễn giải: Đến (夂) một nơi (口) -> chỉ sự riêng rẽ -> mỗi, các."
+  },
+  {
+    "hanTu": "味",
+    "cauTao": "- Nghĩa: Vị, mùi vị; thú vị |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Vị 未 (wèi) - chưa |- Diễn giải: Thứ cảm nhận được bằng miệng (口)."
+  },
+  {
+    "hanTu": "堂",
+    "cauTao": "- Nghĩa: Đường, nhà chính; gian nhà lớn |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm?/ý): Chữ Thượng 尚 (shàng) - chuộng, cao |- Dưới (Chỉ ý): Chữ Thổ 土 (tǔ) - đất |- Diễn giải: Ngôi nhà xây trên nền đất (土) cao ráo, trang trọng (尚)."
+  },
+  {
+    "hanTu": "寓",
+    "cauTao": "- Nghĩa: Ngụ, ở nhờ, ngụ ý |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Miên 宀 (mián) - mái nhà |- Dưới (Chỉ âm): Chữ Ngu 禺 (yú) - con khỉ, ngu |- Diễn giải: Ở (宀) nhờ."
+  },
+  {
+    "hanTu": "寬",
+    "cauTao": "- Nghĩa: Khoan, rộng rãi; khoan dung |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ ý): Bộ Miên 宀 (mián) - mái nhà |- Dưới (Chỉ âm?): Chữ Hoàn 萈 (huán) - loài dê |- Diễn giải: Ngôi nhà (宀) rộng rãi."
+  },
+  {
+    "hanTu": "層",
+    "cauTao": "- Nghĩa: Tầng, lớp |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Thi 尸 (shī) - thân thể, lớp |- Trong (Chỉ âm): Chữ Tằng 曾 (céng) - đã từng."
+  },
+  {
+    "hanTu": "廟",
+    "cauTao": "- Nghĩa: Miếu, đền |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Nghiễm 广 (yǎn) - mái che, nhà |- Trong (Chỉ âm): Chữ Triều 朝 (cháo) - triều đình, buổi sáng |- Diễn giải: Ngôi nhà (广) để tế lễ, triều bái (朝)."
+  },
+  {
+    "hanTu": "擠",
+    "cauTao": "- Nghĩa: Tễ, chen, lấn, ép |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Tề 齊 (qí) - tề, đều |- Diễn giải: Dùng tay (扌) để chen lấn."
+  },
+  {
+    "hanTu": "檬",
+    "cauTao": "- Nghĩa: Mông (trong 檸檬 - chanh) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - cây |- Phải (Chỉ âm): Chữ Mông 蒙 (méng) - che phủ."
+  },
+  {
+    "hanTu": "檸",
+    "cauTao": "- Nghĩa: Nịnh (trong 檸檬 - chanh) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - cây |- Phải (Chỉ âm): Chữ Ninh 寧 (níng) - yên ổn."
+  },
+  {
+    "hanTu": "氛",
+    "cauTao": "- Nghĩa: Bầu không khí; hơi, khí |- Cấu tạo: Hình thanh |- Ngoài (Chỉ ý): Bộ Khí 气 (qì) - khí, hơi |- Trong (Chỉ âm): Chữ Phân 分 (fēn) - chia, phân."
+  },
+  {
+    "hanTu": "泰",
+    "cauTao": "- Nghĩa: Thái, yên ổn, to lớn; Thái Lan |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Đại 大 (dà) - to lớn, và bộ Thủy 水 (shuǐ) - nước (lược bỏ nét) |- Diễn giải: Gốc chỉ sự trôi chảy, to lớn -> thái bình."
+  },
+  {
+    "hanTu": "潛",
+    "cauTao": "- Nghĩa: Tiềm, lặn, ẩn náu |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Thiêm 朁 (qián) (phức tạp)."
+  },
+  {
+    "hanTu": "築",
+    "cauTao": "- Nghĩa: Trúc, xây dựng |- Cấu tạo: Hình thanh/Hội ý |- Trên: Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới (Chỉ âm?): Phần phức tạp (gồm 工, 凡?) có thể gợi âm hoặc chỉ việc xây đắp."
+  },
+  {
+    "hanTu": "貨",
+    "cauTao": "- Nghĩa: Hóa, hàng hóa |- Cấu tạo: Hình thanh |- Trên (Chỉ âm): Chữ Hóa 化 (huà) - hóa, biến đổi |- Dưới (Chỉ ý): Bộ Bối 貝 (bèi) - vỏ sò, tiền của |- Diễn giải: Tiền tệ (貝) dùng để trao đổi (化)."
+  },
+  {
+    "hanTu": "鄉",
+    "cauTao": "- Nghĩa: Hương, quê hương, làng xóm |- Cấu tạo: Hội ý |- Thành phần: Gốc mô tả hai người (郎, 邑) ngồi đối diện nhau ăn uống, chỉ cộng đồng làng xã."
+  },
+  {
+    "hanTu": "酸",
+    "cauTao": "- Nghĩa: Toan, chua; buồn bã |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Dậu 酉 (yǒu) - bình rượu |- Phải (Chỉ âm): Chữ T준 夋 (qūn) - đi chậm |- Diễn giải: Rượu (酉) để lâu lên men chua."
+  },
+  {
+    "hanTu": "鎮",
+    "cauTao": "- Nghĩa: Trấn, thị trấn; trấn áp |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại |- Phải (Chỉ âm): Chữ Chân 真 (zhēn) - thật |- Diễn giải: Dùng vũ khí (金) để trấn áp."
+  },
+  {
+    "hanTu": "雄",
+    "cauTao": "- Nghĩa: Hùng, giống đực; hùng mạnh |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Hoành 厷 (gōng) - cánh tay |- Phải (Chỉ ý): Bộ Truy 隹 (zhuī) - chim đuôi ngắn |- Diễn giải: Con chim (隹) trống."
+  },
+  {
+    "hanTu": "顏",
+    "cauTao": "- Nghĩa: Nhan, dung nhan; màu sắc |- Cấu tạo: Hình thanh |- Trái (Chỉ âm): Chữ Ngạn 彦 (yàn) - người tài giỏi |- Phải (Chỉ ý): Bộ Hiệt 頁 (yè) - đầu."
+  },
+  {
+    "hanTu": "飲",
+    "cauTao": "- Nghĩa: Ẩm, uống |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm/ý): Chữ Khiếm 欠 (qiàn) - thiếu, há miệng |- Diễn giải: Há miệng (欠) để ăn uống (食)."
+  },
+  {
+    "hanTu": "魚",
+    "cauTao": "- Nghĩa: Ngư, cá |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh con cá với đầu, vây, thân và đuôi (灬)."
+  },
+  {
+    "hanTu": "黎",
+    "cauTao": "- Nghĩa: Lê, dân chúng; màu đen |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gốc có thể liên quan đến lúa (黍 shǔ) hoặc hình người cầm cày, chỉ người dân làm nông."
+  },
+  {
+    "hanTu": "單",
+    "cauTao": "- Nghĩa: Đơn, đơn độc; đơn (giấy tờ) |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình một loại vũ khí săn bắn có hai chạc, dùng một mình -> đơn độc."
+  },
+  {
+    "hanTu": "元",
+    "cauTao": "- Nghĩa: Nguyên, ban đầu, thứ nhất; đầu; đồng tiền |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Nhị 二 (èr) và chữ Nhân 儿 (rén), chỉ cái đầu của người -> đứng đầu, ban đầu."
+  }
+]
