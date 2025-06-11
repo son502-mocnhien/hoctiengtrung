@@ -1470,7 +1470,6 @@ const GITHUB_TOKEN = pass1 + pass2 + pass3;
 async function loadAccountData() {
     try {
         // Thay YOUR_PERSONAL_ACCESS_TOKEN bằng token của bạn
-        const GITHUB_TOKEN = '${GITHUB_TOKEN}';
         const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
         
         const response = await fetch(url, {
