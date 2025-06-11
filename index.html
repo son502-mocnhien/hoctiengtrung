@@ -1470,7 +1470,11 @@ const GITHUB_TOKEN = pass1 + pass2 + pass3;
 async function loadAccountData() {
     try {
         // Thay YOUR_PERSONAL_ACCESS_TOKEN bằng token của bạn
+<<<<<<< HEAD
         const GITHUB_TOKEN = '${GITHUB_TOKEN}';
+=======
+        const GITHUB_TOKEN = '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';
+>>>>>>> f85aae3b6219634ffffd400a86e601fb65dde791
         const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
         
         const response = await fetch(url, {
@@ -4057,7 +4061,11 @@ async function claimExperience(finalEXP) {
         const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'GET',
             headers: {
+<<<<<<< HEAD
                 'Authorization': 'Bearer ${GITHUB_TOKEN}',
+=======
+                'Authorization': 'Bearer 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',
+>>>>>>> f85aae3b6219634ffffd400a86e601fb65dde791
                 'Accept': 'application/vnd.github+json',
                 'Content-Type': 'application/json'
             }
@@ -4076,7 +4084,11 @@ async function claimExperience(finalEXP) {
         const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'PUT',
             headers: {
+<<<<<<< HEAD
                 'Authorization': 'Bearer ${GITHUB_TOKEN}',
+=======
+                'Authorization': 'Bearer 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',
+>>>>>>> f85aae3b6219634ffffd400a86e601fb65dde791
                 'Accept': 'application/vnd.github+json',
                 'Content-Type': 'application/json'
             },
