@@ -1465,7 +1465,7 @@ async function loadAccountData() {
     try {
         // Thay YOUR_PERSONAL_ACCESS_TOKEN bằng token của bạn
         const GITHUB_TOKEN = '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';
-        const url = '/hoctiengtrung/taikhoan.json';
+        const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
         
         const response = await fetch(url, {
             headers: {
@@ -4048,7 +4048,7 @@ async function claimExperience(finalEXP) {
         const encodedContent = btoa(unescape(encodeURIComponent(content)));
 
         // Get current file SHA
-        const getFileResponse = await fetch('/hoctiengtrung/taikhoan.json', {
+        const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'GET',
             headers: {
                 'Authorization': 'Bearer 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',
@@ -4067,7 +4067,7 @@ async function claimExperience(finalEXP) {
         const sha = fileData.sha;
 
         // Update file on GitHub
-        const updateResponse = await fetch('/hoctiengtrung/taikhoan.json', {
+        const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
             method: 'PUT',
             headers: {
                 'Authorization': 'Bearer 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',
