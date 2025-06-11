@@ -1,0 +1,43 @@
+Quyển 1 - BÀI • 4 • 請問一共多少錢？
+Cho hỏi tổng cộng bao nhiêu tiền?
+
+VI. 多 duō hơn…
+
+Chức năng: 多 duō được sử dụng sau các số từ để biểu thị “hơn”.
+① 二十多個人
+   èrshí duō ge rén
+   Hơn 20 người.
+② 五萬多支手機
+   wǔwàn duō zhī shǒujī
+   Hơn 50.000 cái di động
+
+Cấu trúc:
+1. Khi 多 duō được liên kết với một số lớn hơn 10, 多 duō biểu thị chỉ cho dư lượng.
+
+    數詞             多   量詞  名詞
+    Số từ        Hơn     M     N
+    二十         | 多   |  個  | 人     |
+    五百         | 多   |  個  | 包子 |
+    一千         | 多   |  支  | 手機 |
+    三萬四千 | 多   |  塊  |   錢   |
+
+   (1) 二十多個人
+      èrshí duō ge rén
+      Hơn 20 người (nhưng dưới 30).
+   (2) 一千多支手機
+      yìqiān duō zhī shǒujī
+      Hơn 1.000 cái di động (nhưng dưới 2.000).
+   (3) 五百多個包子
+      wǔbǎi duō ge bāozi
+      Hơn 500 cái bánh bao (nhưng dưới 600).
+   (4) 三萬四千多塊錢
+      sānwàn sìqiān duō kuài qián
+      Hơn 34.000 tệ (nhưng dưới 35.000).
+
+2. Khi 多 duō liên kết với số nhỏ hơn 10 và đứng sau lượng từ, nó đề cập đến một dư lượng nhỏ.
+   (1) 五塊多（錢）
+      wǔ kuài duō (qián)
+      Hơn 5 tệ (dưới 6).
+   (2) 一塊多（錢）
+      yí kuài duō (qián)
+      Hơn 1 tệ (dưới 2).

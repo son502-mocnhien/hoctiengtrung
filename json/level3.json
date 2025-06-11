@@ -5,7 +5,7 @@
     "expStar": 0,
     "expEnd": 500,
     "danhHieu": "Nho đồng - sơ cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 2,
@@ -13,7 +13,7 @@
     "expStar": 501,
     "expEnd": 1050,
     "danhHieu": "Nho đồng - nhị cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 3,
@@ -21,7 +21,7 @@
     "expStar": 1051,
     "expEnd": 1650,
     "danhHieu": "Nho đồng - tam cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 4,
@@ -29,7 +29,7 @@
     "expStar": 1651,
     "expEnd": 2300,
     "danhHieu": "Nho đồng - tứ cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 5,
@@ -37,7 +37,7 @@
     "expStar": 2301,
     "expEnd": 3000,
     "danhHieu": "Nho đồng - ngũ cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 6,
@@ -45,7 +45,7 @@
     "expStar": 3001,
     "expEnd": 3750,
     "danhHieu": "Nho đồng - lục cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 7,
@@ -53,7 +53,7 @@
     "expStar": 3751,
     "expEnd": 4550,
     "danhHieu": "Nho đồng - thất cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 8,
@@ -61,7 +61,7 @@
     "expStar": 4551,
     "expEnd": 5400,
     "danhHieu": "Nho đồng - bát cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 9,
@@ -69,7 +69,7 @@
     "expStar": 5401,
     "expEnd": 6300,
     "danhHieu": "Nho đồng - cửu cấp",
-    "Anh": "_anhdanhhieu1.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png"
   },
   {
     "Level": 10,
@@ -77,7 +77,7 @@
     "expStar": 6301,
     "expEnd": 7250,
     "danhHieu": "Học đồ - sơ cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 11,
@@ -85,7 +85,7 @@
     "expStar": 7251,
     "expEnd": 8250,
     "danhHieu": "Học đồ - nhị cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 12,
@@ -93,7 +93,7 @@
     "expStar": 8251,
     "expEnd": 9300,
     "danhHieu": "Học đồ - tam cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 13,
@@ -101,7 +101,7 @@
     "expStar": 9301,
     "expEnd": 10400,
     "danhHieu": "Học đồ - tứ cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 14,
@@ -109,7 +109,7 @@
     "expStar": 10401,
     "expEnd": 11550,
     "danhHieu": "Học đồ - ngũ cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 15,
@@ -117,7 +117,7 @@
     "expStar": 11551,
     "expEnd": 12750,
     "danhHieu": "Học đồ - lục cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 16,
@@ -125,7 +125,7 @@
     "expStar": 12751,
     "expEnd": 14000,
     "danhHieu": "Học đồ - thất cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 17,
@@ -133,7 +133,7 @@
     "expStar": 14001,
     "expEnd": 15300,
     "danhHieu": "Học đồ - bát cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 18,
@@ -141,7 +141,7 @@
     "expStar": 15301,
     "expEnd": 16650,
     "danhHieu": "Học đồ - cửu cấp",
-    "Anh": "_anhdanhhieu2.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu2.png"
   },
   {
     "Level": 19,
@@ -149,7 +149,7 @@
     "expStar": 16651,
     "expEnd": 18050,
     "danhHieu": "Thư sinh - sơ cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 20,
@@ -157,7 +157,7 @@
     "expStar": 18051,
     "expEnd": 19500,
     "danhHieu": "Thư sinh - nhị cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 21,
@@ -165,7 +165,7 @@
     "expStar": 19501,
     "expEnd": 21000,
     "danhHieu": "Thư sinh - tam cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 22,
@@ -173,7 +173,7 @@
     "expStar": 21001,
     "expEnd": 22550,
     "danhHieu": "Thư sinh - tứ cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 23,
@@ -181,7 +181,7 @@
     "expStar": 22551,
     "expEnd": 24150,
     "danhHieu": "Thư sinh - ngũ cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 24,
@@ -189,7 +189,7 @@
     "expStar": 24151,
     "expEnd": 25800,
     "danhHieu": "Thư sinh - lục cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 25,
@@ -197,7 +197,7 @@
     "expStar": 25801,
     "expEnd": 27500,
     "danhHieu": "Thư sinh - thất cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 26,
@@ -205,7 +205,7 @@
     "expStar": 27501,
     "expEnd": 29250,
     "danhHieu": "Thư sinh - bát cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 27,
@@ -213,7 +213,7 @@
     "expStar": 29251,
     "expEnd": 31050,
     "danhHieu": "Thư sinh - cửu cấp",
-    "Anh": "_anhdanhhieu3.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu3.png"
   },
   {
     "Level": 28,
@@ -221,7 +221,7 @@
     "expStar": 31051,
     "expEnd": 32900,
     "danhHieu": "Nho sinh - sơ cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 29,
@@ -229,7 +229,7 @@
     "expStar": 32901,
     "expEnd": 34800,
     "danhHieu": "Nho sinh - nhị cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 30,
@@ -237,7 +237,7 @@
     "expStar": 34801,
     "expEnd": 36750,
     "danhHieu": "Nho sinh - tam cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 31,
@@ -245,7 +245,7 @@
     "expStar": 36751,
     "expEnd": 38750,
     "danhHieu": "Nho sinh - tứ cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 32,
@@ -253,7 +253,7 @@
     "expStar": 38751,
     "expEnd": 40800,
     "danhHieu": "Nho sinh - ngũ cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 33,
@@ -261,7 +261,7 @@
     "expStar": 40801,
     "expEnd": 42900,
     "danhHieu": "Nho sinh - lục cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 34,
@@ -269,7 +269,7 @@
     "expStar": 42901,
     "expEnd": 45050,
     "danhHieu": "Nho sinh - thất cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 35,
@@ -277,7 +277,7 @@
     "expStar": 45051,
     "expEnd": 47250,
     "danhHieu": "Nho sinh - bát cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 36,
@@ -285,7 +285,7 @@
     "expStar": 47251,
     "expEnd": 49500,
     "danhHieu": "Nho sinh - cửu cấp",
-    "Anh": "_anhdanhhieu4.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu4.png"
   },
   {
     "Level": 37,
@@ -293,7 +293,7 @@
     "expStar": 49501,
     "expEnd": 51800,
     "danhHieu": "Thái học - sơ kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 38,
@@ -301,7 +301,7 @@
     "expStar": 51801,
     "expEnd": 54150,
     "danhHieu": "Thái học - sơ kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 39,
@@ -309,7 +309,7 @@
     "expStar": 54151,
     "expEnd": 56550,
     "danhHieu": "Thái học - sơ kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 40,
@@ -317,7 +317,7 @@
     "expStar": 56551,
     "expEnd": 59000,
     "danhHieu": "Thái học - trung kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 41,
@@ -325,7 +325,7 @@
     "expStar": 59001,
     "expEnd": 61500,
     "danhHieu": "Thái học - trung kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 42,
@@ -333,7 +333,7 @@
     "expStar": 61501,
     "expEnd": 64050,
     "danhHieu": "Thái học - trung kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 43,
@@ -341,7 +341,7 @@
     "expStar": 64051,
     "expEnd": 66650,
     "danhHieu": "Thái học - hậu kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 44,
@@ -349,7 +349,7 @@
     "expStar": 66651,
     "expEnd": 69300,
     "danhHieu": "Thái học - hậu kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 45,
@@ -357,7 +357,7 @@
     "expStar": 69301,
     "expEnd": 72000,
     "danhHieu": "Thái học - hậu kỳ",
-    "Anh": "_anhdanhhieu5.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu5.png"
   },
   {
     "Level": 46,
@@ -365,7 +365,7 @@
     "expStar": 72001,
     "expEnd": 74750,
     "danhHieu": "Đồng sinh - sơ kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 47,
@@ -373,7 +373,7 @@
     "expStar": 74751,
     "expEnd": 77550,
     "danhHieu": "Đồng sinh - sơ kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 48,
@@ -381,7 +381,7 @@
     "expStar": 77551,
     "expEnd": 80400,
     "danhHieu": "Đồng sinh - sơ kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 49,
@@ -389,7 +389,7 @@
     "expStar": 80401,
     "expEnd": 83300,
     "danhHieu": "Đồng sinh - trung kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 50,
@@ -397,7 +397,7 @@
     "expStar": 83301,
     "expEnd": 86250,
     "danhHieu": "Đồng sinh - trung kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 51,
@@ -405,7 +405,7 @@
     "expStar": 86251,
     "expEnd": 89250,
     "danhHieu": "Đồng sinh - trung kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 52,
@@ -413,7 +413,7 @@
     "expStar": 89251,
     "expEnd": 92300,
     "danhHieu": "Đồng sinh - hậu kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 53,
@@ -421,7 +421,7 @@
     "expStar": 92301,
     "expEnd": 95400,
     "danhHieu": "Đồng sinh - hậu kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   },
   {
     "Level": 54,
@@ -429,6 +429,6 @@
     "expStar": 95401,
     "expEnd": 98550,
     "danhHieu": "Đồng sinh - hậu kỳ",
-    "Anh": "_anhdanhhieu6.png"
+    "Anh": "/hoctiengtrung/anhdanhhieu/anhdanhhieu6.png"
   }
 ]

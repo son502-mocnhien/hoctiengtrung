@@ -1,0 +1,11 @@
+Quyển 1 - BÀI • 14 • 天氣這麼冷！
+Trời lạnh thế!
+
+II. Hoàn thành cho đến nay với 2 lần 了 le
+
+Chức năng: 2 lần 了 kết hợp với Thời gian - Thời lượng biểu thị việc hoàn thành một hành động cho đến thời điểm nói. Hành động có thể tiếp tục hoặc không, tùy thuộc vào ngữ cảnh.
+① 她已經在臺灣玩了一年了。
+② 陳小姐在美國住了五年了。
+③ 我工作了兩個月了。
+④ 這間房子，他已經租了半年了。
+⑤ 他們學中文學了三個星期了。

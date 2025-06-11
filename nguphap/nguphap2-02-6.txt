@@ -1,0 +1,23 @@
+Quyền 2 - BÀI • 2 • 還是坐捷運吧！
+Tốt hơn là nên đi tàu điện đi!
+
+VI. Vị trí với 部 bù / 邊 biān
+
+Chức năng: 部 đề cập đến “các phần” của một vùng và 邊 đến “các cạnh” của một điểm tham chiếu. Về mặt quốc gia, 部 dùng để chỉ các khu vực trong nước và 邊 để chỉ các khu vực biên giới.
+① 台灣的北部、南部有很多好玩的地方。
+② 台灣東部的風景很美。
+③ 台灣東邊的大海非常乾淨。
+④ 那個地方西邊有山，南邊有海。
+
+Cấu trúc:
+Phương hướng | Hậu tố Vị trí
+東 | Đông + 邊/部
+西 | Tây + 邊/部
+南 | Nam + 邊/部
+北 | Bắc + 邊/部
+東南 | Đông Nam + 邊/部
+東北 | Đông Bắc + 邊/部
+西南 | Tây Nam + 邊/部
+西北 | Tây Bắc + 邊/部
+
+Cách dùng: Có 部 Trung Bộ nhưng không có *中邊.
