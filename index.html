@@ -492,7 +492,7 @@ button2 {
 #meaning-display-buttons button2.meaning-button {
     font-size: 16px;
     padding: 6px 12px;
-    width: 80px;
+    width: 120px;
     background-color: #cccccc !important;
     color: white;
     font-family: Arial;
@@ -1314,14 +1314,6 @@ margin-left: 50px; /* Dịch sang phải 10px */
 <div id="start-screen" style="display: none;">
     <div class="welcome-title"></div>
     <br>
-    <div>
-        <label>Dịch nghĩa:</label>
-        <div id="meaning-display-buttons" style="display: flex; justify-content: center; gap: 5px; margin-top: 5px;">
-            <button2 class="meaning-button active" data-value="show">Hiện</button2>
-            <button2 class="meaning-button" data-value="hide">Ẩn</button2>
-        </div>
-    </div>
-    <br>
 <!-- Thêm nút Danh sách bài và container cho bảng -->
     <div>
         <button2 id="lesson-list-button" class="quiz-type-button">Danh sách bài</button2>
@@ -1360,6 +1352,11 @@ margin-left: 50px; /* Dịch sang phải 10px */
     <div id="random-mission-container" style="text-align: center; margin-bottom: 10px; font-size: 18px; color: #2196F3; font-weight: bold;">
         <span id="random-mission-text"></span>
     </div>
+<div id="meaning-display-buttons" style="display: flex; justify-content: center; gap: 5px; margin-top: 5px;">
+            <button2 class="meaning-button active" data-value="show">1.Luyện đọc</button2>
+            <button2 class="meaning-button" data-value="hide">2.Luyện nghe</button2>
+        </div>
+<br>
     <!-- Thêm nút Quay Lại -->
     <div style="display: flex; justify-content: center; gap: 10px;">
         <button2 id="back-to-mode-button" class="quiz-type-button">QUAY LẠI</button2>
@@ -2407,14 +2404,14 @@ document.querySelectorAll('.mode-button').forEach(button => {
             createQuizTypeButton('2.Từ Vựng', 'vocabulary');
             createQuizTypeButton('3.Mẫu Câu', 'sentence');
         } else if (selectedMode === 'samtukinh') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Bài Thơ', 'dialogue');
+            createQuizTypeButton('1.Bài Thơ', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
         } else if (selectedMode === 'poetry') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Bài Thơ', 'dialogue');
+            createQuizTypeButton('1.Bài Thơ', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
         } else if (selectedMode === 'hongngam') {
-            createQuizTypeButton('Từ Vựng', 'vocabulary');
-            createQuizTypeButton('Bài Thơ', 'dialogue');
+            createQuizTypeButton('1.Bài Thơ', 'dialogue');
+            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
         }
     });
 });
@@ -2433,7 +2430,7 @@ function startQuizMode() {
 
     const dialogueContainer = document.getElementById('dialogue-select-container');
     const dialogueLabel = dialogueContainer.querySelector('label[for="dialogue-number"]');
-    dialogueContainer.style.display = quizType === 'dialogue' ? 'block' : 'none';
+    dialogueContainer.style.display = (quizType === 'dialogue' && selectedMode === 'taiwanese') ? 'block' : 'none';
     dialogueLabel.textContent = selectedMode === 'taiwanese' ? 'Chọn Hội thoại:' : 'Chọn Phần Thơ:';
 
     const wordCountContainer = document.getElementById('word-count-container');
