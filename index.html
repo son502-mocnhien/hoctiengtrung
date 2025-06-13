@@ -1360,8 +1360,9 @@ margin-left: 50px; /* Dịch sang phải 10px */
         <button2 id="start-button" class="quiz-type-button">BẮT ĐẦU</button2>
     </div>
 </div>
-
-<!-- Nhóm 3: Giao diện trò chơi chính -->
+<!-- Bao quanh -->
+ <div class="content-wrapper">
+        <!-- Nhóm 3: Giao diện trò chơi chính -->
 <div id="game-container">
    
     <!-- Trạng thái trò chơi -->
@@ -1447,7 +1448,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
 	 <!-- Thành phần phụ trợ -->
     <audio id="audio"></audio>
 </div>
-
+    </div>
 
 <!-- Nhóm 4: Popup và panel phụ -->
 <div id="endgame-popup" class="popup" style="display: none;">
@@ -1941,7 +1942,6 @@ async function claimExperience(finalEXP) {
         }
     } catch (error) {
         console.error('Lỗi khi cập nhật EXP:', error);
-        alert('Lỗi khi cập nhật EXP!');
     }
 }
 
