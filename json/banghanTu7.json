@@ -3286,5 +3286,105 @@
   {
     "hanTu": "元",
     "cauTao": "- Nghĩa: Nguyên, ban đầu, thứ nhất; đầu; đồng tiền |- Cấu tạo: Hội ý |- Thành phần: Gồm chữ Nhị 二 (èr) và chữ Nhân 儿 (rén), chỉ cái đầu của người -> đứng đầu, ban đầu."
+  },
+  {
+    "hanTu": "丁",
+    "cauTao": "- Nghĩa: Đinh (thiên can); người đàn ông; hình chữ T |- Cấu tạo: Tượng hình |- Thành phần: Mô tả hình ảnh cái đinh nhìn từ trên xuống."
+  },
+  {
+    "hanTu": "嚐",
+    "cauTao": "- Nghĩa: Thường, nếm, thử (vị) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Khẩu 口 (kǒu) - miệng |- Phải (Chỉ âm): Chữ Thường 嘗 (cháng) - nếm, từng. |- Diễn giải: Dùng miệng (口) để nếm (嘗)."
+  },
+  {
+    "hanTu": "壽",
+    "cauTao": "- Nghĩa: Thọ, tuổi thọ, sống lâu |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Cấu trúc phức tạp, có thể gồm Sĩ 士, Công 工, Khẩu 口, Thốn 寸... Gốc chỉ người già sống lâu."
+  },
+  {
+    "hanTu": "扁",
+    "cauTao": "- Nghĩa: Biển, dẹt, bẹt; tấm biển |- Cấu tạo: Hội ý |- Ngoài (Chỉ ý): Bộ Hộ 戶 (hù) - cửa một cánh |- Trong (Chỉ ý): Chữ Sách 冊 (cè) - quyển sách (bằng thẻ tre). |- Diễn giải: Quyển sách thẻ tre (冊) có hình dẹt."
+  },
+  {
+    "hanTu": "拌",
+    "cauTao": "- Nghĩa: Trộn, khuấy |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm): Chữ Bán 半 (bàn) - một nửa."
+  },
+  {
+    "hanTu": "捲",
+    "cauTao": "- Nghĩa: Cuốn, cuộn |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủ 扌 (shǒu) - tay |- Phải (Chỉ âm/ý): Chữ Quyển 卷 (juǎn) - cuộn, quyển sách. |- Diễn giải: Dùng tay (扌) để cuộn lại (卷)."
+  },
+  {
+    "hanTu": "材",
+    "cauTao": "- Nghĩa: Tài, vật liệu, gỗ; tài năng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - gỗ |- Phải (Chỉ âm): Chữ Tài 才 (cái) - tài năng."
+  },
+  {
+    "hanTu": "椒",
+    "cauTao": "- Nghĩa: Tiêu (hạt tiêu); ớt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Mộc 木 (mù) - cây |- Phải (Chỉ âm): Chữ Thúc 叔 (shū) - chú."
+  },
+  {
+    "hanTu": "泡",
+    "cauTao": "- Nghĩa: Bọt, bong bóng; ngâm |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Bao 包 (bāo) - bao bọc. |- Diễn giải: Bong bóng (包) trong nước (氵)."
+  },
+  {
+    "hanTu": "洗",
+    "cauTao": "- Nghĩa: Tẩy, rửa, giặt |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thủy 氵(shuǐ) - nước |- Phải (Chỉ âm): Chữ Tiên 先 (xiān) - trước."
+  },
+  {
+    "hanTu": "煮",
+    "cauTao": "- Nghĩa: Chử, nấu, luộc |- Cấu tạo: Hình thanh/Hội ý |- Trên (Chỉ âm): Chữ Giả 者 (zhě) - người, cái mà |- Dưới (Chỉ ý): Bộ Hỏa 火 (huǒ) - lửa. |- Diễn giải: Dùng lửa (火) để nấu."
+  },
+  {
+    "hanTu": "玻",
+    "cauTao": "- Nghĩa: Pha, lê (trong 玻璃) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Bì 皮 (pí) - da, vỏ."
+  },
+  {
+    "hanTu": "璃",
+    "cauTao": "- Nghĩa: Ly, lê (trong 玻璃) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Vương 王 (wáng) (gốc là Ngọc 玉 yù) |- Phải (Chỉ âm): Chữ Ly 离 (lí) - rời khỏi."
+  },
+  {
+    "hanTu": "破",
+    "cauTao": "- Nghĩa: Phá, vỡ, hỏng |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thạch 石 (shí) - đá |- Phải (Chỉ âm): Chữ Bì 皮 (pí) - da, vỏ. |- Diễn giải: Làm vỡ đá (石)."
+  },
+  {
+    "hanTu": "筷",
+    "cauTao": "- Nghĩa: Đũa |- Cấu tạo: Hình thanh |- Trên (Chỉ ý): Bộ Trúc 竹 (zhú) - tre, trúc |- Dưới (Chỉ âm): Chữ Khoái 快 (kuài) - nhanh. |- Diễn giải: Đũa làm bằng tre (竹)."
+  },
+  {
+    "hanTu": "脫",
+    "cauTao": "- Nghĩa: Thoát, cởi ra, tuột ra |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Nhục 月 (yuè) - thịt, cơ thể |- Phải (Chỉ âm): Chữ Đoài 兌 (duì) - đoài, đổi."
+  },
+  {
+    "hanTu": "調",
+    "cauTao": "- Nghĩa: Điều, điệu (diào); điều chỉnh (tiáo) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Ngôn 言 (yán) - lời nói |- Phải (Chỉ âm): Chữ Chu 周 (zhōu) - chu đáo, vòng quanh."
+  },
+  {
+    "hanTu": "趁",
+    "cauTao": "- Nghĩa: Sấn, nhân lúc, lợi dụng (cơ hội) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Tẩu 走 (zǒu) - đi, chạy |- Phải (Chỉ âm): Chữ Chẩn 㐱 (zhěn) - lông mày rậm."
+  },
+  {
+    "hanTu": "鍋",
+    "cauTao": "- Nghĩa: Oa, cái nồi, cái chảo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Kim 金 (jīn) - kim loại |- Phải (Chỉ âm): Chữ Oa 咼 (guō) - miệng méo."
+  },
+  {
+    "hanTu": "鞋",
+    "cauTao": "- Nghĩa: Hài, giày |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Cách 革 (gé) - da thuộc |- Phải (Chỉ âm): Chữ Khuê 圭 (guī) - ngọc khuê."
+  },
+  {
+    "hanTu": "韓",
+    "cauTao": "- Nghĩa: Hàn (nước, họ) |- Cấu tạo: Hình thanh (phức tạp) |- Thành phần: Gồm chữ Cán 倝 (gàn) - mặt trời mọc và bộ Vi 韋 (wéi) - da thuộc."
+  },
+  {
+    "hanTu": "飽",
+    "cauTao": "- Nghĩa: Bão, no, đủ |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn |- Phải (Chỉ âm): Chữ Bao 包 (bāo) - bao bọc. |- Diễn giải: Ăn (食) đến mức căng như cái bao (包) -> no."
+  },
+  {
+    "hanTu": "餃",
+    "cauTao": "- Nghĩa: Bánh chẻo |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm): Chữ Giao 交 (jiāo) - giao nhau."
+  },
+  {
+    "hanTu": "餡",
+    "cauTao": "- Nghĩa: Hãm, nhân (bánh) |- Cấu tạo: Hình thanh |- Trái (Chỉ ý): Bộ Thực 食 (shí) - ăn, thức ăn |- Phải (Chỉ âm): Chữ Hãm 臽 (xiàn) - cái bẫy, hố."
+  },
+  {
+    "hanTu": "鹽",
+    "cauTao": "- Nghĩa: Diêm, muối |- Cấu tạo: Hội ý/Hình thanh (phức tạp) |- Thành phần: Gồm bộ Lỗ 鹵 (lǔ) - đất mặn, chữ Giám 監 (jiān) - giám sát, và bộ Mãnh 皿 (mǐn) - cái đĩa. Gốc chỉ việc khai thác muối mỏ."
   }
 ]
