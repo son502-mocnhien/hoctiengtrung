@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5.0/dist/hanzi-writer.min.js"></script>
+    <script src="/hoctiengtrung/hanzi-writer.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Quiz</title>
@@ -29,7 +29,7 @@ body {
         }
 .header-container {
     display: flex;
-    align-items: center;a
+    align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     width: 100%;
@@ -1023,11 +1023,184 @@ button3.read-complete-button:hover {
     font-size: 20px;
     color: green;
 }
-.content-wrapper {
-    padding: 0 10px; /* Thêm padding trái và phải */
+.auth-screen {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    background-size: cover;
+    background-position: center;
+    z-index: 1000;
+    font-family: 'Noto Sans CJK SC', Arial, sans-serif;
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá dài */
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Bắt đầu từ trên để tránh căn giữa gây lệch */
+    min-height: 100vh; /* Chiều cao tối thiểu bằng màn hình */
+    background-image: url('/hoctiengtrung/nen.jpg'); /* Thay bằng link ảnh nền của bạn */
+    background-size: cover; /* Đảm bảo ảnh phủ toàn bộ container */
+    background-position: center bottom; /* Căn ảnh về phía dưới */
+    padding: 30px;
+    max-width: 400px;
+    margin: 20px auto; /* Căn giữa với lề trên/dưới */
     box-sizing: border-box;
-    max-width: 480px; /* Hẹp hơn 480px của body để tạo khoảng cách */
-    margin: 0 auto; /* Căn giữa div */
+    overflow-y: auto; /* Cho phép cuộn bên trong nếu nội dung dài */
+}
+
+.auth-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.show-password {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.show-password input[type="checkbox"] {
+    margin: 10px; /* Xóa margin mặc định của checkbox */
+    padding: 0; /* Xóa padding mặc định */
+    width: 16px; /* Kích thước checkbox */
+    height: 16px;
+margin-left: 50px; /* Dịch sang phải 10px */
+}
+
+.auth-button {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px !important; /* Bắt buộc áp dụng */
+    font-family: 'Arial', sans-serif;
+    margin: 5px;
+    transition: background-color 0.3s;
+    display: flex; /* Căn giữa theo cả hai chiều */
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+    text-align: center; /* Đảm bảo căn giữa ngang */
+    line-height: 1; /* Điều chỉnh chiều cao dòng */
+    width: auto; /* Nút mở rộng theo nội dung */
+}
+
+.auth-button:hover {
+    background-color: #1976D2;
+}
+
+.toggle-link {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.toggle-link a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.toggle-link a:hover {
+    text-decoration: underline;
+}
+
+.auth-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 3px;
+    display: none;
+}
+
+/* Ẩn header-container khi auth-screen hiển thị */
+.auth-screen ~ .header-container {
+    display: none;
+}
+#login-logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 300px;
+    height: auto;
+}
+
+.youtube-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#youtube-player {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.promo-title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 
+                 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6);
+    margin: 0; /* Giữ margin mặc định */
+    margin-bottom: 10px; /* Thêm 10px bên dưới */
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.promo-button {
+    padding: 8px 15px;
+    background-color: #f39821;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    width: 200px; /* Đặt chiều rộng cố định cho nút */
+    text-align: center; /* Căn giữa chữ trong nút */
+}
+
+.promo-button:hover {
+    background-color: #1976D2;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px; /* Thêm 10px bên dưới */
 }
 </style>
 </head>
@@ -1035,6 +1208,59 @@ button3.read-complete-button:hover {
    <!-- Nhóm 1: Header -->
 <div class="header-container">
     <img src="/hoctiengtrung/anhnenmoi.png" style="width: 100%; height: auto;">
+</div>
+<div id="auth-screen" class="auth-screen">
+    <div class="auth-container">
+<img id="login-logo" src="_logo.jpg" alt="Login Banner" width="300" height="auto">
+<div class="welcome-text" style="color: white; text-align: center; font-size: 14px; margin-bottom: 10px; margin: 5px 0;">
+    <p style="margin: 5px 0;">Chào mừng bạn đến với “Học Tiếng Trung Phồn Thể”!</p>
+    <p style="margin: 5px 0;">Trải nghiệm cách học chữ Hán truyền thống kết hợp phương pháp học thông minh, trực quan.</p>
+    <p style="margin: 5px 0;">Hãy Đăng Nhập để bắt đầu hành trình học sâu, nhớ lâu, hiểu rộng chữ Hán truyền thống!</p>
+</div>
+<div class="divider"></div>
+        <div id="login-container">
+            <div class="input-group">
+                <input type="text" id="login-user" placeholder="Tên đăng nhập" required>
+                <input type="password" id="login-pass" placeholder="Mật khẩu" required>
+                <label class="show-password">
+                    <input type="checkbox" id="show-login-pass"> Hiện mật khẩu
+                </label>
+                <button id="login-button" class="auth-button">Đăng Nhập</button>
+                <p id="login-error" class="auth-error"></p>
+                <p class="toggle-link">Chưa có tài khoản? <a href="#" id="show-register">Đăng ký ngay</a></p>
+            </div>
+        </div>
+        <div id="register-container" style="display: none;">
+            <div class="input-group">
+                <input type="text" id="register-name" placeholder="Tên hiển thị" required>
+                <input type="text" id="register-user" placeholder="Tên đăng nhập" required>
+                <input type="password" id="register-pass" placeholder="Mật khẩu" required>
+                <label class="show-password">
+                    <input type="checkbox" id="show-register-pass"> Hiện mật khẩu
+                </label>
+                <button id="register-button" class="auth-button">Đăng Ký</button>
+                <p id="register-error" class="auth-error"></p>
+                <p class="toggle-link">Đã có tài khoản? <a href="#" id="show-login">Đăng nhập</a></p>
+            </div>
+        </div>
+<div class="divider"></div>
+        <div class="promo-section">
+            <h3 class="promo-title">NỀN VĂN MINH 5.000 NĂM HỒI SINH</h3>
+            <div id="youtube-container">
+                <iframe id="youtube-player" width="300" height="169" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+<h5 style="color: white; text-align: justify; margin: 5px 0;">Shen Yun là đoàn nghệ thuật múa cổ điển Trung Quốc hàng đầu thế giới, thông qua loại hình nghệ thuật cổ điển để phục hưng và hồng dương văn hóa truyền thống Trung Hoa chân chính gần như đã bị thất lạc.</h5>
+            <div class="button-group">
+                <a href="https://vi.shenyunperformingarts.org/" target="_blank" class="promo-button">Tìm hiểu SHENYUN</a>
+                <a href="https://www.shenyuncreations.com/vi-VN" target="_blank" class="promo-button">Xem SHENYUN online</a>
+            </div>
+      <br>
+<br>
+<br>
+<br>
+<br>
+        </div>
+    </div>
 </div>
 
 <!-- Nhóm 2: Màn hình chọn chế độ và khởi động -->
@@ -1067,7 +1293,7 @@ button3.read-complete-button:hover {
     </div>
 <!-- Container cho các nút loại ôn tập -->
     <div id="quiz-type-buttons" style="display: none; margin-top: 10px; justify-content: center; gap: 5px;"></div>
-    <br>
+ <br>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
         <button2 class="mode-button" data-mode="taiwanese">Tiếng Trung Đài Loan</button2>
         <button2 class="mode-button" data-mode="samtukinh">Tam Tự Kinh</button2>
@@ -1075,6 +1301,7 @@ button3.read-complete-button:hover {
         <button2 class="mode-button" data-mode="poetry">300 Bài Thơ Đường</button2>
         <button2 class="mode-button disabled" data-mode="hongngam" disabled>Hồng Ngâm</button2>
     </div>
+    
 </div>
 
 <!-- Màn hình khởi động -->
@@ -1135,8 +1362,7 @@ button3.read-complete-button:hover {
 </div>
 
 <!-- Nhóm 3: Giao diện trò chơi chính -->
-<div class="content-wrapper">
-        <div id="game-container">
+<div id="game-container">
    
     <!-- Trạng thái trò chơi -->
     <div id="status-container">
@@ -1271,8 +1497,6 @@ button3.read-complete-button:hover {
     <iframe id="translateIframe" src=""></iframe>
 </div>
 <div id="related-hanzi-list"></div>
-
-    </div>
 
 <script>
 let earnedEXP = 0;
@@ -1477,43 +1701,29 @@ const pass2 = 'jootc3dvd4eCkh';
 const pass3 = 'Fi1CPIOo0H1Fz4';
 const GITHUB_TOKEN = pass1 + pass2 + pass3;
 
+let currentUser = null; // Lưu thông tin tài khoản đang đăng nhập
+
+// Hàm loadAccountData sửa đổi để xử lý mảng tài khoản
 async function loadAccountData() {
     try {
-        // Thay YOUR_PERSONAL_ACCESS_TOKEN bằng token của bạn
         const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
-        
         const response = await fetch(url, {
             headers: {
                 'Accept': 'application/vnd.github.v3+json',
                 'Authorization': `Bearer ${GITHUB_TOKEN}`
             }
         });
-        
         if (!response.ok) {
             throw new Error('Không thể tải taikhoan.json từ GitHub API');
         }
-        
         const data = await response.json();
-        // Giải mã base64 và xử lý UTF-8
         const binaryString = atob(data.content);
         const bytes = new Uint8Array(binaryString.length);
         for (let i = 0; i < binaryString.length; i++) {
             bytes[i] = binaryString.charCodeAt(i);
         }
         const content = new TextDecoder('utf-8').decode(bytes);
-        accountData = JSON.parse(content);
-        
-        // Cập nhật giao diện
-        document.getElementById('account-name').textContent = accountData.name;
-        document.getElementById('account-exp').textContent = accountData.EXP;
-
-        // Tải dữ liệu level và cập nhật giao diện
-        await loadLevelData();
-        updateLevelInfo();
-
-        // Reset earnedEXP
-        earnedEXP = 0;
-        document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+        accountData = JSON.parse(content); // Bây giờ là mảng các đối tượng tài khoản
     } catch (error) {
         console.error('Lỗi khi tải taikhoan.json:', error);
         document.getElementById('account-exp').textContent = '0';
@@ -1523,13 +1733,217 @@ async function loadAccountData() {
         document.getElementById('account-image').src = '_anhA.png';
         document.getElementById('level-progress').style.width = '0%';
         document.getElementById('level-progress-text').textContent = '0%';
-        // Reset earnedEXP
         earnedEXP = 0;
         document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
     }
 }
 
-loadAccountData();
+// Khởi tạo màn hình đăng nhập/đăng ký
+document.getElementById('mode-selection-screen').style.display = 'none'; // Ẩn màn chọn chế độ
+document.getElementById('game-container').style.display = 'none';
+document.getElementById('start-screen').style.display = 'none';
+document.getElementById('auth-screen').style.display = 'block';
+
+// Xử lý đăng nhập
+document.getElementById('login-button').addEventListener('click', async () => {
+    const username = document.getElementById('login-user').value.trim();
+    const password = document.getElementById('login-pass').value.trim();
+    const errorElement = document.getElementById('login-error');
+
+    if (!username || !password) {
+        errorElement.textContent = 'Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!';
+        errorElement.style.display = 'block';
+        return;
+    }
+
+    await loadAccountData();
+    const user = accountData.find(u => u.user === username && u.pass === password);
+    if (user) {
+        currentUser = user;
+        document.getElementById('account-name').textContent = user.name;
+        document.getElementById('account-exp').textContent = user.EXP;
+        await loadLevelData();
+        updateLevelInfo();
+        earnedEXP = 0;
+        document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+        document.getElementById('auth-screen').style.display = 'none';
+        document.getElementById('mode-selection-screen').style.display = 'block';
+        document.querySelector('.header-container').style.display = 'block';
+        document.getElementById('youtube-player').src = ''; // Dừng video
+        errorElement.style.display = 'none';
+    } else {
+        errorElement.textContent = 'Tên đăng nhập hoặc mật khẩu không đúng!';
+        errorElement.style.display = 'block';
+    }
+});
+
+// Xử lý đăng ký
+document.getElementById('register-button').addEventListener('click', async () => {
+    const username = document.getElementById('register-user').value.trim();
+    const password = document.getElementById('register-pass').value.trim();
+    const name = document.getElementById('register-name').value.trim();
+    const errorElement = document.getElementById('register-error');
+
+    if (!username || !password || !name) {
+        errorElement.textContent = 'Vui lòng nhập đầy đủ thông tin!';
+        errorElement.style.display = 'block';
+        return;
+    }
+
+    await loadAccountData();
+    if (accountData.find(u => u.user === username)) {
+        errorElement.textContent = 'Tên đăng nhập đã tồn tại!';
+        errorElement.style.display = 'block';
+        return;
+    }
+
+    const newUser = { user: username, pass: password, name: name, EXP: 0 };
+    accountData.push(newUser);
+
+    try {
+        const content = JSON.stringify(accountData, null, 2);
+        const encodedContent = btoa(unescape(encodeURIComponent(content)));
+        const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json'
+            }
+        });
+        if (!getFileResponse.ok) {
+            throw new Error('Không thể lấy SHA của file');
+        }
+        const fileData = await getFileResponse.json();
+        const sha = fileData.sha;
+
+        const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: 'Đăng ký tài khoản mới',
+                content: encodedContent,
+                sha: sha,
+                branch: 'main'
+            })
+        });
+
+        if (updateResponse.ok) {
+            currentUser = newUser;
+            document.getElementById('account-name').textContent = name;
+            document.getElementById('account-exp').textContent = '0';
+            await loadLevelData();
+            updateLevelInfo();
+            earnedEXP = 0;
+            document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            document.getElementById('auth-screen').style.display = 'none';
+            document.getElementById('mode-selection-screen').style.display = 'block';
+            document.querySelector('.header-container').style.display = 'block';
+            document.getElementById('youtube-player').src = ''; // Dừng video
+            errorElement.style.display = 'none';
+        } else {
+            errorElement.textContent = 'Lỗi khi đăng ký tài khoản!';
+            errorElement.style.display = 'block';
+        }
+    } catch (error) {
+        console.error('Lỗi khi đăng ký:', error);
+        errorElement.textContent = 'Lỗi khi đăng ký tài khoản!';
+        errorElement.style.display = 'block';
+    }
+});
+
+// Chuyển đổi giữa đăng nhập và đăng ký
+document.getElementById('show-register').addEventListener('click', () => {
+    document.getElementById('login-container').style.display = 'none';
+    document.getElementById('register-container').style.display = 'block';
+    document.getElementById('login-error').style.display = 'none';
+    document.getElementById('register-error').style.display = 'none';
+});
+
+document.getElementById('show-login').addEventListener('click', () => {
+    document.getElementById('login-container').style.display = 'block';
+    document.getElementById('register-container').style.display = 'none';
+    document.getElementById('login-error').style.display = 'none';
+    document.getElementById('register-error').style.display = 'none';
+    playRandomYouTubeVideo(); // Phát video ngẫu nhiên
+});
+
+// Sửa hàm claimExperience để cập nhật EXP cho tài khoản hiện tại
+async function claimExperience(finalEXP) {
+    try {
+        if (!currentUser) {
+            console.error('Không có tài khoản đang đăng nhập');
+            alert('Lỗi: Vui lòng đăng nhập lại!');
+            return;
+        }
+
+        await loadAccountData();
+        const userIndex = accountData.findIndex(u => u.user === currentUser.user);
+        if (userIndex === -1) {
+            console.error('Không tìm thấy tài khoản trong accountData');
+            alert('Lỗi: Không tìm thấy tài khoản!');
+            return;
+        }
+
+        accountData[userIndex].EXP = (parseInt(accountData[userIndex].EXP) || 0) + finalEXP;
+
+        const content = JSON.stringify(accountData, null, 2);
+        const encodedContent = btoa(unescape(encodeURIComponent(content)));
+
+        const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (!getFileResponse.ok) {
+            const errorData = await getFileResponse.json();
+            console.error('Lỗi lấy SHA:', errorData);
+            throw new Error(`Không thể lấy SHA của file: ${errorData.message}`);
+        }
+
+        const fileData = await getFileResponse.json();
+        const sha = fileData.sha;
+
+        const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: 'Cập nhật điểm kinh nghiệm EXP',
+                content: encodedContent,
+                sha: sha,
+                branch: 'main'
+            })
+        });
+
+        if (updateResponse.ok) {
+            currentUser.EXP = accountData[userIndex].EXP;
+            document.getElementById('account-exp').textContent = currentUser.EXP;
+            await updateLevelInfo();
+            earnedEXP = 0;
+            randomMissionLesson = null;
+            document.getElementById('endgame-popup').style.display = 'none';
+            returnToModeSelection();
+        } else {
+            const errorData = await updateResponse.json();
+            console.error('Lỗi cập nhật EXP:', errorData);
+            alert(`Lỗi khi cập nhật EXP: ${errorData.message}`);
+        }
+    } catch (error) {
+        console.error('Lỗi khi cập nhật EXP:', error);
+        alert('Lỗi khi cập nhật EXP!');
+    }
+}
 
 function startWritingMode() {
     if (!currentQuestion || !currentQuestion.hanzi) {
@@ -1838,13 +2252,6 @@ function stopWritingMode() {
         }
     };
 
-const modeDisplayNames = {
-    taiwanese: 'Tiếng Trung Đài Loan',
-    poetry: '300 Bài Thơ Đường',
-    samtukinh: 'Tam Tự Kinh',
-    thientuvan: 'Thiên Tự Văn',
-    hongngam: 'Hồng Ngâm'
-};
 const quizTypeDisplayNames = {
     vocabulary: 'Từ Vựng',
     sentence: 'Mẫu Câu',
@@ -1855,6 +2262,15 @@ const quizTypeDisplayNames = {
         hongngam: 'Bài Thơ'
     }
 };
+
+const modeDisplayNames = {
+    taiwanese: 'Tiếng Trung Đài Loan',
+    poetry: '300 Bài Thơ Đường',
+    samtukinh: 'Tam Tự Kinh',
+    thientuvan: 'Thiên Tự Văn',
+    hongngam: 'Hồng Ngâm'
+};
+
 
     function loadInitialData() {
     console.log('Loading data for mode:', selectedMode); // Debug
@@ -1901,7 +2317,7 @@ const quizTypeDisplayNames = {
             pinyinTuDienData = data;
         })
         .catch(error => {
-            console.error('Lỗi khi load _pinyintudien.json:', error);
+            console.error('Lỗi khi load _pinyin_tudien.json:', error);
         });
 }
 
@@ -1985,14 +2401,14 @@ document.querySelectorAll('.mode-button').forEach(button => {
             createQuizTypeButton('2.Từ Vựng', 'vocabulary');
             createQuizTypeButton('3.Mẫu Câu', 'sentence');
         } else if (selectedMode === 'samtukinh') {
-            createQuizTypeButton('1.Bài Thơ', 'dialogue');
-            createQuizTypeButton('2.Từ Vựng', 'vocabulary');       
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
         } else if (selectedMode === 'poetry') {
-            createQuizTypeButton('1.Bài Thơ', 'dialogue');
-            createQuizTypeButton('2.Từ Vựng', 'vocabulary');    
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
         } else if (selectedMode === 'hongngam') {
-            createQuizTypeButton('1.Bài Thơ', 'dialogue');
-            createQuizTypeButton('2.Từ Vựng', 'vocabulary');    
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
         }
     });
 });
@@ -4045,75 +4461,43 @@ function returnToModeSelection() {
     document.getElementById('hintButton').disabled = false;
 }
 
-async function claimExperience(finalEXP) {
-    try {
-        // Ensure accountData is defined and has EXP property
-        if (!accountData || typeof accountData.EXP === 'undefined') {
-            console.error('accountData is not properly initialized');
-            alert('Lỗi: Dữ liệu tài khoản không hợp lệ!');
-            return;
-        }
+// Xử lý checkbox hiện mật khẩu cho đăng nhập
+document.getElementById('show-login-pass').addEventListener('change', function() {
+    const passwordInput = document.getElementById('login-pass');
+    passwordInput.type = this.checked ? 'text' : 'password';
+});
 
-        // Update EXP in accountData
-        accountData.EXP = (parseInt(accountData.EXP) || 0) + finalEXP;
+// Xử lý checkbox hiện mật khẩu cho đăng ký
+document.getElementById('show-register-pass').addEventListener('change', function() {
+    const passwordInput = document.getElementById('register-pass');
+    passwordInput.type = this.checked ? 'text' : 'password';
+});
+// Danh sách link YouTube
+const youtubeLinks = [
+    'https://www.youtube.com/watch?v=YtJmoUiMmhY',
+    'https://www.youtube.com/watch?v=4F6ssqaefdg',
+    'https://www.youtube.com/watch?v=0fNAnbo3LAs'
+];
 
-        // Prepare content for GitHub
-        const content = JSON.stringify(accountData, null, 2);
-        // Use btoa with proper UTF-8 handling
-        const encodedContent = btoa(unescape(encodeURIComponent(content)));
-
-        // Get current file SHA
-        const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
-            method: 'GET',
-            headers: {
-                'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                'Accept': 'application/vnd.github+json',
-                'Content-Type': 'application/json'
-            }
-        });
-
-        if (!getFileResponse.ok) {
-            const errorData = await getFileResponse.json();
-            console.error('Failed to fetch file SHA:', errorData);
-            throw new Error(`Không thể lấy SHA của file: ${errorData.message}`);
-        }
-
-        const fileData = await getFileResponse.json();
-        const sha = fileData.sha;
-
-        // Update file on GitHub
-        const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
-            method: 'PUT',
-            headers: {
-                'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                'Accept': 'application/vnd.github+json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                message: 'Cập nhật điểm kinh nghiệm EXP',
-                content: encodedContent,
-                sha: sha,
-                branch: 'main'
-            })
-        });
-
-        if (updateResponse.ok) {
-            // Update UI
-            document.getElementById('account-exp').textContent = accountData.EXP;
-            await updateLevelInfo(); // Ensure this is awaited since it depends on async loadLevelData
-            earnedEXP = 0; // Reset EXP
-            randomMissionLesson = null; // Reset mission
-            document.getElementById('endgame-popup').style.display = 'none';
-            returnToModeSelection();
-        } else {
-            const errorData = await updateResponse.json();
-            console.error('Failed to update EXP:', errorData);
-            alert(`Lỗi khi cập nhật EXP: ${errorData.message}`);
-        }
-    } catch (error) {
-        console.error('Lỗi khi cập nhật EXP:', error);
-    }
+// Hàm chọn và phát video ngẫu nhiên với loop
+function playRandomYouTubeVideo() {
+    const randomIndex = Math.floor(Math.random() * youtubeLinks.length);
+    const videoUrl = youtubeLinks[randomIndex];
+    const videoId = videoUrl.split('v=')[1].split('&')[0]; // Lấy ID video
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&playlist=${videoId}`;
+    document.getElementById('youtube-player').src = embedUrl;
 }
+
+// Phát video khi tải màn hình đăng nhập
+playRandomYouTubeVideo();
+
+// Phát video mới khi chuyển từ đăng ký về đăng nhập
+document.getElementById('show-login').addEventListener('click', () => {
+    document.getElementById('login-container').style.display = 'block';
+    document.getElementById('register-container').style.display = 'none';
+    document.getElementById('auth-error').style.display = 'none';
+    playRandomYouTubeVideo(); // Phát video ngẫu nhiên
+});
 </script>
 </body>
 </html>
