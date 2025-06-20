@@ -3970,7 +3970,7 @@ earnedEXP -=2;
     const wordInfo = hanzi3Data.find(item => item.hanzi === char && lessonFilter.includes(item.bai));
     if (wordInfo) {
         content += '<strong style="color: darkblue; text-align: center; display: block;">Thông tin từ mới:</strong>';
-        content += `<p><strong>Từ mới: </strong><span style="color: red">${char}</span> <span style="color: blue">(${wordInfo.pinyin})</span></p>`;
+        content += `<p><strong>Từ mới: </strong><span style="color: red">${char}</span> <span class="pinyin-clickable" onclick="playPinyinAudio('${wordInfo.linkmp3}', '${wordInfo.time}')" style="color: blue; cursor: pointer; text-decoration: underline;">(${wordInfo.pinyin})</span></p>`;
         content += `<p><strong>Hán việt: </strong><span style="color: green">${wordInfo.kyhieu.replace(/\|/g, '\n')}</span></p>`;
         content += `<p><strong>Nghĩa: </strong><span style="color: green">${wordInfo.nghia.replace(/\|/g, '\n')}</span></p>`;
         if (wordInfo.phanTich) {
@@ -3983,25 +3983,88 @@ earnedEXP -=2;
     // Tách cụm từ thành từng ký tự và lấy thông tin từ bangHanTuData
     const characters = char.split('');
     content += '<strong style="color: darkblue; text-align: center; display: block;">Phân tích Hán Tự:</strong>';
-    characters.forEach(c => {
-        const hanTuInfo = bangHanTuData.find(item => item.hanTu === c);
-        const pinyinInfo = pinyinTuDienData[c];
-        content += `<p><strong>Hán Tự:</strong> <span style="color: red">${c}</span></p>`;
-        if (pinyinInfo) {
-            content += `<p><strong>Pinyin:</strong> <span style="color: blue">${pinyinInfo}</span></p>`;
-        } else {
-            content += `<p>Không tìm thấy pinyin cho Hán tự: <span style="color: purple">${c}</span></p>`;
-        }
-        if (hanTuInfo) {
-            content += `<p><span style="color: purple">${hanTuInfo.cauTao.replace(/\|/g, '\n')}</span></p>`;
-        } else {
-            content += `<p>Không tìm thấy cấu tạo cho Hán tự: <span style="color: purple">${c}</span></p>`;
-        }
-        content += '<hr class="dashed-divider">'; // Thêm đường nét đứt giữa các ký tự
-    });
 
-    popupContent.innerHTML = content;
-    popup.style.display = 'block';
+    // Tải pinyinmp3.json
+    fetch('/hoctiengtrung/json/pinyinmp3.json') // Thay bằng đường dẫn thực tế
+        .then(response => response.json())
+        .then(pinyinMp3Map => {
+            characters.forEach(c => {
+                const hanTuInfo = bangHanTuData.find(item => item.hanTu === c);
+                const pinyinInfo = pinyinTuDienData[c];
+                content += `<p><strong>Hán Tự:</strong> <span style="color: red">${c}</span></p>`;
+                if (pinyinInfo) {
+                    const pinyinArray = pinyinInfo.split(',').map(p => p.trim());
+                    let pinyinHtml = '';
+                    pinyinArray.forEach(pinyin => {
+                        const mp3File = pinyinMp3Map[pinyin] || '';
+                        const mp3Url = mp3File ? `${mp3File}` : ''; // Thay bằng đường dẫn thư mục MP3
+                        pinyinHtml += `<span class="pinyin" onclick="playPinyin('${mp3Url}')" style="cursor: ${mp3Url ? 'pointer' : 'default'}; color: ${mp3Url ? 'blue' : 'gray'}; text-decoration: ${mp3Url ? 'underline' : 'none'};">${pinyin}</span>, `;
+                    });
+                    // Xóa dấu phẩy cuối
+                    pinyinHtml = pinyinHtml.slice(0, -2);
+                    content += `<p><strong>Pinyin:</strong> <span style="color: blue">${pinyinHtml}</span></p>`;
+                } else {
+                    content += `<p>Không tìm thấy pinyin cho Hán tự: <span style="color: purple">${c}</span></p>`;
+                }
+                if (hanTuInfo) {
+                    content += `<p><span style="color: purple">${hanTuInfo.cauTao.replace(/\|/g, '\n')}</span></p>`;
+                } else {
+                    content += `<p>Không tìm thấy cấu tạo cho Hán tự: <span style="color: purple">${c}</span></p>`;
+                }
+                content += '<hr class="dashed-divider">'; // Thêm đường nét đứt giữa các ký tự
+            });
+
+            popupContent.innerHTML = content;
+            popup.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Lỗi tải pinyinmp3.json:', error);
+            // Hiển thị nội dung mặc định nếu lỗi
+            characters.forEach(c => {
+                const hanTuInfo = bangHanTuData.find(item => item.hanTu === c);
+                const pinyinInfo = pinyinTuDienData[c];
+                content += `<p><strong>Hán Tự:</strong> <span style="color: red">${c}</span></p>`;
+                if (pinyinInfo) {
+                    content += `<p><strong>Pinyin:</strong> <span style="color: blue">${pinyinInfo}</span></p>`;
+                } else {
+                    content += `<p>Không tìm thấy pinyin cho Hán tự: <span style="color: purple">${c}</span></p>`;
+                }
+                if (hanTuInfo) {
+                    content += `<p><span style="color: purple">${hanTuInfo.cauTao.replace(/\|/g, '\n')}</span></p>`;
+                } else {
+                    content += `<p>Không tìm thấy cấu tạo cho Hán tự: <span style="color: purple">${c}</span></p>`;
+                }
+                content += '<hr class="dashed-divider">';
+            });
+
+            popupContent.innerHTML = content;
+            popup.style.display = 'block';
+        });
+}
+
+// Hàm phát MP3
+function playPinyin(mp3Url) {
+    if (mp3Url) {
+        const audio = new Audio(mp3Url);
+        audio.play().catch(error => console.error('Lỗi phát MP3:', error));
+    }
+}
+
+// Hàm mới để phát âm thanh cho pinyin của wordInfo
+function playPinyinAudio(linkmp3, time) {
+    if (linkmp3 && time) {
+        const audioElement = new Audio();
+        const timeRange = `${time} - ${time}`; // Tạo timeRange giả vì chỉ có một thời gian
+        setupAudio(audioElement, linkmp3, timeRange);
+        audioElement.play().catch(error => console.error('Lỗi phát MP3:', error));
+        audioElement.addEventListener('timeupdate', function checkTime() {
+            if (audioElement.currentTime >= audioEndTime) {
+                audioElement.pause();
+                audioElement.currentTime = audioStartTime;
+                audioElement.removeEventListener('timeupdate', checkTime);
+            }
+        });
+    }
 }
 
     function closeHanziPopup() {
