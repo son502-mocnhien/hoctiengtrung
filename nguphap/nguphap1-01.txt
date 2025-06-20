@@ -5,20 +5,20 @@ Chào mừng bạn đến Đài Loan!
 
 I.Cách đặt câu hỏi bằng tiếng Trung
 A.Câu hỏi với A 不 A
-_nguphap1-01-1.txt
+/hoctiengtrung/nguphap/nguphap1-01-1.txt
 
 B.Câu hỏi với 嗎 ma
-_nguphap1-01-1.txt
+/hoctiengtrung/nguphap/nguphap1-01-1.txt
 
 II.Trả lời câu hỏi bằng tiếng Trung
 A.Câu trả lời khẳng định
-_nguphap1-01-2.txt
+/hoctiengtrung/nguphap/nguphap1-01-2.txt
 
 B.Trả lời phủ định với 不 bù
-_nguphap1-01-2.txt
+/hoctiengtrung/nguphap/nguphap1-01-2.txt
 
 III.Tăng mức độ với 很 hěn
-_nguphap1-01-3.txt
+/hoctiengtrung/nguphap/nguphap1-01-3.txt
 
 III.Câu hỏi nghi vấn với 呢 ne
-_nguphap1-01-4.txt
+/hoctiengtrung/nguphap/nguphap1-01-4.txt

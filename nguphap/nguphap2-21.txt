@@ -4,16 +4,16 @@ Minh định chuyển đến gần trường
 文法 Ngữ pháp
 
 I.Từ Chỉ Vị trí với 到 dào
-_nguphap2-06-1.txt
+/hoctiengtrung/nguphap/nguphap2-06-1.txt
 
 II.Tân ngữ Gián tiếp với 給 gěi
-_nguphap2-06-2.txt
+/hoctiengtrung/nguphap/nguphap2-06-2.txt
 
 III.Vị trí Kết quả với V + 在 zài ... 
-_nguphap2-06-3.txt
+/hoctiengtrung/nguphap/nguphap2-06-3.txt
 
 IV.Đem cái gì Chuyển ra Vị trí nào đó với 把 bǎ
-_nguphap2-06-4.txt
+/hoctiengtrung/nguphap/nguphap2-06-4.txt
 
 V.而且 érqiě hơn nữa
-_nguphap2-06-5.txt
+/hoctiengtrung/nguphap/nguphap2-06-5.txt

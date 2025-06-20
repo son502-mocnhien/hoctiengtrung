@@ -4,25 +4,25 @@ Học võ thuật
 文法 Ngữ pháp
 
 I.Bổ ngữ kết quả Tri nhận với 見 jiàn
-_nguphap2-08-1.txt
+/hoctiengtrung/nguphap/nguphap2-08-1.txt
 
 II.Bổ ngữ kết quả Nhận thức với 懂 dǒng
-_nguphap2-08-2.txt
+/hoctiengtrung/nguphap/nguphap2-08-2.txt
 
 III.Bổ ngữ kết quả Thành tựu với 會 huì
-_nguphap2-08-3.txt
+/hoctiengtrung/nguphap/nguphap2-08-3.txt
 
 IV.Bổ ngữ khả năng với – 得 de – hoặc – 不 bù
-_nguphap2-08-4.txt
+/hoctiengtrung/nguphap/nguphap2-08-4.txt
 
 V.Bổ ngữ khả năng đặc biệt với 了 liǎo
-_nguphap2-08-5.txt
+/hoctiengtrung/nguphap/nguphap2-08-5.txt
 
 VI.Bổ ngữ mức độ với Vs + 得 de + bổ nghĩa ...đến (mức/nỗi)...
-_nguphap2-08-6.txt
+/hoctiengtrung/nguphap/nguphap2-08-6.txt
 
 VII.Bổ ngữ xu hướng kép mở rộng: Tiếp tục Làm gì với 下去 xiàqù
-_nguphap2-08-7.txt
+/hoctiengtrung/nguphap/nguphap2-08-7.txt
 
 VIII.Bổ ngữ kết quả Hoàn thành với V + 完 wán
-_nguphap2-08-8.txt
+/hoctiengtrung/nguphap/nguphap2-08-8.txt

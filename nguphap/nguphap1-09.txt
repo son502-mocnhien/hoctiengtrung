@@ -4,16 +4,16 @@ Quyển 1 - BÀI • 9 • 放假去哪裡玩？
 文法 Ngữ pháp
 
 I.Thời gian - Thời điểm và Thời gian - Thời lượng
-_nguphap1-09-1.txt
+/hoctiengtrung/nguphap/nguphap1-09-1.txt
 
 II.Bổ ngữ thời lượng: Thời gian - Thời lượng
-_nguphap1-09-2.txt
+/hoctiengtrung/nguphap/nguphap1-09-2.txt
 
 III.…的時候 de shíhòu lúc, khi
-_nguphap1-09-3.txt
+/hoctiengtrung/nguphap/nguphap1-09-3.txt
 
 IV.有時候 yǒushíhòu…, 有時候 yǒushíhòu… có lúc…, có lúc…
-_nguphap1-09-4.txt
+/hoctiengtrung/nguphap/nguphap1-09-4.txt
 
 V.Điều kiện và Kết quả với 要是 yàoshì…就 jiù…
-_nguphap1-09-5.txt
+/hoctiengtrung/nguphap/nguphap1-09-5.txt

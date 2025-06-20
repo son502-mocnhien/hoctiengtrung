@@ -4,16 +4,16 @@ Gia đình của tôi
 文法 Ngữ pháp
 
 I.Trợ từ kết cấu 的 de (1): Sở hữu
-_nguphap1-02-1.txt
+/hoctiengtrung/nguphap/nguphap1-02-1.txt
 
 II.Trợ từ kết cấu 的 de (2): Bổ nghĩa
-_nguphap1-02-2.txt
+/hoctiengtrung/nguphap/nguphap1-02-2.txt
 
 III.Sở hữu với 有 yǒu
-_nguphap1-02-3.txt
+/hoctiengtrung/nguphap/nguphap1-02-3.txt
 
 IV.Toàn bộ với 都 dōu
-_nguphap1-02-4.txt
+/hoctiengtrung/nguphap/nguphap1-02-4.txt
 
 V.Lượng từ 個 ge và 張 zhāng
-_nguphap1-02-5.txt
+/hoctiengtrung/nguphap/nguphap1-02-5.txt

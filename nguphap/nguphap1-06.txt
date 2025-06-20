@@ -4,16 +4,16 @@ Trường học của họ ở trên núi
 文法 Ngữ pháp
 
 I.Vị trí với 在 zài
-_nguphap1-06-1.txt
+/hoctiengtrung/nguphap/nguphap1-06-1.txt
 
 II.Câu tồn hiện với 有 yǒu
-_nguphap1-06-2.txt
+/hoctiengtrung/nguphap/nguphap1-06-2.txt
 
 III.Lặp lại Động từ V (一) V
-_nguphap1-06-3.txt
+/hoctiengtrung/nguphap/nguphap1-06-3.txt
 
 IV.不是 búshì Phủ định
-_nguphap1-06-4.txt
+/hoctiengtrung/nguphap/nguphap1-06-4.txt
 
 V.Vị trí của Hành động
-_nguphap1-06-5.txt
+/hoctiengtrung/nguphap/nguphap1-06-5.txt

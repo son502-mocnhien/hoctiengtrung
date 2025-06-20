@@ -4,16 +4,16 @@ Hoa quả Đài Loan ăn rất ngon
 文法 Ngữ pháp
 
 I.V V 看 kàn thử xem
-_nguphap1-10-1.txt
+/hoctiengtrung/nguphap/nguphap1-10-1.txt
 
 II.Tăng mức độ với Động từ trạng thái được Lặp lại
-_nguphap1-10-2.txt
+/hoctiengtrung/nguphap/nguphap1-10-2.txt
 
 III.Trợ từ kết cấu 的 de (4): Mệnh đề Bổ nghĩa cho Danh từ
-_nguphap1-10-3.txt
+/hoctiengtrung/nguphap/nguphap1-10-3.txt
 
 IV.Thay đổi tình hình với 了 le
-_nguphap1-10-4.txt
+/hoctiengtrung/nguphap/nguphap1-10-4.txt
 
 V.Nguyên nhân và Kết quả với 因為 yīnwèi…, 所以 suǒyǐ…
-_nguphap1-10-5.txt
+/hoctiengtrung/nguphap/nguphap1-10-5.txt
