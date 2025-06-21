@@ -908,5 +908,96 @@
         }
       ]
     }
+  },
+  {
+    "bai": "11",
+    "hoiThoai": {
+      "1": [
+        {
+          "anh": "",
+          "id": "1",
+          "kieu": "E",
+          "nhanVat": "",
+          "hanzi": "三字經",
+          "time": "",
+          "linkmp3": "/hoctiengtrung/tamtukinhmp3/tamtukinh1.mp3",
+          "nghia": "Tam Tự Kinh",
+          "pinyin": "sān zì jīng",
+          "kyhieu": "",
+          "tacGia": "/hoctiengtrung/tamtukinhmp3/vuongunglan.txt",
+          "thongTin": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.txt"
+        },
+        {
+          "anh": "",
+          "id": "2",
+          "kieu": "F",
+          "nhanVat": "",
+          "hanzi": "第十一單元",
+          "time": "00:00:36 - 00:02:67",
+          "linkmp3": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.mp3",
+          "nghia": "",
+          "pinyin": "",
+          "kyhieu": "",
+          "tacGia": "/hoctiengtrung/tamtukinhmp3/vuongunglan.txt",
+          "thongTin": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.txt"
+        },
+        {
+          "anh": "",
+          "id": "3",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "曰喜怒，曰哀懼，",
+          "time": "00:03:43 - 00:07:05",
+          "linkmp3": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.mp3",
+          "nghia": "Rằng: Vui, Giận, rằng: Buồn, Sợ,",
+          "pinyin": "yuē xǐ nù, yuē āi jù,",
+          "kyhieu": "Viết Hỷ Nộ, Viết Ai Cụ,",
+          "tacGia": "/hoctiengtrung/tamtukinhmp3/vuongunglan.txt",
+          "thongTin": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.txt"
+        },
+        {
+          "anh": "",
+          "id": "4",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "愛惡欲，七情具。",
+          "time": "00:07:45 - 00:11:22",
+          "linkmp3": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.mp3",
+          "nghia": "Yêu, Ghét, Muốn, là Thất tình.",
+          "pinyin": "ài wù yù, qī qíng jù.",
+          "kyhieu": "Ái Ố Dục, Thất tình cụ.",
+          "tacGia": "/hoctiengtrung/tamtukinhmp3/vuongunglan.txt",
+          "thongTin": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.txt"
+        },
+        {
+          "anh": "",
+          "id": "5",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "匏土革，木石金，",
+          "time": "00:11:60 - 00:15:42",
+          "linkmp3": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.mp3",
+          "nghia": "Bào, Thổ, Cách, Mộc, Thạch, Kim,",
+          "pinyin": "páo tǔ gé, mù shí jīn,",
+          "kyhieu": "Bào Thổ Cách, Mộc Thạch Kim,",
+          "tacGia": "/hoctiengtrung/tamtukinhmp3/vuongunglan.txt",
+          "thongTin": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.txt"
+        },
+        {
+          "anh": "",
+          "id": "6",
+          "kieu": "G",
+          "nhanVat": "",
+          "hanzi": "絲與竹，乃八音。",
+          "time": "00:15:68 - 00:19:66",
+          "linkmp3": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.mp3",
+          "nghia": "Ti và Trúc, là Bát âm.",
+          "pinyin": "sī yǔ zhú, nǎi bā yīn.",
+          "kyhieu": "Ti dữ Trúc, Nãi Bát âm.",
+          "tacGia": "/hoctiengtrung/tamtukinhmp3/vuongunglan.txt",
+          "thongTin": "/hoctiengtrung/tamtukinhmp3/tamtukinh11.txt"
+        }
+      ]
+    }
   }
 ]
