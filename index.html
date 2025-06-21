@@ -3,7 +3,7 @@
     <script src="/hoctiengtrung/hanzi-writer.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Quiz</title>
+    <title>Học Tiếng Trung Phồn Thể</title>
  <style>
 /* Nhóm 1: CSS chung (Global Styles) */
 body {
@@ -2797,7 +2797,7 @@ function startQuizMode() {
         if (timeRange && timeRange.includes(' - ')) {
             const [startTimeStr, endTimeStr] = timeRange.split(' - ');
             audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.2);
-            audioEndTime = timeToSeconds(endTimeStr) + 0.2;
+            audioEndTime = timeToSeconds(endTimeStr);
             audioElement.currentTime = audioStartTime;
         }
     }
