@@ -4229,7 +4229,7 @@ function showInfoPopup(txtLink) {
                 const trimmedLine = line.trim();
                 
                 // Kiểm tra dòng có khớp với mẫu _*.txt không
-                if (trimmedLine.match(/^_[^.]+\.txt$/)) {
+                if (trimmedLine.match(/^\/hoctiengtrung\/nguphap\/[^.]+\.txt$/)) {
                     // Tạo nút bấm với tên tùy chỉnh
                     htmlContent += `<a href="#" onclick="showNestedInfoPopup('${trimmedLine}'); return false;">>>Bấm để xem<<</a>\n`;
                 } else {
@@ -4269,7 +4269,7 @@ function showNestedInfoPopup(txtLink) {
                 const trimmedLine = line.trim();
                 
                 // Kiểm tra dòng có khớp với mẫu _*.txt không
-                if (trimmedLine.match(/^_[^.]+\.txt$/)) {
+                if (trimmedLine.match(/^\/hoctiengtrung\/nguphap\/[^.]+\.txt$/)) {
                     // Tạo nút bấm với tên tùy chỉnh
                     htmlContent += `<a href="#" onclick="showNestedInfoPopup('${trimmedLine}'); return false;">>>Bấm để xem<<</a>\n`;
                 } else {
