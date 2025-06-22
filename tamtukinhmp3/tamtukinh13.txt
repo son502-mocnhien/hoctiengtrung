@@ -1,4 +1,4 @@
-# Nguyên văn
+## Nguyên văn
 
 父子恩，夫妻從，
 兄則友，弟則恭，
@@ -6,7 +6,7 @@
 君則敬，臣則忠，
 此十義，人所衕。
 
-# Bính âm
+## Bính âm
 
 fù zǐ ēn, fū fù cóng,
 xiōng zé yǒu, dì zé gōng,
@@ -14,7 +14,7 @@ zhǎng yòu xù, yǒu yǔ péng,
 jūn zé jìng, chén zé zhōng,
 cǐ shí yì, rén suǒ tóng.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Phụ tử ân, Phu phụ tòng,
 Huynh tắc hữu, Đệ tắc cung,
@@ -22,7 +22,7 @@ Trưởng ấu tự, Hữu dữ bằng,
 Quân tắc kính, Thần tắc trung,
 Thử thập nghĩa, Nhân sở đồng.
 
-# Tạm dịch
+## Tạm dịch
 
 Cha con có ơn, vợ chồng theo nhau,
 Anh thì thuận thảo, em thì cung kính,
@@ -30,45 +30,47 @@ Lớn nhỏ có thứ bậc, bạn bè ngang nhau,
 Vua thì tôn kính, tôi thì trung thành,
 Mười nghĩa này, mỗi người đều nên thực hiện.
 
-# Từ vựng
+## Từ vựng
 
-父 (fù) - Phụ: Cha
-子 (zǐ) - Tử: Con
-恩 (ēn) - Ân: Ân nghĩa, tình nghĩa sâu đậm
-夫 (fū) - Phu: Chồng
-婦 (fù) - Phụ: Vợ
-從 (cóng) - Tòng: Thuận theo, hòa thuận
-兄 (xiōng) - Huynh: Anh
-則 (zé) - Tắc: Thì, phải
-友 (yǒu) - Hữu: Thân thiện, hòa thuận; bạn bè cùng chí hướng
-弟 (dì) - Đệ: Em
-恭 (gōng) - Cung: Kính cẩn, cung kính
-長 (zhǎng) - Trưởng: Trưởng bối, thế hệ trước mình
-幼 (yòu) - Ấu: Người nhỏ, thế hệ sau
-序 (xù) - Tự: Thứ tự, trật tự
-朋 (péng) - Bằng: Người cùng chí hướng
-與 (yǔ) - Dữ: Và, cùng
-君 (jūn) - Quân: Vua, quân vương
-敬 (jìng) - Kính: Kính trọng
-臣 (chén) - Thần: Thần, tôi tớ
-忠 (zhōng) - Trung: Trung thành
-此 (cǐ) - Thử: Này, cái này
-十 (shí) - Thập: Số 10
-義 (yì) - Nghĩa: Nghĩa vụ, đạo lý
-人 (rén) - Nhân: Người
-所 (suǒ) - Sở: Điều mà, thứ mà (nhấn mạnh đối tượng)
-衕 (tóng) - Đồng: Cùng, đồng
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 父 | fù | Phụ | Cha |
+| 子 | zǐ | Con |
+| 恩 | ēn | Ân | Ân nghĩa, tình nghĩa sâu đậm |
+| 夫 | fū | Phu | Chồng |
+| 婦 | fù | Phụ | Vợ |
+| 從 | cóng | Tòng | Thuận theo, hòa thuận |
+| 兄 | xiōng | Huynh | Anh |
+| 則 | zé | Tắc | Thì, phải |
+| 友 | yǒu | Hữu | Thân thiện, hòa thuận; bạn bè cùng chí hướng |
+| 弟 | dì | Đệ | Em |
+| 恭 | gōng | Cung | Kính cẩn, cung kính |
+| 長 | zhǎng | Trưởng | Trưởng bối, thế hệ trước mình |
+| 幼 | yòu | Ấu | Người nhỏ, thế hệ sau |
+| 序 | xù | Tự | Thứ tự, trật tự |
+| 朋 | péng | Bằng | Người cùng chí hướng |
+| 與 | yǔ | Dữ | Và, cùng |
+| 君 | jūn | Quân | Vua, quân vương |
+| 敬 | jìng | Kính | Kính trọng |
+| 臣 | chén | Thần | Thần, tôi tớ |
+| 忠 | zhōng | Trung | Trung thành |
+| 此 | cǐ | Thử | Này, cái này |
+| 十 | shí | Thập | Số 10 |
+| 義 | yì | Nghĩa | Nghĩa vụ, đạo lý |
+| 人 | rén | Nhân | Người |
+| 所 | suǒ | Sở | Điều mà, thứ mà (nhấn mạnh đối tượng) |
+| 衕 | tóng | Đồng | Cùng, đồng |
 
 
-# Dịch nghĩa tham khảo
+## Dịch nghĩa tham khảo
 
 Giữa cha con với nhau cần có ân tình, cha đối với con phải từ ái, con đối với cha phải hiếu thuận. Giữa vợ chồng cần phải thông cảm tôn trọng lẫn nhau, chung sống hòa thuận, không rời không bỏ, luôn bên nhau. Còn giữa anh chị em với nhau, làm anh chị cần phải yêu thương chăm sóc em, làm em cũng cần phải cung kính với anh chị. Quan hệ trên dưới cần phải phân biệt rạch ròi, bạn bè chung sống cũng phải thành thật và tin tưởng nhau. Vua tôn trọng bề tôi, lấy lễ mà đối đãi, thì bề tôi tự nhiên cũng sẽ nhất mực trung thành không dám hai lòng. Đây là mười nghĩa lý (Thập nghĩa) làm người mỗi cá nhân đều phải tuân thủ thi hành.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Bài này là nói đến mười đạo nghĩa chủ yếu của thân phận làm người. Với các mối quan hệ cha-con, vợ-chồng, anh-em, bạn bè, người lớn tuổi – người nhỏ tuổi, vua-tôi mà trình bày ra đạo lý làm người với 10 loại thân phận khác nhau cần phải tuân theo. Bạn bè, người lớn tuổi – người nhỏ tuổi, chủ yếu nói nhắm vào mối quan hệ trong xã hội. Làm cha có bổn phận và nghĩa vụ của người cha, làm con có nghĩa vụ của người con là phụng dưỡng cha mình, báo đáp ân nghĩa; vợ chồng và anh em cũng vậy. Trong gia đình ai cũng biết cần phải làm như thế nào, chiếu theo thân phận của mình mà hành xử. Như vậy khi ra ngoài, trong quan hệ với người lớn tuổi hơn hay người nhỏ tuổi hơn, quan hệ vua-tôi hay bạn bè cũng đều biết cách đối nhân xử thế như thế nào. Lớn nhỏ cao thấp (tôn ti), chính là chỉ mối quan hệ chức vị trên dưới và vai vế khác nhau, mỗi người tuân theo bổn phận và nghĩa vụ của mình mà thực hiện đạo lý thiện đãi người khác. Ti (thấp) ở đây không có nghĩa là ti tiện (hèn mọn), mà ý tứ là hết sức tuân theo lễ nghi và thuận theo chức trách của cấp dưới và người nhỏ tuổi hơn mà làm người.
 
-# Câu chuyện “Lưu Bị ba lần mời Gia Cát Lượng”
+## Câu chuyện “Lưu Bị ba lần mời Gia Cát Lượng”
 
 Thời Tam Quốc, Thục vương Lưu Bị vì muốn khôi phục lại nhà Hán nên đã đi khắp nơi tìm kiếm nhân tài. Khi ông nghe nói Gia Cát Lượng là người tinh thông binh pháp, trí tuệ hơn người, nên ông dẫn Quan Vũ và Trương Phi đến Nam Dương để mời Gia Cát Lượng xuống núi giúp mình. Họ đi suốt đêm để đến Nam Dương, đúng lúc Gia Cát Lượng vừa có chuyến đi xa không còn ở nhà, ba anh em Lưu bị đành buồn bã trở về.
 
@@ -80,7 +82,7 @@ Lưu Bị thấy kiến giải sâu sắc của Gia Cát Lượng thì mười p
 
 Lưu Bị là quân chủ tôn quý, nhưng lại có thể dùng lễ đối đãi hiền sĩ, lấy lòng nhân thiện đối đãi người khác, tấm lòng thành ý yêu chuộng nhân tài. Gia Cát Lượng là bề tôi dưới thấp, nhận được sự tôn trọng và yêu mến của quân chủ, vì cảm ân tri ngộ, cam tâm tình nguyện phò tá quân vương, trung thành báo đáp. Đây cũng là một ví dụ mẫu mực về mối quan hệ thượng hạ tôn ti (trên dưới cao thấp) của quân thần (vua tôi) trong việc làm người.
 
-# Câu chuyện “Tình huynh đệ”
+## Câu chuyện “Tình huynh đệ”
 
 Triều Hán có một người tên Triệu Hiếu, tên chữ là Thường Bình, hai anh em đều rất yêu thương nhau.
 

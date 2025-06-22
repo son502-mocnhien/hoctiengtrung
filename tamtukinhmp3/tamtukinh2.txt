@@ -1,59 +1,61 @@
-# Nguyên văn
+## Nguyên văn
 
 昔孟母，擇鄰處，
 子不學，斷機杼。
 竇燕山，有義方，
 教五子，名俱揚。
 
-# Bính âm
+## Bính âm
 
 xí Mèng mǔ, zé lín chǔ,
 zǐ bù xué, duàn jī zhù.
 dòu Yān Shān, yǒu yì fāng,
 jiào wǔ zǐ, míng jù yáng.。
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Tích Mạnh mẫu, Trạch lân xứ,
 Tử bất học, Đoạn cơ trữ.
 Đậu Yên Sơn, Hữu nghĩa phương,
 Giáo ngũ tử, Danh câu dương.
 
-# Tạm dịch:
+## Tạm dịch:
 
 Mẹ Mạnh Tử ngày xưa, chọn láng giềng mà ở,
 Con trốn học về chơi, mẹ cắt vải khung cửi.
 Lão Đậu ở Yên Sơn, có phương pháp giáo dục,
 Dạy dỗ năm người con, cả năm đều thành danh.
 
-# Từ vựng
+## Từ vựng
 
-昔 (xí) - Tích: Ngày xưa, quá khứ, ngày trước
-孟母 (mèng mǔ) - Mạnh Mẫu: Mẹ của Mạnh Tử, người khuyến khích con học tập và chuyển nhà ba lần để chọn môi trường tốt
-擇 (zé) - Trạch: Lựa chọn, tuyển chọn
-鄰 (lín) - Lân: Hàng xóm, láng giềng
-處 (chǔ) - Xứ: Cư trú, sinh sống
-子 (zǐ) - Tử: Con cái, ở đây chỉ con trai Mạnh Mẫu
-不學 (bù xué) - Bất Học: Không chuyên tâm học tập, bỏ học
-斷 (duàn) - Đoạn: Cắt đứt, cắt bỏ
-機杼 (jī zhù) - Cơ Trữ: Khung cửi, chỉ việc dệt vải; liên quan đến điển tích Mạnh Mẫu cắt vải dạy con
-竇燕山 (dòu yān shān) - Đậu Yên Sơn: Đậu Vũ Quân, người thời Hậu Tấn, sống tại Yên Sơn, nổi tiếng dạy con thành đạt
-有 (yǒu) - Hữu: Có, sở hữu
-義方 (yì fāng) - Nghĩa Phương: Phương pháp giáo dục tốt, đạo lý của bậc Thánh hiền
-教 (jiào) - Giáo: Dạy dỗ, truyền thụ, giáo dục
-五子 (wǔ zǐ) - Ngũ Tử: Năm người con
-名 (míng) - Danh: Danh tiếng, thanh danh
-俱 (jù) - Câu: Đều, cả
-揚 (yáng) - Dương: Được ngợi ca, vang danh
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 昔 | xí | Tích | Ngày xưa, quá khứ, ngày trước |
+| 孟母 | mèng mǔ | Mạnh Mẫu | Mẹ của Mạnh Tử, người khuyến khích con học tập và chuyển nhà ba lần để chọn môi trường tốt |
+| 擇 | zé | Trạch | Lựa chọn, tuyển chọn |
+| 鄰 | lín | Lân | Hàng xóm, láng giềng |
+| 處 | chǔ | Xứ | Cư trú, sinh sống |
+| 子 | zǐ | Tử | Con cái, ở đây chỉ con trai Mạnh Mẫu |
+| 不學 | bù xué | Bất Học | Không chuyên tâm học tập, bỏ học |
+| 斷 | duàn | Đoạn | Cắt đứt, cắt bỏ |
+| 機杼 | jī zhù | Cơ Trữ | Khung cửi, chỉ việc dệt vải; liên quan đến điển tích Mạnh Mẫu cắt vải dạy con |
+| 竇燕山 | dòu yān shān | Đậu Yên Sơn | Đậu Vũ Quân, người thời Hậu Tấn, sống tại Yên Sơn, nổi tiếng dạy con thành đạt |
+| 有 | yǒu | Hữu | Có, sở hữu |
+| 義方 | yì fāng | Nghĩa Phương | Phương pháp giáo dục tốt, đạo lý của bậc Thánh hiền |
+| 教 | jiào | Giáo | Dạy dỗ, truyền thụ, giáo dục |
+| 五子 | wǔ zǐ | Ngũ Tử | Năm người con |
+| 名 | míng | Danh | Danh tiếng, thanh danh |
+| 俱 | jù | Câu | Đều, cả |
+| 揚 | yáng | Dương | Được ngợi ca, vang danh |
 
 
-# Diễn giải tham khảo
+## Diễn giải tham khảo
 
 Vào thời xưa, mẹ của Mạnh Tử vì để tìm một môi trường thích hợp cho Mạnh Tử học tập, không ngại gian khổ mà ba lần chuyển nhà. Một lần nọ, Mạnh Tử bỏ học trở về nhà, mẹ Mạnh Tử đã tức giận đến mức cắt miếng vải đang dệt dở dang ra làm hai. Bà dạy con rằng: “Đi học cũng giống như dệt vải vậy. Phải đem từng sợi từng sợi vải dệt với nhau, liên tục dệt thành từng tấc, rồi mới có thể thành một thước, cuối cùng mới có thể thành tấm vải hữu dụng. Nếu như tấm vải giờ đã bị cắt ngang, nửa chừng hư hỏng, vậy thì công sức từ đầu đều bỏ phí hết.”
 
 Vào thời Ngũ Đại, có một người cha rất coi trọng việc giáo dục con cái, đó là Đậu Vũ Quân (còn gọi là Đậu Yên Sơn). Ông tuân theo lời dạy bảo của Thánh hiền mà chú ý đến việc dạy dỗ con cái. Năm người con nhờ sự giáo dưỡng của ông cuối cùng đều thành tựu, tiếng tăm truyền khắp tứ phương.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Chữ Nho “ 儒 ”của Nho gia do hai chữ Nhân “人” và Nhu “需” (cần thiết) hợp thành. Nội hàm sâu sắc, ý là làm người cần phải có đạo lý căn bản và tài trí tế thế hiệu quả. Từ xa xưa, Khổng Tử đã đặt định ra tiêu chuẩn làm người và quy phạm đạo đức, đạo lý làm thế nào thiện đãi đối với người khác từ trong gia đình đến ra ngoài xã hội.
 
@@ -69,7 +71,7 @@ Câu chuyện này chính là chứng minh rằng môi trường có ảnh hư�
 
 Cần chú ý rằng giáo dục ở đây không phải là giáo dục theo ý nghĩa hiện đại, mà là giáo dục đạo đức của Nho học, ngày nay được gọi là quốc học. Trường tư thục xưa dạy người ta đọc sách nghiên cứu học vấn, mục đích căn bản chính là ở điểm này, đồng thời khi lớn lên có thể lấy đức thiện hóa thiên hạ, cứu tế thiên hạ. Nền giáo dục quốc ngữ hiện đại của Nhật Bản gần như đã kế thừa truyền thống này. Câu chuyện bên dưới là một điển cố khác kể về Đậu Yên Sơn dạy con. Cũng chứng thực việc dạy con làm thiện, để con trẻ có thể lập thân dương danh, đạt thành tựu sau này.
 
-# Câu chuyện Đậu Yên Sơn dạy con
+## Câu chuyện Đậu Yên Sơn dạy con
 
 Đậu Vũ Quân là người sống vào thời Hậu Tấn thuộc thời kỳ Ngũ Đại ở Trung Quốc. Ông ở tại Kế Châu, thời cổ đại chính là nước Yên, vì vậy người ta gọi ông là Đậu Yên Sơn. Gia đình ông vô cùng giàu có, thế nhưng tâm ông lại bất chính, thường bắt nạt người nghèo. Vì làm việc thất đức, cũng vì thế mà 30 tuổi vẫn chưa có con. Một đêm, ông nằm mộng thấy người cha đã qua đời của ông trở về, nói: “Con tâm địa bất chính, đức hạnh không đứng đắn, lại làm việc ác như vậy, không những sẽ không có con mà còn đoản mệnh nữa. Con phải mau sửa sai hướng thiện, tích nhiều âm đức, trợ giúp nhiều người, có như vậy mới cứu vãn được số mệnh.”
 
@@ -79,8 +81,8 @@ Một đêm nọ, Đậu Yên Sơn lại nằm mộng thấy cha mình, cha ông
 
 Đậu Vũ Quân rất coi trọng sự giáo dục con cái, thường dạy con thái độ xử thế và nghĩa lý Thánh hiền. Năm người con dưới sự dạy dỗ của ông đều đỗ đạt, người quê ông không ai không khen ngợi, thanh danh Đậu Vũ Quân và năm người con vì vậy mà được truyền khắp cả nước.
 
-Câu chuyện này và câu chuyện Chu Xứ ở bài một có chỗ tương tự, Đậu Yên Sơn và Chu Xứ là hai người ban đầu quen làm việc ác, sau đó sửa ác theo thiện, kịp thời cải chính và tỉnh ngộ, thành người thành công, nhưng cũng có chỗ khác biệt. Câu chuyện ở bài này còn nói đến sự tồn tại của thiên lý thiện ác hữu báo, nhất ngôn nhất hành của con người đều có Trời xem xét, thấu tỏ, Nho gia khuyên người hành thiện, xem trọng giáo dục đức hạnh, được người Trung Quốc phụng hành qua mấy nghìn năm, tuyệt đối không phải ngẫu nhiên, tất nhiên ẩn tàng an bài của thiên ý ở đằng sau. Cũng chính là để người Trung Quốc giữ vững lương thiện, thu được phúc báo về sau.
+- Câu chuyện này và câu chuyện Chu Xứ ở bài một có chỗ tương tự, Đậu Yên Sơn và Chu Xứ là hai người ban đầu quen làm việc ác, sau đó sửa ác theo thiện, kịp thời cải chính và tỉnh ngộ, thành người thành công, nhưng cũng có chỗ khác biệt. Câu chuyện ở bài này còn nói đến sự tồn tại của thiên lý thiện ác hữu báo, nhất ngôn nhất hành của con người đều có Trời xem xét, thấu tỏ, Nho gia khuyên người hành thiện, xem trọng giáo dục đức hạnh, được người Trung Quốc phụng hành qua mấy nghìn năm, tuyệt đối không phải ngẫu nhiên, tất nhiên ẩn tàng an bài của thiên ý ở đằng sau. Cũng chính là để người Trung Quốc giữ vững lương thiện, thu được phúc báo về sau.
 
-Đậu Yên Sơn chính là cảm thấy trên đầu ba thước có Thần linh, nên mới kính sợ Thiên Địa từ căn bản, bắt đầu trọng đức hành thiện, đắc được phúc báo. Thế là từ căn bản ấy hiểu được vì sao cần cho con cái học tập nghĩa lý Thánh hiền. Cũng chính là hiểu được nguyên nhân căn bản cần tuân theo việc giáo đạo Nho học.
+- Đậu Yên Sơn chính là cảm thấy trên đầu ba thước có Thần linh, nên mới kính sợ Thiên Địa từ căn bản, bắt đầu trọng đức hành thiện, đắc được phúc báo. Thế là từ căn bản ấy hiểu được vì sao cần cho con cái học tập nghĩa lý Thánh hiền. Cũng chính là hiểu được nguyên nhân căn bản cần tuân theo việc giáo đạo Nho học.
 
-Cả Mạnh mẫu hay là Đậu Yên Sơn, là những tấm gương dạy con hướng thiện, thu hoạch được thành tựu to lớn điển hình, đều là những chuyện chứng thực chính xác nội dung của bài học trước.
+- Cả Mạnh mẫu hay là Đậu Yên Sơn, là những tấm gương dạy con hướng thiện, thu hoạch được thành tựu to lớn điển hình, đều là những chuyện chứng thực chính xác nội dung của bài học trước.

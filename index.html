@@ -1219,6 +1219,72 @@ margin-left: 50px; /* Dịch sang phải 10px */
     max-width: 480px; /* Hẹp hơn 480px của body để tạo khoảng cách */
     margin: 0 auto; /* Căn giữa div */
 }
+#info-popup-content p, #nested-info-popup-content p, #author-popup-content p {
+            margin: -5px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0px;
+            vertical-align: middle; /* Căn giữa theo chiều dọc */
+            text-align: center; /* Căn giữa theo chiều ngang (tùy chọn, nếu muốn) */
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        #info-popup-content table table, #nested-info-popup-content table table, #author-popup-content table table {
+            border: 1px solid #ddd;
+            margin: 0;
+            width: 100%;
+        }
+        #info-popup-content table table th, #info-popup-content table table td,
+        #nested-info-popup-content table table th, #nested-info-popup-content table table td,
+        #author-popup-content table table th, #author-popup-content table table td {
+            border: 1px solid #ddd;
+            padding: 0px;
+            font-size: 0.9em;
+        }
+        #info-popup-content ul, #nested-info-popup-content ul, #author-popup-content ul {
+            margin-top: -20px;
+            margin-bottom: -10px;
+            padding-left: 10px;
+        }
+        #info-popup-content ul li, #nested-info-popup-content ul li, #author-popup-content ul li {
+            margin:  -7px 0;
+            padding: 0;
+        }
+        #info-popup-content h1, #nested-info-popup-content h1, #author-popup-content h1 {
+            font-size: 1.8em;
+            margin: 0px 0;
+            color: navy;
+        }
+        #info-popup-content h2, #nested-info-popup-content h2, #author-popup-content h2 {
+            font-size: 1.5em;
+            margin: 0px 0;
+            color: navy;
+        }
+        #info-popup-content h3, #nested-info-popup-content h3, #author-popup-content h3 {
+            font-size: 1.3em;
+            margin: 0px 0;
+            color: navy;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            max-height: 250px;
+            display: block;
+            margin: 0 auto;
+        }
 </style>
 </head>
 <body>
@@ -4209,6 +4275,11 @@ function playPinyinAudio(linkmp3, time) {
     updateStatus();
 }
 
+marked.setOptions({
+    gfm: true,
+    tables: true
+});
+
 function showInfoPopup(txtLink) {
     const popup = document.getElementById('info-popup');
     const popupContent = document.getElementById('info-popup-content');
@@ -4219,27 +4290,25 @@ function showInfoPopup(txtLink) {
             return response.text();
         })
         .then(data => {
-            // Tách nội dung thành các dòng
-            const lines = data.split('\n');
-            let htmlContent = '';
-            
-            // Xử lý từng dòng
-            lines.forEach(line => {
-                // Loại bỏ khoảng trắng đầu/cuối dòng
-                const trimmedLine = line.trim();
-                
-                // Kiểm tra dòng có khớp với mẫu _*.txt không
-                if (trimmedLine.match(/^\/hoctiengtrung\/nguphap\/[^.]+\.txt$/)) {
-                    // Tạo nút bấm với tên tùy chỉnh
-                    htmlContent += `<a href="#" onclick="showNestedInfoPopup('${trimmedLine}'); return false;">>>Bấm để xem<<</a>\n`;
-                } else {
-                    // Giữ nguyên dòng dưới dạng văn bản, thoát ký tự HTML
-                    htmlContent += `${line.replace(/</g, '<').replace(/>/g, '>')}\n`;
+            // Chuyển đổi nội dung Markdown thành HTML
+            let htmlContent = DOMPurify.sanitize(marked.parse(data));
+
+            // Gán nội dung vào popup
+            popupContent.innerHTML = htmlContent;
+
+            // Xử lý các thẻ <a>, nhưng bỏ qua <img>
+            const links = popupContent.querySelectorAll('a');
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href) {
+                    // Chỉ xử lý liên kết không phải ảnh
+                    if (!href.match(/\.(jpg|jpeg|png|gif|bmp|webp)$/i)) {
+                        link.setAttribute('onclick', `showNestedInfoPopup('${href}'); return false;`);
+                        link.removeAttribute('href');
+                    }
                 }
             });
 
-            // Gán nội dung đã xử lý
-            popupContent.innerHTML = htmlContent;
             popup.style.display = 'block';
         })
         .catch(error => {
@@ -4250,6 +4319,12 @@ function showInfoPopup(txtLink) {
 }
 
 function showNestedInfoPopup(txtLink) {
+    // Nếu là URL bên ngoài, mở trong tab mới
+    if (txtLink.startsWith('http')) {
+        window.open(txtLink, '_blank');
+        return;
+    }
+
     const popup = document.getElementById('nested-info-popup');
     const popupContent = document.getElementById('nested-info-popup-content');
 
@@ -4259,27 +4334,21 @@ function showNestedInfoPopup(txtLink) {
             return response.text();
         })
         .then(data => {
-            // Tách nội dung thành các dòng
-            const lines = data.split('\n');
-            let htmlContent = '';
-            
-            // Xử lý từng dòng
-            lines.forEach(line => {
-                // Loại bỏ khoảng trắng đầu/cuối dòng
-                const trimmedLine = line.trim();
-                
-                // Kiểm tra dòng có khớp với mẫu _*.txt không
-                if (trimmedLine.match(/^\/hoctiengtrung\/nguphap\/[^.]+\.txt$/)) {
-                    // Tạo nút bấm với tên tùy chỉnh
-                    htmlContent += `<a href="#" onclick="showNestedInfoPopup('${trimmedLine}'); return false;">>>Bấm để xem<<</a>\n`;
-                } else {
-                    // Giữ nguyên dòng dưới dạng văn bản, thoát ký tự HTML
-                    htmlContent += `${line.replace(/</g, '<').replace(/>/g, '>')}\n`;
+            let htmlContent = DOMPurify.sanitize(marked.parse(data));
+
+            popupContent.innerHTML = htmlContent;
+
+            const links = popupContent.querySelectorAll('a');
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href) {
+                    if (!href.match(/\.(jpg|jpeg|png|gif|bmp|webp)$/i)) {
+                        link.setAttribute('onclick', `showNestedInfoPopup('${href}'); return false;`);
+                        link.removeAttribute('href');
+                    }
                 }
             });
 
-            // Gán nội dung đã xử lý
-            popupContent.innerHTML = htmlContent;
             popup.style.display = 'block';
         })
         .catch(error => {
@@ -4297,28 +4366,36 @@ function showAuthorPopup(txtLink) {
     const popup = document.getElementById('author-popup');
     const popupContent = document.getElementById('author-popup-content');
 
-    fetch(txtLink)
+     fetch(txtLink)
         .then(response => {
-            if (!response.ok) throw new Error('Không thể tải file tác giả');
+            if (!response.ok) throw new Error('Không thể tải file thông tin');
             return response.text();
         })
         .then(data => {
-            const lines = data.split('\n');
-            const imageUrl = lines[0].trim();
-            const textContent = lines.slice(1).join('\n');
+            // Chuyển đổi nội dung Markdown thành HTML
+            let htmlContent = DOMPurify.sanitize(marked.parse(data));
 
-            let content = '';
-            if (imageUrl.endsWith('.jpg') || imageUrl.endsWith('.png')) {
-                content += `<img src="${imageUrl}" alt="Author Image">`;
-            }
-            content += `<div>${textContent}</div>`;
+            // Gán nội dung vào popup
+            popupContent.innerHTML = htmlContent;
 
-            popupContent.innerHTML = content;
+            // Xử lý các thẻ <a>, nhưng bỏ qua <img>
+            const links = popupContent.querySelectorAll('a');
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href) {
+                    // Chỉ xử lý liên kết không phải ảnh
+                    if (!href.match(/\.(jpg|jpeg|png|gif|bmp|webp)$/i)) {
+                        link.setAttribute('onclick', `showNestedInfoPopup('${href}'); return false;`);
+                        link.removeAttribute('href');
+                    }
+                }
+            });
+
             popup.style.display = 'block';
         })
         .catch(error => {
-            console.error('Lỗi khi tải file tác giả:', error);
-            popupContent.innerText = 'Không thể tải thông tin tác giả.';
+            console.error('Lỗi khi tải file thông tin:', error);
+            popupContent.innerText = 'Không thể tải thông tin.';
             popup.style.display = 'block';
         });
 }

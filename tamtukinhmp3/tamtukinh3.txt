@@ -1,58 +1,60 @@
-# Nguyên văn
+## Nguyên văn
 
 養不教，父之過，
 教不嚴，師之惰。
 子不學，非所宜，
 幼不學，老何為。
 
-# Bính âm
+## Bính âm
 
 yǎng bù jiào, fù zhī guò,
 jiào bù yán, shī zhī duò.
 zǐ bù xué, fēi suǒ yí,
 yòu bù xué, lǎo hé wéi.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Dưỡng bất giáo, Phụ chi quá,
 Giáo bất nghiêm, Sư chi đọa.
 Tử bất học, Phi sở nghi,
 Ấu bất học, Lão hà vi.
 
-# Tạm dịch:
+## Tạm dịch:
 
 Nuôi con mà không dạy, là lỗi của cha mẹ,
 Dạy trò mà không nghiêm, là do thầy thất trách.
 Con trẻ không học tập, như thế là không nên,
 Lúc còn nhỏ không học, khi già biết làm gì?
 
-# Từ vựng
+## Từ vựng
 
-養 (yǎng) - Dưỡng: Nuôi dưỡng, nuôi nấng
-不 (bù) - Bất: Không, chẳng
-教 (jiào) - Giáo: Dạy dỗ, giáo dục, truyền thụ
-父 (fù) - Phụ: Cha; ở đây ám chỉ phụ mẫu (cha mẹ)
-之 (zhī) - Chi: Của, thuộc về, liên kết sở hữu hoặc bổ nghĩa
-過 (guò) - Quá: Lỗi, sai lầm, thiếu sót
-嚴 (yán) - Nghiêm: Nghiêm khắc, nghiêm túc
-師 (shī) - Sư: Thầy, người dạy học
-惰 (duò) - Đọa: Lười biếng, lơ là, thất trách
-子 (zǐ) - Tử: Con trẻ, con cái
-非 (fēi) - Phi: Không, chẳng phải
-所 (suǒ) - Sở: Điều, thứ, chỗ (dùng để nhấn mạnh hoặc chỉ đối tượng)
-宜 (yí) - Nghi: Thích đáng, nên, phù hợp
-幼 (yòu) - Ấu: Trẻ, nhỏ, tuổi nhỏ
-老 (lǎo) - Lão: Già, tuổi già
-何 (hé) - Hà: Cái gì, điều gì, tại sao
-為 (wéi) - Vi: Làm, đạt được, trở thành
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 養 | yǎng | Dưỡng | Nuôi dưỡng, nuôi nấng |
+| 不 | bù | Bất | Không, chẳng |
+| 教 | jiào | Giáo | Dạy dỗ, giáo dục, truyền thụ |
+| 父 | fù | Phụ | Cha; ở đây ám chỉ phụ mẫu (cha mẹ) |
+| 之 | zhī | Chi | Của, thuộc về, liên kết sở hữu hoặc bổ nghĩa |
+| 過 | guò | Quá | Lỗi, sai lầm, thiếu sót |
+| 嚴 | yán | Nghiêm | Nghiêm khắc, nghiêm túc |
+| 師 | shī | Sư | Thầy, người dạy học |
+| 惰 | duò | Đọa | Lười biếng, lơ là, thất trách |
+| 子 | zǐ | Tử | Con trẻ, con cái |
+| 非 | fēi | Phi | Không, chẳng phải |
+| 所 | suǒ | Sở | Điều, thứ, chỗ (dùng để nhấn mạnh hoặc chỉ đối tượng) |
+| 宜 | yí | Nghi | Thích đáng, nên, phù hợp |
+| 幼 | yòu | Ấu | Trẻ, nhỏ, tuổi nhỏ |
+| 老 | lǎo | Lão | Già, tuổi già |
+| 何 | hé | Hà | Cái gì, điều gì, tại sao |
+| 為 | wéi | Vi | Làm, đạt được, trở thành |
 
-# Diễn giải tham khảo
+## Diễn giải tham khảo
 
 Bậc làm cha mẹ nếu như dưỡng dục con cái chỉ cung cấp cho chúng những nhu cầu vật chất mà không quản giáo tốt chúng, thì đây là lỗi lầm khi làm cha mẹ. Cũng một đạo lý như vậy, nếu giáo viên giáo đạo cho học sinh không nghiêm khắc đốc thúc, không nghiêm túc chỉ dạy, đấy cũng là làm thầy lười biếng, thất trách.
 
 Thân làm con em, không học tập tốt là không nên, thuở thiếu thời không dụng tâm học tập, không minh bạch đạo lý làm người, cũng không có học thức phong phú để có thể đặt chân trong xã hội, chờ đến khi lớn tuổi, còn có thể làm gì?
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Tám câu thơ này không chỉ rõ ràng dễ hiểu, mà ở hai câu đầu “Dưỡng bất giáo, Phụ chi quá” thì ai ai cũng biết, cho nên người Trung Quốc từ xưa đã minh bạch vai trò giáo dục và trách nhiệm trọng đại của cha mẹ, chỉ cung cấp vật chất để hưởng dụng, là hành vi vô trách nhiệm, con cái mà ngôn hành không đoan chính, là phải hỏi đến trách nhiệm người làm cha mẹ, cho nên ở đây khuyên nhủ bậc cha mẹ rất rõ ràng, là đang nhắc nhở cha mẹ, phải gánh vác được trách nhiệm giáo dục đức hạnh cho con cái.
 
@@ -72,7 +74,7 @@ Sau khi Tam Tự Kinh giảng ra tôn chỉ của giáo dục và thái độ c�
 
 Nếu muốn con cái thành người tài, có chí lớn, xin hãy bắt đầu học tập Tam Tự Kinh.
 
-# Câu chuyện Vũ Huấn mở trường
+## Câu chuyện Vũ Huấn mở trường
 
 Vào đời nhà Thanh, ở huyện Đường Ấp tỉnh Sơn Đông, có một người hành khất tên là Vũ Thất. Ông đã đi ăn xin và làm thuê đủ nghề để dành dụm tiền mua đất xây trường học. Vì xây trường học thành công, người ta tặng ông cái tên là Huấn.
 
@@ -82,12 +84,12 @@ Từ trong khốn khổ, Vũ Huấn nhận ra tính trọng yếu của việc �
 
 Vũ Huấn rất quan tâm đến việc học tập của học trò, đối với thầy giáo lại càng kính trọng. Nhưng khi gặp cảnh thầy dạy không nghiêm chỉnh hay học sinh không dụng tâm học tập, ông sẽ quỳ gối trước họ và cầu xin họ hãy tận tâm tận sức, cố gắng nỗ lực, vì vậy cả thầy lẫn trò đều rất cảm động, không dám giải đãi. Tinh thần hiếu học của Vũ Huấn gây cảm động rất nhiều người.
 
-Kỳ thực, phẩm đức và học vấn tốt xấu thế nào sẽ ảnh hưởng rất lớn đến đời người, lúc trẻ không biết trân quý cơ hội đọc sách, không nắm chắc thời hoàng kim của sinh mệnh để tu dưỡng phẩm đức, thì sẽ hối tiếc lúc tuổi già. Tả Tông Đường, một nhà chính trị nổi tiếng sống vào đời nhà Thanh, có một thuộc cấp tên là Trương Diệu, người đã nhiều năm theo ông chinh chiến và giành được nhiều chiến công. Tả Tông Đường đã phong cho Trương Diệu một chức quan lớn trong triều đình. Tuy nhiên, Trương Diệu lại không biết đọc vì ông ấy không đi học khi còn trẻ. Triều đình không còn cách nào khác, buộc phải thu hồi chức quan của ông. Trương Diệu thập phần hối hận, quyết tâm học chữ lại từ đầu, ông mời thầy về dạy, ngày đêm đèn sách, tu thân dưỡng tính, cuối cùng đã học hành thành đạt và lại được triều đình trọng dụng.
+- Kỳ thực, phẩm đức và học vấn tốt xấu thế nào sẽ ảnh hưởng rất lớn đến đời người, lúc trẻ không biết trân quý cơ hội đọc sách, không nắm chắc thời hoàng kim của sinh mệnh để tu dưỡng phẩm đức, thì sẽ hối tiếc lúc tuổi già. Tả Tông Đường, một nhà chính trị nổi tiếng sống vào đời nhà Thanh, có một thuộc cấp tên là Trương Diệu, người đã nhiều năm theo ông chinh chiến và giành được nhiều chiến công. Tả Tông Đường đã phong cho Trương Diệu một chức quan lớn trong triều đình. Tuy nhiên, Trương Diệu lại không biết đọc vì ông ấy không đi học khi còn trẻ. Triều đình không còn cách nào khác, buộc phải thu hồi chức quan của ông. Trương Diệu thập phần hối hận, quyết tâm học chữ lại từ đầu, ông mời thầy về dạy, ngày đêm đèn sách, tu thân dưỡng tính, cuối cùng đã học hành thành đạt và lại được triều đình trọng dụng.
 
-Bài nhạc phủ Trường Ca Hành viết: “Bách xuyên Đông đáo hải, Hà thời phục Tây quy? Thiếu tráng bất nỗ lực, Lão đại đồ thương bi”. (Tạm dịch: Trăm sông theo hướng Đông đổ ra biển, Biết bao giờ về Tây? Tuổi trẻ không gắng sức, Khi già tiếc lắm thay!) Mỗi người đều nên học hành chăm chỉ khi còn nhỏ, minh bạch đạo lý xử thế khi làm người, tu dưỡng phẩm đức để tránh hối tiếc khi về già.
+- Bài nhạc phủ Trường Ca Hành viết: “Bách xuyên Đông đáo hải, Hà thời phục Tây quy? Thiếu tráng bất nỗ lực, Lão đại đồ thương bi”. (Tạm dịch: Trăm sông theo hướng Đông đổ ra biển, Biết bao giờ về Tây? Tuổi trẻ không gắng sức, Khi già tiếc lắm thay!) Mỗi người đều nên học hành chăm chỉ khi còn nhỏ, minh bạch đạo lý xử thế khi làm người, tu dưỡng phẩm đức để tránh hối tiếc khi về già.
 
-Câu chuyện này liên quan đến hai mặt trọng yếu là bản chất của giáo dục và hiểu biết chữ nghĩa, hạch tâm nằm ở chỗ quý trọng hiền đức, nhưng nếu không hiểu biết chữ nghĩa, không biết đọc viết, tính toán, thì dù có đức hạnh tốt đẹp, cũng không cách nào để đức hạnh của mình tạo phúc cho dân trong phạm vi lớn hơn, càng không cách nào truyền thừa văn hóa và lịch sử đời đời. Tối thiểu nhất, dù bạn có tâm làm việc vì bách tính, nhưng lại không cách nào viết được văn thư biểu đạt dân tình, xử lý công vụ truyền đạt lên trên, ra lệnh xuống dưới, thì đức hạnh không được thiện dụng. Do đó tài năng kỹ thuật là vì đức mà dụng, cũng là rất quan trọng, là có thể để cho đức khai hoa kết quả. Cả hai hợp lại cùng nhau, mới có thể thành tựu đại nghiệp.
+- Câu chuyện này liên quan đến hai mặt trọng yếu là bản chất của giáo dục và hiểu biết chữ nghĩa, hạch tâm nằm ở chỗ quý trọng hiền đức, nhưng nếu không hiểu biết chữ nghĩa, không biết đọc viết, tính toán, thì dù có đức hạnh tốt đẹp, cũng không cách nào để đức hạnh của mình tạo phúc cho dân trong phạm vi lớn hơn, càng không cách nào truyền thừa văn hóa và lịch sử đời đời. Tối thiểu nhất, dù bạn có tâm làm việc vì bách tính, nhưng lại không cách nào viết được văn thư biểu đạt dân tình, xử lý công vụ truyền đạt lên trên, ra lệnh xuống dưới, thì đức hạnh không được thiện dụng. Do đó tài năng kỹ thuật là vì đức mà dụng, cũng là rất quan trọng, là có thể để cho đức khai hoa kết quả. Cả hai hợp lại cùng nhau, mới có thể thành tựu đại nghiệp.
 
-Vũ Huấn mở trường học biết rõ lý này, cho nên lấy tên “Sùng Hiền Nghĩa Thục” (quý trọng hiền đức), đối với thầy giáo và học sinh đều thành tâm khuyên nhủ, lấy hành vi thực tế, chân chính thực hành tinh thần Tam Tự Kinh, để thầy giáo dụng tâm không lười biếng, để học sinh trân quý thời gian và cơ hội. Lòng trân quý trẻ em của ông, đã vượt qua ngàn ngàn vạn vạn người cha người mẹ ruột, cho họ được giáo dục sâu sắc, dù trong khốn khổ ông nhưng chưa từng oán trời trách người, trong nghịch cảnh giữ vững bản tính thiện lương, đem tiền tài mà phải cực khổ mới tồn trữ được, dùng vào việc tạo phúc cho xã hội, dù chưa đọc sách, nhưng đã phụng hành giáo hối của Nho học một cách hết sức thiết thực và thực hiện chí hướng của Nho sinh, ông chính là kiểu người mà Khổng Tử đã khẳng định, mặc dù không có đọc sách, nhưng lại có thể ‘vô sư tự thông’ (không thầy mà tự thông suốt) bản chất làm người, có thể gọi là người có học vấn.
+- Vũ Huấn mở trường học biết rõ lý này, cho nên lấy tên “Sùng Hiền Nghĩa Thục” (quý trọng hiền đức), đối với thầy giáo và học sinh đều thành tâm khuyên nhủ, lấy hành vi thực tế, chân chính thực hành tinh thần Tam Tự Kinh, để thầy giáo dụng tâm không lười biếng, để học sinh trân quý thời gian và cơ hội. Lòng trân quý trẻ em của ông, đã vượt qua ngàn ngàn vạn vạn người cha người mẹ ruột, cho họ được giáo dục sâu sắc, dù trong khốn khổ ông nhưng chưa từng oán trời trách người, trong nghịch cảnh giữ vững bản tính thiện lương, đem tiền tài mà phải cực khổ mới tồn trữ được, dùng vào việc tạo phúc cho xã hội, dù chưa đọc sách, nhưng đã phụng hành giáo hối của Nho học một cách hết sức thiết thực và thực hiện chí hướng của Nho sinh, ông chính là kiểu người mà Khổng Tử đã khẳng định, mặc dù không có đọc sách, nhưng lại có thể ‘vô sư tự thông’ (không thầy mà tự thông suốt) bản chất làm người, có thể gọi là người có học vấn.
 
-Có thể thấy, người mà Khổng Tử nhận định là có học vấn, bản chất nằm ở chỗ hiểu và thực hành đạo nghĩa làm người. Vũ Huấn mặc dù không tiền không quyền, lại có thể vượt qua cảnh giới “cùng tắc độc thiện kỳ thân” (nghèo thì lo tốt cho bản thân mình), làm được điều không thể thực hiện, cũng đi “Kiêm tế thiên hạ” (cứu giúp người đời), có thể nào không khiến người ta nổi lòng tôn kính. Đây không phải là có học vấn sao? Chỉ có điều thật đáng tiếc, ông chưa biết chữ nghĩa, không cách nào đọc viết, không thể phát huy ánh sáng của phẩm đức lớn hơn nữa, nhưng phẩm đức vĩnh viễn là bản chất và hạch tâm của học vấn.
+- Có thể thấy, người mà Khổng Tử nhận định là có học vấn, bản chất nằm ở chỗ hiểu và thực hành đạo nghĩa làm người. Vũ Huấn mặc dù không tiền không quyền, lại có thể vượt qua cảnh giới “cùng tắc độc thiện kỳ thân” (nghèo thì lo tốt cho bản thân mình), làm được điều không thể thực hiện, cũng đi “Kiêm tế thiên hạ” (cứu giúp người đời), có thể nào không khiến người ta nổi lòng tôn kính. Đây không phải là có học vấn sao? Chỉ có điều thật đáng tiếc, ông chưa biết chữ nghĩa, không cách nào đọc viết, không thể phát huy ánh sáng của phẩm đức lớn hơn nữa, nhưng phẩm đức vĩnh viễn là bản chất và hạch tâm của học vấn.

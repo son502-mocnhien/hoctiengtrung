@@ -1,63 +1,65 @@
-# Nguyên văn
+## Nguyên văn
 
 曰喜怒，曰哀懼，
 愛惡欲，七情具。
 匏土革，木石金，
 絲與竹，乃八音。
 
-# Bính âm
+## Bính âm
 
 yuē xǐ nù, yuē āi jù,
 ài wù yù, qī qíng jù.
 páo tǔ gé, mù shí jīn,
 sī yǔ zhú, nǎi bā yīn.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Viết Hỷ Nộ, Viết Ai Cụ,
 Ái Ố Dục, Thất tình cụ.
 Bào Thổ Cách, Mộc Thạch Kim,
 Ti dữ Trúc, Nãi Bát âm.
 
-# Tạm dịch:
+## Tạm dịch:
 
 Rằng: Vui, Giận, rằng: Buồn, Sợ,
 Yêu, Ghét, Muốn, là Thất tình.
 Bào, Thổ, Cách, Mộc, Thạch, Kim,
 Ti và Trúc, là Bát âm.
 
-# Từ vựng:
+## Từ vựng:
 
-曰 (yuē) - Viết: Nói rằng, gọi là
-喜 (xǐ) - Hỷ: Vui mừng, hân hoan
-怒 (nù) - Nộ: Tức giận, phẫn nộ
-哀 (āi) - Ai: Buồn thương, bi thương
-懼 (jù) - Cụ: Sợ hãi
-愛 (ài) - Ái: Yêu thương, thích
-惡 (wù) - Ố: Ghét, căm ghét
-欲 (yù) - Dục: Ham muốn, dục vọng
-七情 (qī qíng) - Thất Tình: Bảy loại cảm xúc (Hỷ, Nộ, Ai, Cụ, Ái, Ố, Dục)
-七 (qī) - Thất: Số 7
-情 (qíng) - Tình: Cảm xúc, tình cảm
-具 (jù) - Cụ: Đầy đủ, sẵn có
-匏 (páo) - Bào: Quả bầu, nhạc cụ làm từ bầu như kèn bầu, sáo bầu
-土 (tǔ) - Thổ: Đất sét, nhạc cụ làm từ đất sét như sáo huân
-革 (gé) - Cách: Da thuộc, nhạc cụ làm từ da thuộc như trống
-木 (mù) - Mộc: Gỗ, nhạc cụ làm từ gỗ như mõ, song loan
-石 (shí) - Thạch: Đá, nhạc cụ làm từ đá như khánh đá
-金 (jīn) - Kim: Kim loại, nhạc cụ bằng kim loại như chuông, chiêng
-絲 (sī) - Ti: Dây tơ, nhạc cụ dây như đàn tỳ bà, cổ cầm
-與 (yǔ) - Dữ: Và, cùng
-竹 (zhú) - Trúc: Ống trúc, nhạc cụ dùng ống trúc như tiêu, sáo
-乃 (nǎi) - Nãi: Thì, là, chính là
-八 (bā) - Bát: Số 8
-音 (yīn) - Âm: Âm thanh, chỉ các loại nhạc cụ phát ra âm thanh
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 曰 | yuē | Viết | Nói rằng, gọi là |
+| 喜 | xǐ | Hỷ | Vui mừng, hân hoan |
+| 怒 | nù | Nộ | Tức giận, phẫn nộ |
+| 哀 | āi | Ai | Buồn thương, bi thương |
+| 懼 | jù | Cụ | Sợ hãi |
+| 愛 | ài | Ái | Yêu thương, thích |
+| 惡 | wù | Ố | Ghét, căm ghét |
+| 欲 | yù | Dục | Ham muốn, dục vọng |
+| 七情 | qī qíng | Thất Tình | Bảy loại cảm xúc (Hỷ, Nộ, Ai, Cụ, Ái, Ố, Dục) |
+| 七 | qī | Thất | Số 7 |
+| 情 | qíng | Tình | Cảm xúc, tình cảm |
+| 具 | jù | Cụ | Đầy đủ, sẵn có |
+| 匏 | páo | Bào | Quả bầu, nhạc cụ làm từ bầu như kèn bầu, sáo bầu |
+| 土 | tǔ | Thổ | Đất sét, nhạc cụ làm từ đất sét như sáo huân |
+| 革 | gé | Cách | Da thuộc, nhạc cụ làm từ da thuộc như trống |
+| 木 | mù | Mộc | Gỗ, nhạc cụ làm từ gỗ như mõ, song loan |
+| 石 | shí | Thạch | Đá, nhạc cụ làm từ đá như khánh đá |
+| 金 | jīn | Kim | Kim loại, nhạc cụ bằng kim loại như chuông, chiêng |
+| 絲 | sī | Ti | Dây tơ, nhạc cụ dây như đàn tỳ bà, cổ cầm |
+| 與 | yǔ | Dữ | Và, cùng |
+| 竹 | zhú | Trúc | Ống trúc, nhạc cụ dùng ống trúc như tiêu, sáo |
+| 乃 | nǎi | Nãi | Thì, là, chính là |
+| 八 | bā | Bát | Số 8 |
+| 音 | yīn | Âm | Âm thanh, chỉ các loại nhạc cụ phát ra âm thanh |
 
-# Dịch nghĩa tham khảo
+## Dịch nghĩa tham khảo
 
 Vui mừng, tức giận, đau buồn, sợ hãi, yêu thích, ghét và ham muốn là Thất tình, là bảy loại cảm xúc bẩm sinh của mỗi người. Người Trung Quốc cổ đại dùng tám loại nguyên liệu gồm quả bầu, đất sét, da thuộc, gỗ, đá, kim loại, dây tơ, ống trúc để làm nhạc cụ và gọi đó là Bát âm. Do được làm từ các chất liệu khác nhau nên âm thanh phát ra từ các nhạc cụ đó cũng mang nét đặc sắc riêng.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Từ Tứ quý Tứ phương, Ngũ hành Ngũ thường, Lục cốc Lục súc, giảng đến Thất tình và Bát âm. Người Trung Quốc thường nói rằng con người có ‘thất tình lục dục”. Mặc dù ở đây định nghĩa Thất tình, lấy ‘dục’ của ‘dục vọng’ quy vào trong Thất tình, nhưng thật ra là để tiện cho trẻ ghi nhớ. Thất tình xuất phát từ Đạo gia. Hoàng Đế Nội Kinh định nghĩa Hỷ 喜, Nộ 怒, Ưu 忧, Tư 思, Bi 悲, Khủng 恐, Kinh 惊 là Thất tình, cho rằng vui quá hại tâm, giận quá hại gan, ưu sầu và nhớ nghĩ quá độ hại tỳ vị, đau buồn quá độ làm hại phổi, sợ sệt và kinh hãi ắt hại thận. Cho nên người ưu tư quá độ thường ăn không ngon, bị kinh hãi trực tiếp tổn thương thận, mất kiểm soát bài tiết.
 
@@ -71,7 +73,7 @@ Cung 宫, Thương 商, Giốc 角, Chủy 徵, Vũ 羽 là nói đến âm lu�
 
 Từ đó có thể thấy, âm nhạc có thể dùng để dự đoán hưng suy tồn vong, họa phúc một sớm một chiều của một đất nước, Nho sinh thời xưa đều phải am hiểu âm nhạc mới có thể trị quốc, cũng có thể dưỡng sinh. Đây chỉ là nhập môn của âm nhạc.
 
-# Câu chuyện “Hoàng Đế và âm nhạc”
+## Câu chuyện “Hoàng Đế và âm nhạc”
 
 Đối với người Trung Quốc cổ đại, âm nhạc là công cụ để liên hệ với Thiên Thượng. Âm nhạc không chỉ để hưởng thụ và giải trí, mà còn là lễ tiết thần thánh để điều hòa mối quan hệ giữa Trời Đất.
 
