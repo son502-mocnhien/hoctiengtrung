@@ -58,28 +58,30 @@ Ngũ thường này, không cho phép rối loạn.
 
 “Ngũ hành” là chỉ Kim – Mộc – Thủy – Hỏa – Thổ (kim loại, gỗ, nước, lửa, đất). Người Trung Quốc cổ đại cho rằng đây là những thứ cơ bản cấu thành các loại sự vật trong vũ trụ, giữa chúng với nhau đồng thời có sự tương sinh tương khắc (tức là cái này sinh ra cái kia đồng thời cái này cũng triệt tiêu cái khác), đó là do nguyên lý của tự nhiên quyết định.
 
-## Đọc sách luận bút
+## Đọc sách luận bút 1
 
 Ở hai bài trước, từ số một đến số vạn nói về nguồn gốc của vạn vật và con người trong tự nhiên, cho con người có được một vũ trụ quan rộng lớn một cách tự nhiên, hiểu được rằng mối quan hệ giữa con người và tự nhiên vốn là nhất thể và có liên hệ tương hỗ với nhau. Vì vậy, trong cuộc sống hàng ngày cần hiểu rõ về sự thay đổi của bốn mùa, ở đây nhắc nhở con người phải chú ý thuận theo nhịp điệu của bốn mùa, cần phải phù hợp, không thể làm trái lẽ Trời. Nếu không thân thể sẽ không khỏe mạnh, cây trồng sẽ không phát triển tốt.
 
 Đây cũng là vũ trụ quan của Đạo gia, khái niệm thiên văn địa lý giảng ở đây là khái niệm “thiên nhân hợp nhất”. Cho nên sau đây sẽ tiếp tục giải thích thêm một bước nữa về phép tắc tự nhiên trong tam giới mà người xưa hiểu biết được. Đó là: Ngũ hành cấu thành vạn sự vạn vật trong vũ trụ, chúng tương sinh tương khắc lẫn nhau, cân bằng thì an, không cân bằng thì loạn.
 
 **(1) Mối quan hệ đối ứng của Ngũ hành và tự nhiên như sau:**
-Ngũ hành: Mộc, Hỏa, Thổ, Kim, Thủy
-Mùa: Xuân, Hạ, Trường hạ, Thu, Đông
-Phương vị: Đông, Nam, Trung (tâm), Tây, Bắc
-Khí hậu: Gió, Nóng, Ẩm, Khô, Lạnh
-Quá trình phát triển: Sinh, Trưởng, Chín, Thu (hoạch), Cất (giữ)
-Ngũ vị: Chua, Đắng, Ngọt, Cay, Mặn
-Ngũ sắc: Xanh, Đỏ, Vàng, Trắng, Đen
+| Ngũ Hành | **Mộc** | **Hỏa** | **Thổ** | **Kim** | **Thủy** |
+|---|---|---|---|---|---|
+| **Mùa** | Xuân | Hạ | Trường hạ | Thu | Đông |
+| **Phương vị** | Đông | Nam | Trung (tâm) | Tây | Bắc |
+| **Khí hậu** | Gió | Nóng | Ẩm | Khô | Lạnh |
+| **QT phát triển** | Sinh | Trưởng | Chín | Thu (hoạch) | Cất (giữ) |
+| **Ngũ vị** | Chua | Đắng | Ngọt | Cay | Mặn |
+| **Ngũ sắc** | Xanh | Đỏ | Vàng | Trắng | Đen |
 
 **(2) Mối quan hệ đối ứng của Ngũ hành và thân thể người gồm:**
-Ngũ hành: Mộc, Hỏa, Thổ, Kim, Thủy
-Tạng: Gan, Tim, Lá lách, Phổi, Thận
-Phủ: Túi mật, Ruột non, Dạ dày, Ruột già, Bàng quang
-Ngũ quan: Mắt, Lưỡi, Miệng, Mũi, Tai
-Hình thể: Gân, Mạch máu, Cơ, Da, Xương
-Tình cảm: Tức giận, Vui thích, Trầm tư, Buồn, Sợ hãi
+| Ngũ Hành | **Mộc** | **Hỏa** | **Thổ** | **Kim** | **Thủy** |
+|---|---|---|---|---|---|
+| **Tạng** | Gan | Tim | Lá lách | Phổi | Thận |
+| **Phủ** | Túi mật | Ruột non | Dạ dày | Ruột già | Bàng quang |
+| **Ngũ quan** | Mắt | Lưỡi | Miệng | Mũi | Tai |
+| **Hình thể** | Gân | Mạch máu | Cơ | Da | Xương |
+| **Tình cảm** | Tức giận | Vui thích | Trầm tư | Buồn | Sợ hãi |
 
 Theo quy luật này, chúng ta thấy rằng khi hiểu được mối quan hệ đối ứng giữa Ngũ hành với ngũ tạng của con người, ngũ vị và các mùa, thì có thể nắm rõ đạo lý cơ bản của dưỡng sinh, có thể thuận theo quy luật tự nhiên mà sinh hoạt cho điều độ.
 
@@ -108,6 +110,8 @@ Nghe nói, Hoàng Đế có “Thổ” đức, nên ông làm vua. Nhưng về 
 *[Chú thích 1] Quan hệ tương sinh: Mộc sinh Hỏa (Cây cháy ra lửa), Hỏa sinh Thổ (Sau khi lửa cháy tạo thành tro bụi), Thổ sinh Kim (bên trong đất có mỏ kim loại), Kim sinh Thủy (người xưa đào được mỏ kim loại thì thường có thêm mạch nước ngầm chảy ra, cho nên khoáng vật dễ sinh thủy), Thủy sinh Mộc (nước tưới giúp cây sinh trưởng).*
 
 *[Chú thích 2] Quan hệ tương khắc: Thủy khắc Hỏa (nước dập tắt lửa), Hỏa khắc Kim (lửa đốt kim loại nóng chảy), Kim khắc Mộc (rìu chặt gãy cây), Mộc khắc Thổ (cây hút chất dinh dưỡng trong đất, làm cho đất dần dần mất màu mỡ), Thổ khắc Thủy (đắp đất làm đê ngăn nước).*
+
+## Đọc sách luận bút 2
 
 **1. Đạo lý Nhân nghĩa Ngũ thường bây giờ ở đâu?**
 - Bài trước nói về Ngũ hành, bài này sẽ nói về Nhân, Nghĩa, Lễ, Trí, Tín, đây là năm yếu lĩnh lớn trong truyền thống làm người, đây chính là Ngũ thường trong “Tam cương Ngũ thường”, từng bị Trung Cộng hủy hoại thông qua các cuộc cách mạng, muốn người Trung Quốc chà đạp nó xuống đất, vĩnh viễn không thể ngóc đầu dậy. Người ta không biết Ngũ thường là như thế nào, sợ nó như ma quỷ, rắn độc. Vì bị Trung Cộng kiểm soát nên Tam Tự Kinh đã bị buộc phải rút khỏi chương trình giáo dục, thay thế bằng lý luận giai cấp đầy đấu tranh và hận thù.
