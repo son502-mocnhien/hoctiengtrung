@@ -2864,7 +2864,7 @@ function startQuizMode() {
         if (timeRange && timeRange.includes(' - ')) {
             const [startTimeStr, endTimeStr] = timeRange.split(' - ');
             audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.2);
-            audioEndTime = timeToSeconds(endTimeStr);
+            audioEndTime = timeToSeconds(endTimeStr) - 0.2;
             audioElement.currentTime = audioStartTime;
         }
     }
