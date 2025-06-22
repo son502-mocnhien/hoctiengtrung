@@ -1,58 +1,63 @@
-# Nguyên văn
+## Nguyên văn
 
 三才者，天地人，
 三光者，日月星。
 三綱者，君臣義，
 父子親，夫婦順。
 
-# Bính âm
+## Bính âm
 
 sān cái zhě, tiān dì rén,
 sān guāng zhě, rì yuè xīng.
 sān gāng zhě, jūn chén yì,
 fù zǐ qīn, fū fù shùn.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Tam tài giả, thiên địa nhân,
 Tam quang giả, nhật nguyệt tinh.
 Tam cương giả, quân thần nghĩa,
 Phụ tử thân, phu phụ thuận.
 
-# Tạm dịch
+## Tạm dịch
 
 Tam tài là Trời, Đất, Người;
 Tam quang là Mặt trời, Mặt trăng, Sao.
 Tam cương là: quân-thần có nghĩa,
 Cha-con có tình thân, vợ-chồng sống thuận hòa.
 
-# Từ vựng:
+## Từ vựng:
 
-(1) 三才 (Tam Tài): tức là Thiên tài, Địa tài, Nhân tài. Chữ "才" (tài), nghĩa gốc là "cây cỏ mới mọc", mở rộng ra có nghĩa là "cơ bản". Xuất xứ từ "Dịch Kinh・Hệ Từ Hạ Truyện": "Dịch chi vi thư dã, quảng đại tất bị, hữu thiên đạo yên, hữu nhân đạo yên, hữu địa đạo yên. Kiêm tam tài nhi lưỡng chi, cố lục; lục giả phi tha dã, tam tài chi đạo dã." (Dịch là sách vậy, rộng lớn đầy đủ, có đạo trời, có đạo người, có đạo đất. Gộp ba tài mà nhân đôi, nên thành sáu; sáu chẳng phải gì khác, là đạo của ba tài vậy.)
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 三才 | sān cái | Tam Tài | Thiên, Địa, Nhân; ba yếu tố cơ bản của vũ trụ, xuất xứ từ Dịch Kinh |
+| 者 | zhě | Giả | Đại từ, dùng để nhấn mạnh hoặc chỉ đối tượng được đề cập |
+| 天 | tiān | Thiên | Trời, biểu thị quy luật tự nhiên và vũ trụ |
+| 地 | dì | Địa | Đất, nuôi dưỡng vạn vật |
+| 人 | rén | Nhân | Người, nhân loại |
+| 三光 | sān guāng | Tam Quang | Mặt trời, mặt trăng, sao; ba thứ ánh sáng trên trời, xuất xứ từ Bạch Hổ Thông |
+| 日 | rì | Nhật | Mặt trời |
+| 月 | yuè | Nguyệt | Mặt trăng |
+| 星 | xīng | Tinh | Sao |
+| 三綱 | sān gāng | Tam Cương | Ba nguyên tắc đạo đức chính yếu (vua-tôi, cha-con, vợ-chồng) |
+| 綱 | gāng | Cương | Chuẩn tắc, nguyên tắc chính yếu |
+| 君 | jūn | Quân | Vua, quân vương |
+| 臣 | chén | Thần | Thần, tôi tớ |
+| 義 | yì | Nghĩa | Lẽ phải, nghĩa vụ hợp đạo lý |
+| 父 | fù | Phụ | Cha |
+| 子 | zǐ | Tử | Con |
+| 親 | qīn | Thân | Tình thân thiết, gần gũi |
+| 夫 | fū | Phu | Chồng |
+| 婦 | fù | Phụ | Vợ |
+| 順 | shùn | Thuận | Hòa thuận, êm ấm |
 
-(2) 者 (giả): đại từ, chỉ người hoặc vật.
-
-(3) 天 (Thiên): chỉ trời vận hành không ngừng.
-
-(4) 地 (Địa): chỉ đất nuôi dưỡng vạn vật.
-
-(5) 三光 (Tam Quang): tức là Nhật quang, Nguyệt quang, Tinh quang. Chữ "光" (quang) nghĩa là ánh sáng, hào quang. "Tam Quang" xuất xứ từ "Hán・Ban Cố《Bạch Hổ Thông・Phong Công Hầu》": "Thiên đạo mạc bất thành ư tam, thiên hữu tam quang, nhật, nguyệt, tinh; địa hữu tam hình, cao, hạ, bình; nhân hữu tam tôn, quân, phụ, sư." (Đạo trời không gì không thành ở ba, trời có ba thứ ánh sáng, mặt trời, mặt trăng, sao; đất có ba hình thể, cao, thấp, bằng; người có ba bậc tôn quý, vua, cha, thầy.)
-
-(6) 綱 (Cương): nghĩa gốc là sợi dây thừng to trên lưới, mở rộng ra chỉ phần chính yếu của sự vật, tức là cương lĩnh, chuẩn tắc.
-
-(7) 義 (Nghĩa): hợp lẽ phải, chỉ mỗi người尽 (tận) hết nghĩa vụ của mình.
-
-(8) 親 (Thân): thân cận, thân yêu.
-
-(9) 順 (Thuận): hòa thuận, êm ấm.
-
-# Dịch nghĩa tham khảo
+## Dịch nghĩa tham khảo
 
 Thế nào gọi là Tam Tài? Tam Tài chính là Thiên tài, Địa tài, Nhân tài, là những yếu tố cơ bản cấu thành nên vũ trụ nhỏ bé này. Thế nào gọi là Tam Quang? Tam Quang chính là mặt trời, mặt trăng, các vì sao, là ba loại vật thể phát ra ánh sáng trên trời, cũng là nguồn sáng chủ yếu trên trái đất.
 
 Thế nào là Tam Cương? Tam Cương chính là vua tôi, cha con, vợ chồng, chỉ ba mối quan hệ luân thường quan trọng nhất giữa người với người. Vua và tôi hành xử phải hợp đạo nghĩa, mỗi người尽 (tận) chức trách của mình; cha mẹ và con cái phải yêu thương nhau, cha từ con hiếu; vợ chồng phải hòa thuận, tôn trọng lẫn nhau.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Thường nghe người già nói, trên trời có một ngôi sao, dưới đất có một người, đây là thể hiện của vũ trụ quan "Thiên nhân hợp nhất" truyền thống hàng ngàn năm của Trung Quốc, cũng chính là căn cứ của thuyết Tam Tài. Người xưa cho rằng, mỗi người ở trần gian đều tương ứng với một ngôi sao trên trời, vua chúa tướng lĩnh đều là các sao trên trời giáng xuống. Người cao minh xem thiên tượng có thể đoán trước được vận số của triều đình và nhân sự. Lớn hơn có thể suy đoán sự thay đổi của các triều đại hàng ngàn năm, sự biến thiên của nhân sự, như "Càn Khôn Vạn Niên Ca" của Khương Tử Nha.
 
@@ -64,7 +69,7 @@ Từ thời nhà Chu với "Càn Khôn Vạn Niên Ca" của Khương Tử Nha, 
 
 Vì vậy, lịch sử thông qua Khổng Tử quy định các chuẩn mực đạo đức làm người, chủ yếu chú trọng ba mối quan hệ luân thường lớn. Mối quan hệ luân thường lớn nhất của nhân loại là quân thần, vua tôi trong quản lý đất nước, cái gọi là "vua ra vua, tôi ra tôi", chính là vua có đạo của vua, tôi có đạo của tôi, mỗi người giữ bổn phận, tuân theo đạo lý làm người của thân phận mình, để đạt được việc mỗi người尽 (tận) trách nhiệm, giúp đỡ lẫn nhau, chăm sóc tốt cho dân chúng và đất nước. Kẻ nào trái với đạo nghĩa quân thần, vì tư dục, tức là kẻ bất đức, ắt sẽ chịu thiên khiển. Cha con và vợ chồng nói về trật tự luân thường trong gia đình, đạo lý luân thường. Cha mẹ phải từ ái, con cái phải hiếu kính, vợ chồng càng phải kính trọng nhau như khách, giống như vua tôi trong nhà, cũng phải恪盡 (khác tận) bổn phận. Cho nên, việc định ra những chuẩn mực đạo đức luân thường chủ yếu này là để con người尽 (tận) chức trách, giữ cho đạo đức duy trì ở một mức độ nhất định, mục đích vẫn là để con người giữ gìn bản tính lương thiện của mình. Ít nhất có thể tránh được ác báo giáng xuống. Phật gia giảng về nhân quả ba đời, càng làm sâu sắc thêm nguyên nhân căn bản khiến người xưa coi trọng đạo đức hành thiện, chú trọng đạo đức luân thường.
 
-# Câu chuyện "Nữ Oa Tạo Nhân"
+## Câu chuyện "Nữ Oa Tạo Nhân"
 
 Truyền thuyết thần thoại Trung Quốc kể rằng, Bàn Cổ khai thiên lập địa, sau mười vạn tám ngàn năm thì kiệt sức ngã xuống, đầu biến thành núi cao, mắt biến thành mặt trời mặt trăng, lông tóc biến thành cây cỏ, máu biến thành biển cả, tiếng nói biến thành sấm, hơi thở biến thành gió, nước mắt biến thành sông ngòi. Từ đó, trái đất có núi, sông, cây cỏ, chim muông, sâu bọ, cá, nhưng lại không có con người.
 
@@ -74,10 +79,10 @@ Thế là, mỗi ngày Nữ Oa rất chăm chỉ dùng đất vàng nặn ra nhi
 
 Tuy nhiên, tuổi thọ của những người nhỏ bé rất ngắn, để không làm cho loài người tuyệt diệt, vị mẫu thân hiền từ của loài người này đã thiết lập quan hệ hôn nhân cho họ, làm mối se duyên, để họ sinh con đẻ cái, đời đời sinh sôi nảy nở.
 
-# Câu chuyện "Người vợ thông minh của Hứa Doãn"
+## Câu chuyện "Người vợ thông minh của Hứa Doãn"
 
 Hứa Doãn là người thời Tam Quốc. Vợ ông là con gái của Nguyễn Cung, em gái của Nguyễn Khản, dung mạo rất xấu xí. Vừa làm lễ cưới xong, Hứa Doãn (dĩ nhiên) chê bai ngoại hình của vợ, không chịu bước vào động phòng, khiến người nhà vô cùng lo lắng. Đúng lúc đó, Hoàn Phạm đến thăm, vợ Hứa Doãn nói: "Không cần lo lắng, Hoàn Phạm nhất định có thể khuyên ông ấy vào động phòng." Quả nhiên, Hoàn Phạm nói với Hứa Doãn: "Nhà Nguyễn đã gả con gái xấu xí cho anh, nhất định có ý sâu xa, anh nên dụng tâm quan sát, tìm hiểu."
 
 Hứa Doãn nghe xong liền trở về phòng trong, vừa nhìn thấy người vợ mới cưới, liền quay người muốn đi. Vợ Hứa Doãn biết ông ấy một khi ra khỏi cửa phòng sẽ không bao giờ quay lại nữa, thế là liền giữ chặt vạt áo ông. Hứa Doãn vốn muốn làm khó vợ, bèn hỏi: "Phụ nữ nên có tứ đức (chú thích), nàng có mấy đức?" Vợ Hứa Doãn đáp: "Thiếp chỉ thiếu mỗi dung mạo thôi! Nhưng một người đọc sách phải có nhiều đức, phu quân có mấy đức?" Hứa Doãn tự cao nói: "Đều có." Vợ Hứa Doãn nói: "Trong trăm nết thì đức là quan trọng nhất, phu quân háo sắc không trọng đức, sao có thể nói là đều có?" Hứa Doãn nghe xong vô cùng xấu hổ, từ đó đối đãi với vợ rất kính trọng.
 
-*(Chú thích) Tứ đức chỉ phụ đức, phụ công, phụ ngôn, phụ dung.
+*(Chú thích) Tứ đức chỉ phụ đức, phụ công, phụ ngôn, phụ dung.*

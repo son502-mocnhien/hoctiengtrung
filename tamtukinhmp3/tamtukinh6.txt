@@ -1,79 +1,62 @@
-# Nguyên văn
+## Nguyên văn
 
 首孝悌，次見聞，
 知某數，識某文。
 一而十，十而百，
 百而千，千而萬。
 
-# Bính âm
+## Bính âm
 
 shǒu xiào tì, cì jiàn wén,
 zhī mǒu shù, shì mǒu wén.
 yī ér shí, shí ér bǎi,
 bǎi ér qiān, qiān ér wàn.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Thủ hiếu đễ, Thứ kiến văn.
 Tri mỗ số, Thức mỗ văn.
 Nhất nhi thập, Thập nhi bách,
 Bách nhi thiên, Thiên nhi vạn.
 
-# Tạm dịch
+## Tạm dịch
 
 Hiếu thuận trước, tri thức sau.
 Biết con số, hiểu được chữ.
 Một tới mười, mười tới trăm,
 Trăm tới ngàn, ngàn tới vạn.
 
-# Từ vựng
+## Từ vựng
 
-首 (shǒu) - Thủ: Đầu tiên, trước nhất, đứng đầu
-孝悌 (xiào tì) - Hiếu Đễ: Hiếu thảo với cha mẹ, kính nhường anh chị
-次 (cì) - Thứ: Sau đó, tiếp theo
-見聞 (jiàn wén) - Kiến Văn: Những gì mắt thấy tai nghe, chỉ kiến thức thông thường hoặc tri thức
-知 (zhī) - Tri: Biết, hiểu
-某 (mǒu) - Mỗ: Chỉ người hoặc vật không xác định tên
-數 (shù) - Số: Phép tính toán, toán học, số học (một môn trong lục nghệ)
-識 (shì) - Thức: Nhận biết, hiểu rõ
-文 (wén) - Văn: Chữ viết, văn chương, học vấn
-一 (yī) - Nhất: Số 1
-而 (ér) - Nhi: Và, rồi, nối tiếp
-一而十 (yī ér shí) - Nhất Nhi Thập: Từ 1 đến 10
-十 (shí) - Thập: Số 10
-十而百 (shí ér bǎi) - Thập Nhi Bách: Từ 10 đến 100
-百 (bǎi) - Bách: Số 100
-百而千 (bǎi ér qiān) - Bách Nhi Thiên: Từ 100 đến 1000
-千 (qiān) - Thiên: Số 1000
-千而萬 (qiān ér wàn) - Thiên Nhi Vạn: Từ 1000 đến 10,000 (vạn)
-萬 (wàn) - Vạn: Số 10,000
-首 (shǒu) - Thủ: Đầu tiên, trước nhất, đứng đầu
-孝悌 (xiào tì) - Hiếu Đễ: Hiếu thảo với cha mẹ, kính nhường anh chị
-次 (cì) - Thứ: Sau đó, tiếp theo
-見聞 (jiàn wén) - Kiến Văn: Những gì mắt thấy tai nghe, chỉ kiến thức thông thường hoặc tri thức
-知 (zhī) - Tri: Biết, hiểu
-某 (mǒu) - Mỗ: Chỉ người hoặc vật không xác định tên
-數 (shù) - Số: Phép tính toán, toán học, số học (một môn trong lục nghệ)
-識 (shì) - Thức: Nhận biết, hiểu rõ
-文 (wén) - Văn: Chữ viết, văn chương, học vấn
-一 (yī) - Nhất: Số 1
-而 (ér) - Nhi: Và, rồi, nối tiếp
-一而十 (yī ér shí) - Nhất Nhi Thập: Từ 1 đến 10
-十 (shí) - Thập: Số 10
-十而百 (shí ér bǎi) - Thập Nhi Bách: Từ 10 đến 100
-百 (bǎi) - Bách: Số 100
-百而千 (bǎi ér qiān) - Bách Nhi Thiên: Từ 100 đến 1000
-千 (qiān) - Thiên: Số 1000
-千而萬 (qiān ér wàn) - Thiên Nhi Vạn: Từ 1000 đến 10,000 (vạn)
-萬 (wàn) - Vạn: Số 10,000
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 首 | shǒu | Thủ | Đầu tiên, trước nhất, đứng đầu |
+| 孝悌 | xiào tì | Hiếu Đễ | Hiếu thảo với cha mẹ, kính nhường anh chị |
+| 次 | cì | Thứ | Sau đó, tiếp theo |
+| 見聞 | jiàn wén | Kiến Văn | Những gì mắt thấy tai nghe, chỉ kiến thức thông thường hoặc tri thức |
+| 知 | zhī | Tri | Biết, hiểu |
+| 某 | mǒu | Mỗ | Chỉ người hoặc vật không xác định tên |
+| 數 | shù | Số | Phép tính toán, toán học, số học (một môn trong lục nghệ) |
+| 識 | shì | Thức | Nhận biết, hiểu rõ |
+| 文 | wén | Văn | Chữ viết, văn chương, học vấn |
+| 一 | yī | Nhất | Số 1 |
+| 而 | ér | Nhi | Và, rồi, nối tiếp |
+| 一而十 | yī ér shí | Nhất Nhi Thập | Từ 1 đến 10 |
+| 十 | shí | Thập | Số 10 |
+| 十而百 | shí ér bǎi | Thập Nhi Bách | Từ 10 đến 100 |
+| 百 | bǎi | Bách | Số 100 |
+| 百而千 | bǎi ér qiān | Bách Nhi Thiên | Từ 100 đến 1000 |
+| 千 | qiān | Thiên | Số 1000 |
+| 千而萬 | qiān ér wàn | Thiên Nhi Vạn | Từ 1000 đến 10,000 (vạn) |
+| 萬 | wàn | Vạn | Số 10,000 |
 
-# Dịch nghĩa tham khảo
+## Dịch nghĩa tham khảo
 
 Làm người quan trọng nhất chính là trước tiên phải học tập đạo lý làm sao để hiếu kính cha mẹ, hòa thuận với anh em; tiếp đó là bắt đầu học tập tri thức trong sinh hoạt hằng ngày. Nội dung kiến thức trong sinh hoạt hằng ngày bao gồm khả năng hiểu rõ sự biến hóa của con số, hiểu được cách tính toán; đồng thời có thể học chữ, đọc văn chương.
 
 Trung Quốc (và cả nước ta) áp dụng phương pháp tính toán thập phân. 1 là con số bắt đầu, 1 cho đến 10 là những con số cơ bản, tiếp sau là theo quy tắc nhân 10, 10 lần 10 là 100, 10 lần 100 là 1.000, 10 lần 1.000 là 1 vạn (tức 10.000). Như vậy cứ thế nhân lên vô cùng vô tận.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Rất rõ ràng, hai câu đầu của bài này là tổng kết và nhấn mạnh ý bài trước, nêu rõ tầm quan trọng của việc hiếu kính cha mẹ và hòa thuận với anh em. Thật ra bài học trước là nói về ‘Đễ’ 悌, lấy câu chuyện Khổng Dung bốn tuổi mà đã biết nhường quả lê lớn cho anh để chủ yếu nhấn mạnh lòng cung kính yêu thương của người em nhỏ đối với anh mình. Chữ ‘đễ’ 悌 gồm hai chữ Đệ (弟) và Tâm (心) cấu thành. Ở bài trước có nói “Đễ vu trưởng Nghi tiên tri” rõ ràng nhấn mạnh ý tứ làm em phải cung kính đối với anh chị.
 
@@ -85,7 +68,7 @@ Là quân vương, trên nền tảng cơ bản là cái tâm ân nghĩa của h
 
 Vì vậy, bài học này nói rất rõ ràng, làm người trước tiên phải làm được hai chữ hiếu đễ, là thể hiện của việc biết cảm ân và làm người, là nền tảng làm người, hiểu được đạo lý căn bản, tiếp đó mới học các loại bản sự, hiểu rõ các loại kiến thức và kinh nghiệm, đó mới là chính đạo. Nếu không, có tài mà không có đức, thì chẳng phải dễ trở thành kẻ tiểu nhân phá hoại. Từ đầu tới cuối vẫn là nhấn mạnh tầm quan trọng của đức.
 
-# Câu chuyện về vua Thuấn
+## Câu chuyện về vua Thuấn
 
 Theo câu chuyện truyền thuyết thời thượng cổ, Thuấn là một người vô cùng hiếu thuận. Cha của Thuấn bị mù, tên là Cổ Tẩu, mẹ của Thuấn qua đời từ khi Thuấn còn nhỏ. Sau đó, cha Thuấn lấy thêm một người vợ, chính là mẹ kế của Thuấn, tính tình của mẹ kế rất bất hảo, đối với Thuấn không những không thương yêu còn gây khó khăn đủ đường.
 
@@ -101,8 +84,8 @@ Ngoài ra, vua Nghiêu còn để Thuấn lấy mỹ đức hiếu đễ dạy b
 
 Cuối cùng, vua Nghiêu thấy được Thuấn là người có đức hạnh cao thượng và trí tuệ phi phàm, liền nhường ngôi vua lại cho Thuấn.
 
-Đạo hiếu của ông là ‘dĩ đức báo oán’, vô tư vô hối (không vì mình không hối hận), đã thể hiện được đức đại hiếu. Cha mẹ yêu ta, nói hiếu kính cũng không khó, nhưng cha mẹ chán ghét ta, ngược đãi ta, thậm chí hại mệnh ta, hay như đối đãi với người mẹ kế không có quan hệ máu mủ, mà vẫn không mang ý đối địch, chí khí cao như thế, chính là để lưu lại cho dân tộc Trung Hoa phong phạm của bậc quân tử và truyền thống lấy hiếu trị quốc.
+- Đạo hiếu của ông là ‘dĩ đức báo oán’, vô tư vô hối (không vì mình không hối hận), đã thể hiện được đức đại hiếu. Cha mẹ yêu ta, nói hiếu kính cũng không khó, nhưng cha mẹ chán ghét ta, ngược đãi ta, thậm chí hại mệnh ta, hay như đối đãi với người mẹ kế không có quan hệ máu mủ, mà vẫn không mang ý đối địch, chí khí cao như thế, chính là để lưu lại cho dân tộc Trung Hoa phong phạm của bậc quân tử và truyền thống lấy hiếu trị quốc.
 
-Vì vậy, câu chuyện về vua Thuấn thời thượng cổ ở trên đây, cho thấy đạo lý làm người mà Nho gia giảng, đạo lý ‘trì gia trị quốc’ (tề gia trị quốc), đạo lý ‘dĩ hiếu trị quốc’ (lấy hiếu trị quốc), đều xuất phát từ sự hướng dẫn và giáo hóa của các bậc thánh vương thời thượng cổ, chứ không phải bản thân Nho gia bỗng nhiên mà có. Hơn nữa kính trọng người trên thế nào, đối đãi người dưới ra sao, đã nói rất rõ ràng, rất toàn diện, đối đãi bất công thì dĩ đức báo oán, đối đãi với em mình thì hết lòng chăm sóc. Điều được nhấn mạnh ở đây là ý chí và trách nhiệm vô tư to lớn, chứ không phải thứ tình riêng hẹp hòi ‘người tốt với ta, thì ta mới tốt với người’.
+- Vì vậy, câu chuyện về vua Thuấn thời thượng cổ ở trên đây, cho thấy đạo lý làm người mà Nho gia giảng, đạo lý ‘trì gia trị quốc’ (tề gia trị quốc), đạo lý ‘dĩ hiếu trị quốc’ (lấy hiếu trị quốc), đều xuất phát từ sự hướng dẫn và giáo hóa của các bậc thánh vương thời thượng cổ, chứ không phải bản thân Nho gia bỗng nhiên mà có. Hơn nữa kính trọng người trên thế nào, đối đãi người dưới ra sao, đã nói rất rõ ràng, rất toàn diện, đối đãi bất công thì dĩ đức báo oán, đối đãi với em mình thì hết lòng chăm sóc. Điều được nhấn mạnh ở đây là ý chí và trách nhiệm vô tư to lớn, chứ không phải thứ tình riêng hẹp hòi ‘người tốt với ta, thì ta mới tốt với người’.
 
-Đối với con cái mà nói, khác với bài học trước chủ yếu nhấn mạnh kính ý và cảm ân của con, em đối với cha mẹ và anh chị, bài học này lại là câu chuyện mẫu mực và đáng tham khảo về cách làm người anh, người chị.
+- Đối với con cái mà nói, khác với bài học trước chủ yếu nhấn mạnh kính ý và cảm ân của con, em đối với cha mẹ và anh chị, bài học này lại là câu chuyện mẫu mực và đáng tham khảo về cách làm người anh, người chị.

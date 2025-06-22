@@ -1,60 +1,62 @@
-# Nguyên văn
+## Nguyên văn
 
 曰春夏，曰秋冬，
 此四時，運不窮。
 曰南北，曰西東，
 此四方，應乎中。
 
-# Bính âm
+## Bính âm
 
 yuē chūn xià, yuē qiū dōng,
 cǐ sì shí, yùn bù qióng.
 yuē nán běi, yuē xī dōng,
 cǐ sì fāng, yìng hū zhōng.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Viết xuân hạ, Viết thu đông,
 Thử tứ thời, Vận bất cùng.
 Viết nam bắc, Viết tây đông,
 Thử tứ phương, Ứng hồ trung.
 
-# Tạm dịch:
+## Tạm dịch:
 
 Mùa xuân mùa hạ, mùa thu mùa đông,
 Bốn mùa này, tuần hoàn không ngừng.
 Hướng nam hướng bắc, hướng tây hướng đông,
 Bốn phương này, đối ứng ở trung tâm.
 
-# Từ vựng:
+## Từ vựng:
 
-曰 (yuē) - Viết: Nói rằng, gọi là
-春 (chūn) - Xuân: Mùa xuân
-夏 (xià) - Hạ: Mùa hè
-秋 (qiū) - Thu: Mùa thu
-冬 (dōng) - Đông: Mùa đông
-此 (cǐ) - Thử: Này, cái này, ấy, đó
-四 (sì) - Tứ: Số 4
-時 (shí) - Thời: Thời gian, mùa trong năm
-運 (yùn) - Vận: Vận hành, chuyển động tuần hoàn
-不 (bù) - Bất: Không, chẳng
-窮 (qióng) - Cùng: Hết, cạn kiệt
-南 (nán) - Nam: Phương nam
-北 (běi) - Bắc: Phương bắc
-西 (xī) - Tây: Phương tây
-東 (dōng) - Đông: Phương đông
-方 (fāng) - Phương: Phương vị, phương hướng
-應 (yìng) - Ứng: Tương ứng, phù hợp
-乎 (hū) - Hồ: Ở, tại
-中 (zhōng) - Trung: Giữa, trung tâm
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 曰 | yuē | Viết | Nói rằng, gọi là |
+| 春 | chūn | Xuân | Mùa xuân |
+| 夏 | xià | Hạ | Mùa hè |
+| 秋 | qiū | Thu | Mùa thu |
+| 冬 | dōng | Đông | Mùa đông |
+| 此 | cǐ | Thử | Này, cái này, ấy, đó |
+| 四 | sì | Tứ | Số 4 |
+| 時 | shí | Thời | Thời gian, mùa trong năm |
+| 運 | yùn | Vận | Vận hành, chuyển động tuần hoàn |
+| 不 | bù | Bất | Không, chẳng |
+| 窮 | qióng | Cùng | Hết, cạn kiệt |
+| 南 | nán | Nam | Phương nam |
+| 北 | běi | Bắc | Phương bắc |
+| 西 | xī | Tây | Phương tây |
+| 東 | dōng | Đông | Phương đông |
+| 方 | fāng | Phương | Phương vị, phương hướng |
+| 應 | yìng | Ứng | Tương ứng, phù hợp |
+| 乎 | hū | Hồ | Ở, tại |
+| 中 | zhōng | Trung | Giữa, trung tâm |
 
-# Dịch nghĩa tham khảo
+## Dịch nghĩa tham khảo
 
 Xuân, hạ, thu, đông gọi là bốn mùa (tứ quý) trong năm, mỗi mùa đều có nét riêng (xuân sinh sôi, hạ lớn lên, thu thu hoạch, đông cất trữ), không hề đứt đoạn biến hóa, xuân qua hạ đến, thu đi đông lại, tuần hoàn không dứt, vĩnh viễn không ngừng.
 
 Đông, nam, tây, bắc gọi là bốn phương (tứ phương), chỉ các vị trí phương hướng. Bốn phương hướng này đều lấy một điểm ở trung tâm làm chuẩn, và chúng đối ứng với nhau, như thế ta mới có thể định ra được các phương vị.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Trong bài học trước có nói con người trước hết phải biết hiếu kính cha mẹ, yêu thương anh em, đây là điều cơ bản và quan trọng nhất của đạo làm người, sau đó mới tiếp xúc tìm hiểu kinh nghiệm và học tập các loại tri thức. Khác biệt với đạo đức làm người, những tài năng bản sự này chỉ là thứ yếu. Có nghĩa là, cổ nhân không phủ nhận nắm bắt tri thức, mà cho rằng cần phải có cả đức, tài vẹn toàn, mới có thể cống hiến cho xã hội, là “đức” làm chủ “tài”, “tài” vì “đức” mà sử dụng, đây là tư tưởng nội hàm của Tam Tự Kinh.
 
@@ -76,7 +78,7 @@ Ngày nay, con người vi phạm các quy luật của tự nhiên, không làm
 
 Còn ý nghĩa của việc học tập phương hướng địa lý thì cứ xem câu chuyện dưới đây sẽ hiểu.
 
-# Câu chuyện “Hoàng Đế và xe chỉ nam (chỉ nam xa)”
+## Câu chuyện “Hoàng Đế và xe chỉ nam (chỉ nam xa)”
 
 Trước khi phát minh ra la bàn, con người dựa vào mặt trời và các ngôi sao để xác định phương hướng khi đi đường. Ban đêm, con người thời cổ đại quan sát sao Bắc Cực, ban ngày thì quan sát mặt trời để phân biệt phương hướng.
 
@@ -88,4 +90,4 @@ Khi đó, ở phương đông có một thủ lĩnh của bộ tộc Cửu Lê t
 
 Quân hai bên giao chiến tại Trác Lộc, mặc dù quân của Xi Vưu dũng mãnh, nhưng gặp quân của Hoàng Đế lại không chống đỡ được, lần lượt tháo chạy. Lúc này, mặc dù trên chiến trường không có gió cát, nhưng lại dày đặc sương mù, quân của hai bên không thể phân biệt được đông tây nam bắc. Nhờ trên xe chỉ nam của Hoàng Đế có đặt một tượng người sắt nhỏ, tay của người sắt luôn chỉ hướng nam, dựa vào chỉ dẫn của xe chỉ nam, quân của Hoàng Đế có thể phân biệt rõ được phương hướng trong làn sương mù dày đặc đó, nên đã đánh bại được quân của Xi Vưu và giành thắng lợi. Đây chính là “trận chiến Trác Lộc”.
 
-Câu chuyện này cho thấy phân biệt phương hướng địa lý là rất quan trọng, không chỉ có chiến tranh mới cần mà trong cuộc sống cũng rất cần. Đi đến địa phương xa lạ mà nắm được kiến thức này, thì sẽ không bị lạc đường. Cho tới ngày nay, thường thức cơ bản này vẫn khá hữu dụng. Nếu như du lịch vào nơi rừng rậm nguyên sinh, còn có thể tự cứu mình. Giáo dục Nho gia rất thực dụng (thực tế và hữu dụng), dạy bảo cho các em những kiến thức tương quan chặt chẽ đến cuộc sống tương lai của con người.
+- Câu chuyện này cho thấy phân biệt phương hướng địa lý là rất quan trọng, không chỉ có chiến tranh mới cần mà trong cuộc sống cũng rất cần. Đi đến địa phương xa lạ mà nắm được kiến thức này, thì sẽ không bị lạc đường. Cho tới ngày nay, thường thức cơ bản này vẫn khá hữu dụng. Nếu như du lịch vào nơi rừng rậm nguyên sinh, còn có thể tự cứu mình. Giáo dục Nho gia rất thực dụng (thực tế và hữu dụng), dạy bảo cho các em những kiến thức tương quan chặt chẽ đến cuộc sống tương lai của con người.

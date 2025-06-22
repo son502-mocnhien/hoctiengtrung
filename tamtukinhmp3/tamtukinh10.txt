@@ -1,65 +1,67 @@
-# Nguyên văn
+## Nguyên văn
 
 稻粱菽，麥黍稷，
 此六穀，人所食。
 馬牛羊，雞犬豕，
 此六畜，人所飼。
 
-# Bính âm
+## Bính âm
 
 dào liáng shú, mài shǔ jì,
 cǐ liù gǔ, rén suǒ shí.
 mǎ niú yáng, jī quǎn shǐ,
 cǐ liù chù, rén suǒ sì.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Đạo Lương Thục, Mạch Thử Tắc,
 Thử lục cốc, Nhân sở thực.
 Mã Ngưu Dương, Kê Khuyển Thỉ,
 Thử lục súc, Nhân sở tự.
 
-# Tạm dịch:
+## Tạm dịch:
 
 Lúa, kê, đậu, lúa mạch, lúa nếp, cao lương,
 Lục cốc này, là thứ mà con người ăn.
 Ngựa, trâu, dê, gà, chó, lợn,
 Lục súc này, là thứ mà con người nuôi.
 
-# Từ vựng:
+## Từ vựng:
 
-稻 (dào) - Đạo: Cây lúa, thân cao 3-4 xích, hạt có vỏ cứng, xát vỏ thành gạo
-粱 (liáng) - Lương: Gạo kê, hạt nhỏ màu vàng, dùng làm thức ăn
-菽 (shú) - Thục: Tên gọi chung các loại đậu
-麥 (mài) - Mạch: Lúa mạch, lúa mì, hạt dùng làm bột mì, đường hoặc rượu
-黍 (shǔ) - Thử: Gạo nếp, hạt trắng hoặc vàng nhạt, dính, dùng làm thức ăn
-稷 (jì) - Tắc: Cao lương, một loại ngũ cốc phổ biến trong cổ thư
-此 (cǐ) - Thử: Này, cái này, ấy, đó
-六 (liù) - Lục: Số 6
-穀 (gǔ) - Cốc: Ngũ cốc, lương thực nói chung
-人 (rén) - Nhân: Người
-所 (suǒ) - Sở: Điều mà, thứ mà (nhấn mạnh đối tượng, ví dụ: thứ mà người ăn, điều mà người biết)
-食 (shí) - Thực: Ăn, thức ăn
-馬 (mǎ) - Mã: Ngựa
-牛 (niú) - Ngưu: Trâu, bò
-羊 (yáng) - Dương: Cừu, dê
-雞 (jī) - Kê: Gà
-犬 (quǎn) - Khuyển: Chó
-豕 (shǐ) - Thỉ: Lợn, heo
-畜 (chù) - Súc: Gia súc, vật nuôi
-飼 (sì) - Tự: Cho ăn, chăn nuôi
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 稻 | dào | Đạo | Cây lúa, thân cao 3-4 xích, hạt có vỏ cứng, xát vỏ thành gạo |
+| 粱 | liáng | Lương | Gạo kê, hạt nhỏ màu vàng, dùng làm thức ăn |
+| 菽 | shú | Thục | Tên gọi chung các loại đậu |
+| 麥 | mài | Mạch | Lúa mạch, lúa mì, hạt dùng làm bột mì, đường hoặc rượu |
+| 黍 | shǔ | Thử | Gạo nếp, hạt trắng hoặc vàng nhạt, dính, dùng làm thức ăn |
+| 稷 | jì | Tắc | Cao lương, một loại ngũ cốc phổ biến trong cổ thư |
+| 此 | cǐ | Thử | Này, cái này, ấy, đó |
+| 六 | liù | Lục | Số 6 |
+| 穀 | gǔ | Cốc | Ngũ cốc, lương thực nói chung |
+| 人 | rén | Nhân | Người |
+| 所 | suǒ | Sở | Điều mà, thứ mà (nhấn mạnh đối tượng, ví dụ: thứ mà người ăn, điều mà người biết) |
+| 食 | shí | Thực | Ăn, thức ăn |
+| 馬 | mǎ | Mã | Ngựa |
+| 牛 | niú | Ngưu | Trâu, bò |
+| 羊 | yáng | Dương | Cừu, dê |
+| 雞 | jī | Kê | Gà |
+| 犬 | quǎn | Khuyển | Chó |
+| 豕 | shǐ | Thỉ | Lợn, heo |
+| 畜 | chù | Súc | Gia súc, vật nuôi |
+| 飼 | sì | Tự | Cho ăn, chăn nuôi |
 
-# Dịch nghĩa tham khảo
+## Dịch nghĩa tham khảo
 
 Gạo, tiểu mễ, đậu, lúa mạch, kê và cao lương, sáu loại ngũ cốc này là lương thực chính để con người duy trì sự sống. Ngựa, trâu, dê, gà, chó, lợn, sáu loài vật này là những gia súc chính được con người nuôi tại nhà. Tương truyền, khi con người trải qua kiếp nạn Đại hồng thủy, các vị Thần đã mang sáu con vật và sáu loại ngũ cốc này từ thế giới của Thần xuống, đồng thời dạy con người chăn nuôi và trồng trọt để giúp con người vượt qua đại nạn. Đây là lòng từ bi của Thần đối với con người, từ đó con người có thể tự lực nuôi sống. Lục cốc và Lục súc đã trở thành nhu cầu thiết yếu trong sinh hoạt hàng ngày của con người.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
 Từ Ngũ hành và Ngũ thường ở hai bài trước, bài này nói đến Lục cốc và Lục súc, hiển nhiên là chiểu theo nội dung được sắp xếp từ nhỏ đến lớn sẽ dễ dàng cho việc học thuộc lòng. Vẫn như trước, bài này sẽ giới thiệu những thứ liên quan đến sinh hoạt thường ngày của con người. Để sinh tồn nhất định phải có được thực vật và súc vật cơ bản. Thực ra, là một con người, hiểu biết rõ cuộc sống con người là mục đích cơ bản của việc đọc sách làm người. Nếu không hiểu biết những thường thức cơ bản của cuộc sống hàng ngày, người đọc sách sẽ trở thành người học vẹt; thoát ly khỏi cuộc sống con người mà nghiên cứu học vấn, thì học mà không áp dụng được, không thể thành người hữu dụng, không được người đời và xã hội công nhận. Vì vậy, chữ “Trí” (智) trong từ “Trí tuệ” (智慧) được hợp thành từ chữ “Tri” (知) và chữ “Nhật” (日), hiểu biết nhu cầu, sự vận hành và mối quan hệ giữa người với người trong cuộc sống hàng ngày, biết ý nghĩa của việc mặt trời chiếu rọi khắp mặt đất, và hiểu được mối quan hệ giữa con người với tự nhiên, để thiên hạ quốc thái dân an, mới là căn bản của nghiên cứu học vấn. Vì vậy, mọi tri thức cần thiết trong cuộc sống con người đều là những gì mà Nho gia muốn đề cập đến. Nho sinh nếu không biết việc nhà nông và thiên văn, lịch pháp, địa lý thì tương lai sẽ không có cách nào an bang trị quốc, cứu tế thiên hạ bách tính. Đây là những điều cần phải hiểu.
 
 Trung Quốc đất rộng, tài nguyên phong phú, khí hậu, hoàn cảnh các nơi khác nhau nên lương thực chủ yếu ở mỗi nơi cũng khác nhau. Tùy theo địa phương mà trồng những thứ thích hợp, phương Nam thì trồng lúa nước, phương Bắc thì trồng lúa mạch, Tây Bắc thích hợp chăn nuôi, vùng cao nguyên hoàng thổ ở giữa thì thích hợp trồng hoàng mễ, tiểu mễ và cao lương.
 
-# Câu chuyện “Nguồn gốc của cây lúa”
+## Câu chuyện “Nguồn gốc của cây lúa”
 
 “Gặt lúa ngay giữa trưa,
 Mồ hôi rơi xuống đất,
@@ -98,4 +100,4 @@ Từ đó, cây lúa được trồng rộng rãi trong nhân gian, con người
 
 Về sau, vì để báo đáp công ơn của chó, con người cũng cho chó được ăn cơm. Còn trâu, ngựa, dê thì chỉ được ăn rơm rạ, gà và lợn thì chỉ được ăn thóc!
 
-Trong cuộc sống, chó là người bạn trung thành nhất của con người, đuôi của nó nhìn trông giống như một nhánh bông lúa nặng trĩu hạt. Từ câu chuyện trên, chúng ta có thể thấy được sự vất vả trong quá trình đưa các hạt lúa giống đến nhân gian, cũng giống như những người nông dân vất vả bỏ ra biết bao mồ hôi công sức để làm ra từng hạt gạo. Do đó, chúng ta cần phải biết trân quý từng hạt gạo và thức ăn đấy nhé!
+- Trong cuộc sống, chó là người bạn trung thành nhất của con người, đuôi của nó nhìn trông giống như một nhánh bông lúa nặng trĩu hạt. Từ câu chuyện trên, chúng ta có thể thấy được sự vất vả trong quá trình đưa các hạt lúa giống đến nhân gian, cũng giống như những người nông dân vất vả bỏ ra biết bao mồ hôi công sức để làm ra từng hạt gạo. Do đó, chúng ta cần phải biết trân quý từng hạt gạo và thức ăn đấy nhé!

@@ -1,64 +1,65 @@
-# Nguyên văn
+## Nguyên văn
 
 香九齡，能温席，
 孝於親，所當執。
 融四歲，能讓梨，
 悌於長，宜先知。
 
-# Bính âm
+## Bính âm
 
 xiāng jiǔ líng, néng wēn xí,
 xiào yú qīn, suǒ dāng zhí.
 róng sì suì, néng ràng lí,
 tì yú zhǎng, yí xiān zhī.
 
-# Âm Hán Việt
+## Âm Hán Việt
 
 Hương cửu linh, Năng ôn tịch,
 Hiếu vu thân, Sở đương chấp.
 Dung tứ tuế, Năng nhượng lê,
 Đễ vu trưởng, Nghi tiên tri.
 
-# Tạm dịch:
+## Tạm dịch:
 
 Hoàng Hương 9 tuổi, có thể ủ ấm chiếu,
 Hiếu với cha mẹ, là việc nên làm.
 Khổng Dung 4 tuổi, có thể nhường lê,
 Thuận theo anh chị, là điều trước tiên nên biết.
 
-# Từ vựng
+## Từ vựng
 
-香 (xiāng) - Hương: Hoàng Hương, người vùng Giang Hạ thời Đông Hán
-九齡 (jiǔ líng) - Cửu Linh: Chín tuổi
-能 (néng) - Năng: Có thể, có khả năng
-温 (wēn) - Ôn: Làm ấm, hâm nóng
-席 (xí) - Tịch: Chiếu, vật dệt bằng cỏ dùng để lót khi ngủ
-孝 (xiào) - Hiếu: Hiếu thảo, lòng hiếu kính với cha mẹ
-於 (yú) - Ư: Đối với, với
-親 (qīn) - Thân: Cha mẹ
-所 (suǒ) - Sở: Điều, thứ (dùng để nhấn mạnh hoặc chỉ đối tượng)
-當 (dāng) - Đương: Nên, cần phải, hẳn là
-執 (zhí) - Chấp: Thực hành, thi hành, làm
-融 (róng) - Dung: Khổng Dung, nhà văn học thời Đông Hán, cháu đời thứ 20 của Khổng Tử
-四歲 (sì suì) - Tứ Tuế: Bốn tuổi
-讓 (ràng) - Nhượng: Nhường nhịn, khiêm nhường, lễ nhượng
-梨 (lí) - Lê: Quả lê
-悌 (tì) - Đễ: Kính nhường
-長 (zhǎng) - Trưởng: Anh cả, chị cả; trưởng huynh, trưởng tẩu
-宜 (yí) - Nghi: Nên, cần phải, thích đáng
-先 (xiān) - Tiên: Trước, sớm, đầu tiên
-知 (zhī) - Tri: Biết, hiểu
+| Chữ Hán | Pinyin | Hán Việt | Ý nghĩa |
+|---|---|---|---|
+| 香 | xiāng | Hương | Hoàng Hương, người vùng Giang Hạ thời Đông Hán |
+| 九齡 | jiǔ líng | Cửu Linh | Chín tuổi |
+| 能 | néng | Năng | Có thể, có khả năng |
+| 温 | wēn | Ôn | Làm ấm, hâm nóng |
+| 席 | xí | Tịch | Chiếu, vật dệt bằng cỏ dùng để lót khi ngủ |
+| 孝 | xiào | Hiếu | Hiếu thảo, lòng hiếu kính với cha mẹ |
+| 於 | yú | Ư | Đối với, với |
+| 親 | qīn | Thân | Cha mẹ |
+| 所 | suǒ | Sở | Điều, thứ (dùng để nhấn mạnh hoặc chỉ đối tượng) |
+| 當 | dāng | Đương | Nên, cần phải, hẳn là |
+| 執 | zhí | Chấp | Thực hành, thi hành, làm |
+| 融 | róng | Dung | Khổng Dung, nhà văn học thời Đông Hán, cháu đời thứ 20 của Khổng Tử |
+| 四歲 | sì suì | Tứ Tuế | Bốn tuổi |
+| 讓 | ràng | Nhượng | Nhường nhịn, khiêm nhường, lễ nhượng |
+| 梨 | lí | Lê | Quả lê |
+| 悌 | tì | Đễ | Kính nhường |
+| 長 | zhǎng | Trưởng | Anh cả, chị cả; trưởng huynh, trưởng tẩu |
+| 宜 | yí | Nghi | Nên, cần phải, thích đáng |
+| 先 | xiān | Tiên | Trước, sớm, đầu tiên |
+| 知 | zhī | Tri | Biết, hiểu |
 
-# Diễn giải tham khảo
+## Diễn giải tham khảo
 
 Khi Hoàng Hương lên chín tuổi đã biết dùng hơi ấm cơ thể của mình để ủ ấm chăn chiếu lúc đêm đông lạnh giá, sau đó mới mời cha lên giường đi ngủ. Vì hiếu thảo với cha mẹ, là bổn phận mà người làm con nên làm.
 
 Khổng Dung khi mới bốn tuổi đã biết đạo lý khiêm nhường, lấy quả lê to nhường cho anh ăn, còn mình thì ăn quả nhỏ. Yêu mến anh chị là đạo lý mà các em trai, em gái từ khi còn nhỏ nên hiểu biết trước tiên.
 
-# Đọc sách luận bút
+## Đọc sách luận bút
 
-1/ Trước hết hãy hiếu kính cha mẹ
-
+**1.Trước hết hãy hiếu kính cha mẹ**
 Ở bài trước, Tam Tự Kinh đã bắt đầu giảng trực tiếp cho trẻ ngay từ nhỏ là làm người cần phải tiếp thụ giáo dục, bởi vì “Nhân bất học, Bất tri nghĩa” (Người mà không học, không biết lẽ phải). Cần phải học tập nghĩa lý, hiểu được đạo lý làm người, thì tương lai mới có thể trở thành nhân tài có ích cho xã hội. Vì vậy, giáo đạo con cái cần “Thân sư hữu, Tập lễ nghi”. Gần gũi thầy tốt bạn hiền, cùng học tập những lễ nghi tốt đẹp ở họ và những nguyên tắc đối nhân xử thế đúng đắn.
 
 Do đó, tám câu trong bài này tiếp tục dùng hai câu chuyện có thật, tiêu biểu nhất thời cổ đại của hai em bé để làm ví dụ, giúp trẻ em biết nên bắt đầu từ đâu trước. Muốn hiểu đúng đạo lý xử thế thì trước hết phải ghi nhớ hai yêu cầu cơ bản của đạo làm người, đó chính là phải giảng về hai chữ: 孝 ‘hiếu’ với cha mẹ và 悌 ‘đễ’ với anh chị trong gia đình. Điều đầu tiên cần giáo đạo cho trẻ chính là con trẻ cần lấy tâm thái hiếu đễ để đối đãi với người thân bên cạnh mình, ấy là cha mẹ và anh chị. Đây là tất cả những điều cơ bản của việc làm người.
@@ -67,18 +68,15 @@ Trong Luận Ngữ, Khổng Tử nói: “Hiếu đễ dã giả, kỳ vi nhân 
 
 Trong chữ Hán, nghĩa gốc của chữ ‘hiếu’ 孝 là nói đến lòng kính trọng, yêu thương, lòng biết ơn đối với cha mẹ, là đạo lý của người dưới đối với người trên. Tương lai bước ra xã hội, đối với cha mẹ người khác, người ngang hàng với cha mẹ mình và hết thảy những người ở thế hệ lớn tuổi hơn, hoặc cấp trên, giám đốc ở nơi làm việc đều có thái độ cơ bản đúng mực. Tất cả những điều ấy đều là từ hiếu tâm đối với cha mẹ trong gia đình mà ra. Dưỡng thành thái độ và lễ nghi làm người khiêm tốn, cung kính, có hàm dưỡng một cách cơ bản nhất.
 
-2/ Văn hóa truyền thống lấy hiếu trị quốc
-
+**2.Văn hóa truyền thống lấy hiếu trị quốc**
 Trong chữ ‘hiếu’ 孝, bên trên là chữ ‘lão’ 老, bên dưới là chữ ‘tử’ 子, chuyên dùng cho mối quan hệ của con em đối với bậc trưởng bối là người già, thầy giáo. Do vậy khi thứ bậc khác nhau, thì hiếu được dùng để bày tỏ lòng kính ái của bề dưới đối với bề trên. Vì vậy, chữ ‘hiếu’ với nghĩa rộng sẽ được mở rộng ra toàn xã hội, khiến bạn khi gặp người già hay người lớn hơn đều phải nhân ái kính trọng. Cả xã hội đều như vậy thì đất nước mới ổn định. Vì vậy, từ thời nhà Hán đã lưu lại truyền thống bậc đế vương lấy hiếu trị quốc. Trong việc đối xử với cha mẹ mình, bậc đế vương cũng phải làm tấm gương sáng, lấy tâm nhân ái như vậy chăm sóc cho bách tính thiên hạ.
 
 Vì vậy, thời cổ đại khi đề cử nhân tài làm quan đều là đề cử người hiếu thảo. Người ta tán thưởng và tín nhiệm bậc hiếu tử, cho rằng người biết hiếu kính cha mẹ ở nhà thì sẽ có lòng nhân ái, sẽ có lòng cảm ân và quan tâm chăm sóc đến dân chúng vốn là những người đóng thuế nuôi mình. Người hiếu thảo là người đáng tin cậy nhất, chỉ có người như vậy mới có thể khiến người ta yên lòng giao phó nhiệm vụ và trách nhiệm chăm sóc bách tính cho anh ta.
 
-3/ Nội hàm của ‘đễ’
-
+**3.Nội hàm của ‘đễ’**
 ‘Đễ’ (弟 hoặc 悌), cũng có ý là kính ái, cũng là thái độ và sự tu dưỡng cơ bản của người dưới với người trên. Nhưng có khác với hiếu, nó không phải là đối với người ở thế hệ trên hay cấp trên, những người mà chức vị và vai vế đều cao hơn mình, mà là với người cùng thế hệ với mình, nhưng tuổi tác lớn hơn mình. Đương nhiên, trước hết là đối với anh chị trong gia đình, phải biết kính lễ, thân thiện. Đó cũng là một loại tâm nhân ái. Khi hiểu được mối quan hệ và thái độ cơ bản này, thì ngôn hành sẽ biểu đạt ra sự kính nhường, khiêm tốn và cung kính.
 
-4/ Làm người vì sao giảng hiếu đễ đầu tiên
-
+**4.Làm người vì sao giảng hiếu đễ đầu tiên**
 Có nhiều trẻ sẽ không phục, cho rằng tại sao chúng ta phải nhấn mạnh thái độ của người dưới đối với người trên, mà không phải là tâm từ ái của người trên với người dưới? Thực ra, về trên đối với dưới, cha mẹ hay anh chị, nhất là cha mẹ, luôn quan tâm và chăm sóc con cái, đây là sự yêu thương, xuất phát từ nội tâm, coi như bảo vật, dành hết thảy cho con cái, thân tình quan tâm hết mức, là thiên tính tạo ra. Song, khi cha mẹ quá dễ dàng, cưng chiều con quá mức tự nhiên, sẽ biến con trẻ trở thành kẻ không biết cảm ân, đương nhiên sẽ thành đứa con hư hỏng.
 
 Hơn nữa ở trên đời, yêu thương phó xuất vô điều kiện chỉ có cha mẹ mới có thể làm được, và người ta luôn so sánh tình yêu thương vô tư của người khác với tâm yêu thương của cha mẹ. Ví như ân giáo đạo của sư phụ, thầy giáo cũng vĩ đại như tình cha, nên được mọi người tôn xưng là ‘sư phụ’. Ân tình này làm sao mà không biết cảm kích. Nếu như cha mẹ yêu thương nhất của mình mà cũng không biết kính yêu, phụng dưỡng, thì không xứng là người.
@@ -93,7 +91,7 @@ Văn hóa lễ nghi làm người ở Trung Quốc, hạch tâm (trung tâm, c�
 
 Chúng ta biết rằng Nhật Bản đặc biệt chú trọng đến sự khiêm tốn, cảm ân (lòng biết ơn), lễ kính tiền bối và khách nhân (khách hàng, khách đến nhà…), bởi vì họ bắt đầu học hỏi lý niệm làm người truyền thống của Trung Quốc từ thời Tùy Đường. Mặt khác họ bảo trì cho đến ngày nay, chưa hề bị tổn hại.
 
-# Câu chuyện Hoàng Hương quạt gối ủ chăn
+## Câu chuyện Hoàng Hương quạt gối ủ chăn
 
 Hoàng Hương là người vùng Giang Hạ, thời Đông Hán, từ nhỏ đã rất hiếu thuận với cha mẹ. Người trong vùng đều gọi cậu bé là “tiểu hiếu tử” (đứa con nhỏ có hiếu). Năm Hoàng Hương lên chín tuổi thì mẹ cậu qua đời, vì thế cậu bé lại càng hiếu thuận với cha hơn. Hàng ngày, cậu đều làm những công việc tương đối nặng nhọc, để cho cha mình có nhiều thời gian nghỉ ngơi hơn. Cậu bé nghĩ mọi cách để cha có được cuộc sống thoải mái hơn.
 
@@ -103,7 +101,7 @@ Không lâu sau, những hành động hiếu thuận của Hoàng Hương đư�
 
 Người đời sau có câu thơ kính trọng khen ngợi Hoàng Hương rằng: “Trời đông ủ ấm chăn, tiết hè quạt mát gối; tuổi nhỏ mà đã hiểu phận con, xưa nay chỉ có Hoàng Hương.”
 
-# Câu chuyện Khổng Dung nhường lê
+## Câu chuyện Khổng Dung nhường lê
 
 Khổng Dung, người Dự Châu nước Lỗ cuối thời Đông Hán, là cháu đời thứ 20 của Khổng Tử. Khổng Dung tính tình thật thà, lương thiện, từ nhỏ đã biết khiêm nhường.
 
@@ -111,6 +109,6 @@ Năm Khổng Dung lên bốn tuổi, có người đến tặng một giỏ lê.
 
 Cha Khổng Dung cảm thấy kỳ lạ, liền hỏi: “Này con, sao con không chọn quả to chứ?” Khổng Dung trả lời: “Con tuổi nhỏ nhất, nên ăn quả nhỏ nhất; anh lớn tuổi hơn con, nên ăn quả to ạ!” Sau khi người trong dòng họ biết được chuyện này thì đều nhìn Khổng Dung với ánh mắt khác, tán thưởng không thôi.
 
-Hai câu chuyện trên đây đều là ví dụ rất hay về hiếu đễ. Bậc làm cha mẹ đối với người con như vậy có thể nào không vui mừng, vì thế mà càng cảm thấy sự vất vả khổ cực của mình có giá trị đúng không? Làm anh lớn đối với người em nhỏ hiểu chuyện thế này, phải chăng càng cảm thấy yêu thương em mình quả là không uổng công, sẽ nguyện ý tận tâm với chức trách làm anh, sẽ ra sức chăm sóc cho đứa em ngoan của mình nhiều hơn nữa đúng không? Một người biết cảm ân thì mới có thể hiếu đễ, cũng nhất định sẽ làm cảm động những người xung quanh, mâu thuẫn sẽ không xảy ra, quan hệ sẽ hài hòa. Những ví dụ được đưa ra ở đây đều nhấn mạnh đến thái độ của người dưới đối với người trên là vô cùng trọng yếu. Người xưa tin rằng trách nhiệm và nghĩa vụ của người trên đối với người dưới là dưỡng dục, chăm sóc và bảo hộ, là có ơn với người dưới, cho nên mới nhấn mạnh thái độ của người dưới đối với người trên.
+- Hai câu chuyện trên đây đều là ví dụ rất hay về hiếu đễ. Bậc làm cha mẹ đối với người con như vậy có thể nào không vui mừng, vì thế mà càng cảm thấy sự vất vả khổ cực của mình có giá trị đúng không? Làm anh lớn đối với người em nhỏ hiểu chuyện thế này, phải chăng càng cảm thấy yêu thương em mình quả là không uổng công, sẽ nguyện ý tận tâm với chức trách làm anh, sẽ ra sức chăm sóc cho đứa em ngoan của mình nhiều hơn nữa đúng không? Một người biết cảm ân thì mới có thể hiếu đễ, cũng nhất định sẽ làm cảm động những người xung quanh, mâu thuẫn sẽ không xảy ra, quan hệ sẽ hài hòa. Những ví dụ được đưa ra ở đây đều nhấn mạnh đến thái độ của người dưới đối với người trên là vô cùng trọng yếu. Người xưa tin rằng trách nhiệm và nghĩa vụ của người trên đối với người dưới là dưỡng dục, chăm sóc và bảo hộ, là có ơn với người dưới, cho nên mới nhấn mạnh thái độ của người dưới đối với người trên.
 
-Nhìn vào xã hội ngày nay, hiện trạng con cái bất hiếu rất nhiều, coi cha mẹ như hàng tôi tớ, như con ở. Người trẻ chế giễu người già. Trẻ sơ sinh bị giết hại hoặc bỏ rơi. Quan hệ nhân luân hỗn loạn không thể tả, bổn phận và đạo nghĩa của mỗi người bị vứt bỏ sau lưng. Truyền thống kính già, yêu trẻ bị hủy hoại không còn chi nữa. Thậm chí phụ tử tương tàn, cha con, anh em đều trở thành kẻ bất nghĩa. Sa đọa đến nước này, thật không xứng gọi là người nữa rồi.
+- Nhìn vào xã hội ngày nay, hiện trạng con cái bất hiếu rất nhiều, coi cha mẹ như hàng tôi tớ, như con ở. Người trẻ chế giễu người già. Trẻ sơ sinh bị giết hại hoặc bỏ rơi. Quan hệ nhân luân hỗn loạn không thể tả, bổn phận và đạo nghĩa của mỗi người bị vứt bỏ sau lưng. Truyền thống kính già, yêu trẻ bị hủy hoại không còn chi nữa. Thậm chí phụ tử tương tàn, cha con, anh em đều trở thành kẻ bất nghĩa. Sa đọa đến nước này, thật không xứng gọi là người nữa rồi.
