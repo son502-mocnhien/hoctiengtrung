@@ -2857,46 +2857,33 @@ function startQuizMode() {
 
 function setupAudio(audioElement, link, timeRange) {
     audioElement.src = link;
-    audioElement.preload = 'auto';
     if (timeRange && timeRange.includes(' - ')) {
         const [startTimeStr, endTimeStr] = timeRange.split(' - ');
-        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-        const startOffset = isSafari ? 0.15 : 0.1; // Bù tùy trình duyệt
-        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - startOffset);
+        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.2);
         audioEndTime = timeToSeconds(endTimeStr);
-        audioElement.addEventListener('loadedmetadata', () => {
+        audioElement.addEventListener('canplay', () => {
             audioElement.currentTime = audioStartTime;
-            audioElement.play().catch(error => {
-                console.error("Lỗi phát audio:", error);
-            });
         }, { once: true });
     }
 }
 
 function playCurrentAudio(callback) {
     const audio = document.getElementById('audio');
+    audio.currentTime = audioStartTime;
+    audio.play().catch(error => {
+        console.error("Lỗi phát audio:", error);
+    });
     audio.onended = () => {
         callback();
     };
-    const checkEndTime = () => {
+    audio.addEventListener('timeupdate', function handler() {
         if (audio.currentTime >= audioEndTime - 0.05) {
             audio.pause();
             audio.currentTime = audioStartTime;
-            callback();
-            return false;
-        }
-        return true;
-    };
-    audio.addEventListener('timeupdate', function handler() {
-        if (!checkEndTime()) {
             audio.removeEventListener('timeupdate', handler);
+            audio.onended();
         }
     });
-    const interval = setInterval(() => {
-        if (!checkEndTime()) {
-            clearInterval(interval);
-        }
-    }, 10);
 }
 
     const audio = document.getElementById('audio');
