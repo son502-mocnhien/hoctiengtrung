@@ -2860,10 +2860,15 @@ function setupAudio(audioElement, link, timeRange) {
     audioElement.preload = 'auto';
     if (timeRange && timeRange.includes(' - ')) {
         const [startTimeStr, endTimeStr] = timeRange.split(' - ');
-        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.1); // Bù 0.1 giây
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        const startOffset = isSafari ? 0.15 : 0.1; // Bù tùy trình duyệt
+        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - startOffset);
         audioEndTime = timeToSeconds(endTimeStr);
         audioElement.addEventListener('loadedmetadata', () => {
             audioElement.currentTime = audioStartTime;
+            audioElement.play().catch(error => {
+                console.error("Lỗi phát audio:", error);
+            });
         }, { once: true });
     }
 }
