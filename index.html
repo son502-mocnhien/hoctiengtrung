@@ -2836,59 +2836,63 @@ function startQuizMode() {
 
     function timeToSeconds(timeStr) {
     try {
-        // Loại bỏ khoảng trắng và kiểm tra định dạng
         timeStr = timeStr.trim();
-        if (!/^\d+:\d{2}:\d{2}$/.test(timeStr)) {
-            throw new Error("Định dạng thời gian không đúng, yêu cầu phút:giây:phần_trăm_giây");
+        if (!/^\d+:\d{2}:\d{2,3}$/.test(timeStr)) {
+            throw new Error("Định dạng thời gian không đúng, yêu cầu phút:giây:phần_trăm_giây hoặc phút:giây:milliseconds");
         }
-
-        const [minutes, seconds, centiseconds] = timeStr.split(':').map(Number);
-        if (isNaN(minutes) || isNaN(seconds) || isNaN(centiseconds)) {
+        const [minutes, seconds, subseconds] = timeStr.split(':').map(Number);
+        if (isNaN(minutes) || isNaN(seconds) || isNaN(subseconds)) {
             throw new Error("Giá trị thời gian không hợp lệ");
         }
-
-        // Đảm bảo seconds và centiseconds nằm trong phạm vi hợp lệ
-        if (seconds >= 60 || centiseconds >= 100) {
-            throw new Error("Giá trị giây hoặc phần trăm giây không hợp lệ");
+        if (seconds >= 60) {
+            throw new Error("Giá trị giây không hợp lệ");
         }
-
-        return minutes * 60 + seconds + centiseconds / 100;
+        const divisor = subseconds >= 100 ? 1000 : 100; // Centiseconds hoặc milliseconds
+        return minutes * 60 + seconds + subseconds / divisor;
     } catch (error) {
         console.error("Lỗi xử lý thời gian:", error.message, "Chuỗi thời gian:", timeStr);
         return 0;
     }
 }
 
-    function setupAudio(audioElement, link, timeRange) {
-        audioElement.src = link;
-        if (timeRange && timeRange.includes(' - ')) {
-            const [startTimeStr, endTimeStr] = timeRange.split(' - ');
-            audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.2);
-            audioEndTime = timeToSeconds(endTimeStr) - 0.2;
+function setupAudio(audioElement, link, timeRange) {
+    audioElement.src = link;
+    audioElement.preload = 'auto';
+    if (timeRange && timeRange.includes(' - ')) {
+        const [startTimeStr, endTimeStr] = timeRange.split(' - ');
+        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.1); // Bù 0.1 giây
+        audioEndTime = timeToSeconds(endTimeStr);
+        audioElement.addEventListener('loadedmetadata', () => {
             audioElement.currentTime = audioStartTime;
-        }
+        }, { once: true });
     }
+}
 
-    function playCurrentAudio(callback) {
-        const audio = document.getElementById('audio');
-        audio.currentTime = audioStartTime;
-        audio.play().catch(error => {
-            console.error("Lỗi phát audio:", error);
-        });
-
-        audio.onended = () => {
+function playCurrentAudio(callback) {
+    const audio = document.getElementById('audio');
+    audio.onended = () => {
+        callback();
+    };
+    const checkEndTime = () => {
+        if (audio.currentTime >= audioEndTime - 0.05) {
+            audio.pause();
+            audio.currentTime = audioStartTime;
             callback();
-        };
-
-        audio.addEventListener('timeupdate', function handler() {
-            if (audio.currentTime >= audioEndTime) {
-                audio.pause();
-                audio.currentTime = audioStartTime;
-                audio.removeEventListener('timeupdate', handler);
-                audio.onended();
-            }
-        });
-    }
+            return false;
+        }
+        return true;
+    };
+    audio.addEventListener('timeupdate', function handler() {
+        if (!checkEndTime()) {
+            audio.removeEventListener('timeupdate', handler);
+        }
+    });
+    const interval = setInterval(() => {
+        if (!checkEndTime()) {
+            clearInterval(interval);
+        }
+    }, 10);
+}
 
     const audio = document.getElementById('audio');
     const playButton = document.getElementById('playButton');
