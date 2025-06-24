@@ -12,6 +12,7 @@
     "pass": "12345678@",
     "name": "德山2",
     "money": 50,
+    "idBaiHoc":["szj001","szj002","ttdd001"],
     "EXP": 2569
   },
   {
@@ -19,6 +20,7 @@
     "pass": "12345678@",
     "name": "德山3",
     "money": 500,
+    "idBaiHoc":["szj001","szj002","ttdd001"],
     "EXP": 5869
   },
   {
@@ -26,6 +28,7 @@
     "pass": "12345678@",
     "name": "son502",
     "money": 560,
+    "idBaiHoc":["szj001","szj002","ttdd001"],
     "EXP": 0
   },
   {
@@ -33,6 +36,7 @@
     "pass": "12345678",
     "name": "Abc",
     "money": 150,
+    "idBaiHoc":["szj001","szj002","ttdd001"],
     "EXP": 0
   }
 ]
