@@ -1286,20 +1286,16 @@ margin-left: 50px; /* Dịch sang phải 10px */
             margin: 0 auto;
         }
 .buy-button {
-    padding: 5px 10px;
-    background-color: #28a745;
+    padding: 2px 2px;
+    background-color: #ab7c3a;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-family: 'Noto Sans CJK SC', Arial, sans-serif;
 }
 .buy-button:hover {
-    background-color: #218838;
-}
-.locked {
-    background-color: #f8d7da;
-    cursor: not-allowed;
+    background-color: #f7e91e;
 }
 </style>
 </head>
@@ -1416,8 +1412,9 @@ margin-left: 50px; /* Dịch sang phải 10px */
                 <thead>
                     <tr>
                         <th style="border: 1px solid #ccc; padding: 8px;">Bài</th>
-                        <th style="border: 1px solid #ccc; padding: 8px;">Tên</th>
-                        <th style="border: 1px solid #ccc; padding: 8px;">Level cần</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Tên bài</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Cấp độ</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Giá</th>
                         <th style="border: 1px solid #ccc; padding: 8px;">Trạng thái</th>
                     </tr>
                 </thead>
@@ -1766,9 +1763,8 @@ function showLessonList() {
         row.innerHTML = `
             <td>${lesson.bai}</td>
             <td>${lesson.name}</td>
-            <td>${lesson.id}</td>
-            <td>${lesson.money_unlock}</td>
             <td>${lesson.level_unlock}</td>
+            <td>${lesson.money_unlock}</td>
             <td>${status}</td>
         `;
 
