@@ -970,7 +970,7 @@ button3.read-complete-button:hover {
 }
 
 #lesson-list-table tbody tr.locked:hover {
-    background-color: transparent;
+    background-color: #ede4b9;
 }
 
 #random-mission-container {
@@ -1298,9 +1298,6 @@ margin-left: 50px; /* Dịch sang phải 10px */
 .buy-button:hover {
     background-color: #f7e91e;
 }
-.locked {
-    background-color: #ede4b9;
-}
 </style>
 </head>
 <body>
@@ -1418,7 +1415,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
                         <th style="border: 1px solid #ccc; padding: 8px;">Bài</th>
                         <th style="border: 1px solid #ccc; padding: 8px;">Tên bài</th>
                         <th style="border: 1px solid #ccc; padding: 8px;">Cấp độ</th>
-                        <th style="border: 1px solid #ccc; padding: 8px;">Giá</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Giá mua</th>
                         <th style="border: 1px solid #ccc; padding: 8px;">Trạng thái</th>
                     </tr>
                 </thead>
@@ -1768,7 +1765,7 @@ function showLessonList() {
             <td>${lesson.bai}</td>
             <td>${lesson.name}</td>
             <td>${lesson.level_unlock}</td>
-            <td>${lesson.money_unlock}</td>
+            <td>${lesson.money_unlock} 🪙</td>
             <td>${status}</td>
         `;
 
