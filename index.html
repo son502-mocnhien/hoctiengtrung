@@ -973,6 +973,10 @@ button3.read-complete-button:hover {
     background-color: #ede4b9;
 }
 
+.locked {
+    background-color:#ede4b9;
+}
+
 #random-mission-container {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 10px;
@@ -1911,7 +1915,15 @@ document.getElementById('register-button').addEventListener('click', async () =>
         return;
     }
 
-    const newUser = { user: username, pass: password, name: name, EXP: 0, money: "50" }; // Thêm money mặc định
+    // Thêm idBaiHoc: [] vào newUser
+    const newUser = { 
+        user: username, 
+        pass: password, 
+        name: name, 
+        EXP: 0, 
+        money: 50,
+        idBaiHoc: [] // Thêm mảng rỗng cho idBaiHoc
+    }; 
     accountData.push(newUser);
 
     try {
