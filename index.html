@@ -1,32 +1,11 @@
 <html lang="en">
 <head>
-    <script src="/hoctiengtrung/hanzi-writer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5.0/dist/hanzi-writer.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Học Tiếng Trung Phồn Thể</title>
+    <title>Word Quiz</title>
  <style>
 /* Nhóm 1: CSS chung (Global Styles) */
-body {
-            font-family: arial;
-            font-size: 20px;
-            text-align: center;
-            color: black;
-            background-color: white;
-            background-image: url("/hoctiengtrung/anhnen3.jpg");
-            background-size: 480px auto;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed; /* Add this line to fix the background image */
-            margin: 0 auto;
-            padding: 0;
-            max-width: 480px;
-            min-height: 100vh;
-            position: relative;
-        }
-@font-face {
-            font-family: hz;
-            src: url("/hoctiengtrung/KaiTi-1.ttf");
-        }
 .header-container {
     display: flex;
     align-items: center;
@@ -309,40 +288,29 @@ button2 {
     display: inline;
 }
 .dialogue-box.kieu-A {
-    background-color: rgba(255, 179, 186, 0.8); /* pastel pink */
+    background-color: rgba(255, 182, 193, 0.8);
     text-align: left;
     width: 100%;
     box-sizing: border-box;
 }
-
 .dialogue-box.kieu-B {
-    background-color: rgba(186, 225, 255, 0.8); /* pastel blue */
+    background-color: rgba(173, 216, 230, 0.8);
     text-align: left;
     width: 100%;
     box-sizing: border-box;
 }
-
 .dialogue-box.kieu-C {
-    background-color: rgba(255, 223, 186, 0.8); /* pastel orange */
+    background-color: rgba(173, 255, 47, 0.8);
     text-align: left;
     width: 100%;
     box-sizing: border-box;
 }
-
 .dialogue-box.kieu-D {
-    background-color: rgba(202, 255, 191, 0.8); /* pastel green */
+    background-color: rgba(173, 255, 47, 0.8);
     text-align: left;
     width: 100%;
     box-sizing: border-box;
 }
-
-.dialogue-box.kieu-K {
-    background-color: rgba(255, 255, 186, 0.8); /* pastel yellow */
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-}
-
 .dialogue-box.kieu-E {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
@@ -617,14 +585,7 @@ button2 {
 #info-popup .close-btn:hover, #author-popup .close-btn:hover {
     color: #FF0000;
 }
-#author-popup img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-    max-height: 250px;
-    margin: 0 auto;
-}
+
 #info-popup-content, #author-popup-content {
     white-space: pre-wrap;
 }
@@ -1055,7 +1016,7 @@ button3.read-complete-button:hover {
     align-items: center;
     justify-content: flex-start; /* Bắt đầu từ trên để tránh căn giữa gây lệch */
     min-height: 100vh; /* Chiều cao tối thiểu bằng màn hình */
-    background-image: url('/hoctiengtrung/nen.jpg'); /* Thay bằng link ảnh nền của bạn */
+    background-image: url('_nen.jpg'); /* Thay bằng link ảnh nền của bạn */
     background-size: cover; /* Đảm bảo ảnh phủ toàn bộ container */
     background-position: center bottom; /* Căn ảnh về phía dưới */
     padding: 30px;
@@ -1213,11 +1174,11 @@ margin-left: 50px; /* Dịch sang phải 10px */
     background-color: white;
     margin-bottom: 10px; /* Thêm 10px bên dưới */
 }
-.content-wrapper {
-    padding: 0 10px; /* Thêm padding trái và phải */
-    box-sizing: border-box;
-    max-width: 480px; /* Hẹp hơn 480px của body để tạo khoảng cách */
-    margin: 0 auto; /* Căn giữa div */
+.pinyin {
+    margin-right: 5px;
+}
+.pinyin:hover {
+    color: #0056b3; /* Màu khi hover */
 }
 #info-popup-content p, #nested-info-popup-content p, #author-popup-content p {
             margin: -5px 0;
@@ -1290,11 +1251,11 @@ margin-left: 50px; /* Dịch sang phải 10px */
 <body>
    <!-- Nhóm 1: Header -->
 <div class="header-container">
-    <img src="/hoctiengtrung/anhnenmoi.png" style="width: 100%; height: auto;">
+    <img src="_anhnenmoi.png" style="width: 100%; height: auto;">
 </div>
 <div id="auth-screen" class="auth-screen">
     <div class="auth-container">
-<img id="login-logo" src="/hoctiengtrung/logo.jpg" alt="Login Banner" width="300" height="auto">
+<img id="login-logo" src="_logo.jpg" alt="Login Banner" width="300" height="auto">
 <div class="welcome-text" style="color: white; text-align: center; font-size: 14px; margin-bottom: 10px; margin: 5px 0;">
     <p style="margin: 5px 0;">Chào mừng bạn đến với “Học Tiếng Trung Phồn Thể”!</p>
     <p style="margin: 5px 0;">Trải nghiệm cách học chữ Hán truyền thống kết hợp phương pháp học thông minh, trực quan.</p>
@@ -1429,7 +1390,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
     <div id="random-mission-container" style="text-align: center; margin-bottom: 10px; font-size: 18px; color: #2196F3; font-weight: bold;">
         <span id="random-mission-text"></span>
     </div>
-<div id="meaning-display-buttons" style="display: flex; justify-content: center; gap: 5px; margin-top: 5px;">
+    <div id="meaning-display-buttons" style="display: flex; justify-content: center; gap: 5px; margin-top: 5px;">
             <button2 class="meaning-button active" data-value="show">1.Luyện đọc</button2>
             <button2 class="meaning-button" data-value="hide">2.Luyện nghe</button2>
         </div>
@@ -1440,9 +1401,8 @@ margin-left: 50px; /* Dịch sang phải 10px */
         <button2 id="start-button" class="quiz-type-button">BẮT ĐẦU</button2>
     </div>
 </div>
-<!-- Bao quanh -->
- <div class="content-wrapper">
-        <!-- Nhóm 3: Giao diện trò chơi chính -->
+
+<!-- Nhóm 3: Giao diện trò chơi chính -->
 <div id="game-container">
    
     <!-- Trạng thái trò chơi -->
@@ -1528,7 +1488,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
 	 <!-- Thành phần phụ trợ -->
     <audio id="audio"></audio>
 </div>
-    </div>
+
 
 <!-- Nhóm 4: Popup và panel phụ -->
 <div id="endgame-popup" class="popup" style="display: none;">
@@ -1578,6 +1538,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
     <iframe id="translateIframe" src=""></iframe>
 </div>
 <div id="related-hanzi-list"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
 <script>
@@ -1625,7 +1586,7 @@ let levelData = [];
 // Hàm tải dữ liệu level từ _level.json
 async function loadLevelData() {
     try {
-        const response = await fetch('/hoctiengtrung/json/level3.json', {
+        const response = await fetch('_level3.json', {
             cache: 'no-cache'
         });
         if (!response.ok) {
@@ -1696,11 +1657,11 @@ const unlockedLessons = lessonListData.filter(lesson => currentLevel >= lesson.l
 
 // Định nghĩa URL của các file danh sách bài
 const lessonListUrls = {
-    taiwanese: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json',
-    samtukinh: '/hoctiengtrung/json/danhsachbai-tamtukinh.json',
-    poetry: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json',
-    thientuvan: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json',
-    hongngam: '/hoctiengtrung/json/danhsachbai-tiengtrungdailoan9.json'
+    taiwanese: '_danhsachbai-tiengtrungdailoan9.json',
+    samtukinh: '_danhsachbai-tamtukinh.json',
+    poetry: '_danhsachbai-tiengtrungdailoan4.json',
+    thientuvan: '_danhsachbai-tiengtrungdailoan5.json',
+    hongngam: '_danhsachbai-tiengtrungdailoan6.json'
 };
 
 // Biến để lưu dữ liệu danh sách bài
@@ -2023,6 +1984,7 @@ async function claimExperience(finalEXP) {
         }
     } catch (error) {
         console.error('Lỗi khi cập nhật EXP:', error);
+        alert('Lỗi khi cập nhật EXP!');
     }
 }
 
@@ -2307,29 +2269,29 @@ function stopWritingMode() {
 
     const dataUrls = {
         taiwanese: {
-            vocabulary: '/hoctiengtrung/json/hanzi4.json',
-            sentence: '/hoctiengtrung/json/maucau21.json',
-            dialogue: '/hoctiengtrung/json/hoithoai4-new14.json'
+            vocabulary: '{{Từ Vựng}}',
+            sentence: '{{Mẫu Câu}}',
+            dialogue: '{{Hội Thoại}}'
         },
         poetry: {
-            vocabulary: '/hoctiengtrung/json/tamtukinh-tuvung5.json',
-            sentence: '/hoctiengtrung/json/maucau21.json',
-            dialogue: '/hoctiengtrung/json/tamtukinh7.json'
+            vocabulary: '{{Từ Vựng Thơ Đường}}',
+            sentence: '{{Mẫu Câu}}',
+            dialogue: '{{Hội Thoại Thơ Đường}}'
         },
         samtukinh: {
-            vocabulary: '/hoctiengtrung/json/tamtukinh-tuvung5.json',
-            sentence: '/hoctiengtrung/json/maucau21.json',
-            dialogue: '/hoctiengtrung/json/tamtukinh7.json'
+            vocabulary: '{{Từ Vựng Tam Tự Kinh}}',
+            sentence: '{{Mẫu Câu}}',
+            dialogue: '{{Hội Thoại Tam Tự Kinh}}'
         },
         thientuvan: {
-            vocabulary: '/hoctiengtrung/json/tamtukinh-tuvung5.json',
-            sentence: '/hoctiengtrung/json/maucau21.json',
-            dialogue: '/hoctiengtrung/json/tamtukinh7.json'
+            vocabulary: '{{Từ Vựng Thiên Tự Văn}}',
+            sentence: '{{Mẫu Câu}}',
+            dialogue: '{{Hội Thoại Thiên Tự Văn}}'
         },
         hongngam: {
-            vocabulary: '/hoctiengtrung/json/tamtukinh-tuvung5.json',
-            sentence: '/hoctiengtrung/json/maucau21.json',
-            dialogue: '/hoctiengtrung/json/tamtukinh7.json'
+            vocabulary: '{{Từ Vựng Hồng Ngâm}}',
+            sentence: '{{Mẫu Câu}}',
+            dialogue: '{{Hội Thoại Hồng Ngâm}}'
         }
     };
 
@@ -2383,7 +2345,7 @@ const modeDisplayNames = {
             document.getElementById('start-screen').innerHTML += '<p style="color: red;">Không thể tải dữ liệu từ vựng!</p>';
         });
 
-    fetch('/hoctiengtrung/json/banghanTu7.json')
+    fetch('{{Bảng Hán Tự}}')
         .then(response => response.json())
         .then(data => {
             bangHanTuData = data;
@@ -2392,7 +2354,7 @@ const modeDisplayNames = {
             console.error('Lỗi khi load _banghanTu.json:', error);
         });
 
-    fetch('/hoctiengtrung/json/pinyintudien2.json')
+    fetch('_pinyin_tudien2.json')
         .then(response => response.json())
         .then(data => {
             pinyinTuDienData = data;
@@ -2482,14 +2444,14 @@ document.querySelectorAll('.mode-button').forEach(button => {
             createQuizTypeButton('2.Từ Vựng', 'vocabulary');
             createQuizTypeButton('3.Mẫu Câu', 'sentence');
         } else if (selectedMode === 'samtukinh') {
-            createQuizTypeButton('1.Bài Thơ', 'dialogue');
-            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
         } else if (selectedMode === 'poetry') {
-            createQuizTypeButton('1.Bài Thơ', 'dialogue');
-            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
         } else if (selectedMode === 'hongngam') {
-            createQuizTypeButton('1.Bài Thơ', 'dialogue');
-            createQuizTypeButton('2.Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Từ Vựng', 'vocabulary');
+            createQuizTypeButton('Bài Thơ', 'dialogue');
         }
     });
 });
@@ -2834,7 +2796,7 @@ function startQuizMode() {
         }
     }
 
-    function timeToSeconds(timeStr) {
+   function timeToSeconds(timeStr) {
     try {
         timeStr = timeStr.trim();
         if (!/^\d+:\d{2}:\d{2,3}$/.test(timeStr)) {
@@ -2859,7 +2821,7 @@ function setupAudio(audioElement, link, timeRange) {
     audioElement.src = link;
     if (timeRange && timeRange.includes(' - ')) {
         const [startTimeStr, endTimeStr] = timeRange.split(' - ');
-        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.2);
+        audioStartTime = Math.max(0, timeToSeconds(startTimeStr) - 0.1);
         audioEndTime = timeToSeconds(endTimeStr);
         audioElement.addEventListener('canplay', () => {
             audioElement.currentTime = audioStartTime;
@@ -4048,7 +4010,7 @@ earnedEXP -=2;
     content += '<strong style="color: darkblue; text-align: center; display: block;">Phân tích Hán Tự:</strong>';
 
     // Tải pinyinmp3.json
-    fetch('/hoctiengtrung/json/pinyinmp3.json') // Thay bằng đường dẫn thực tế
+    fetch('_pinyinmp3.json') // Thay bằng đường dẫn thực tế
         .then(response => response.json())
         .then(pinyinMp3Map => {
             characters.forEach(c => {
@@ -4163,8 +4125,6 @@ function playPinyinAudio(linkmp3, time) {
             dialogueBox.classList.add('kieu-C');
         } else if (question.kieu === 'D') {
             dialogueBox.classList.add('kieu-D');
-        } else if (question.kieu === 'K') {
-            dialogueBox.classList.add('kieu-K');
         } else if (question.kieu === 'E') {
             dialogueBox.classList.add('kieu-E');
         } else if (question.kieu === 'F') {
@@ -4637,7 +4597,7 @@ function playRandomYouTubeVideo() {
     const randomIndex = Math.floor(Math.random() * youtubeLinks.length);
     const videoUrl = youtubeLinks[randomIndex];
     const videoId = videoUrl.split('v=')[1].split('&')[0]; // Lấy ID video
-    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&playlist=${videoId}`;
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?&controls=1&playlist=${videoId}`;
     document.getElementById('youtube-player').src = embedUrl;
 }
 
