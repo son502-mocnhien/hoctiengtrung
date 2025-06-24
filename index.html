@@ -1359,6 +1359,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
     </div>
     <div style="text-align: center;">
         Học lực: <span id="account-exp">0</span> điểm
+        Bạc: <span id="account-money">0</span> lượng
     </div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div style="text-align: center;">
@@ -1809,6 +1810,7 @@ async function loadAccountData() {
     } catch (error) {
         console.error('Lỗi khi tải taikhoan.json:', error);
         document.getElementById('account-exp').textContent = '0';
+        document.getElementById('account-money').textContent = '0'; // Khởi tạo money
         document.getElementById('account-name').textContent = 'Khách Nhân';
         document.getElementById('account-level').textContent = '1';
         document.getElementById('account-danhHieu').textContent = 'A';
@@ -1844,6 +1846,7 @@ document.getElementById('login-button').addEventListener('click', async () => {
         currentUser = user;
         document.getElementById('account-name').textContent = user.name;
         document.getElementById('account-exp').textContent = user.EXP;
+        document.getElementById('account-money').textContent = user.money || '0'; // Hiển thị money
         await loadLevelData();
         updateLevelInfo();
         earnedEXP = 0;
@@ -1879,7 +1882,7 @@ document.getElementById('register-button').addEventListener('click', async () =>
         return;
     }
 
-    const newUser = { user: username, pass: password, name: name, EXP: 0 };
+    const newUser = { user: username, pass: password, name: name, EXP: 0, money: "50" }; // Thêm money mặc định
     accountData.push(newUser);
 
     try {
@@ -1917,6 +1920,7 @@ document.getElementById('register-button').addEventListener('click', async () =>
             currentUser = newUser;
             document.getElementById('account-name').textContent = name;
             document.getElementById('account-exp').textContent = '0';
+            document.getElementById('account-money').textContent = '0'; // Hiển thị money mặc định
             await loadLevelData();
             updateLevelInfo();
             earnedEXP = 0;

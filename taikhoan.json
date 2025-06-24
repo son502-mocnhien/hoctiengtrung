@@ -3,30 +3,35 @@
     "user": "admin",
     "pass": "12345678@",
     "name": "德山",
+    "money":"100",
     "EXP": 27062
   },
   {
     "user": "admin2",
     "pass": "12345678@",
     "name": "德山2",
+    "money":"50",
     "EXP": 2569
-  },
+  },....
   {
     "user": "admin3",
     "pass": "12345678@",
     "name": "德山3",
+    "money":"500",
     "EXP": 5869
   },
   {
     "user": "son502",
     "pass": "12345678@",
     "name": "son502",
+    "money":"560",
     "EXP": 0
   },
   {
     "user": "Abc",
     "pass": "12345678",
     "name": "Abc",
+    "money":"150",
     "EXP": 0
   }
 ]
