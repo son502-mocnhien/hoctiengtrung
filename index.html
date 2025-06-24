@@ -1285,6 +1285,22 @@ margin-left: 50px; /* Dịch sang phải 10px */
             display: block;
             margin: 0 auto;
         }
+.buy-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Noto Sans CJK SC', Arial, sans-serif;
+}
+.buy-button:hover {
+    background-color: #218838;
+}
+.locked {
+    background-color: #f8d7da;
+    cursor: not-allowed;
+}
 </style>
 </head>
 <body>
@@ -1731,17 +1747,32 @@ function showLessonList() {
     lessonListBody.innerHTML = '';
 
     const currentLevel = parseInt(document.getElementById('account-level').textContent) || 1;
+    const userLessons = currentUser ? currentUser.idBaiHoc || [] : [];
 
     lessonListData.forEach(lesson => {
         const row = document.createElement('tr');
-        const status = currentLevel >= lesson.level_unlock ? '✅' : '🔒';
+        let status = '';
+
+        // Xác định trạng thái dựa trên level và trạng thái mua
+        const isUnlocked = userLessons.includes(lesson.id);
+        if (currentLevel < lesson.level_unlock) {
+            status = '🔒';
+        } else if (!isUnlocked) {
+            status = `<button class="buy-button" onclick="buyLesson('${lesson.id}', ${lesson.money_unlock})">Mua</button>`;
+        } else {
+            status = '✅';
+        }
+
         row.innerHTML = `
             <td>${lesson.bai}</td>
             <td>${lesson.name}</td>
+            <td>${lesson.id}</td>
+            <td>${lesson.money_unlock}</td>
             <td>${lesson.level_unlock}</td>
             <td>${status}</td>
         `;
-        if (status === '🔒') {
+
+        if (currentLevel < lesson.level_unlock || !isUnlocked) {
             row.classList.add('locked');
         } else {
             row.addEventListener('click', () => {
@@ -1749,6 +1780,7 @@ function showLessonList() {
                 lessonListContainer.style.display = 'none';
             });
         }
+
         lessonListBody.appendChild(row);
     });
 
@@ -4655,6 +4687,82 @@ document.getElementById('show-login').addEventListener('click', () => {
     document.getElementById('auth-error').style.display = 'none';
     playRandomYouTubeVideo(); // Phát video ngẫu nhiên
 });
+
+async function buyLesson(lessonId, moneyUnlock) {
+    if (!currentUser) {
+        alert('Vui lòng đăng nhập để mua bài học!');
+        return;
+    }
+
+    const currentMoney = parseInt(currentUser.money) || 0;
+    if (currentMoney < moneyUnlock) {
+        alert('Không đủ tiền để mua bài học này!');
+        return;
+    }
+
+    try {
+        // Cập nhật dữ liệu người dùng cục bộ
+        currentUser.money = currentMoney - moneyUnlock;
+        if (!currentUser.idBaiHoc) {
+            currentUser.idBaiHoc = [];
+        }
+        if (!currentUser.idBaiHoc.includes(lessonId)) {
+            currentUser.idBaiHoc.push(lessonId);
+        }
+
+        // Cập nhật accountData
+        await loadAccountData();
+        const userIndex = accountData.findIndex(u => u.user === currentUser.user);
+        if (userIndex === -1) {
+            alert('Lỗi: Không tìm thấy tài khoản!');
+            return;
+        }
+        accountData[userIndex].money = currentUser.money;
+        accountData[userIndex].idBaiHoc = currentUser.idBaiHoc;
+
+        // Đẩy lên GitHub
+        const content = JSON.stringify(accountData, null, 2);
+        const encodedContent = btoa(unescape(encodeURIComponent(content)));
+        const getFileResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json'
+            }
+        });
+        if (!getFileResponse.ok) {
+            throw new Error('Không thể lấy SHA của file');
+        }
+        const fileData = await getFileResponse.json();
+        const sha = fileData.sha;
+
+        const updateResponse = await fetch('https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json', {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: `Mua bài học ${lessonId}`,
+                content: encodedContent,
+                sha: sha,
+                branch: 'main'
+            })
+        });
+
+        if (updateResponse.ok) {
+            document.getElementById('account-money').textContent = currentUser.money;
+            showLessonList(); // Làm mới danh sách bài
+            alert('Mua bài học thành công!');
+        } else {
+            throw new Error('Lỗi khi cập nhật dữ liệu tài khoản');
+        }
+    } catch (error) {
+        console.error('Lỗi khi mua bài học:', error);
+        alert('Lỗi khi mua bài học!');
+    }
+}
 </script>
 </body>
 </html>
