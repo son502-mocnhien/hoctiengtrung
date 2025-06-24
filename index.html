@@ -1293,9 +1293,13 @@ margin-left: 50px; /* Dịch sang phải 10px */
     border-radius: 20px;
     cursor: pointer;
     font-family: 'Noto Sans CJK SC', Arial, sans-serif;
+    font-size: 14px;
 }
 .buy-button:hover {
     background-color: #f7e91e;
+}
+.locked {
+    background-color: #ede4b9;
 }
 </style>
 </head>
@@ -4692,7 +4696,7 @@ async function buyLesson(lessonId, moneyUnlock) {
 
     const currentMoney = parseInt(currentUser.money) || 0;
     if (currentMoney < moneyUnlock) {
-        alert('Không đủ tiền để mua bài học này!');
+        alert('Không đủ "bạc" để mua bài học này!');
         return;
     }
 
