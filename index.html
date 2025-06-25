@@ -1377,7 +1377,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
     <div style="text-align: center;">
         Học lực: <span id="account-exp">0</span> điểm
         <br>
-        💰: <span id="account-money">0</span> 🪙
+        <span style="font-size: 1.5em;">💰</span>: <span id="account-money">0</span> 🪙
     </div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div style="text-align: center;">
@@ -1766,11 +1766,17 @@ function showLessonList() {
             status = '✅';
         }
 
+        // Xác định nội dung cột level_unlock
+        const levelDisplay = currentLevel >= lesson.level_unlock ? 'ok' : lesson.level_unlock;
+
+        // Xác định nội dung cột money_unlock
+        const moneyDisplay = isUnlocked ? 'đã mua' : `${lesson.money_unlock} 🪙`;
+
         row.innerHTML = `
             <td>${lesson.bai}</td>
             <td>${lesson.name}</td>
-            <td>${lesson.level_unlock}</td>
-            <td>${lesson.money_unlock} 🪙</td>
+            <td>${levelDisplay}</td>
+            <td>${moneyDisplay}</td>
             <td>${status}</td>
         `;
 
