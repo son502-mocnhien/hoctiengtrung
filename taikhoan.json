@@ -103,5 +103,21 @@
     "EXP": 0,
     "money": 50,
     "idBaiHoc": []
+  },
+  {
+    "user": "taikhoan1",
+    "pass": "123",
+    "name": "son",
+    "EXP": 0,
+    "money": 50,
+    "idBaiHoc": []
+  },
+  {
+    "user": "123000",
+    "pass": "123",
+    "name": "123000",
+    "EXP": 0,
+    "money": 50,
+    "idBaiHoc": []
   }
 ]
