@@ -3423,10 +3423,11 @@ document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
 }
 
     function parseLessonInput(input) {
-    // Lấy danh sách bài hợp lệ dựa trên cấp độ hiện tại
+    // Lấy danh sách bài hợp lệ dựa trên cấp độ hiện tại và trạng thái mua
     const currentLevel = parseInt(document.getElementById('account-level').textContent) || 1;
+    const userLessons = currentUser ? currentUser.idBaiHoc || [] : [];
     const validLessons = lessonListData
-        .filter(item => currentLevel >= item.level_unlock)
+        .filter(item => currentLevel >= item.level_unlock && userLessons.includes(item.id))
         .map(item => item.bai.toString());
 
     if (!input) {
@@ -3477,7 +3478,11 @@ document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
         return null;
     }
     if (currentLevel < lessonData.level_unlock) {
-        alert(`Bạn chưa đạt cấp ${lessonData.level_unlock} để mở khóa bài ${singleLesson}!`);
+        alert(`Bạn chưa đạt "cấp ${lessonData.level_unlock}" để mở khóa bài ${singleLesson}! Vui lòng "học lại các bài cũ thật nhiều" để tăng cấp độ.`);
+        return null;
+    }
+    if (!userLessons.includes(lessonData.id)) {
+        alert(`Bạn chưa "Mua" bài ${singleLesson}! Vui lòng "Mua" bài trước khi học.`);
         return null;
     }
     return [singleLesson];
@@ -4706,7 +4711,7 @@ async function buyLesson(lessonId, moneyUnlock) {
 
     const currentMoney = parseInt(currentUser.money) || 0;
     if (currentMoney < moneyUnlock) {
-        alert('Không đủ "bạc" để mua bài học này!');
+        alert('Không đủ 🪙 "vàng" để mua bài học này!');
         return;
     }
 
