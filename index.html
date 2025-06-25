@@ -1836,7 +1836,15 @@ document.querySelectorAll('.mode-button').forEach(button => {
         // Load dữ liệu ngay khi chọn chế độ
         loadInitialData();
         loadLessonList(); // Tải danh sách bài khi chọn chế độ
-        // ... (phần còn lại của sự kiện click giữ nguyên)
+
+        // Chuyển sang start-screen
+        document.getElementById('mode-selection-screen').style.display = 'none';
+        document.getElementById('start-screen').style.display = 'block';
+
+        // Đảm bảo thông tin tài khoản được cập nhật
+        if (currentUser) {
+            loadAccountData(); // Gọi lại để cập nhật cả account-info và account-info-start
+        }
     });
 });
 
@@ -1851,6 +1859,7 @@ const GITHUB_TOKEN = pass1 + pass2 + pass3;
 
 let currentUser = null; // Lưu thông tin tài khoản đang đăng nhập
 
+// Hàm loadAccountData sửa đổi để xử lý mảng tài khoản
 async function loadAccountData() {
     try {
         const url = 'https://api.github.com/repos/son502-mocnhien/hoctiengtrung/contents/taikhoan.json';
@@ -1870,59 +1879,62 @@ async function loadAccountData() {
             bytes[i] = binaryString.charCodeAt(i);
         }
         const content = new TextDecoder('utf-8').decode(bytes);
-        accountData = JSON.parse(content);
+        accountData = JSON.parse(content); // Bây giờ là mảng các đối tượng tài khoản
 
+        // Cập nhật thông tin tài khoản nếu có currentUser
         if (currentUser) {
             const user = accountData.find(u => u.user === currentUser.user);
             if (user) {
-                updateAccountInfo(user);
+                // Cập nhật cho mode-selection-screen
+                document.getElementById('account-exp').textContent = user.EXP || '0';
+                document.getElementById('account-money').textContent = user.money || '0';
+                document.getElementById('account-name').textContent = user.name || 'Khách Nhân';
+                document.getElementById('account-level').textContent = user.level || '1';
+                document.getElementById('account-danhHieu').textContent = user.danhHieu || 'A';
+                document.getElementById('account-image').src = user.image || '_anhA.png';
+                const progress = user.progress || '0%';
+                document.getElementById('level-progress').style.width = progress;
+                document.getElementById('level-progress-text').textContent = progress;
+
+                // Cập nhật cho start-screen
+                document.getElementById('account-exp-start').textContent = user.EXP || '0';
+                document.getElementById('account-money-start').textContent = user.money || '0';
+                document.getElementById('account-name-start').textContent = user.name || 'Khách Nhân';
+                document.getElementById('account-level-start').textContent = user.level || '1';
+                document.getElementById('account-danhHieu-start').textContent = user.danhHieu || 'A';
+                document.getElementById('account-image-start').src = user.image || '_anhA.png';
+                document.getElementById('level-progress-start').style.width = progress;
+                document.getElementById('level-progress-text-start').textContent = progress;
+
                 earnedEXP = user.EXP || 0;
                 document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
             }
         }
     } catch (error) {
         console.error('Lỗi khi tải taikhoan.json:', error);
-        updateAccountInfo({});
+        // Cập nhật giá trị mặc định cho cả hai màn hình
+        // mode-selection-screen
+        document.getElementById('account-exp').textContent = '0';
+        document.getElementById('account-money').textContent = '0';
+        document.getElementById('account-name').textContent = 'Khách Nhân';
+        document.getElementById('account-level').textContent = '1';
+        document.getElementById('account-danhHieu').textContent = 'A';
+        document.getElementById('account-image').src = '_anhA.png';
+        document.getElementById('level-progress').style.width = '0%';
+        document.getElementById('level-progress-text').textContent = '0%';
+        // start-screen
+        document.getElementById('account-exp-start').textContent = '0';
+        document.getElementById('account-money-start').textContent = '0';
+        document.getElementById('account-name-start').textContent = 'Khách Nhân';
+        document.getElementById('account-level-start').textContent = '1';
+        document.getElementById('account-danhHieu-start').textContent = 'A';
+        document.getElementById('account-image-start').src = '_anhA.png';
+        document.getElementById('level-progress-start').style.width = '0%';
+        document.getElementById('level-progress-text-start').textContent = '0%';
         earnedEXP = 0;
         document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
     }
 }
-
-function updateAccountInfo(user) {
-    const defaults = {
-        EXP: '0',
-        money: '0',
-        name: 'Khách Nhân',
-        level: '1',
-        danhHieu: 'A',
-        image: '_anhA.png',
-        progress: '0%'
-    };
-    const data = { ...defaults, ...user };
-    const setText = (id, value) => document.getElementById(id)?.textContent = value;
-    const setSrc = (id, value) => document.getElementById(id)?.src = value;
-    const setStyle = (id, prop, value) => document.getElementById(id)?.style[prop] = value;
-
-    // mode-selection-screen
-    setText('account-exp', data.EXP);
-    setText('account-money', data.money);
-    setText('account-name', data.name);
-    setText('account-level', data.level);
-    setText('account-danhHieu', data.danhHieu);
-    setSrc('account-image', data.image);
-    setStyle('level-progress', 'width', data.progress);
-    setText('level-progress-text', data.progress);
-    // start-screen
-    setText('account-exp-start', data.EXP);
-    setText('account-money-start', data.money);
-    setText('account-name-start', data.name);
-    setText('account-level-start', data.level);
-    setText('account-danhHieu-start', data.danhHieu);
-    setSrc('account-image-start', data.image);
-    setStyle('level-progress-start', 'width', data.progress);
-    setText('level-progress-text-start', data.progress);
-}
-
 
 // Khởi tạo màn hình đăng nhập/đăng ký
 document.getElementById('mode-selection-screen').style.display = 'none'; // Ẩn màn chọn chế độ
