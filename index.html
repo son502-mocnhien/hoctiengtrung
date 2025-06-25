@@ -67,7 +67,7 @@ button2 {
 /* Nhóm 2: Màn hình chọn chế độ và khởi động */
 #mode-selection-screen {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 #mode-selection-screen button2.mode-button {
     font-size: 18px;
@@ -991,18 +991,14 @@ button3.read-complete-button:hover {
     display: none; /* Ẩn mặc định */
     flex-direction: column;
     align-items: center;
-    margin-bottom: 200px;
     font-size: 20px;
     gap: 10px;
-    position: absolute; /* Giữ absolute để dễ căn chỉnh */
-    top: 50px; /* Cách đỉnh màn hình, có thể điều chỉnh */
-    left: 50%; /* Đặt ở giữa theo chiều ngang */
-    transform: translateX(-50%); /* Dịch chuyển ngược 50% chiều rộng để căn giữa */
-    z-index: 100; /* Tăng z-index để tránh bị che */
-    width: auto; /* Đảm bảo không bị giãn quá rộng */
-    padding: 10px; /* Thêm padding để tránh sát mép */
-    background-color: rgba(255, 255, 255, 0.9); /* Nền mờ để dễ đọc */
-    border-radius: 10px; /* Bo góc cho đẹp */
+    width: auto;
+    max-width: 300px; /* Giới hạn chiều rộng để không quá lớn */
+    margin: 0 auto 150px auto; /* Căn giữa ngang, cách dưới 150px */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
 /* Hiển thị khi màn hình phù hợp (nếu dùng class active) */
