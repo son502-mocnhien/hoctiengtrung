@@ -2966,7 +2966,7 @@ function playCurrentAudio(callback) {
         callback();
     };
     audio.addEventListener('timeupdate', function handler() {
-        if (audio.currentTime >= audioEndTime - 0.05) {
+        if (audio.currentTime >= audioEndTime - 0.2) {
             audio.pause();
             audio.currentTime = audioStartTime;
             audio.removeEventListener('timeupdate', handler);
