@@ -1408,6 +1408,31 @@ margin-left: 50px; /* Dịch sang phải 10px */
 
 <!-- Màn hình khởi động -->
 <div id="start-screen" style="display: none;">
+    <!-- Thêm account-info vào start-screen -->
+    <div id="account-info-start" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; font-size: 20px; gap: 10px;">
+        <img id="account-image-start" src="" alt="Avatar" style="width: 200px; height: 200px; border-radius: 10%; object-fit: cover;">
+        <div style="text-align: center;">
+            <span id="account-name-start"></span>
+        </div>
+        <div style="text-align: center;">
+            <span id="account-danhHieu-start">A</span>
+        </div>
+        <div style="text-align: center;">
+            Học lực: <span id="account-exp-start">0</span> điểm
+            <br>
+            <span style="font-size: 1.5em;">💰</span>: <span id="account-money-start">0</span> 🪙
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+            <div style="text-align: center;">
+                Cấp: <span id="account-level-start">1</span>
+            </div>
+            <div style="width: 200px; height: 20px; background-color: #e0e0e0; border-radius: 10px; overflow: hidden; position: relative;">
+                <div id="level-progress-start" style="width: 0%; height: 100%; background-color: #4CAF50; border-radius: 10px; transition: width 0.5s ease-in-out; display: flex; align-items: center; justify-content: center;">
+                    <span id="level-progress-text-start" style="color: white; font-size: 14px; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); position: absolute; width: 100%; text-align: center;">0%</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="welcome-title"></div>
     <br>
 <!-- Thêm nút Danh sách bài và container cho bảng -->
@@ -1464,7 +1489,7 @@ margin-left: 50px; /* Dịch sang phải 10px */
  <div class="content-wrapper">
         <!-- Nhóm 3: Giao diện trò chơi chính -->
 <div id="game-container">
-   
+   D
     <!-- Trạng thái trò chơi -->
     <div id="status-container">
         <span id="wrong-count">Số câu bị sai: 0</span>
@@ -1847,16 +1872,57 @@ async function loadAccountData() {
         }
         const content = new TextDecoder('utf-8').decode(bytes);
         accountData = JSON.parse(content); // Bây giờ là mảng các đối tượng tài khoản
+
+        // Cập nhật thông tin tài khoản nếu có currentUser
+        if (currentUser) {
+            const user = accountData.find(u => u.user === currentUser.user);
+            if (user) {
+                // Cập nhật cho mode-selection-screen
+                document.getElementById('account-exp').textContent = user.EXP || '0';
+                document.getElementById('account-money').textContent = user.money || '50';
+                document.getElementById('account-name').textContent = user.name || 'Khách Nhân';
+                document.getElementById('account-level').textContent = user.level || '1';
+                document.getElementById('account-danhHieu').textContent = user.danhHieu || 'Nho đồng - sơ cấp';
+                document.getElementById('account-image').src = user.image || '/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png';
+                const progress = user.progress || '0%';
+                document.getElementById('level-progress').style.width = progress;
+                document.getElementById('level-progress-text').textContent = progress;
+
+                // Cập nhật cho start-screen
+                document.getElementById('account-exp-start').textContent = user.EXP || '0';
+                document.getElementById('account-money-start').textContent = user.money || '50';
+                document.getElementById('account-name-start').textContent = user.name || 'Khách Nhân';
+                document.getElementById('account-level-start').textContent = user.level || '1';
+                document.getElementById('account-danhHieu-start').textContent = user.danhHieu || 'Nho đồng - sơ cấp';
+                document.getElementById('account-image-start').src = user.image || '/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png';
+                document.getElementById('level-progress-start').style.width = progress;
+                document.getElementById('level-progress-text-start').textContent = progress;
+
+                earnedEXP = user.EXP || 0;
+                document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
+            }
+        }
     } catch (error) {
         console.error('Lỗi khi tải taikhoan.json:', error);
+        // Cập nhật giá trị mặc định cho cả hai màn hình
+        // mode-selection-screen
         document.getElementById('account-exp').textContent = '0';
-        document.getElementById('account-money').textContent = '0'; // Khởi tạo money
+        document.getElementById('account-money').textContent = '50';
         document.getElementById('account-name').textContent = 'Khách Nhân';
         document.getElementById('account-level').textContent = '1';
-        document.getElementById('account-danhHieu').textContent = 'A';
-        document.getElementById('account-image').src = '_anhA.png';
+        document.getElementById('account-danhHieu').textContent = 'Nho đồng - sơ cấp';
+        document.getElementById('account-image').src = '/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png';
         document.getElementById('level-progress').style.width = '0%';
         document.getElementById('level-progress-text').textContent = '0%';
+        // start-screen
+        document.getElementById('account-exp-start').textContent = '0';
+        document.getElementById('account-money-start').textContent = '50';
+        document.getElementById('account-name-start').textContent = 'Khách Nhân';
+        document.getElementById('account-level-start').textContent = '1';
+        document.getElementById('account-danhHieu-start').textContent = 'Nho đồng - sơ cấp';
+        document.getElementById('account-image-start').src = '/hoctiengtrung/anhdanhhieu/anhdanhhieu1.png';
+        document.getElementById('level-progress-start').style.width = '0%';
+        document.getElementById('level-progress-text-start').textContent = '0%';
         earnedEXP = 0;
         document.getElementById('earned-exp').textContent = `Điểm: ${earnedEXP}`;
     }
