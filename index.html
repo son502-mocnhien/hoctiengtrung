@@ -1822,7 +1822,7 @@ function showLessonList() {
 
 // Gọi loadLessonList khi chọn chế độ
 document.querySelectorAll('.mode-button').forEach(button => {
-    button.addEventListener('click', () => {
+    button.addEventListener('click', async () => {
         if (button.classList.contains('disabled') || button.hasAttribute('disabled')) {
             return;
         }
@@ -1833,18 +1833,23 @@ document.querySelectorAll('.mode-button').forEach(button => {
         selectedMode = button.getAttribute('data-mode');
         console.log('Selected mode:', selectedMode);
 
-        // Load dữ liệu ngay khi chọn chế độ
-        loadInitialData();
-        loadLessonList(); // Tải danh sách bài khi chọn chế độ
+        try {
+            await loadAccountData();
+            console.log('Dữ liệu tài khoản đã được tải:', currentUser);
+            if (currentUser) {
+                const user = accountData.find(u => u.user === currentUser.user);
+                if (user) updateAccountInfo(user);
+            }
+        } catch (error) {
+            console.error('Lỗi khi tải dữ liệu tài khoản:', error);
+            updateAccountInfo();
+        }
 
-        // Chuyển sang start-screen
+        loadInitialData();
+        loadLessonList();
+
         document.getElementById('mode-selection-screen').style.display = 'none';
         document.getElementById('start-screen').style.display = 'block';
-
-        // Đảm bảo thông tin tài khoản được cập nhật
-        if (currentUser) {
-            loadAccountData(); // Gọi lại để cập nhật cả account-info và account-info-start
-        }
     });
 });
 
