@@ -3,7 +3,7 @@
     "user": "admin",
     "pass": "12345678@",
     "name": "德山",
-    "money": 910,
+    "money": 900,
     "idBaiHoc": [
       "ttdd001",
       "ttdd002",
@@ -24,7 +24,8 @@
       "sjz002",
       "sjz003",
       "sjz004",
-      "sjz005"
+      "sjz005",
+      "sjz012"
     ],
     "EXP": 27074
   },
