@@ -95,5 +95,13 @@
     "EXP": 0,
     "money": 50,
     "idBaiHoc": []
+  },
+  {
+    "user": "son502123",
+    "pass": "123",
+    "name": "abc",
+    "EXP": 0,
+    "money": 50,
+    "idBaiHoc": []
   }
 ]
