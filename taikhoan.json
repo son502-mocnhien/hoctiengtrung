@@ -70,5 +70,13 @@
       "ttdd001"
     ],
     "EXP": 0
+  },
+  {
+    "user": "123456",
+    "pass": "son",
+    "name": "123456",
+    "EXP": 0,
+    "money": 50,
+    "idBaiHoc": []
   }
 ]
