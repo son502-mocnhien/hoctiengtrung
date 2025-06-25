@@ -1967,8 +1967,8 @@ document.getElementById('register-button').addEventListener('click', async () =>
         if (updateResponse.ok) {
             currentUser = newUser;
             document.getElementById('account-name').textContent = name;
-            document.getElementById('account-exp').textContent = '0';
-            document.getElementById('account-money').textContent = '0'; // Hiển thị money mặc định
+            document.getElementById('account-exp').textContent = EXP;
+            document.getElementById('account-money').textContent = money; // Hiển thị money mặc định
             await loadLevelData();
             updateLevelInfo();
             earnedEXP = 0;
@@ -4518,6 +4518,8 @@ document.getElementById('back-to-mode-button').addEventListener('click', () => {
     // Reset các trạng thái nếu cần
     document.getElementById('quiz-type-buttons').style.display = 'none';
     document.querySelectorAll('.mode-button').forEach(btn => btn.classList.remove('active'));
+// Tắt bảng danh sách bài học nếu đang mở
+    document.getElementById('lesson-list-container').style.display = 'none';
 });
 
 document.getElementById('homeButton').addEventListener('click', () => {
